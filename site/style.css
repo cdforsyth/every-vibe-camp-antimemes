@@ -1,18 +1,18 @@
 /* CSS Custom Properties */
 :root {
-  /* Light mode - Purple/Indigo palette */
-  --background: hsl(250, 30%, 97%);
-  --foreground: hsl(250, 20%, 12%);
-  --card: hsl(250, 25%, 99%);
-  --card-foreground: hsl(250, 20%, 12%);
-  --primary: hsl(265, 85%, 55%);
+  /* Light mode - Teal/Cyan palette */
+  --background: hsl(170, 25%, 97%);
+  --foreground: hsl(180, 20%, 12%);
+  --card: hsl(170, 20%, 99%);
+  --card-foreground: hsl(180, 20%, 12%);
+  --primary: hsl(172, 70%, 40%);
   --primary-foreground: hsl(0, 0%, 100%);
-  --secondary: hsl(250, 25%, 93%);
-  --secondary-foreground: hsl(250, 15%, 20%);
-  --muted: hsl(250, 20%, 91%);
-  --muted-foreground: hsl(250, 10%, 45%);
-  --border: hsl(250, 15%, 85%);
-  --card-border: hsl(250, 20%, 12%);
+  --secondary: hsl(170, 20%, 93%);
+  --secondary-foreground: hsl(180, 15%, 20%);
+  --muted: hsl(170, 15%, 91%);
+  --muted-foreground: hsl(180, 10%, 45%);
+  --border: hsl(170, 12%, 85%);
+  --card-border: hsl(180, 20%, 12%);
   --card-border-width: 2.5px;
   --radius: 1rem;
   --font-heading: "Instrument Serif", serif;
@@ -20,18 +20,18 @@
 }
 
 .dark {
-  --background: hsl(250, 25%, 8%);
-  --foreground: hsl(250, 30%, 92%);
-  --card: hsl(250, 20%, 12%);
-  --card-foreground: hsl(250, 30%, 92%);
-  --primary: hsl(265, 85%, 65%);
+  --background: hsl(180, 20%, 8%);
+  --foreground: hsl(170, 25%, 92%);
+  --card: hsl(180, 15%, 12%);
+  --card-foreground: hsl(170, 25%, 92%);
+  --primary: hsl(172, 70%, 50%);
   --primary-foreground: hsl(0, 0%, 100%);
-  --secondary: hsl(250, 15%, 16%);
-  --secondary-foreground: hsl(250, 25%, 88%);
-  --muted: hsl(250, 12%, 18%);
-  --muted-foreground: hsl(250, 15%, 60%);
-  --border: hsl(250, 12%, 22%);
-  --card-border: hsl(250, 30%, 92%);
+  --secondary: hsl(180, 12%, 15%);
+  --secondary-foreground: hsl(170, 20%, 88%);
+  --muted: hsl(180, 10%, 18%);
+  --muted-foreground: hsl(170, 12%, 60%);
+  --border: hsl(180, 10%, 22%);
+  --card-border: hsl(170, 25%, 92%);
 }
 
 /* Reset */
