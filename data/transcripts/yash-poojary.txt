@@ -1,0 +1,1879 @@
+# Yash Poojary - Reverse engineering ChatGPT and Spotify to learn faster
+
+**Company:** Every / Sparkle
+**Timestamp:** 6:59:38
+**YouTube:** https://www.youtube.com/watch?v=5YBjll9XJlw&t=25178s
+
+---
+
+=== YASH POOJARY (Every / Sparkle) - Reverse engineering apps ===
+
+
+(06:59:38):
+now uh yash joining us yash is the gm of sparkle what up hello can you hear me we
+
+(06:59:45):
+can hear you tell us where you are right now because i know you're in a really
+
+(06:59:48):
+special place i am in uh in bocos del toro which is uh an island uh i'm an island
+
+(06:59:56):
+boy for a few days
+
+(06:59:59):
+I have been following recommendations given by our CEO here and having a lot of fun time.
+
+(07:00:05):
+I was just writing on ATV 30 minutes ago.
+
+(07:00:08):
+So I am pumped and excited.
+
+(07:00:11):
+I was tuning in.
+
+(07:00:13):
+Why are you in Panama?
+
+(07:00:15):
+Because we are having an offsite.
+
+(07:00:16):
+Everybody is having an offsite in the next few days and they're going to jam
+
+(07:00:22):
+together in person and create more magical experiences.
+
+(07:00:26):
+Yeah,
+
+(07:00:26):
+I don't know if that's been mentioned yet,
+
+(07:00:27):
+but much of the Ever team is flying to Panama on Friday or Saturday to have an
+
+(07:00:35):
+all-day week in Panama hacking together.
+
+(07:00:39):
+And I'm sure we'll be doing live streams and launching some stuff from that.
+
+(07:00:45):
+So stay tuned for that.
+
+(07:00:46):
+But we're not here to talk about that.
+
+(07:00:48):
+We're here to talk about Sparkle.
+
+(07:00:52):
+What do you want to talk about?
+
+(07:00:55):
+I want to talk about... Introduce Sparkle too.
+
+(07:00:57):
+Yes.
+
+(07:00:58):
+Let's do that.
+
+(07:00:59):
+Let's do that.
+
+(07:01:00):
+I was just tuning in to Naveen's stream as well.
+
+(07:01:04):
+He had this beautifully organized desktop.
+
+(07:01:07):
+Everything is in place.
+
+(07:01:09):
+Nothing was scattered.
+
+(07:01:10):
+So I'm going to share my stream.
+
+(07:01:13):
+And my entire screen.
+
+(07:01:17):
+Okay.
+
+(07:01:17):
+So you see this, right?
+
+(07:01:19):
+This desktop is perfectly organized.
+
+(07:01:22):
+I didn't do that.
+
+(07:01:23):
+I built an app to do that.
+
+(07:01:25):
+So I'm with Sparkle.
+
+(07:01:26):
+Sparkle is a Mac file organizational app, which we've been building for the past year.
+
+(07:01:32):
+And we're super pumped that we have a bunch of features that's coming up, for example,
+
+(07:01:37):
+which is deep clean.
+
+(07:01:38):
+It's going to help you save up space on your Mac.
+
+(07:01:41):
+So this is just a demo.
+
+(07:01:43):
+Our launch is for the first week of March.
+
+(07:01:45):
+So you get like information into this.
+
+(07:01:48):
+You can look at duplicates.
+
+(07:01:49):
+We rebuild a lot of the systems and figure out,
+
+(07:01:51):
+okay,
+
+(07:01:52):
+why organization sucks on your Mac and how we can do a beautiful job with it.
+
+(07:01:58):
+uh like there are a bunch of things like you're figuring out okay the files that
+
+(07:02:01):
+you know at 10 000 files on my mac which i've just like downloaded but never used
+
+(07:02:05):
+and we're just gonna make more of this available to you guys very soon uh and
+
+(07:02:13):
+that's about sparkle yeah why um so we've reached like just a little quick history
+
+(07:02:19):
+about sparkle sparkle was first built by dan in like 2023 i think like
+
+(07:02:25):
+maybe when ChatGPT, the API first launched, and it was an Electron app.
+
+(07:02:32):
+Then we
+
+(07:02:33):
+then we rebuilt it and I actually designed it and we launched it.
+
+(07:02:39):
+It was still an Electron app.
+
+(07:02:41):
+Then we brought you on and you rebuilt it for a third time and you made it not an
+
+(07:02:47):
+Electron app because that was really bad.
+
+(07:02:49):
+And then you're rebuilding it again now.
+
+(07:02:52):
+So I know that like one of the reasons why you're rebuilding it is we've kind of
+
+(07:02:56):
+discovered two things,
+
+(07:02:59):
+which I want to share,
+
+(07:02:59):
+but then I'm curious for you to share.
+
+(07:03:01):
+One of them is,
+
+(07:03:04):
+It's without like looking at every single,
+
+(07:03:07):
+literally looking at the files themselves,
+
+(07:03:09):
+it's really hard to organize stuff just by file name and metadata.
+
+(07:03:14):
+But it's really expensive and super slow to like look at every single file in depth.
+
+(07:03:20):
+um and our computers just aren't there yet to do locally to do that locally so that
+
+(07:03:24):
+was like that's one problem that we have organizing files like that is super
+
+(07:03:30):
+organizing files well just based off of metadata and title can be tough but
+
+(07:03:34):
+probably the bigger thing that i feel like you've uncovered which is why you've
+
+(07:03:38):
+just built sort of like this declutter feature is um
+
+(07:03:43):
+The reality is we're like organizing so much crap on people's computers that is such a waste.
+
+(07:03:48):
+Like I have 7,000 screenshots that I'll never look at again.
+
+(07:03:52):
+Maybe you can talk about like the latter.
+
+(07:03:54):
+So why have we decided to clean up?
+
+(07:03:57):
+Uh, thank you.
+
+(07:03:58):
+Uh, thank you for that.
+
+(07:04:00):
+Uh, and yeah, that is true.
+
+(07:04:02):
+Like you organizing 10,000,
+
+(07:04:04):
+20,000 files on your Mac and we just ran into this problem of like,
+
+(07:04:08):
+it was really slow.
+
+(07:04:10):
+And a lot of times you would be like, dude, this is screenshot.
+
+(07:04:13):
+I don't really need it.
+
+(07:04:14):
+and earlier we took this conscious call of like hey we shouldn't be deleting stuff
+
+(07:04:19):
+like sparkles should be just moving fires but we then we'll okay let's build this
+
+(07:04:23):
+thing for ourselves like what do we hate uh you know on the mac and for me it was
+
+(07:04:29):
+like screenshot when i learned this for the first time i had 7 000 screenshots and
+
+(07:04:32):
+now just like removes it uh immediately as it pops up but that's how i like it a
+
+(07:04:38):
+lot of people use it like once a day and just
+
+(07:04:41):
+uh we went back to like looking at Marie Kondo and how she looks at like
+
+(07:04:46):
+organization and tying up stuff and it's just like organization just like two
+
+(07:04:50):
+things and 70 of it is just throwing away things you don't need and especially if
+
+(07:04:56):
+you've been using a mac for like years uh or decades uh in my case i just have so
+
+(07:05:01):
+much stuff i just don't need
+
+(07:05:04):
+A lot of these things are very level one things.
+
+(07:05:07):
+But if I go into my clutter,
+
+(07:05:09):
+it's just like 10 gigs,
+
+(07:05:12):
+which I just can get back within a few clicks.
+
+(07:05:15):
+And that's a philosophy that throw away stuff you don't need and the stuff that's
+
+(07:05:19):
+remaining after that,
+
+(07:05:20):
+let's build a great organization system.
+
+(07:05:23):
+And we're going to start looking into content as well.
+
+(07:05:27):
+So, and you can start prompting as well.
+
+(07:05:29):
+Like this is structure I want.
+
+(07:05:30):
+This is, Hey, I don't like this.
+
+(07:05:32):
+So those are the things that we are building towards.
+
+(07:05:35):
+Yep.
+
+(07:05:35):
+Cool.
+
+(07:05:37):
+Um, well, I know you have something that you want to walk through and share with everyone.
+
+(07:05:40):
+So why don't we jump into that?
+
+(07:05:42):
+Awesome.
+
+(07:05:43):
+Uh, install, um, excellent.
+
+(07:05:47):
+Okay.
+
+(07:05:47):
+Uh,
+
+(07:05:48):
+I just showcased you a demo of the new version of sparkle,
+
+(07:05:52):
+and I'm going to share with you how I built stuff.
+
+(07:05:55):
+and how I learn from like million dollar companies.
+
+(07:05:58):
+And a lot of it, it has to do with like reverse engineering, like macOS apps.
+
+(07:06:05):
+And I outsource my R&D.
+
+(07:06:07):
+So I'm going to tell you my secret.
+
+(07:06:09):
+My secret is that I, Steve,
+
+(07:06:14):
+But I don't steal code.
+
+(07:06:16):
+I don't do copyright espionage.
+
+(07:06:18):
+James Bond can do that.
+
+(07:06:19):
+I have more important things to do,
+
+(07:06:20):
+like making sure your organization system on your Mac is perfect.
+
+(07:06:24):
+And how I do it is I'm going to show you.
+
+(07:06:26):
+But more importantly, why is that needed?
+
+(07:06:30):
+is if you look at any writer, they've read thousands of books before writing a book.
+
+(07:06:35):
+Kobe Bryant, Michael Jordan, they study hours of game film just to prepare.
+
+(07:06:42):
+And before you start your own restaurant, you go stay at another restaurant.
+
+(07:06:46):
+And same for an artist, you just copy Picasso stroke by stroke.
+
+(07:06:50):
+It's not to become them.
+
+(07:06:51):
+It's just to learn what excellence looks like.
+
+(07:06:54):
+And I started asking the same question, like, hey, I am a developer.
+
+(07:06:57):
+I want to become better.
+
+(07:06:58):
+This is my craft.
+
+(07:06:59):
+And how do I get better at my craft?
+
+(07:07:01):
+And that's where the whole question of like,
+
+(07:07:03):
+dude,
+
+(07:07:03):
+I have apps on my Mac,
+
+(07:07:06):
+which are like,
+
+(07:07:06):
+we have thousands of developers and like billions of dollars invested into this.
+
+(07:07:11):
+So I can sort of like reversing those apps and use that as my guiding compass while
+
+(07:07:17):
+building new stuff.
+
+(07:07:19):
+Uh,
+
+(07:07:20):
+so yeah,
+
+(07:07:21):
+what I'm going to quickly show you now is like,
+
+(07:07:23):
+okay,
+
+(07:07:23):
+what's that secret prompt that I use,
+
+(07:07:25):
+like reversing any of these apps?
+
+(07:07:27):
+How do you actually use, like take advantage of these things?
+
+(07:07:31):
+And what are these like big picture concepts you should be looking at?
+
+(07:07:35):
+Uh,
+
+(07:07:36):
+I'm going to drill down the like reverse engineering,
+
+(07:07:38):
+like chat GPDs,
+
+(07:07:39):
+uh,
+
+(07:07:39):
+the Mac OS apps,
+
+(07:07:40):
+Spotify,
+
+(07:07:41):
+DNA,
+
+(07:07:41):
+a couple of other apps,
+
+(07:07:43):
+if you have the time and also show the process of like how you can start
+
+(07:07:49):
+incorporating this into your workflow.
+
+(07:07:52):
+Okay.
+
+(07:07:53):
+Now, okay.
+
+(07:07:54):
+If you want to build a chat app for your Mac or, uh, on your Mac.
+
+(07:07:58):
+Going to Cloud Code and going like, hey, build me a chat app is very December 2025.
+
+(07:08:04):
+We are already in the third week of January.
+
+(07:08:08):
+We don't need that.
+
+(07:08:10):
+So let's get into it.
+
+(07:08:12):
+So I have this,
+
+(07:08:13):
+I follow this person called Kevin Chen,
+
+(07:08:15):
+and he wrote this blog in like 2022,
+
+(07:08:18):
+which is about reverse engineering the Rewind app.
+
+(07:08:21):
+Like Rewind was a company that recently got acquired by Facebook.
+
+(07:08:25):
+He basically went down into this rabbit hole of like looking under the hood.
+
+(07:08:29):
+And I always found this fascinating.
+
+(07:08:31):
+of how is an app made?
+
+(07:08:34):
+I was very curious.
+
+(07:08:35):
+So he basically listed out his entire method over here.
+
+(07:08:39):
+And now you can use this method as your prompt to reverse engineer other apps.
+
+(07:08:44):
+So if you open any macOS app,
+
+(07:08:50):
+Like if I go to chat GPT, it's actually just like a bunch of files and folders.
+
+(07:08:57):
+Like when you look at it,
+
+(07:08:59):
+you might not get the context of it,
+
+(07:09:01):
+but an LLM is very well wired to figure out what's in it.
+
+(07:09:06):
+So let's do it.
+
+(07:09:07):
+Let's reverse engineer this.
+
+(07:09:11):
+yeah maybe somebody could find that that this uh article too and drop let's drop
+
+(07:09:15):
+this in the chat for everyone yeah i'm gonna i'm gonna we're gonna provide the link
+
+(07:09:19):
+for this uh i'm gonna drop this uh
+
+(07:09:22):
+I can drop it in the chat.
+
+(07:09:24):
+Don't worry about it.
+
+(07:09:25):
+I know somebody that's listening to this.
+
+(07:09:27):
+I'm going to do it.
+
+(07:09:28):
+OK.
+
+(07:09:29):
+OK.
+
+(07:09:29):
+So there are four steps to how can you do it.
+
+(07:09:32):
+You need the article link.
+
+(07:09:34):
+We'll get you that.
+
+(07:09:35):
+You need to give the actual app on your Mac.
+
+(07:09:38):
+That should be important.
+
+(07:09:39):
+You need to ask the LLM to save it to an MD file so that you can use that learning.
+
+(07:09:44):
+And you just need to do that process over and over.
+
+(07:09:47):
+OK,
+
+(07:09:47):
+so without further delay,
+
+(07:09:50):
+OK,
+
+(07:09:51):
+I have this prompt ready,
+
+(07:09:54):
+which basically says that reverse engineering the chat GPT app using this method.
+
+(07:09:59):
+You just add in the blog.
+
+(07:10:01):
+And you just go to your set applications folder.
+
+(07:10:09):
+And you can drop in any app that you want.
+
+(07:10:11):
+I am doing it with ChatGPT.
+
+(07:10:13):
+And just say, save the learnings to a new .me file.
+
+(07:10:18):
+That's it.
+
+(07:10:18):
+That's all it takes.
+
+(07:10:20):
+And then I'm going to hit Enter.
+
+(07:10:22):
+It's going to go to the research.
+
+(07:10:24):
+OK.
+
+(07:10:25):
+See, it ran an error.
+
+(07:10:27):
+And I knew that would happen.
+
+(07:10:29):
+And that's why, like any cooking show, you always have the dish ready.
+
+(07:10:33):
+So let's look into this.
+
+(07:10:37):
+So what it does over here, it's going to tear down.
+
+(07:10:40):
+Before you do that, what was the error, just in case people run into that?
+
+(07:10:44):
+It's just like a chat.
+
+(07:10:45):
+This isn't an error.
+
+(07:10:47):
+Oh, yeah.
+
+(07:10:48):
+It's probably going to be like, yeah.
+
+(07:10:50):
+It's an internal classic.
+
+(07:10:52):
+Demo day error.
+
+(07:10:54):
+Got it.
+
+(07:10:55):
+Yeah.
+
+(07:10:57):
+And I'm just going to run down this document with you.
+
+(07:11:01):
+yeah okay so what we're looking at right now is like a complete teardown of how
+
+(07:11:06):
+chat gpt which is a hundred billion dollar product with like the best engineers in
+
+(07:11:11):
+the world have built their mac app so we're going to learn from now from this now
+
+(07:11:15):
+how they do it so well
+
+(07:11:17):
+Yeah.
+
+(07:11:18):
+Yeah.
+
+(07:11:19):
+Let's say you want to build a Mac chat app for macOS.
+
+(07:11:22):
+You can use this as a guiding principles.
+
+(07:11:25):
+You know, okay, what are the privacy permissions that are required?
+
+(07:11:29):
+What are the frameworks they're using?
+
+(07:11:31):
+If you see this live kit, this is actually a different startup.
+
+(07:11:34):
+So they're not building their own tech.
+
+(07:11:36):
+They have outsourced that.
+
+(07:11:38):
+Okay, they're using screen recording.
+
+(07:11:40):
+Okay.
+
+(07:11:41):
+Oh my God, look, they're using Sparkle.
+
+(07:11:43):
+Yeah, but that's a different sparkle.
+
+(07:11:46):
+Yeah, see, they're catching on to it.
+
+(07:11:50):
+And you can sort of start looking into what they are using and start asking why are
+
+(07:11:54):
+they using it and how you can start using that as well.
+
+(07:11:57):
+Like if $100 billion company like Brandon said is using it, you should be using that too.
+
+(07:12:03):
+Because a lot of time, what your speciality is going to be is the experience.
+
+(07:12:08):
+A lot of these things are solved problems.
+
+(07:12:10):
+You should not be wasting your time on that.
+
+(07:12:12):
+You see, a lot of this is like, how do you parse Markdown?
+
+(07:12:15):
+OK, there's a package for that.
+
+(07:12:17):
+You might not get a lot of this initially, and that's completely fine.
+
+(07:12:21):
+But you can ask an LLM.
+
+(07:12:22):
+You sort of also get like, what are the API endpoints?
+
+(07:12:26):
+It's going to go really deep, and that's the beautiful part of the prompt.
+
+(07:12:30):
+If you go manually into Cloud and be like,
+
+(07:12:33):
+hey,
+
+(07:12:33):
+reverse it into this app,
+
+(07:12:35):
+it's not going to do this great of a job.
+
+(07:12:38):
+And you can sort of start looking into it and go deeper and deeper.
+
+(07:12:42):
+This is an exhaustive document.
+
+(07:12:44):
+And what I use it personally is for scoping things.
+
+(07:12:48):
+When you start building something new, you don't know what the scope is.
+
+(07:12:51):
+You can ask Cloud or Chai GPT, but it doesn't have skin in the game.
+
+(07:12:55):
+When you look at a billion dollar app, they have tested this out.
+
+(07:12:59):
+And if they're using it, you just use it.
+
+(07:13:03):
+And that's sort of my sort of workflow principle.
+
+(07:13:07):
+And it does not have to be a ChatGPT clone.
+
+(07:13:11):
+Even if you have like anything which is like image generation app,
+
+(07:13:14):
+you can sort of look into that because ChatGPT has image generation,
+
+(07:13:17):
+even though it's not an image generation app.
+
+(07:13:19):
+And you can start learning how they build a lot of these things.
+
+(07:13:24):
+And that's it's like reading a book.
+
+(07:13:26):
+You can have like Walter Isaacson,
+
+(07:13:28):
+like writing a novel on like Steve Jobs and Elon Musk on how they think.
+
+(07:13:33):
+Right.
+
+(07:13:33):
+And you now get like every app on your Mac is a book and you can open it and start reading it.
+
+(07:13:39):
+I think what's really amazing about this is if you want to build a chat app,
+
+(07:13:44):
+this is a good one to go do a teardown on.
+
+(07:13:47):
+But if you want to build a specific feature in your product that there's really no
+
+(07:13:52):
+comparison to,
+
+(07:13:53):
+or your product doesn't have a comparison,
+
+(07:13:55):
+you can still go to another app that has a similar feature,
+
+(07:13:58):
+do a teardown of that feature to understand how to build it in your product.
+
+(07:14:02):
+So it doesn't need to be one-to-one relation.
+
+(07:14:05):
+100%.
+
+(07:14:07):
+Just for fun, I tore down the Spotify app.
+
+(07:14:11):
+This is how I spent my time,
+
+(07:14:14):
+just looking at macOS apps and just trying to figure out why did they use this.
+
+(07:14:18):
+And what I found out was Spotify is actually not a native app.
+
+(07:14:23):
+And that's very interesting to me,
+
+(07:14:25):
+because they're using a lot of web technology,
+
+(07:14:28):
+and they've packaged it into a Mac app.
+
+(07:14:31):
+even at that scale and what sort of native is i think their audio framework which
+
+(07:14:36):
+should be native so this all figured i think what's great about telling these downs
+
+(07:14:41):
+is you can sort of start asking okay what's the 80 20 over here what should i focus
+
+(07:14:47):
+on when i'm building this new beautiful app where should last part of the energy we
+
+(07:14:53):
+direct it to
+
+(07:14:54):
+and that's going to save you a lot of time and if you also have uh you know
+
+(07:14:59):
+questions about like uh how like okay should i do this and not do this you can just
+
+(07:15:04):
+tell claude that hey just go see how spotify implemented it and then get back to me
+
+(07:15:09):
+and this sort of becomes your
+
+(07:15:12):
+learning document.
+
+(07:15:14):
+You don't have to ask like the internet or you don't have to like,
+
+(07:15:17):
+like in the old days,
+
+(07:15:18):
+you would have to go to Stack Overflow,
+
+(07:15:20):
+get like go through so many opinions.
+
+(07:15:22):
+But those are opinions.
+
+(07:15:23):
+They have not seen scale.
+
+(07:15:25):
+What you need is like a sort of like you need a direction.
+
+(07:15:29):
+And these documents are like great at that.
+
+(07:15:32):
+So maybe you're going to get into this,
+
+(07:15:33):
+but what's an example of how you've done this,
+
+(07:15:35):
+uh,
+
+(07:15:36):
+with sparkle?
+
+(07:15:37):
+Yeah.
+
+(07:15:37):
+Yeah.
+
+(07:15:38):
+Uh, okay.
+
+(07:15:39):
+Uh, yeah.
+
+(07:15:40):
+I've done this like a lot of times,
+
+(07:15:42):
+like,
+
+(07:15:42):
+uh,
+
+(07:15:43):
+if there's a package,
+
+(07:15:44):
+uh,
+
+(07:15:45):
+we have to use for a lot of stuff,
+
+(07:15:46):
+like packages are basically code that's written by someone else and you can sort of
+
+(07:15:51):
+integrate it into your app.
+
+(07:15:53):
+Uh, sort of like look at Legos and like Lego that you can attach.
+
+(07:15:56):
+And, um, like there's a lot of like calculation.
+
+(07:15:59):
+Like when I, uh,
+
+(07:16:02):
+I'm going to show an example.
+
+(07:16:08):
+When you have to calculate duplicates, it's a very expensive process.
+
+(07:16:13):
+It's very technical.
+
+(07:16:15):
+And you have to look at, is this file similar to that file?
+
+(07:16:19):
+Is there a minute difference?
+
+(07:16:20):
+And I used a package for this.
+
+(07:16:23):
+And I looked into another app which had built the algorithm.
+
+(07:16:27):
+And I could integrate that.
+
+(07:16:29):
+And it saved three days of dev.
+
+(07:16:32):
+and in like i could do it in like three hours and i feel that's like the beautiful
+
+(07:16:36):
+part of it uh like this is how i do any feature right now like i have like a in my
+
+(07:16:42):
+sparkle repo i have like a bunch of apps which are like already like when the
+
+(07:16:47):
+teardowns are ready and i just sort of like plug in play and ask law to like look
+
+(07:16:51):
+into that and then get back to
+
+(07:16:53):
+yeah all right so you're learning from the greats and you're you know that you're
+
+(07:16:56):
+spending most of your time figuring out um what feature should i build next and
+
+(07:17:01):
+what is the experience going to be that yeah really resonates with the user but
+
+(07:17:05):
+actually building it either cloud code can do that or you have some amazing
+
+(07:17:09):
+comparison that you're doing a teardown of that will show you hey this is literally
+
+(07:17:13):
+like the packages or the frameworks you need to use to actually build this 100
+
+(07:17:18):
+Yeah.
+
+(07:17:18):
+And you can just sort, like, I always ask, like, what did they build and what did they buy?
+
+(07:17:22):
+That's sort of a guiding principle.
+
+(07:17:25):
+And like, what did they prioritize?
+
+(07:17:27):
+Those things are very important because as a developer,
+
+(07:17:30):
+like in large engineering companies,
+
+(07:17:33):
+you have like engineering managers.
+
+(07:17:36):
+And one of the responsibilities an engineering manager has to figure out you're not
+
+(07:17:39):
+doing things you should not be doing.
+
+(07:17:40):
+You're not spilling up your hours.
+
+(07:17:43):
+And because we have a lot of these tools which are so accessible,
+
+(07:17:46):
+like within one prompt,
+
+(07:17:48):
+which is going to run for 15 minutes,
+
+(07:17:49):
+and it's going to give you back code,
+
+(07:17:51):
+you're going to get this false feeling of your building.
+
+(07:17:54):
+But you're not.
+
+(07:17:56):
+As Brandon said, you should be focused on the experience.
+
+(07:17:59):
+Like, for example, Sparkle.
+
+(07:18:02):
+like we build this but we have a lot of work to do for the experience and that's
+
+(07:18:05):
+where all of our energies are focused on right now and you need to be you need to
+
+(07:18:10):
+start doing that and i also love the way that you build yash where like you know
+
+(07:18:16):
+obviously sparkle right now like it it's there's zero design effort that's been put
+
+(07:18:20):
+into to yeah um and like it's very different from the way i build like i have a
+
+(07:18:24):
+designing background and i get really stuck on the way something looks
+
+(07:18:28):
+But you are just dead set on making sure that the functionality is there.
+
+(07:18:33):
+We're going to figure out all of the design after the fact.
+
+(07:18:35):
+And I think that's a really good methodology.
+
+(07:18:38):
+I just look at it like you're making a movie.
+
+(07:18:41):
+There's a scripting phase.
+
+(07:18:42):
+There's a research phase.
+
+(07:18:44):
+Then you're going to shoot.
+
+(07:18:45):
+And then you're going to edit.
+
+(07:18:46):
+So I'm always in like,
+
+(07:18:48):
+OK,
+
+(07:18:48):
+if you're shooting right now,
+
+(07:18:50):
+I'm not really concerned about making the corners perfect.
+
+(07:18:54):
+We're going to do that in the edit phase and then we're going to like market it
+
+(07:18:58):
+like how we do it at every.
+
+(07:19:00):
+But if you want to take like one thing,
+
+(07:19:01):
+just pick one app that you admire and reverse engineer it.
+
+(07:19:06):
+It's just so good to read.
+
+(07:19:08):
+And I feel like it's just like such a big hack that just sort of left out.
+
+(07:19:13):
+We build like software so much, but we just don't learn from each other.
+
+(07:19:18):
+like uh and that's something i think we do internally at fb a lot like we learn
+
+(07:19:22):
+from each other's like workflows apps like we all have access to each other's
+
+(07:19:26):
+depots but you can start doing it like with in out there in the world cool um all
+
+(07:19:33):
+right so my understanding is cloud code is down right now um yeah do you have a
+
+(07:19:37):
+demo that you want to show and is that going to mess mess up no
+
+(07:19:41):
+Uh, no, uh, I don't have a demo.
+
+(07:19:43):
+Uh, like it's sort of broke.
+
+(07:19:45):
+So what it will just run for like 15 minutes.
+
+(07:19:48):
+Uh,
+
+(07:19:49):
+and it's going to give you that file that I just showed you,
+
+(07:19:52):
+uh,
+
+(07:19:53):
+9% of it is just the prompt and then you're going to,
+
+(07:19:56):
+okay,
+
+(07:19:56):
+now it's running.
+
+(07:19:57):
+See,
+
+(07:19:57):
+if you see,
+
+(07:19:58):
+like it's going to fetch it,
+
+(07:20:00):
+uh,
+
+(07:20:01):
+and then it's going to just give us what we already had.
+
+(07:20:04):
+Um, and okay.
+
+(07:20:06):
+And that gets us to our next topic.
+
+(07:20:08):
+Uh, let's, let's get focused.
+
+(07:20:11):
+And there's a scene which,
+
+(07:20:12):
+like,
+
+(07:20:13):
+sort of inspired me to become a developer,
+
+(07:20:14):
+which is,
+
+(07:20:15):
+like,
+
+(07:20:15):
+from the social network where Eduardo walks in and,
+
+(07:20:19):
+like,
+
+(07:20:19):
+Mark Zuckerberg is,
+
+(07:20:20):
+like,
+
+(07:20:21):
+coding on his laptop.
+
+(07:20:22):
+And he sort of uses the term, like, wired in.
+
+(07:20:24):
+Like, what does that mean?
+
+(07:20:26):
+And it just, like, you're in a flow state, right?
+
+(07:20:28):
+Like, all day, every day.
+
+(07:20:30):
+Like, that's why coding is so... Coding used to be meditative.
+
+(07:20:33):
+Like,
+
+(07:20:34):
+you can just look at an editor and just,
+
+(07:20:35):
+like,
+
+(07:20:35):
+forget about all your concerns and just,
+
+(07:20:37):
+like,
+
+(07:20:37):
+write code.
+
+(07:20:39):
+uh i used to love that and there was a transition transitionary phase uh between
+
+(07:20:43):
+where i was not writing code lm's writing code i'm like oh my god that sucks
+
+(07:20:48):
+because i used to love that part that's my playtime he just took up in my playtime
+
+(07:20:53):
+and i remember we were talking about this uh in turn you get every and like dan put
+
+(07:20:59):
+screenshot and tweeted it and then Reid Hoffman commented on that that what should
+
+(07:21:04):
+you be doing when agents are running and he replied with run no agents and i'm like
+
+(07:21:10):
+okay that's that's true right like Reid Hoffman is saying it's probably going to be
+
+(07:21:13):
+true and that's where i sort of like started asking uh asking this question like
+
+(07:21:18):
+how to get better and like managing agents because you're not you're reviewing code
+
+(07:21:22):
+not writing it there's a spell spelling error fix it
+
+(07:21:26):
+Um, and what started happening is like the LNM would spit out code.
+
+(07:21:31):
+I would be like, okay, let's go to the next step.
+
+(07:21:33):
+That's the wrong mentality.
+
+(07:21:35):
+What if you train yourself is for like,
+
+(07:21:37):
+you need to be responsible for every line,
+
+(07:21:40):
+every line that's there in your code,
+
+(07:21:41):
+you need to read it.
+
+(07:21:42):
+Uh, that's sort of like a shortcut.
+
+(07:21:44):
+It's like, I feel like it's like TikTok, TikTokification of code is like, like swiping up.
+
+(07:21:50):
+That's wrong.
+
+(07:21:51):
+That's not how you build technology.
+
+(07:21:53):
+And it's okay.
+
+(07:21:53):
+We are figuring it out.
+
+(07:21:54):
+It's very early days.
+
+(07:21:57):
+So you need to make sure that you're reading it.
+
+(07:21:58):
+Are you saying you review every line of code?
+
+(07:22:00):
+Yeah.
+
+(07:22:01):
+Yeah, I read it.
+
+(07:22:02):
+I read every line of code.
+
+(07:22:05):
+I do want to say that this is,
+
+(07:22:08):
+you know,
+
+(07:22:09):
+I'm like,
+
+(07:22:10):
+I'm sure Kieran is listening to this and I know Kieran doesn't read.
+
+(07:22:14):
+Sure, he reads some of his code, but he doesn't read a lot of his code.
+
+(07:22:17):
+Why do you do that?
+
+(07:22:22):
+I do that because I started writing code because I love it.
+
+(07:22:29):
+It's like reading a book.
+
+(07:22:32):
+I don't need a reason to that.
+
+(07:22:33):
+It just makes me feel, OK, I'm understanding everything.
+
+(07:22:37):
+And when something goes wrong, I can fix it in two minutes.
+
+(07:22:41):
+I had the same conversation with Naveed, and he reads every line of code.
+
+(07:22:46):
+We're using Codex and Cloud,
+
+(07:22:48):
+but it just was reaching a point where I was unfamiliar with my code base.
+
+(07:22:54):
+I didn't know this thing that I am working on day in and day out.
+
+(07:22:57):
+And I would just feel like, OK, that's not how I want to build stuff.
+
+(07:23:01):
+I need to know exactly what's happening.
+
+(07:23:06):
+And it's sort of like learning to drive.
+
+(07:23:08):
+It feels weird, especially early on, like leading core, like managing agents.
+
+(07:23:15):
+But you're going to figure it out.
+
+(07:23:17):
+It's going to become a part of your workflow.
+
+(07:23:20):
+And just so that I stay in this flow state, that's a large part of
+
+(07:23:25):
+what I like to be in while building is I built a scene called Agent Watch,
+
+(07:23:30):
+which is sort of like it's an app.
+
+(07:23:32):
+You can download it.
+
+(07:23:32):
+We provide the link.
+
+(07:23:33):
+You can just search Agent Watch on Google,
+
+(07:23:37):
+and you'll get a GitHub link,
+
+(07:23:39):
+and you can download it.
+
+(07:23:40):
+And if you see what it does, it shows all the agents that are currently running.
+
+(07:23:44):
+So green is running.
+
+(07:23:47):
+Orange, it's done running.
+
+(07:23:49):
+Green is done running.
+
+(07:23:50):
+Orange is sort of running.
+
+(07:23:51):
+So this agent over here, if you see the chat GPT is running.
+
+(07:23:54):
+it allows me to switch in and come in and back and forth so i have an agent running
+
+(07:24:00):
+and see if you see it just went to green so just subtle notification in my status
+
+(07:24:05):
+bar that hey this agent is done running so i have like two or three cloud code
+
+(07:24:09):
+agents running at an even point of time
+
+(07:24:11):
+And that allows me to stay in this flow state.
+
+(07:24:14):
+Like I'm not on YouTube or like Instagram.
+
+(07:24:17):
+I'm just like in the zone of like reading my code and like managing my agents.
+
+(07:24:23):
+And this is sort of a, this is like part of my workflow.
+
+(07:24:26):
+And like, uh, how I look at it is like,
+
+(07:24:29):
+I want to get from point A to point B. I'm going to write the code.
+
+(07:24:33):
+I can't compete with that.
+
+(07:24:35):
+But my job is to give direction.
+
+(07:24:38):
+And even though Google Maps is going to show me that,
+
+(07:24:40):
+hey,
+
+(07:24:41):
+this is five minutes or 14 minutes I walk,
+
+(07:24:43):
+I still need to make that journey.
+
+(07:24:46):
+I still need to evaluate, manage, and review.
+
+(07:24:49):
+i still have to review it like i can't be like okay go do this and like it's gonna
+
+(07:24:54):
+come back with something which is not up to my standard and for me this is how i
+
+(07:24:59):
+enjoy what i do in like 2026.
+
+(07:25:01):
+this was very different in 2022.
+
+(07:25:03):
+yeah that's it i have spoken cool man i feel exhausted yeah
+
+(07:25:12):
+and also i just i mean i do want to say you built agent watch at our last think
+
+(07:25:16):
+week that's correct which makes me wonder what's going to come out of this next day
+
+(07:25:20):
+next week um anything in your mind that you're thinking about building i have so
+
+(07:25:25):
+many things uh like something about like ban um like our agent native narrative i
+
+(07:25:32):
+feel that's very interesting so how is it in sparkle outside sparkle i feel that's
+
+(07:25:37):
+something i'm figuring i'm just really excited to
+
+(07:25:42):
+like hang out with everyone in person.
+
+(07:25:44):
+Yeah.
+
+(07:25:45):
+I mean,
+
+(07:25:45):
+I think one thing that we realized about Sparkle too is like everybody wants their
+
+(07:25:49):
+files organized differently.
+
+(07:25:50):
+Yeah.
+
+(07:25:51):
+And like,
+
+(07:25:52):
+you know,
+
+(07:25:53):
+obviously we are building the ability for you to chat with Sparkle to create it,
+
+(07:25:58):
+you know,
+
+(07:25:59):
+a custom folder structure.
+
+(07:26:00):
+And I saw some questions in the chat about like,
+
+(07:26:03):
+what about,
+
+(07:26:04):
+you know,
+
+(07:26:04):
+if I have a repo somewhere and I don't want Sparkle to organize that,
+
+(07:26:08):
+all of that is being handled in this next version.
+
+(07:26:12):
+and you know you have the ability to sort of chat with the agent and say hey this
+
+(07:26:18):
+file is really important like i don't want you to ever touch this i want to be
+
+(07:26:21):
+manually organizing this all that's going to be sort of in this new version but if
+
+(07:26:29):
+there's one thing that you could like snap your fingers and have built out uh for
+
+(07:26:33):
+sparkle what would what would that be sort of like a big big opportunity type
+
+(07:26:38):
+feature
+
+(07:26:39):
+Uh, in the current version or like just like.
+
+(07:26:42):
+Generally for sparkle that you're like, I really wanted to do this.
+
+(07:26:46):
+Yeah.
+
+(07:26:47):
+I genuinely want to figure out like our consistent cleanup.
+
+(07:26:51):
+organizational value because i feel like when i start my day i don't want to see a
+
+(07:26:56):
+cluttered desktop or like a cluttered downloads folder like it's just very personal
+
+(07:27:01):
+when i see like hundreds of files over there which i've downloaded and it just
+
+(07:27:05):
+trash a lot of times but sometimes sometimes it's not and we sort of like want to
+
+(07:27:09):
+figure out like what's important what's really not important because it's all about
+
+(07:27:14):
+i want to feel productive when i open my laptop and start coding and i just feel
+
+(07:27:17):
+like this is so important and a bunch of
+
+(07:27:20):
+like the spark user i've interacted with have this similar feeling and that's like
+
+(07:27:24):
+we want to hone that like how do you be more productive on your mac like like your
+
+(07:27:29):
+disc is running out while you're working on a presentation is something you should
+
+(07:27:33):
+not have to give your attention to like we have agents for god's sake you should
+
+(07:27:37):
+like do it in the background just let me know and i think that's something like how
+
+(07:27:41):
+you build this productivity suite on your mac with this one app and so you can just
+
+(07:27:47):
+do what you are good at
+
+(07:27:49):
+Yeah.
+
+(07:27:49):
+What do you think about search?
+
+(07:27:50):
+Do you think search is something we're going to invest in or something that we're
+
+(07:27:53):
+going to deprecate?
+
+(07:27:55):
+I think it's just like,
+
+(07:27:57):
+if you're not going to be number one or number two at something,
+
+(07:28:00):
+why should we do it?
+
+(07:28:01):
+I think that's why, like, if it's not a hell yeah, it's a no.
+
+(07:28:06):
+And I feel it might be like, okay, we might do it separately.
+
+(07:28:09):
+Like, we might be the best search tool on your Mac.
+
+(07:28:12):
+And right now,
+
+(07:28:12):
+it just feels like what we are headed towards with Sparkle,
+
+(07:28:16):
+which is like files and stuff like that.
+
+(07:28:18):
+That's such a big...
+
+(07:28:20):
+market or like that's such so much work to be done and so it's sort of like is
+
+(07:28:25):
+interesting but it's sort of an accident like i don't see it fitting in perfectly
+
+(07:28:30):
+in our new vision but yeah we might do something which is like best search uh best
+
+(07:28:35):
+search file search on your mac
+
+(07:28:38):
+Yeah, I think something that we talk about a lot at Every is what are you going to sacrifice?
+
+(07:28:43):
+Because we're all so excited about building different things here.
+
+(07:28:47):
+And we all come up with ideas every day.
+
+(07:28:50):
+And you cannot build something great without like,
+
+(07:28:53):
+focusing on it for a very very long time yeah so um you know regularly we are
+
+(07:28:58):
+asking ourselves what do you sacrifice if you're going to do this what are you
+
+(07:29:01):
+going to sacrifice to do it and it's worth it sacrificing that yeah um yash you're
+
+(07:29:07):
+the man can't wait to hang out with you uh in a couple days uh and uh thank you so
+
+(07:29:14):
+much for taking the time thank you for having me this was so fun
+
+(07:29:17):
+Awesome, man.
+
+(07:29:18):
+Awesome.
+
+(07:29:18):
+All right.
+
+(07:29:19):
+I'm not really sure who's coming on next, but I know.
+
+(07:29:21):
+Oh, Natalia.
+
+(07:29:22):
+What's up?
+
+(07:29:23):
+Hey.
+
+(07:29:24):
+Brooker.
+
+(07:29:25):
+How are we doing?
+
+(07:29:26):
+Doing great.
+
+(07:29:29):
+I'm going to leave it with you guys.
+
+(07:29:30):
+Thank you, everybody, for sticking around.
+
+(07:29:33):
+All right.
+
+(07:29:34):
+Thanks, Brandon.
+
+(07:29:35):
+All right.
+
+
+

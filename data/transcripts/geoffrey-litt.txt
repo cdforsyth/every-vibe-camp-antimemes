@@ -1,0 +1,2167 @@
+# Geoffrey Litt - Malleable software and Notion: Apps that rewrite themselves
+
+**Company:** Notion
+**Timestamp:** 4:59:55
+**YouTube:** https://www.youtube.com/watch?v=5YBjll9XJlw&t=17995s
+
+---
+
+=== GEOFFREY LITT (Notion) - Malleable software ===
+
+
+(04:59:55):
+Hello, hello.
+
+(04:59:56):
+Good to see you, Dan.
+
+(04:59:57):
+Good to see you, too.
+
+(04:59:58):
+We have not chatted in a while.
+
+(04:59:59):
+You were one of the earliest guests on my podcast back when I believe it was called
+
+(05:00:03):
+How Do You Use ChatGPT.
+
+(05:00:04):
+We will put the episode link in there as like one of my favorite episodes.
+
+(05:00:07):
+It's been two years.
+
+(05:00:08):
+Can you believe it?
+
+(05:00:09):
+Oh, my God.
+
+(05:00:09):
+I feel like it's been a decade.
+
+(05:00:11):
+a lot has changed yeah but you and i were building apps live on stream two years
+
+(05:00:15):
+ago that's true that is true that was that's that was the cool thing about that
+
+(05:00:20):
+podcast it was like i think one of the first podcasts where two people built an app
+
+(05:00:24):
+together live i believe you built a timer app or something like that in in replit
+
+(05:00:28):
+maybe
+
+(05:00:29):
+Yeah, exactly.
+
+(05:00:30):
+So we've been doing that for a while.
+
+(05:00:31):
+You've been on this for a while.
+
+(05:00:32):
+You're amazing.
+
+(05:00:34):
+You're a design engineer at Notion.
+
+(05:00:35):
+Before that,
+
+(05:00:35):
+you were at Ink and Switch doing research into kind of like tools for thought
+
+(05:00:39):
+stuff.
+
+(05:00:39):
+So you have this like amazing brain that's always thinking about stuff that I'm
+
+(05:00:44):
+super excited to hear,
+
+(05:00:45):
+like what you're thinking about now in the land of vibe coding.
+
+(05:00:49):
+Do you want to just introduce yourself for people?
+
+(05:00:51):
+Just tell us a little about who you are and what you're interested in so we can get
+
+(05:00:54):
+a sense for what you're about to show us.
+
+(05:00:56):
+Yeah.
+
+(05:00:56):
+Yeah.
+
+(05:00:58):
+You know, it's funny, I think you and I have been thinking about this for a while.
+
+(05:01:02):
+My core interest in my life is malleable software,
+
+(05:01:05):
+which means how do we get more people playing with the material of software and
+
+(05:01:09):
+democratizing this
+
+(05:01:12):
+creative control over like the digital medium that drives so much of our lives.
+
+(05:01:16):
+And I was exploring that before AI.
+
+(05:01:18):
+And the big question was always like, coding is hard.
+
+(05:01:22):
+How do you teach people?
+
+(05:01:23):
+And, you know, that was just kind of the big bottleneck.
+
+(05:01:25):
+And then boom, all of a sudden, like past few years have been this insane thing.
+
+(05:01:30):
+change.
+
+(05:01:30):
+And so I spent a lot of my time thinking about how do we harness this to enable
+
+(05:01:34):
+anyone to make their own tools?
+
+(05:01:36):
+So that's taken me through, like you mentioned, I went to grad school to explore this.
+
+(05:01:40):
+I was at this research lab called I Can Switch.
+
+(05:01:42):
+And most recently now I'm at Notion where we have a different angle on this problem
+
+(05:01:46):
+and we're trying to figure out how do people work with AI and use it to build cool
+
+(05:01:49):
+stuff.
+
+(05:01:50):
+That's really cool.
+
+(05:01:52):
+When you came on my podcast,
+
+(05:01:53):
+I can't remember if you said this on the podcast or just me personally,
+
+(05:01:55):
+but you have a metaphor for
+
+(05:01:57):
+the way that you envision software working in this new world that's very different
+
+(05:02:02):
+from the way it used to work,
+
+(05:02:03):
+that's about,
+
+(05:02:04):
+like,
+
+(05:02:05):
+firstly,
+
+(05:02:05):
+like,
+
+(05:02:05):
+sort of renting versus owning a house.
+
+(05:02:07):
+Do you want to just take us through that so people on Kickstarter sort of get your
+
+(05:02:10):
+vision for malleable software?
+
+(05:02:13):
+Yeah.
+
+(05:02:14):
+You know,
+
+(05:02:14):
+like,
+
+(05:02:14):
+one of the reasons I care about this personally is I think there's,
+
+(05:02:17):
+like,
+
+(05:02:17):
+a mindset you can have towards the world of I can...
+
+(05:02:21):
+I mean,
+
+(05:02:22):
+it's like you can just do things.
+
+(05:02:23):
+That's the meme version of it, right?
+
+(05:02:25):
+But it's this idea of, like, oh, like...
+
+(05:02:28):
+How could this be better?
+
+(05:02:28):
+How could I change it?
+
+(05:02:29):
+And, you know, when you're renting an apartment, there's only so much you can do.
+
+(05:02:32):
+You can't move the walls.
+
+(05:02:33):
+But then if you own a house, like there's more options available to you.
+
+(05:02:36):
+Right.
+
+(05:02:37):
+And so I think.
+
+(05:02:39):
+I'm really curious with how can we get more of that feeling in our software,
+
+(05:02:42):
+where it's this combination of having more control and having more local agency and
+
+(05:02:48):
+less far away,
+
+(05:02:50):
+centralized,
+
+(05:02:51):
+someone designs the whole thing for you energy.
+
+(05:02:53):
+And so there's a bunch of tricky challenges to making that real,
+
+(05:02:57):
+but that's the thing I care a lot about.
+
+(05:02:59):
+So if that's why you care, if that's what you care about, why are you at Notion?
+
+(05:03:05):
+Because I think Notion has one of the most promising and interesting approaches to
+
+(05:03:12):
+this problem,
+
+(05:03:12):
+which is that one of the areas I was exploring in my research is,
+
+(05:03:18):
+instead of starting from people building apps,
+
+(05:03:20):
+what do people start from building
+
+(05:03:23):
+documents and just writing stuff down and then gradually that thing becomes richer
+
+(05:03:26):
+and richer that and it goes from like just a place where you're writing down
+
+(05:03:29):
+information to crafting custom tools and actually my my hypothesis there is that
+
+(05:03:34):
+the idea of the future starts out looking like a document editor i think that's
+
+(05:03:38):
+exactly what what notions all about is like really really low floor just type in to
+
+(05:03:42):
+get started and then really high ceiling of letting you build custom tools with
+
+(05:03:46):
+your team
+
+(05:03:48):
+And I feel like that, first of all, I love that vision.
+
+(05:03:52):
+And I feel like that low floor,
+
+(05:03:53):
+high ceiling,
+
+(05:03:54):
+it reminds me of some of the great software of the past,
+
+(05:03:56):
+like Excel.
+
+(05:03:59):
+Sorry, what software?
+
+(05:04:01):
+Like Excel?
+
+(05:04:02):
+Oh, yeah.
+
+(05:04:02):
+It's funny how you say of the past.
+
+(05:04:04):
+I mean, it's like still at the present.
+
+(05:04:06):
+But yeah, totally.
+
+(05:04:07):
+Spreadsheets are a huge inspiration for me.
+
+(05:04:10):
+And I think that's exactly the vision is...
+
+(05:04:13):
+You don't go into a spreadsheet to make an app.
+
+(05:04:15):
+You just start writing down some numbers.
+
+(05:04:16):
+And then before you know it, your whole business is running on a spreadsheet, right?
+
+(05:04:19):
+It's like this accidental snowball.
+
+(05:04:21):
+And I think that's exactly like the virtuous cycle you want to be in.
+
+(05:04:24):
+Cool.
+
+(05:04:25):
+So what do you want to show us?
+
+(05:04:27):
+Yeah.
+
+(05:04:27):
+So I want to show you something based on a tweet that I posted a couple of weeks ago.
+
+(05:04:34):
+I'll just screen share now and show you the tweets.
+
+(05:04:36):
+We have something to look at.
+
+(05:04:42):
+Okay, so over the break, I was hacking on a personal side project.
+
+(05:04:47):
+It was this
+
+(05:04:49):
+evolution simulator i'm really into this book by richard dawkins called the selfish
+
+(05:04:53):
+gene i don't know then you you read a lot maybe you've read this book it's a really
+
+(05:04:56):
+beautiful story and one of the best parts of it is he has this beautiful
+
+(05:05:00):
+explanation of how life started and i've always wanted to kind of understand that
+
+(05:05:04):
+idea better and simulate it somehow and so over the break um you know there's the
+
+(05:05:08):
+new opus model and my wife and i were just jamming on like could we like simulate
+
+(05:05:12):
+the origins of life for fun
+
+(05:05:14):
+I love it.
+
+(05:05:15):
+This relationship is goals, for sure.
+
+(05:05:17):
+Yeah.
+
+(05:05:17):
+I mean, hang out with the family and then go make this thing.
+
+(05:05:22):
+So part of this is I like using side projects to experiment with new coding workflows.
+
+(05:05:28):
+I think in my day job, I try to stick to more tried and true stuff, but here I'm just playing.
+
+(05:05:33):
+And one of the challenges I run into when I'm doing these prototypes is
+
+(05:05:39):
+so many cloud code tabs like i have like 20 tabs like tabbing between them trying
+
+(05:05:43):
+to figure out like wait like where did that task go and where did that test go and
+
+(05:05:46):
+um you know i actually i use conductor now i like conductor but i still have a hard
+
+(05:05:50):
+time like keeping track of where we're at and so i made this workflow in notion
+
+(05:05:53):
+actually which i'll share now the video um which is let's say you want to change
+
+(05:05:57):
+some text in an app what if i just have a kanban board of to-dos and i like
+
+(05:06:03):
+can see what's going on there and drive the whole thing from the task board.
+
+(05:06:06):
+And if it needs me here,
+
+(05:06:07):
+it marked the card red and I can respond and then it'll keep going and finish the
+
+(05:06:11):
+task.
+
+(05:06:13):
+And so I was I was actually using this workflow and the idea was like,
+
+(05:06:16):
+OK,
+
+(05:06:17):
+you kind of zoom out from the individual task and you have more of a stable map of
+
+(05:06:20):
+like,
+
+(05:06:21):
+OK,
+
+(05:06:21):
+these are what's coming next.
+
+(05:06:22):
+This is what's in progress.
+
+(05:06:23):
+And so that was like the idea.
+
+(05:06:27):
+And it was really fun.
+
+(05:06:28):
+And a lot of people asked, how do I do that?
+
+(05:06:29):
+And where's the template?
+
+(05:06:30):
+So we just spent a couple days at Notion trying to package it up so people can play with it.
+
+(05:06:34):
+So now I want to demo that thing and show people how they can try it and show what
+
+(05:06:38):
+I've been experimenting with,
+
+(05:06:39):
+basically.
+
+(05:06:40):
+And I should caveat, this is super
+
+(05:06:44):
+experimental stuff for me like i'm still playing and figuring this out as
+
+(05:06:47):
+everything changes and like notion isn't the only place you can do this workflow so
+
+(05:06:51):
+i think part of this is also just like thinking about more broadly like where is
+
+(05:06:55):
+this ui stuff going around how we manage coding agents right there's so many
+
+(05:06:59):
+different tools out there for doing this stuff now so i think it'd be fun to talk
+
+(05:07:02):
+more broadly about that too but first let me give a quick demo of like how how i'm
+
+(05:07:06):
+using it now so um
+
+(05:07:08):
+There's this plugin on GitHub.
+
+(05:07:10):
+It's like a Cloud Code plugin for Notion.
+
+(05:07:13):
+It's pretty straightforward.
+
+(05:07:14):
+It just comes with the MCP server for Notion,
+
+(05:07:16):
+which lets you read and write Notion pages,
+
+(05:07:18):
+basically.
+
+(05:07:19):
+And then there's a variety of skills and slash commands for general knowledge-working stuff.
+
+(05:07:24):
+But then we added a couple of commands for this workflow around tasks.
+
+(05:07:28):
+And so I want to demo it with...
+
+(05:07:32):
+I vibe-coded this game last night in like two minutes.
+
+(05:07:35):
+I wanted just like a simple tiny code base to show here.
+
+(05:07:38):
+It's a lunar lander game.
+
+(05:07:40):
+It's currently extremely challenging, which maybe we should fix.
+
+(05:07:42):
+I haven't beat it a single time yet.
+
+(05:07:45):
+Too hard, Claude.
+
+(05:07:45):
+Too hard.
+
+(05:07:46):
+Yeah, too hard.
+
+(05:07:46):
+We might need to... HGI might be able to beat this, but I'm not good enough.
+
+(05:07:50):
+So let me show you how this works.
+
+(05:07:54):
+So here's my board.
+
+(05:07:55):
+And this is like pretty typical for me when I have a prototype I'm jamming on.
+
+(05:08:00):
+I don't know.
+
+(05:08:00):
+You, you've probably experienced this.
+
+(05:08:01):
+Like at some point,
+
+(05:08:04):
+once you get through the first few things,
+
+(05:08:05):
+the thought space just starts opening up and there's like idea after idea after
+
+(05:08:08):
+idea.
+
+(05:08:08):
+And I ended up with this like long list.
+
+(05:08:10):
+Right.
+
+(05:08:11):
+I just ended up down.
+
+(05:08:11):
+I'm like,
+
+(05:08:12):
+I try to fix one thing and then I end up like five different rabbit holes down and
+
+(05:08:16):
+I haven't,
+
+(05:08:16):
+I haven't done the first thing,
+
+(05:08:17):
+but like I've added like,
+
+(05:08:20):
+yeah.
+
+(05:08:20):
+So yes, I know exactly what you're talking about.
+
+(05:08:23):
+It spirals.
+
+(05:08:23):
+It gets a little, little crazy.
+
+(05:08:25):
+Yeah.
+
+(05:08:25):
+So, and typically, you know,
+
+(05:08:29):
+I don't love going super parallel, but I like planning is really parallelizable.
+
+(05:08:34):
+I find you can plan like five things at once because they're not touching each other.
+
+(05:08:37):
+And then building on a good code base,
+
+(05:08:40):
+usually you can get away with building two or three things at once and it does
+
+(05:08:42):
+speed things up.
+
+(05:08:43):
+And so the goal here is
+
+(05:08:46):
+I always look at the board and kind of use it as my guide.
+
+(05:08:48):
+So let's see, what should we do?
+
+(05:08:53):
+I guess let me, I have some things that have been planned.
+
+(05:08:55):
+So maybe I'll start by building something.
+
+(05:08:56):
+Should we make it easier?
+
+(05:08:57):
+That's a good, you know what?
+
+(05:09:00):
+Let's do that.
+
+(05:09:03):
+Let's do a voice thing.
+
+(05:09:06):
+The game is too hard.
+
+(05:09:08):
+I can't beat it.
+
+(05:09:09):
+I think the gravity is too strong.
+
+(05:09:12):
+Okay.
+
+(05:09:13):
+Okay.
+
+(05:09:13):
+We got to get you using monologue, by the way.
+
+(05:09:16):
+I would love to try it.
+
+(05:09:17):
+Yeah, I haven't tried it yet.
+
+(05:09:19):
+Too many tools to try that.
+
+(05:09:20):
+So the way, there's a number of ways you can do this.
+
+(05:09:23):
+I'll show you like what I think is the most straightforward way in a way,
+
+(05:09:26):
+which is just to get to a cloud code terminal to kick it off and pick the URL of
+
+(05:09:31):
+the task.
+
+(05:09:33):
+And then I'll just say we have this command notion tasks plan and give it the card.
+
+(05:09:38):
+And so this is.
+
+(05:09:39):
+Can you just ask it to go find the task for you, too?
+
+(05:09:42):
+Totally.
+
+(05:09:43):
+Yeah, that works as well.
+
+(05:09:45):
+It's a little I find it a little faster if I use the link.
+
+(05:09:48):
+But yeah, so now if I go back to the board, notice that it's in it's actually moved to planning.
+
+(05:09:53):
+And you can see here like.
+
+(05:09:56):
+uh it's giving status updates on like what's going on right um and so the idea is
+
+(05:10:01):
+like you still have the clock code terminal if you want to go back to it and so you
+
+(05:10:04):
+have all the direct control you know but also you can then let's kick off another
+
+(05:10:08):
+thing like um modernize the visual aesthetic sounds interesting to me so let's uh
+
+(05:10:13):
+oh look that plan completed so we'll review it in a second let me uh go over here
+
+(05:10:16):
+and start planning
+
+(05:10:19):
+Another thing.
+
+(05:10:20):
+Suddenly the human is the bottleneck.
+
+(05:10:22):
+Yeah.
+
+(05:10:24):
+Always has been, but it's different now.
+
+(05:10:26):
+Yeah.
+
+(05:10:26):
+I think review is the bottleneck.
+
+(05:10:28):
+So,
+
+(05:10:28):
+um,
+
+(05:10:29):
+so notice like,
+
+(05:10:30):
+you know,
+
+(05:10:30):
+I'm,
+
+(05:10:32):
+uh,
+
+(05:10:33):
+I have this like stable indicator now of like,
+
+(05:10:34):
+oh,
+
+(05:10:34):
+okay.
+
+(05:10:35):
+So to make it easier, the plan is done.
+
+(05:10:36):
+Here it is.
+
+(05:10:36):
+Let's look at it.
+
+(05:10:38):
+Um,
+
+(05:10:39):
+And it just adds the plan to the task.
+
+(05:10:42):
+So one thing that I think is really important is, like, it's really nice.
+
+(05:10:45):
+You should have a good place to read your plans.
+
+(05:10:47):
+You should not be reading,
+
+(05:10:48):
+like,
+
+(05:10:49):
+Monus-based Markdown versus,
+
+(05:10:50):
+like,
+
+(05:10:51):
+a nice thing that has code snippets is a quality of life improvement that everyone
+
+(05:10:54):
+should invest in.
+
+(05:10:54):
+There's a lot of ways to do this.
+
+(05:10:55):
+Like, it doesn't have to be in Notion.
+
+(05:10:57):
+Like, you can use, there are, like, cursor plugins and all sorts of things.
+
+(05:11:00):
+But this is... I gotta use my new Proof app.
+
+(05:11:03):
+I gotta show you Proof.
+
+(05:11:04):
+Okay, I need to see the Markdown.
+
+(05:11:06):
+But here it is.
+
+(05:11:07):
+It's in our Notion page, right?
+
+(05:11:08):
+And I can see...
+
+(05:11:10):
+OK, make the lander fall more slowly.
+
+(05:11:13):
+Seems fine.
+
+(05:11:15):
+All looks good.
+
+(05:11:16):
+Let me, and there's, you know, I'll just go here and
+
+(05:11:22):
+build it now so now that's going to kick it off and start building and then while
+
+(05:11:26):
+that's building maybe we can look at the modernized visual aesthetic one and see
+
+(05:11:28):
+how that's going so um notice it turned red over here and it says choose visual
+
+(05:11:34):
+direction so this is like the indicator that hey like i can't keep going like i
+
+(05:11:38):
+need you and this is i think a really important concept for um
+
+(05:11:43):
+A lot of time I'm trying to like round robin through a bunch of agents,
+
+(05:11:47):
+making sure they're still good,
+
+(05:11:48):
+you know?
+
+(05:11:49):
+And I think it should feel more like they raise their hand when they need me.
+
+(05:11:53):
+And so this isn't a simple attempt at that, right?
+
+(05:11:55):
+And we can open up here and we get a message from Claude in the comments.
+
+(05:12:01):
+What color scheme do you want?
+
+(05:12:02):
+What visual style do you want?
+
+(05:12:03):
+And we can just comment right here.
+
+(05:12:04):
+Like, I don't know, Dan, do you have a preference for one of these color schemes?
+
+(05:12:09):
+Obviously space realistic.
+
+(05:12:11):
+Love it.
+
+(05:12:13):
+And then filled shapes is right.
+
+(05:12:15):
+Okay.
+
+(05:12:18):
+And then so we unblock there in the comments.
+
+(05:12:20):
+And then Claude should pick that up and just keep going, right?
+
+(05:12:24):
+And then in the meantime, our other build finished.
+
+(05:12:26):
+So you can see,
+
+(05:12:27):
+like,
+
+(05:12:27):
+kind of how this works,
+
+(05:12:28):
+where,
+
+(05:12:28):
+like,
+
+(05:12:29):
+we are doing a little bit of parallel ping pong back and forth.
+
+(05:12:31):
+But this UI, for me, just, like...
+
+(05:12:36):
+helps me direct my attention a bit better, I guess.
+
+(05:12:40):
+We can see, okay, so this is done.
+
+(05:12:45):
+We'll see in a moment, by the way.
+
+(05:12:46):
+So the code change is complete.
+
+(05:12:47):
+In a moment,
+
+(05:12:48):
+it'll add more information on how it did it,
+
+(05:12:50):
+but it's probably generating that in the background.
+
+(05:12:53):
+We can go see if it worked.
+
+(05:12:55):
+I'll try playing the game.
+
+(05:13:04):
+yeah I'll take it so I will accept that one I think it'll be easier to tell some of
+
+(05:13:13):
+these other ones of how how good they're but amazing um and we can see this plan is
+
+(05:13:18):
+going so um I don't know you got the basic idea right yeah you use the cart use
+
+(05:13:22):
+this as you're using that view um
+
+(05:13:25):
+I think this is really cool.
+
+(05:13:27):
+One of the things that makes me think of,
+
+(05:13:29):
+one of the reasons it's powerful,
+
+(05:13:30):
+it connects to an idea I've been trying to figure out.
+
+(05:13:33):
+I've been trying to express over the last couple of weeks.
+
+(05:13:36):
+Let me just open up my,
+
+(05:13:37):
+I'm going to share my screen real quick so we can talk about this,
+
+(05:13:41):
+which is the idea of being agent native.
+
+(05:13:45):
+And in an agent native architecture,
+
+(05:13:48):
+it's sort of a different way of thinking about how to build software where agents
+
+(05:13:52):
+are at the core of what you're building.
+
+(05:13:54):
+And everything that you're doing in an agent native software is essentially like
+
+(05:14:00):
+the agent is in a trench coat where all the UI is just calling an agent that has a
+
+(05:14:05):
+skill to get the feature done.
+
+(05:14:06):
+And there are certain properties that agent native software has that I think
+
+(05:14:10):
+Notion,
+
+(05:14:11):
+you guys are building with these principles.
+
+(05:14:13):
+I'm not sure if you call them this and I'm sort of curious like how you think about
+
+(05:14:16):
+it,
+
+(05:14:17):
+but one of the core principles is the idea of parity.
+
+(05:14:19):
+So the parity principle says, anything that the user can do in the app, the agent can do.
+
+(05:14:25):
+And because that's the way that you've architected Notion,
+
+(05:14:27):
+it makes it really easy to do this like integration where now you can use Notion as
+
+(05:14:31):
+this Kanban board with cloud code,
+
+(05:14:33):
+which,
+
+(05:14:33):
+you know,
+
+(05:14:34):
+you guys didn't initially set out to do that,
+
+(05:14:36):
+but you just made all these things available.
+
+(05:14:39):
+And not only is whatever the user can do to the UI, the agent can do, but it's
+
+(05:14:43):
+also the tools or the affordances the agent has are very granular so you can you
+
+(05:14:48):
+can put them together like lego bricks into into new and new and different forms
+
+(05:14:52):
+that you couldn't predict how do you guys think about this is this like sort of how
+
+(05:14:56):
+you think are there other principles that you think are missing i'm just sort of
+
+(05:14:59):
+curious yeah this is a great one i think i think parity is really important and is
+
+(05:15:05):
+something that um
+
+(05:15:07):
+I only joined Notion in September,
+
+(05:15:08):
+and I think previously,
+
+(05:15:10):
+there were previous iterations of Notion AI,
+
+(05:15:12):
+but the latest one,
+
+(05:15:12):
+the Notion agent,
+
+(05:15:13):
+this is a key principle.
+
+(05:15:15):
+It should be able to do everything a user can do, and that unlocks so much emergent behavior.
+
+(05:15:20):
+So I think I totally agree with that one.
+
+(05:15:22):
+And yeah,
+
+(05:15:23):
+composability of as the agents get better,
+
+(05:15:26):
+you just need to focus on designing really good tools that let them
+
+(05:15:31):
+efficiently,
+
+(05:15:31):
+accurately do everything the user can do and then let that agent rip and be smart
+
+(05:15:36):
+and do stuff,
+
+(05:15:36):
+right?
+
+(05:15:36):
+And so I agree with those principles.
+
+(05:15:38):
+I could show one concrete example of like how it manifests in this sort of
+
+(05:15:41):
+workflow,
+
+(05:15:42):
+which is- I would love that.
+
+(05:15:43):
+Please do that.
+
+(05:15:43):
+While you're setting that up, I think one of the things I'm coming to
+
+(05:15:49):
+over the last day or two,
+
+(05:15:50):
+and it was hammered home in this stream where Nat Eliasson,
+
+(05:15:53):
+who maybe you know was like,
+
+(05:15:56):
+command lines are dead,
+
+(05:15:57):
+and we're back to GUIs,
+
+(05:15:59):
+and I was trying to think about...
+
+(05:16:01):
+I actually just had this feeling starting yesterday,
+
+(05:16:04):
+because I tried something that's not released,
+
+(05:16:05):
+and I was like,
+
+(05:16:06):
+oh,
+
+(05:16:06):
+I think that there's...
+
+(05:16:08):
+something happening here where i now want to use a gui for a lot of this stuff and
+
+(05:16:11):
+and i think the the reason we had this um this short love affair with command lines
+
+(05:16:17):
+is because they're very easy to make agent native they're very easy to to give uh
+
+(05:16:22):
+parity to and almost every other app you've ever used does not actually have true
+
+(05:16:26):
+parity um where the agent can do everything but once you get there there's a lot
+
+(05:16:30):
+that a gui does that
+
+(05:16:32):
+is actually pretty valuable the reason we've had them for the last like 20 years or
+
+(05:16:35):
+so there's a slight the slight twist is agent interfaces are more text heavy than
+
+(05:16:41):
+normal interfaces but that works really well with a document editor because you're
+
+(05:16:44):
+like yeah yeah um so that's one thing i've been thinking about i don't know if you
+
+(05:16:48):
+feel that way or not i've been really interested in clis for a long time one of my
+
+(05:16:51):
+favorite sayings someone tweeted this a long time ago um is that like a cli is a
+
+(05:16:57):
+mediocre gui and a mediocre api
+
+(05:17:00):
+But the fact that it's both is what's great.
+
+(05:17:02):
+And what that means is you can do stuff manually in a CLI,
+
+(05:17:06):
+but then you can also up-level to automations and compositions in a CLI.
+
+(05:17:10):
+And the fact that you can do both is both what makes it really powerful for super
+
+(05:17:14):
+nerds and what makes it powerful for AI,
+
+(05:17:16):
+which is the ultimate super nerd,
+
+(05:17:18):
+I guess.
+
+(05:17:18):
+Yeah.
+
+(05:17:20):
+And I think it's not that GUIs can't do that.
+
+(05:17:23):
+It's just that most GUIs don't.
+
+(05:17:25):
+And so we need a new era of GUIs.
+
+(05:17:27):
+And I think apps like Notion,
+
+(05:17:31):
+you want to try to be compositional and allow for emergence within a GUI,
+
+(05:17:34):
+which is like,
+
+(05:17:37):
+maybe less straightforward than making that happen in CLI.
+
+(05:17:39):
+But let me show an example.
+
+(05:17:40):
+So like, I added these tasks like five minutes before this call, just as testers.
+
+(05:17:46):
+And the way that I did it was just a quick voice.
+
+(05:17:49):
+I just recorded a voice note in Notion has like a voice recording thing.
+
+(05:17:54):
+And this is basically what I said here.
+
+(05:17:56):
+You're not screen sharing yet.
+
+(05:17:57):
+Oh, I need to remove my screen and then add yours.
+
+(05:18:01):
+Now you're on.
+
+(05:18:01):
+Okay, cool.
+
+(05:18:02):
+Yeah, yeah.
+
+(05:18:05):
+I recorded this like little voice note in Notion,
+
+(05:18:08):
+just like brainstormed a few ideas for things we could do.
+
+(05:18:12):
+And then I went to Notion and I said,
+
+(05:18:14):
+hey,
+
+(05:18:15):
+based on this brainstorm,
+
+(05:18:15):
+can you just fill in that task board with tasks?
+
+(05:18:17):
+And then it went and made all these for me, right?
+
+(05:18:22):
+This actually is something I've been doing a lot these days is like,
+
+(05:18:25):
+I'll be on my phone kind of like talking about vaguely like ideas for what to do.
+
+(05:18:29):
+And then when I'm done,
+
+(05:18:30):
+I just have like some AI agent,
+
+(05:18:32):
+whether it's notion or Claude,
+
+(05:18:34):
+like process that into the tasks and the structured place.
+
+(05:18:37):
+And I think, um, yeah.
+
+(05:18:41):
+some nice qualities there is like yeah this emergence of being able to like take um
+
+(05:18:45):
+unstructured stuff like i mean audio to transcript to structured tasks also having
+
+(05:18:51):
+it on the phone integrated all in one i think is like really interesting as a
+
+(05:18:54):
+primitive so like i i do a lot of my thinking walking around i'm talking into my
+
+(05:18:59):
+like headphones now yeah that's something that's brewing um and over the holiday
+
+(05:19:04):
+break you know my evolution thing a lot of it was like
+
+(05:19:07):
+on my phone with notion and Claude kind of like planning these prototypes and like
+
+(05:19:12):
+these intermediate experiments to try and just like jamming with it.
+
+(05:19:16):
+So that's how I'm working a lot these days.
+
+(05:19:18):
+What do you think is the right pattern for deciding when you should put an agent in
+
+(05:19:23):
+your app versus letting your app talk to agents and or both?
+
+(05:19:30):
+I think both are really valuable.
+
+(05:19:32):
+So the benefits I see of integration are
+
+(05:19:36):
+you can get special integrated UI experiences by having it live in the UI that are
+
+(05:19:43):
+really hard to do externally.
+
+(05:19:44):
+So like,
+
+(05:19:44):
+you know,
+
+(05:19:46):
+notion of example,
+
+(05:19:47):
+there's all these things that like,
+
+(05:19:48):
+you can visualize the agent streaming its edits and stuff,
+
+(05:19:51):
+which is hard to do,
+
+(05:19:52):
+like if it's like some external agent,
+
+(05:19:54):
+right?
+
+(05:19:54):
+But then I also think these bridges to external agents are,
+
+(05:19:57):
+What I'm showing right now is an integration between Cloud Code,
+
+(05:20:00):
+which is good at the coding,
+
+(05:20:01):
+and Notion,
+
+(05:20:01):
+which specializes more on the task stuff.
+
+(05:20:03):
+I think it's a perfect example of why you need both.
+
+(05:20:08):
+I don't know how it's all going to shake out,
+
+(05:20:09):
+but it's definitely not going to be like each app has its own agent and they don't
+
+(05:20:12):
+talk to each other.
+
+(05:20:13):
+That's not an acceptable outcome.
+
+(05:20:16):
+Yeah, I think that you're right.
+
+(05:20:19):
+We have division of labor in our economy for a reason,
+
+(05:20:22):
+and probably agents are not going to be too much different.
+
+(05:20:26):
+It's good to have an agent that really knows its particular area of the world to go
+
+(05:20:29):
+into another agent.
+
+(05:20:30):
+It's not just one agent to rule them all,
+
+(05:20:33):
+as I think we were maybe a little bit afraid of a couple years ago.
+
+(05:20:36):
+Yeah,
+
+(05:20:36):
+I mean,
+
+(05:20:37):
+I think it's less one agent rule them all and more like everyone sees the value of
+
+(05:20:41):
+shared context now.
+
+(05:20:42):
+Like it's really nice to have all the context in one place.
+
+(05:20:44):
+And so, you know, that can be a giant repo of Markdown files.
+
+(05:20:48):
+That can be a Notion workspace.
+
+(05:20:49):
+Like there's various places you can do it, but I think like that's the,
+
+(05:20:54):
+That's the most important thing is that there's some place where all your AIs can
+
+(05:20:57):
+see the same stuff.
+
+(05:20:58):
+Yeah, totally.
+
+(05:21:00):
+So this came up on the last conversation with Logan and Amar from Google about the
+
+(05:21:05):
+definition of slop.
+
+(05:21:06):
+And Logan's definition is slop is anything that's in distribution for an AI or
+
+(05:21:11):
+close to the center of the distribution.
+
+(05:21:13):
+And I'm curious for you,
+
+(05:21:15):
+someone who cares a lot about code and code quality and also is really into what's
+
+(05:21:19):
+happening right now.
+
+(05:21:20):
+What is slop and how does that change in AI?
+
+(05:21:26):
+Hmm.
+
+(05:21:29):
+Yeah.
+
+(05:21:29):
+You know,
+
+(05:21:30):
+like maybe I can get at this by talking a bit about my process and how it's
+
+(05:21:34):
+evolving right now.
+
+(05:21:34):
+So like I have a pretty wide range of like when I'm working on production code that
+
+(05:21:40):
+is supposed to be maintained for years and where I'm trying to do like my best
+
+(05:21:44):
+work,
+
+(05:21:45):
+I am definitely I'm still doing like I'm still pretty in the weeds.
+
+(05:21:48):
+I'm doing code reviews.
+
+(05:21:48):
+Sometimes I'm like partially kind of coding by hand.
+
+(05:21:52):
+You're typing.
+
+(05:21:54):
+I'm not typing.
+
+(05:21:54):
+I'm tab completing.
+
+(05:21:57):
+I'm rarely typing, but I'm doing like small model steps and like really dial.
+
+(05:22:01):
+Yeah, you understand each like logical step.
+
+(05:22:04):
+I'm really, yeah, I'm very young.
+
+(05:22:06):
+I'm not just like letting it go.
+
+(05:22:08):
+I'm very involved in architecting because I still find that like letting it go too
+
+(05:22:12):
+long without that.
+
+(05:22:14):
+It's like the time horizon for how long the code can survive is too low for my base.
+
+(05:22:18):
+But then for like side projects and experiments and prototypes, I'm just like,
+
+(05:22:23):
+full coding.
+
+(05:22:24):
+And, you know, I think like, um, there's different definitions of slop, right?
+
+(05:22:30):
+Like, um, if it looks perfect in a demo, but sometimes it doesn't quite work the right way.
+
+(05:22:38):
+Sometimes in some context, that's okay.
+
+(05:22:40):
+In another context, that's really annoying.
+
+(05:22:41):
+It depends on like, is it a demo?
+
+(05:22:42):
+Is it a real thing you're using?
+
+(05:22:44):
+I think a lot about, um,
+
+(05:22:47):
+the number of decisions you're injecting and the amount of taste you're injecting
+
+(05:22:50):
+is sort of the key thing.
+
+(05:22:52):
+It's not whether you're reading the code.
+
+(05:22:53):
+It's like this evolution simulator thing.
+
+(05:22:55):
+I haven't seen any of the code, but I've done dozens of studies and sketches with code.
+
+(05:23:01):
+We're prototyping minute design decisions in extreme detail.
+
+(05:23:05):
+So I'm in it.
+
+(05:23:07):
+So yeah, I think that's not sloped probably.
+
+(05:23:10):
+I think another way to think about it,
+
+(05:23:12):
+I'm curious if you think this is a fair comparison,
+
+(05:23:14):
+is we don't spend a lot of time reading machine code.
+
+(05:23:18):
+and you can still have well-crafted JavaScript,
+
+(05:23:21):
+which was kind of a controversial take like 15 years ago.
+
+(05:23:25):
+The programmers were like,
+
+(05:23:26):
+yeah,
+
+(05:23:26):
+you're not a real coder if you use JavaScript,
+
+(05:23:28):
+and I think English is kind of similar.
+
+(05:23:31):
+I agree, and actually, you know,
+
+(05:23:34):
+Something I'm thinking a lot about these days is I do think it's important as a
+
+(05:23:38):
+human to still understand what's going on.
+
+(05:23:40):
+And the reason is that,
+
+(05:23:41):
+and how much you want to get into details varies,
+
+(05:23:44):
+but it's not just to check the AI when it's going wrong.
+
+(05:23:48):
+It's also that knowing about how it works can help you have better ideas for the
+
+(05:23:51):
+next thing to do.
+
+(05:23:52):
+And I think building up that mental model does still help.
+
+(05:23:55):
+And so I've been investing a lot in like,
+
+(05:23:56):
+how do I stay in the loop and know what it's actually doing,
+
+(05:24:00):
+right?
+
+(05:24:00):
+Actually, if you screen share me again, I can show you one more thing that-
+
+(05:24:04):
+uh what am i so um a lot of what i do i make sure that there's always explanations
+
+(05:24:10):
+at the end um that teach me what it did so check this is this is the task we did
+
+(05:24:15):
+earlier make it easier right and my explanations they never start with a code diff
+
+(05:24:21):
+they start really zoomed out so this is like this is what lunar landers are and
+
+(05:24:25):
+here's how this here's how the physics works and that's amazing um and like here's
+
+(05:24:31):
+And this wasn't silly because it's literally a single number that changed,
+
+(05:24:35):
+but you get the point of like,
+
+(05:24:36):
+there's so much context.
+
+(05:24:37):
+And so in a larger code base,
+
+(05:24:40):
+these things can be incredible because it teaches you,
+
+(05:24:43):
+here's how all the existing stuff works and here's what we changed.
+
+(05:24:45):
+And then you can even like, at the end, you can do a quiz.
+
+(05:24:49):
+So I love these.
+
+(05:24:51):
+do I understand what happened in this PR?
+
+(05:24:55):
+What happens if no thrust is applies?
+
+(05:24:56):
+I don't know.
+
+(05:24:57):
+Increases by the gravity value.
+
+(05:24:59):
+Correct.
+
+(05:24:59):
+So I can test myself with these quizzes and understand like,
+
+(05:25:03):
+so one thing,
+
+(05:25:04):
+one practice I have now is like at work,
+
+(05:25:06):
+if I'm sending PRS to people that an agent wrote,
+
+(05:25:08):
+I will,
+
+(05:25:09):
+I refuse to send it unless I can pass a quiz of understanding what's in the PR.
+
+(05:25:13):
+And this is a really nice automated understanding check for me of like,
+
+(05:25:17):
+It's really easy to convince yourself that you understand something even if you don't.
+
+(05:25:21):
+Yeah, everyone who is smart about learning has encountered this before.
+
+(05:25:25):
+Like you read a book and you try to explain it to a friend and you realize like one
+
+(05:25:29):
+question and that you have no idea what's going on.
+
+(05:25:31):
+This happens to me all the time.
+
+(05:25:31):
+And so this is my AI enhanced damper or break on the speed where it's like I want
+
+(05:25:40):
+to move as fast as possible while maintaining my understanding in an automated way
+
+(05:25:45):
+that like
+
+(05:25:46):
+It's like preventing me from getting lazier and slopping, right?
+
+(05:25:52):
+That is so good.
+
+(05:25:52):
+I mean,
+
+(05:25:53):
+this is why I made proof because I was like,
+
+(05:25:54):
+I want to figure,
+
+(05:25:56):
+for any token I read,
+
+(05:25:57):
+I want to know how much effort went into it because,
+
+(05:25:59):
+or how much thinking,
+
+(05:26:01):
+both AIs and humans and who's standing behind it because I never want to spend more
+
+(05:26:04):
+time reading something than someone spent making it.
+
+(05:26:08):
+I want to spend less.
+
+(05:26:09):
+And like,
+
+(05:26:11):
+for example,
+
+(05:26:11):
+we did our 2026 planning in Notion using Notion AI,
+
+(05:26:14):
+and it was fucking awesome.
+
+(05:26:16):
+So cool.
+
+(05:26:18):
+But a lot of it was AI generated.
+
+(05:26:20):
+And so if I'm reading it,
+
+(05:26:22):
+I really want to be able to know,
+
+(05:26:24):
+did,
+
+(05:26:24):
+you know,
+
+(05:26:25):
+Austin,
+
+(05:26:25):
+who's our head of growth,
+
+(05:26:26):
+who's doing the production for this whole thing,
+
+(05:26:28):
+like,
+
+(05:26:29):
+does Austin really believe in this sentence?
+
+(05:26:32):
+And, you know, quizzes are one way one way to do it.
+
+(05:26:34):
+But I feel like we need more conventions for this to like to start.
+
+(05:26:39):
+I totally agree.
+
+(05:26:41):
+Yeah, that's such a great.
+
+(05:26:41):
+And this is something you and I were getting about the other day.
+
+(05:26:43):
+You know,
+
+(05:26:44):
+I think we were talking about we're going to need to develop conventions for when
+
+(05:26:47):
+humans vouch for AI work and sign off on like this is really good from my
+
+(05:26:51):
+perspective.
+
+(05:26:51):
+But I think the thing we were talking about was like.
+
+(05:26:55):
+What's preventing someone from just highlighting the whole page and be like,
+
+(05:26:57):
+yep,
+
+(05:26:57):
+I stamped this.
+
+(05:26:58):
+This is good.
+
+(05:26:59):
+Social shame.
+
+(05:26:59):
+We just have to eject you from society.
+
+(05:27:01):
+Okay, yes, but like...
+
+(05:27:03):
+this is the thing is like, like with, with the quiz, right?
+
+(05:27:07):
+Like,
+
+(05:27:07):
+I think we can come up with other ways of helping people avoid fooling themselves
+
+(05:27:12):
+because it's so hard to review AI stuff because it's designed to make things that
+
+(05:27:16):
+sound plausible,
+
+(05:27:17):
+but are sometimes they're increasingly not really wrong.
+
+(05:27:21):
+Exactly.
+
+(05:27:21):
+It's just that you like, maybe you disagree with it or whatever, but you don't notice.
+
+(05:27:24):
+And so I think like, can we automate the,
+
+(05:27:29):
+and mechanize the process of making sure humans are staying in the loop.
+
+(05:27:33):
+It's like a really fun thought exercise.
+
+(05:27:35):
+I think you could reduce a lot of the promise and also the bottleneck of AI right now is just
+
+(05:27:44):
+how do you make sure that the state between the AI and the human is shared?
+
+(05:27:48):
+And there's a lot of times where the AI doesn't really understand what you want or think.
+
+(05:27:53):
+And there's a lot of times where you don't really understand what the AI just did or thinks.
+
+(05:27:56):
+And the more high bandwidth you make that, the better everything is.
+
+(05:28:01):
+I could not agree more.
+
+(05:28:02):
+And we have so many powerful tools to that going both directions on those arrows.
+
+(05:28:09):
+Human to AI, we just saw voice is a classic one that has caught on now.
+
+(05:28:14):
+for high bandwidth in, right?
+
+(05:28:16):
+And then on the way out from the AI,
+
+(05:28:17):
+I think like visualization and like good writing,
+
+(05:28:20):
+like AIs can make,
+
+(05:28:22):
+you know,
+
+(05:28:23):
+On my evolution simulator,
+
+(05:28:24):
+I was having Claude make presentations with slide decks of interactive simulations
+
+(05:28:29):
+showing what it had done in its experiments that day.
+
+(05:28:32):
+And that was better than a markdown file.
+
+(05:28:35):
+And so we can design incredibly high bandwidth code-based visualizations from AI to human.
+
+(05:28:41):
+And these sorts of explanatory documents,
+
+(05:28:43):
+I think,
+
+(05:28:43):
+are as like,
+
+(05:28:44):
+whenever I'm sitting down to see what the AI did,
+
+(05:28:48):
+I want it to feel like
+
+(05:28:49):
+I'm the president, like a staff spent a day preparing this briefing book for me.
+
+(05:28:55):
+And it is like the most insanely overproduced,
+
+(05:28:58):
+digested,
+
+(05:28:59):
+like beautiful artifact just waiting for me to have like an optimal learning
+
+(05:29:03):
+experience.
+
+(05:29:05):
+I totally agree.
+
+(05:29:05):
+I love the word brief.
+
+(05:29:08):
+And that is actually a fantastic transition.
+
+(05:29:10):
+I'm going to bring Kieran on the stage.
+
+(05:29:13):
+The reason I like the word brief in Kieran is because Kieran is the GM of monologue
+
+(05:29:16):
+at every,
+
+(05:29:17):
+which is our AI email.
+
+(05:29:18):
+Coram.
+
+(05:29:20):
+Sorry, Cora.
+
+(05:29:22):
+I know you need your nap then.
+
+(05:29:24):
+You'll get your nap soon.
+
+(05:29:26):
+I take over.
+
+(05:29:26):
+And one of the things Cora does is it sends you a summary of your emails twice a
+
+(05:29:32):
+day,
+
+(05:29:32):
+and we call it a brief,
+
+(05:29:33):
+specifically because of the presidential daily brief.
+
+(05:29:36):
+So I think we're all kind of in the same.
+
+(05:29:38):
+And I'm a happy Cora user.
+
+(05:29:40):
+So I love that.
+
+(05:29:41):
+I love that format.
+
+(05:29:42):
+Love to hear that.
+
+(05:29:43):
+Check out Cora.computer.
+
+(05:29:44):
+Jeffrey, amazing to have you.
+
+(05:29:46):
+Amazing to see you.
+
+(05:29:48):
+Thank you so much for coming on.
+
+(05:29:49):
+Yeah, thanks for having me on.
+
+(05:29:49):
+This was fun.
+
+
+

@@ -1,0 +1,1969 @@
+# Ryan Carson - The infinite loop agent that never stops working
+
+**Company:** Founder
+**Timestamp:** 1:30:04
+**YouTube:** https://www.youtube.com/watch?v=5YBjll9XJlw&t=5404s
+
+---
+
+=== RYAN CARSON (Founder) - AMP infinite loop agent ===
+
+
+(01:30:04):
+Uh, welcome Ryan, founder of Untangle.
+
+(01:30:09):
+Welcome.
+
+(01:30:09):
+Good to see you, Dan.
+
+(01:30:10):
+Good to see you.
+
+(01:30:11):
+And our very own Kieran Klassen.
+
+(01:30:13):
+Kieran, welcome.
+
+(01:30:14):
+Good morning.
+
+(01:30:15):
+so uh kieran is the uh is the gm of quora at every and uh ryan until recently you
+
+(01:30:23):
+were doing a lot of stuff with amp so you're very uh uh familiar with the internals
+
+(01:30:28):
+of how they work and you're uh gonna
+
+(01:30:31):
+help us show us some of your workflow and Kieran is going to help us steer the conversation.
+
+(01:30:38):
+So Kieran, please jump in with questions or topics as we're going along.
+
+(01:30:42):
+Ryan, the floor is yours.
+
+(01:30:44):
+Fabulous.
+
+(01:30:45):
+Good to see you guys.
+
+(01:30:46):
+Fun to see everybody in the audience.
+
+(01:30:48):
+so uh i just stepped back from being a builder in residence at amp i love amp i
+
+(01:30:53):
+still use it it's an amazing tool and i've decided to go full-time on my startup so
+
+(01:30:58):
+uh it's a fun rest uh it's very very exciting oh my god so exciting uh made the
+
+(01:31:03):
+leap so i'm going to show you um an iteration of what kieran kicked off uh and
+
+(01:31:10):
+everybody uses now compound engineering
+
+(01:31:12):
+I'm actually going to build on top of that for an idea that I have called compound product.
+
+(01:31:19):
+This is not rocket science people, y'all.
+
+(01:31:21):
+I think many of us are arriving at the similar place where we need to be looping to
+
+(01:31:28):
+autonomously improve our products,
+
+(01:31:30):
+our engineering,
+
+(01:31:31):
+our life.
+
+(01:31:32):
+And I was thinking about this.
+
+(01:31:34):
+I'm like, okay, I'm going to create an open source repo this morning so that I can share it.
+
+(01:31:39):
+And then you all can use this idea, whether you're on AMP or Cloud Code or Cursor or whatever.
+
+(01:31:44):
+So I'm going to walk you through how it actually works, show you a little bit of code.
+
+(01:31:49):
+And Kieran, I would love if you would pepper me with questions if you think about it.
+
+(01:31:55):
+I love it.
+
+(01:31:55):
+Yeah.
+
+(01:31:56):
+I think we all feel this.
+
+(01:31:57):
+We need this.
+
+(01:31:58):
+Yes.
+
+(01:31:58):
+So thank you.
+
+(01:31:59):
+It's like all the we basically all feel stressed because we can't loop our agents
+
+(01:32:06):
+24 seven a day.
+
+(01:32:08):
+So here we go.
+
+(01:32:09):
+Yes.
+
+(01:32:10):
+All right.
+
+(01:32:11):
+I'm going to share my entire screen.
+
+(01:32:13):
+Ryan, I assume you're going to do this in AMP.
+
+(01:32:17):
+We see your screen.
+
+(01:32:18):
+Before you jump into your demo,
+
+(01:32:20):
+can you just give us like the,
+
+(01:32:22):
+you know,
+
+(01:32:22):
+so far we've had people demoing Cloud Code,
+
+(01:32:25):
+Codex,
+
+(01:32:26):
+and Factory,
+
+(01:32:28):
+Droid from Factory.
+
+(01:32:28):
+Can you just give us like the 30 seconds on AMP and why someone might want to use it?
+
+(01:32:32):
+Yeah, you bet.
+
+(01:32:33):
+So AMP is a great agent for getting stuff done, right?
+
+(01:32:37):
+So a lot of people are using Cloud Code.
+
+(01:32:40):
+I would say AMP is a direct competitor to that.
+
+(01:32:44):
+They're both amazing products.
+
+(01:32:46):
+I chose to join the team at AMP because the product is just so good.
+
+(01:32:50):
+Like,
+
+(01:32:51):
+You know, there's so much work that goes into the harness around the model, right?
+
+(01:32:57):
+And I think the M team has just done a really good job with the harness.
+
+(01:33:00):
+I love it.
+
+(01:33:01):
+I use it on the, I use the 2E version of it.
+
+(01:33:03):
+It's really good.
+
+(01:33:05):
+And also you can use it basically for free now.
+
+(01:33:07):
+We have this idea of every day you get free tokens paid for by ads.
+
+(01:33:11):
+So use it.
+
+(01:33:13):
+I think you'll love it.
+
+(01:33:14):
+I'm still going to use it at Untangle My Startup and the team is fab.
+
+(01:33:17):
+So it's a great agent.
+
+(01:33:21):
+You're muted, Dan.
+
+(01:33:22):
+I do think the ad-supported thing is really, really interesting.
+
+(01:33:25):
+We actually tried an ad there.
+
+(01:33:26):
+I don't know how well it did, but I think it's part of the future for sure.
+
+(01:33:31):
+Cool.
+
+(01:33:32):
+Yeah.
+
+(01:33:32):
+So you can see on the left, I've got an ad, right?
+
+(01:33:34):
+Which means I get free tokens and it's sustainable and we're not going to take that
+
+(01:33:38):
+away from you.
+
+(01:33:38):
+So Triumph, I love it.
+
+(01:33:40):
+It's great.
+
+(01:33:41):
+I'm going to keep using it for my startup.
+
+(01:33:43):
+Yeah.
+
+(01:33:43):
+All right.
+
+(01:33:44):
+So what I'm going to show you is this thing called compound product.
+
+(01:33:47):
+And again, I'm not going to like claim some, like I created this idea and thought of it.
+
+(01:33:51):
+This is really an evolution of, of what everybody is doing.
+
+(01:33:55):
+And I've got a repo here.
+
+(01:33:57):
+And if the team could put this like,
+
+(01:34:00):
+you know,
+
+(01:34:00):
+in the chat or something,
+
+(01:34:02):
+this is open source and you can use it.
+
+(01:34:04):
+So it's called Compound Product.
+
+(01:34:06):
+And I'm going to explain what it does.
+
+(01:34:08):
+It's built on Kirsten's idea of compound engineering,
+
+(01:34:11):
+Jeff Hunt's Ralph Loop,
+
+(01:34:12):
+and then my implementation of Ralph Loop.
+
+(01:34:14):
+So I have a little graph that I'm going to show you.
+
+(01:34:20):
+Okay.
+
+(01:34:20):
+So let me,
+
+(01:34:22):
+you can look at the graph for a second,
+
+(01:34:23):
+but I'm going to explain first,
+
+(01:34:24):
+what are we trying to do?
+
+(01:34:26):
+Okay.
+
+(01:34:27):
+So you probably are building a product or,
+
+(01:34:30):
+or an app,
+
+(01:34:31):
+or you're working on something and you want it to get better and better every day.
+
+(01:34:36):
+Right.
+
+(01:34:36):
+And right now what you're probably doing is thinking of ideas to improve your
+
+(01:34:40):
+products and then kicking off,
+
+(01:34:43):
+you know,
+
+(01:34:44):
+maybe a Ralph loop or,
+
+(01:34:45):
+maybe a PRD to go implement that idea.
+
+(01:34:49):
+So the problem with that is that you are now the bottleneck.
+
+(01:34:53):
+So you need to be thinking of the ideas to improve your app and then proactively
+
+(01:35:00):
+going and building those things.
+
+(01:35:02):
+And so what Compound Product does is basically does this in a loop automatically every day.
+
+(01:35:08):
+So what this does is you start at the top.
+
+(01:35:12):
+So phase one.
+
+(01:35:14):
+And if you're not doing this, this is like thing one you got to do.
+
+(01:35:18):
+Create a cron job every day that basically takes information from your database,
+
+(01:35:25):
+from your app,
+
+(01:35:26):
+from your users.
+
+(01:35:27):
+Basically what you would normally look at is like a marketing dashboard.
+
+(01:35:31):
+And put that, grab that data, and then...
+
+(01:35:36):
+send off a request to Opus 4.5 or GPT 5.2 and say,
+
+(01:35:42):
+based off of this data,
+
+(01:35:43):
+what is the one thing we should do?
+
+(01:35:48):
+What's the problem that you see with our acquisition or with our retention or whatever?
+
+(01:35:55):
+And then write a markdown report.
+
+(01:35:57):
+So now you have an agent's view of what is the one thing that you should be doing
+
+(01:36:03):
+to fix whatever is happening in your app.
+
+(01:36:06):
+you have a markdown file and this should be happening automatically as a cron job
+
+(01:36:09):
+at midnight right and so i do this right so right now i have a cron job that that
+
+(01:36:17):
+pipes in information from our users from our free trial uh and then has opus 4 5
+
+(01:36:24):
+write a report for me and then i get an email right
+
+(01:36:27):
+And this email is packed with like valuable things like,
+
+(01:36:30):
+oh man,
+
+(01:36:31):
+you have a big hole in your funnel over here.
+
+(01:36:33):
+You know, you should probably go fix it by doing this.
+
+(01:36:36):
+And I was reading this report the other day and I'm like,
+
+(01:36:40):
+why,
+
+(01:36:41):
+why don't I just automatically do whatever it's suggesting?
+
+(01:36:44):
+This is kind of dumb that like it's waiting for me to say, yeah, go do it.
+
+(01:36:49):
+So this morning I built this and I'm, I'm so excited to use it.
+
+(01:36:53):
+Um, uh, and the way it works is it grabs this report, right?
+
+(01:36:58):
+And then it takes that report and it runs, and this is all done on Bash, right?
+
+(01:37:05):
+And this is going back to what I learned through the Ralph loop.
+
+(01:37:08):
+And the Ralph loop is not like a panacea and a perfect thing that fixes all the
+
+(01:37:12):
+things,
+
+(01:37:12):
+but there's a lot of value to Bash scripts and Bash loops because you don't run
+
+(01:37:17):
+into context limits,
+
+(01:37:19):
+right?
+
+(01:37:19):
+And I would encourage you to think about using
+
+(01:37:23):
+Bash scripts and loops a lot more and running your agent on your MacBook or locally
+
+(01:37:31):
+to do that kind of stuff.
+
+(01:37:32):
+So I'm going to pause for a second, Kieran.
+
+(01:37:35):
+Am I making sense?
+
+(01:37:36):
+Is there anything that's not clear?
+
+(01:37:37):
+Yeah.
+
+(01:37:38):
+This sounds very logical.
+
+(01:37:40):
+This is just in everyone's head that is pushing these things.
+
+(01:37:43):
+It's just like we're too busy doing things.
+
+(01:37:47):
+And it's very cool because you start something new.
+
+(01:37:50):
+You're like, I'm just doing this the right way from the start.
+
+(01:37:54):
+Okay.
+
+(01:37:56):
+Good.
+
+(01:37:56):
+This makes complete sense.
+
+(01:37:57):
+Absolutely.
+
+(01:37:58):
+So just to recap, if you're just kind of paying attention.
+
+(01:38:00):
+Can I just ask one question?
+
+(01:38:01):
+Yeah, go ahead.
+
+(01:38:03):
+I feel like because of Ralph Wiggum,
+
+(01:38:04):
+we've like woken up to the beauty of like small bash scripts.
+
+(01:38:09):
+Can you talk about that for one second?
+
+(01:38:10):
+Yeah.
+
+(01:38:11):
+So, and again, I don't write any bash.
+
+(01:38:13):
+Like I don't know the syntax to bash.
+
+(01:38:15):
+So AMP is doing all my bash scripts,
+
+(01:38:17):
+but a bash script is something that runs on your command line on your computer.
+
+(01:38:22):
+And the reason why this is valuable is because you can call an agent from the command line.
+
+(01:38:29):
+So you can invoke AMP, you can invoke Claude code from the command line.
+
+(01:38:34):
+And in AMP, you basically say amp-x, and then you give it a prompt.
+
+(01:38:39):
+And then it fires up an instance of AMP non-interactively.
+
+(01:38:45):
+And this just means you have another instance of AMP off doing something valuable
+
+(01:38:50):
+instead of micromanaging it and seeing what it's doing.
+
+(01:38:54):
+And it turns out, I mean, you could spawn a thousand of these things, right?
+
+(01:38:57):
+So that is the value of Bash.
+
+(01:38:59):
+I think it's hilarious that we're all using Bash now.
+
+(01:39:02):
+Okay.
+
+(01:39:04):
+And also, yeah.
+
+(01:39:05):
+And to add to that,
+
+(01:39:06):
+like,
+
+(01:39:07):
+I think this is an evolution of you discovering,
+
+(01:39:09):
+like,
+
+(01:39:09):
+the Ralph loop and,
+
+(01:39:10):
+like...
+
+(01:39:11):
+seeing like oh actually if you do if you give it one thing it can actually do it
+
+(01:39:16):
+and and that was not the case before so like there's all these new learnings and
+
+(01:39:21):
+things that align like we all felt that we needed to do this but we were never able
+
+(01:39:26):
+to do it but like maybe you can touch on a little bit learning there where you
+
+(01:39:31):
+realize like oh i can just do it like how did you realize that
+
+(01:39:35):
+It's Opus 4.5.
+
+(01:39:36):
+I mean, it's like as simple as that.
+
+(01:39:38):
+The model is good enough now to really complete any well-defined user story with
+
+(01:39:44):
+clear acceptance criteria,
+
+(01:39:45):
+as long as it's atomic.
+
+(01:39:47):
+Opus 4.5 can do it.
+
+(01:39:49):
+And we all know that.
+
+(01:39:50):
+We feel it.
+
+(01:39:51):
+Like, oh, this thing is capable.
+
+(01:39:54):
+um i think that's why um so you're right so but but think about loops everybody so
+
+(01:40:00):
+the thing one i want you to walk away with from this is that you should be doing
+
+(01:40:03):
+this you should have a daily report like and that thing should be pulling
+
+(01:40:09):
+information from your app whatever is important to you and it should be essentially
+
+(01:40:14):
+acting as a vp of product or a vp of engineering
+
+(01:40:17):
+or a VP of sales,
+
+(01:40:18):
+and it should be giving you advice and saying,
+
+(01:40:21):
+hey,
+
+(01:40:22):
+this is dumb that this is happening.
+
+(01:40:23):
+You should go fix it.
+
+(01:40:24):
+Or this is great.
+
+(01:40:26):
+You should do more of it.
+
+(01:40:28):
+So that loop is number one.
+
+(01:40:30):
+Please do that.
+
+(01:40:31):
+And that should just- And do you have any tips on what tools to use here?
+
+(01:40:35):
+Where do you pull your reports from?
+
+(01:40:37):
+What is the tech you use there?
+
+(01:40:39):
+I think it's important not to overcomplicate it.
+
+(01:40:40):
+I use Postgres.
+
+(01:40:42):
+And so basically what I do is I had AMP write a script that pulls the right
+
+(01:40:48):
+information from Postgres and throws it in the prompt.
+
+(01:40:52):
+It's that simple.
+
+(01:40:54):
+And again,
+
+(01:40:56):
+if you don't know what data to pull,
+
+(01:40:58):
+well,
+
+(01:40:58):
+talk to your agent about it and say,
+
+(01:41:01):
+given our product does XYZ,
+
+(01:41:02):
+what's the two numbers we should pay attention to?
+
+(01:41:07):
+And then I want to see those numbers every day.
+
+(01:41:10):
+So this is why you hire people.
+
+(01:41:12):
+This is why,
+
+(01:41:13):
+you know,
+
+(01:41:13):
+we used to hire,
+
+(01:41:14):
+you know,
+
+(01:41:14):
+VP of marketing because they would look at data every day and they would give you
+
+(01:41:18):
+actionable insights.
+
+(01:41:19):
+Well, it turns out for 15 cents, you can get that every day.
+
+(01:41:22):
+So do that.
+
+(01:41:23):
+So that's thing one.
+
+(01:41:24):
+Now,
+
+(01:41:25):
+what I'm proposing is actually autonomously looping on that suggestion and waking
+
+(01:41:30):
+up to a PR with it implemented,
+
+(01:41:32):
+right?
+
+(01:41:32):
+Yeah.
+
+(01:41:33):
+So phase one,
+
+(01:41:35):
+and again,
+
+(01:41:35):
+you can literally,
+
+(01:41:37):
+I'm actually going to do this while we talk because it'll be sort of fun.
+
+(01:41:40):
+In this repo, there's a command or tell your agent to do this.
+
+(01:41:45):
+So I'm just going to copy this.
+
+(01:41:46):
+I'm going to go over to AMP and I'm going to paste it, right?
+
+(01:41:50):
+So while I talk,
+
+(01:41:51):
+we're going to watch AMP actually install the compound product loop into my repo.
+
+(01:41:58):
+So it's doing that.
+
+(01:41:59):
+Okay, so let's go back to...
+
+(01:42:02):
+our fancy little mermaid diagram.
+
+(01:42:06):
+So it's installed now.
+
+(01:42:08):
+Basically, it's a couple bash scripts.
+
+(01:42:10):
+And then you kick it off by running this command here.
+
+(01:42:15):
+So we're actually going to run.
+
+(01:42:17):
+We'll do a dry run.
+
+(01:42:19):
+And this is probably something, again, you'd want to do autonomously every day.
+
+(01:42:25):
+But for now, it's like, OK, I want to run this.
+
+(01:42:28):
+And what it's doing is it's finding that report.
+
+(01:42:30):
+So finding most recent report.
+
+(01:42:32):
+This is this report up here that's generated, right?
+
+(01:42:36):
+So you've got a folder with reports that are made every day with valuable insights, right?
+
+(01:42:41):
+So it's looking at report that it was done on the 22nd.
+
+(01:42:45):
+So that was today at midnight.
+
+(01:42:47):
+It's analyzing it.
+
+(01:42:49):
+It's saying, oh, you have a problem with your free trial page signup flow.
+
+(01:42:53):
+Something is wrong.
+
+(01:42:54):
+You're not getting signups, right?
+
+(01:42:56):
+It has the rationale.
+
+(01:42:58):
+And then what it's going to start doing,
+
+(01:43:00):
+and I'll go back over here and show you visually what's happening.
+
+(01:43:05):
+It's analyzing that report and it's creating a JSON file with that analysis.
+
+(01:43:11):
+So you can think of this as its suggestions for what we need to do to fix the
+
+(01:43:16):
+problem that's been identified from the report.
+
+(01:43:20):
+Um, so you've got a Jason file with, uh, the priority and the criteria.
+
+(01:43:25):
+Uh, and you can see this, this is a dry run, so it didn't actually create it.
+
+(01:43:29):
+Um, but what it's got is it's going to audit and fix the free trial sign up.
+
+(01:43:33):
+Um,
+
+(01:43:34):
+and my conversion rate looks really bad right now,
+
+(01:43:36):
+but it's because I'm building an AI divorce agent and,
+
+(01:43:40):
+uh,
+
+(01:43:40):
+and divorce products take a long time for people to purchase them.
+
+(01:43:43):
+So they're not going to convert when they first hit the page.
+
+(01:43:47):
+Um,
+
+(01:43:48):
+And then it basically- Anyone getting a divorce, PSA.
+
+(01:43:50):
+Ryan, what's the URL?
+
+(01:43:53):
+I hope nobody ever needs Untangled.
+
+(01:43:55):
+This is one of these things like, please, I hope you don't need my product.
+
+(01:43:59):
+And I built it because my sisters got divorced and I was heartbreaking to see them
+
+(01:44:03):
+go through what they went through.
+
+(01:44:05):
+So FYI.
+
+(01:44:06):
+Anyway,
+
+(01:44:07):
+you've got now an analysis.json file with what the agent is suggesting should be
+
+(01:44:13):
+done to fix what was identified on the report.
+
+(01:44:17):
+I'm going to breathe for a second and ask Kieran to ask me questions if anything's not clear.
+
+(01:44:23):
+I'm curious.
+
+(01:44:24):
+So how did you come up with these steps and flows?
+
+(01:44:27):
+Like probably there's intuition or something that you already always have done.
+
+(01:44:32):
+Is this like you mirroring how you would work with a normal org or is this you
+
+(01:44:38):
+telling AMP, yo, I need to do this.
+
+(01:44:41):
+What is a good flow?
+
+(01:44:43):
+Or a combination of both.
+
+(01:44:45):
+I'm really curious because how I built mine was just like,
+
+(01:44:47):
+I'm building Quora and I just need shit done and I just try to fix things that
+
+(01:44:54):
+fail.
+
+(01:44:55):
+How do you find this flow?
+
+(01:44:56):
+Because it looks like you're an expert and you said,
+
+(01:44:59):
+I made it this morning,
+
+(01:45:00):
+but clearly there's more to it.
+
+(01:45:02):
+So I made it this morning because I've been working for 25 years as a CEO founder, right?
+
+(01:45:07):
+Yeah.
+
+(01:45:08):
+I'm trying to give you all the benefit of my grizzled hard experience here around
+
+(01:45:15):
+basic product iteration.
+
+(01:45:18):
+And it's not rocket science.
+
+(01:45:19):
+I think a lot of people will come up with this, but it's pretty simple.
+
+(01:45:22):
+You get data, right?
+
+(01:45:23):
+You analyze the data.
+
+(01:45:25):
+You decide on what the actual insight is from the data.
+
+(01:45:29):
+And then you implement the user stories to implement the fix.
+
+(01:45:33):
+And then you fix it, right?
+
+(01:45:35):
+So not rocket science, but that's kind of where these steps came from.
+
+(01:45:40):
+But also surprisingly, it is not rocket science.
+
+(01:45:43):
+And we say that, but like, why is nobody else doing it like this?
+
+(01:45:47):
+Because it makes sense, right?
+
+(01:45:49):
+It does.
+
+(01:45:50):
+And this is, so I tweeted that day.
+
+(01:45:51):
+I'm like,
+
+(01:45:51):
+I have massive FOMO all the time now because I don't have,
+
+(01:45:56):
+you know,
+
+(01:45:56):
+three instances of AMP running 24 seven.
+
+(01:45:59):
+Like, and it's real.
+
+(01:46:00):
+Like the speed that we're all going to get out iterated here is unprecedented.
+
+(01:46:06):
+And I think if you're a founder or a builder, you should be really,
+
+(01:46:10):
+nervous all the time now and and that kind of makes me sad like i thought agi which
+
+(01:46:15):
+it feels like we basically are sort of here i thought it would make my life calm
+
+(01:46:20):
+but it's made it very stressful so hey founder life and i'm sure uh kirsten and dan
+
+(01:46:26):
+you feel this all the time um so but this loop is meant to help alleviate some of
+
+(01:46:32):
+this like i shouldn't have to wake up and decide what got built overnight
+
+(01:46:36):
+Like I should wake up to a PR, right?
+
+(01:46:40):
+And then eventually I should wake up to a ship PR because I have another loop,
+
+(01:46:43):
+you know,
+
+(01:46:44):
+deciding if temple minute.
+
+(01:46:46):
+Okay,
+
+(01:46:47):
+so if you're just paying attention or you just came from the bathroom,
+
+(01:46:51):
+let me quickly remind you where we're at.
+
+(01:46:52):
+So we've got phase zero,
+
+(01:46:54):
+which is you have a report with valuable information about what's happening in your
+
+(01:46:58):
+app.
+
+(01:46:59):
+You should be having a cron job and generating that every night.
+
+(01:47:03):
+And then you have a bash loop
+
+(01:47:06):
+that basically analyzes that report.
+
+(01:47:09):
+It creates an analysis.json,
+
+(01:47:12):
+which is a list that's like,
+
+(01:47:13):
+OK,
+
+(01:47:13):
+what are we going to do to fix a problem that was found in the report?
+
+(01:47:17):
+And then what are the basic steps to do it?
+
+(01:47:19):
+And then you have a planning phase.
+
+(01:47:23):
+So the first thing is,
+
+(01:47:25):
+and again,
+
+(01:47:25):
+this is just a bash script that fires up AMP or clog code or whatever.
+
+(01:47:29):
+It creates a feature branch.
+
+(01:47:33):
+It loads a skill, which is in this repo called PRD.
+
+(01:47:38):
+And basically,
+
+(01:47:38):
+it's going to look at the suggestion from the previous step and then write a really
+
+(01:47:43):
+good PRD,
+
+(01:47:46):
+including atomic user stories.
+
+(01:47:49):
+And this is all in that skill, and it calls that skill.
+
+(01:47:52):
+And then you end up with a PRD, right?
+
+(01:47:54):
+And that goes in your task folder, right?
+
+(01:47:56):
+So this is all observable.
+
+(01:47:57):
+These are files you can look at.
+
+(01:47:59):
+And then I've got another task or another skill, which again is in this repo called tasks.
+
+(01:48:03):
+Very simple.
+
+(01:48:04):
+Like let's look at this PRD and make sure that all the tasks,
+
+(01:48:09):
+and I'm saying tasks instead of user stories,
+
+(01:48:11):
+because sometimes a user story doesn't really make sense.
+
+(01:48:15):
+Are they very atomic?
+
+(01:48:16):
+And do they have clear acceptance criteria that an agent can truly check like autonomously?
+
+(01:48:22):
+And so in here is like a detail that's important, right?
+
+(01:48:26):
+So if your acceptance criteria includes browser testing,
+
+(01:48:29):
+then you need to be using something like agent browser.
+
+(01:48:33):
+Um, and I've specified that in the skill.
+
+(01:48:35):
+And so, and if you're not using agent browser, what are you doing?
+
+(01:48:38):
+It's like amazing.
+
+(01:48:40):
+It's the best.
+
+(01:48:41):
+Yeah.
+
+(01:48:41):
+It's, it's so good.
+
+(01:48:42):
+It's so fast.
+
+(01:48:43):
+So good.
+
+(01:48:44):
+Um,
+
+(01:48:45):
+and so this script,
+
+(01:48:46):
+this,
+
+(01:48:47):
+um,
+
+(01:48:47):
+compound product script actually checks if you have a agent browser installed and
+
+(01:48:51):
+warns you if you don't.
+
+(01:48:53):
+um and says hey install it because this this tasks skill specifically
+
+(01:49:00):
+makes any browser testing acceptance criteria use agent browser so kind of detail
+
+(01:49:07):
+thing number one i like that maybe i'll add something like if you don't use the
+
+(01:49:12):
+best model or better tools i will nuke your home directory or something in my
+
+(01:49:18):
+plugin just to told you so user on risk that's right you're going to regret this
+
+(01:49:24):
+yeah i mean these are kind of the
+
+(01:49:26):
+These are the things we all need to be doing now.
+
+(01:49:28):
+It's like if you're going to use an agent,
+
+(01:49:29):
+you actually have to care about these execution details.
+
+(01:49:33):
+Because otherwise, you're going to bang your head against the wall.
+
+(01:49:36):
+Your agent's going to go down a rabbit hole.
+
+(01:49:38):
+OK, so then you end up with a PRD.json.
+
+(01:49:41):
+And this is kind of the beginning of the Ralph Wiggum loop.
+
+(01:49:48):
+So you have a JSON with tasks in it.
+
+(01:49:51):
+And each of those tasks has
+
+(01:49:54):
+a description, an acceptance criteria, and it has a completed true or false, right?
+
+(01:50:02):
+So we end up with a really high quality list of tasks that have clear acceptance criteria.
+
+(01:50:08):
+And then this is just the standard Ralph loop, right?
+
+(01:50:11):
+So I've just called it loop.
+
+(01:50:13):
+Some people have like this reaction to Ralph.
+
+(01:50:15):
+I'm like, people get over it.
+
+(01:50:17):
+It's like, it's just a loop, whatever.
+
+(01:50:19):
+So I've just called it loop.
+
+(01:50:22):
+And it loops, right?
+
+(01:50:23):
+So it just picks a task from the JSON, and then it implements the task.
+
+(01:50:28):
+It does quality checks.
+
+(01:50:30):
+If it fails, it fixes.
+
+(01:50:32):
+If it passes, it commits.
+
+(01:50:34):
+It updates the JSON.
+
+(01:50:37):
+And then inside this loop, actually, it doesn't say this.
+
+(01:50:40):
+It's updating progress.txt, and it's updating your agents.md file.
+
+(01:50:47):
+I know we've got nine minutes, so I'll crank.
+
+(01:50:49):
+But the thing about the RALF loop that's so genius, right?
+
+(01:50:53):
+And again,
+
+(01:50:53):
+this wasn't my idea,
+
+(01:50:54):
+is that,
+
+(01:50:55):
+you know,
+
+(01:50:55):
+you've got what I call agents long-term memory,
+
+(01:50:59):
+which is trained into the model,
+
+(01:51:00):
+right?
+
+(01:51:01):
+And then you've got medium-term memory, which is your agents.md file, right?
+
+(01:51:07):
+These are the things,
+
+(01:51:07):
+obviously,
+
+(01:51:08):
+that,
+
+(01:51:08):
+you know,
+
+(01:51:09):
+every eng needs to know when they're working in your repo.
+
+(01:51:12):
+But what about like the,
+
+(01:51:13):
+the short-term memory where this loop that's running,
+
+(01:51:17):
+this feature you're building,
+
+(01:51:18):
+what are the gotchas that you're running into that you don't want the next loop to
+
+(01:51:22):
+have to relearn?
+
+(01:51:24):
+But you don't really want to remember it forever.
+
+(01:51:27):
+That goes into your progress.txt file.
+
+(01:51:30):
+And then at the beginning of this loop,
+
+(01:51:32):
+it's checking the progress.txt file to see if there was any gotchas that were
+
+(01:51:35):
+learned in the previous loop.
+
+(01:51:38):
+If there's anything that you realize and the agent decides, like, oh, actually,
+
+(01:51:44):
+This is something we need to remember more medium term or long term.
+
+(01:51:47):
+Let's actually add it to the agents.md file.
+
+(01:51:50):
+And Karen, this is compound engineering, right?
+
+(01:51:54):
+This is the genius that you came up with.
+
+(01:51:57):
+So then after a while, you end up and all tasks are done, and then you exit the loop.
+
+(01:52:02):
+And then the bash script,
+
+(01:52:05):
+the compound product bash script pushes it,
+
+(01:52:07):
+and then you've got the PR ready to review.
+
+(01:52:10):
+So that is Compound products.
+
+(01:52:16):
+Very cool.
+
+(01:52:17):
+I have one question for Ralph, because I'm experimenting with it, and you're clearly the person.
+
+(01:52:27):
+Well, you're using it.
+
+(01:52:30):
+So I never felt like Opus or Codex needing to do it.
+
+(01:52:38):
+have another push.
+
+(01:52:39):
+So I've never really felt like, oh, why is it stopping?
+
+(01:52:44):
+It needs to go.
+
+(01:52:45):
+It's pretty good in following directions.
+
+(01:52:48):
+So I'm just curious, like maybe I'm just doing too small of a feature set.
+
+(01:52:53):
+Like maybe I'm not pushing it enough or something like that.
+
+(01:52:56):
+So did you feel that where it didn't do it?
+
+(01:52:59):
+Or is there something else like you say,
+
+(01:53:01):
+like the hooks that are built in where you do specific things that you learn
+
+(01:53:05):
+something from,
+
+(01:53:05):
+like what got you into using it?
+
+(01:53:08):
+Other than like, yeah, everyone is saying we use it online.
+
+(01:53:11):
+But is there like, what is the pain it solves for you?
+
+(01:53:13):
+I think you're not shipping big enough features, Kieran.
+
+(01:53:16):
+Sorry.
+
+(01:53:17):
+Okay, great.
+
+(01:53:18):
+No, I love that.
+
+(01:53:19):
+That is great.
+
+(01:53:20):
+We're putting it on a banner.
+
+(01:53:25):
+I feel that.
+
+(01:53:26):
+I feel that.
+
+(01:53:26):
+So I agree probably.
+
+(01:53:28):
+I mean, so this is the loop that, you know, that Compound Product is trying to solve.
+
+(01:53:33):
+Like, you know,
+
+(01:53:35):
+we really should be shipping features that solve, you know, business problems.
+
+(01:53:41):
+I'm gonna get quote tweeted.
+
+(01:53:42):
+And,
+
+(01:53:43):
+you know,
+
+(01:53:43):
+and actually,
+
+(01:53:44):
+like,
+
+(01:53:44):
+we eventually shouldn't even really be deciding what those are.
+
+(01:53:48):
+And I think you need a Ralph like loop to solve that.
+
+(01:53:53):
+Now, you know, there's times when I'm like, Oh, this isn't a Ralph loop.
+
+(01:53:57):
+This is just, you know, I just want to hack and get some stuff done.
+
+(01:54:00):
+And,
+
+(01:54:01):
+Um,
+
+(01:54:02):
+and again,
+
+(01:54:02):
+that's a,
+
+(01:54:03):
+that's something we're all going to learn is what's the right level of detail or
+
+(01:54:07):
+elevation to be at.
+
+(01:54:08):
+Um,
+
+(01:54:09):
+but I think this,
+
+(01:54:10):
+something like this,
+
+(01:54:11):
+you know,
+
+(01:54:11):
+compound engineering and then layering on topic compound product.
+
+(01:54:14):
+I think this is the beginning of the future where you start to have autonomous looping teams.
+
+(01:54:18):
+Cause I will say like,
+
+(01:54:20):
+I've been fortunate to,
+
+(01:54:21):
+you know,
+
+(01:54:21):
+run big teams,
+
+(01:54:22):
+you know,
+
+(01:54:22):
+tree house was like a hundred plus people and all we as humans are,
+
+(01:54:26):
+are loops.
+
+(01:54:27):
+Like you wake up,
+
+(01:54:28):
+You read your email,
+
+(01:54:29):
+you look at your data,
+
+(01:54:30):
+you decide what to do,
+
+(01:54:31):
+you implement it and you go to sleep,
+
+(01:54:32):
+right?
+
+(01:54:32):
+This is what our armies of agents should be doing,
+
+(01:54:37):
+moving us towards a product that achieves business goals better.
+
+(01:54:43):
+And it doesn't, yeah, I think that's where we're going.
+
+(01:54:46):
+And I think this is the beginning.
+
+(01:54:47):
+So I would love, this is open source.
+
+(01:54:49):
+I'd love people to try it, submit PRs, make it better.
+
+(01:54:52):
+I tried to make it as agent agnostic as possible.
+
+(01:54:55):
+Like you can absolutely use it with Cloud Code, Codex, Cursor, AMP.
+
+(01:55:00):
+You can use your Anthropic key or your AI gateway key or your open router key.
+
+(01:55:04):
+It should be pretty set up for everybody to try this.
+
+(01:55:08):
+So bang on it and see where it can be made better and submit a PR,
+
+(01:55:13):
+and let's all get better together.
+
+(01:55:15):
+Amazing, yeah.
+
+(01:55:17):
+One question.
+
+(01:55:18):
+You haven't read things from users.
+
+(01:55:21):
+What about your brain?
+
+(01:55:23):
+Can it read your brain?
+
+(01:55:25):
+This is a hole, I think, in the system.
+
+(01:55:30):
+I probably need to be going in and journaling
+
+(01:55:33):
+more about my thoughts as the GM.
+
+(01:55:35):
+I'm sure you probably do this with Cora.
+
+(01:55:39):
+We've got a couple of minutes.
+
+(01:55:40):
+How do you do that?
+
+(01:55:41):
+And how are you recording your brain state?
+
+(01:55:43):
+Oh, interesting.
+
+(01:55:46):
+Yeah, I have a Mac Mini doing, my whole life is recorded, everything is in the Mac Mini.
+
+(01:55:52):
+It's a little bit like the previous guest, she has like her whole stream of conscious thing.
+
+(01:56:00):
+I have that all my Mac Mini also.
+
+(01:56:02):
+Okay, so then how are you extracting
+
+(01:56:05):
+in valuable context and putting it I run from yes I run cron jobs on everything
+
+(01:56:12):
+that comes in and then extract things if it's related to Quora and then kick off
+
+(01:56:16):
+like a similar flow but yours is more sophisticated so I'm very curious to run this
+
+(01:56:22):
+on my make mini
+
+(01:56:23):
+Okay, cool.
+
+(01:56:23):
+So you should do a PR on this thing.
+
+(01:56:26):
+I know to try it, yes.
+
+(01:56:28):
+At a pre-pre-step where you're like,
+
+(01:56:30):
+I actually need to make sure that all of this has the context of me as the founder.
+
+(01:56:36):
+That's freaking awesome.
+
+(01:56:37):
+Okay, we're going to be autonomous soon.
+
+(01:56:39):
+Oh yeah, we will.
+
+(01:56:39):
+Love it.
+
+(01:56:45):
+um i'm gonna make sure people get this link again like i'm not making any money off
+
+(01:56:48):
+this i don't have any reason um so i don't know if we can pop that link of the repo
+
+(01:56:54):
+on the screen or share with everybody but yes please um put it in the chat if you
+
+(01:56:57):
+can and uh also i just have to say before we before we hop off um
+
+(01:57:05):
+you matched your sweater to the vibe.
+
+(01:57:08):
+And like, that is just amazing.
+
+(01:57:10):
+Like I get it for you.
+
+(01:57:12):
+I love that, that color on you.
+
+(01:57:15):
+It looks great.
+
+(01:57:17):
+So I was listening to your interview with, um,
+
+(01:57:21):
+I think it was Andrew and you were talking about how you were like looks maxing
+
+(01:57:24):
+with color suggestions and I didn't even do that.
+
+(01:57:27):
+This just happened randomly.
+
+(01:57:28):
+It's just, it's just natural.
+
+(01:57:29):
+You don't have to compound your looks.
+
+(01:57:30):
+You just, yeah.
+
+(01:57:33):
+Ryan, thank you so much.
+
+(01:57:34):
+If people want to find you, where can they find you?
+
+(01:57:36):
+i'm just on x all the time probably too much so just you know ryan carson on x
+
+(01:57:40):
+check them out on x check out the github we will we will throw that in the in the
+
+(01:57:45):
+chat um ryan thank you for joining thank you everyone for being here if you just
+
+(01:57:50):
+got here let me just take a step back and welcome you this is vibe code camp
+
+(01:57:56):
+um i'm dan shipper i'm the co-founder and ceo of every we are live all day today uh
+
+(01:58:03):
+from 10 to 6 30 or 7 eastern um we've been going for over two hours already we've
+
+(01:58:09):
+seen some amazing things if you want to see the agenda go to every.to slash agenda
+
+(01:58:15):
+and just a reminder if you are here and you don't know what every is um
+
+(01:58:22):
+Every is the only subscription that you need to stay at the edge of AI.
+
+(01:58:27):
+It's every.to if you want to check it out.
+
+(01:58:30):
+As a subscriber,
+
+(01:58:31):
+you get access to three big things,
+
+(01:58:34):
+ideas,
+
+(01:58:34):
+apps,
+
+(01:58:34):
+and training on the ideas side.
+
+(01:58:36):
+We have a daily newsletter about AI whenever any
+
+(01:58:39):
+Whenever new models or new products come out, we do vibe checks where we do hands-on testing.
+
+(01:58:43):
+So the day of,
+
+(01:58:44):
+you can know what's useful and what's not and what to pay attention to and what not
+
+(01:58:48):
+to pay attention to.
+
+(01:58:49):
+So if you're feeling overwhelmed,
+
+(01:58:51):
+our newsletter and our podcast and all that kind of stuff is going to help you stay
+
+(01:58:55):
+on top of things.
+
+(01:58:56):
+We also have a suite of apps that we build internally.
+
+(01:59:00):
+We have an app called Quora,
+
+(01:59:01):
+which Kieran,
+
+(01:59:02):
+who is just on co-hosting,
+
+(01:59:04):
+Kieran builds Quora as an AI email assistant.
+
+(01:59:06):
+We have an app called Monologue.
+
+(01:59:07):
+It's a smart dictation app.
+
+(01:59:09):
+We have an app called Spiral.
+
+(01:59:10):
+It's a ghostwriter with taste.
+
+(01:59:12):
+We have an app called Sparkle.
+
+(01:59:14):
+It's an AI file organizer.
+
+(01:59:16):
+There are apps that we built for ourselves to help us work better at the edge of AI and build
+
+(01:59:21):
+They're available to you for no extra cost as part of your subscription if you're a
+
+(01:59:24):
+paid subscriber.
+
+(01:59:26):
+We also do training.
+
+(01:59:27):
+So we do live streams like this and camps twice a month.
+
+(01:59:30):
+So camps are for paid subscribers.
+
+(01:59:33):
+We go through things like how our workflows are evolving,
+
+(01:59:37):
+how we use specific tools like Cloud Code or...
+
+(01:59:40):
+or codex and all that kind of stuff.
+
+(01:59:42):
+So all of that is available for one subscription price.
+
+(01:59:46):
+It's $30 a month.
+
+(01:59:47):
+If you're interested, you should check it out.
+
+(01:59:48):
+We have a 30-day free trial going on right now, every.to.
+
+(01:59:53):
+And now back to our programming.
+
+(01:59:56):
+So I've been going for about two hours.
+
+(01:59:59):
+So I'm going to welcome to the stage,
+
+
+

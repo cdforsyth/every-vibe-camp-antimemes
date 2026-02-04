@@ -1,0 +1,694 @@
+# Brooker Belcourt - 5-hour hedge fund research in 20 minutes with Claude
+
+**Company:** Every Consulting
+**Timestamp:** 7:29:36
+**YouTube:** https://www.youtube.com/watch?v=5YBjll9XJlw&t=26976s
+
+---
+
+=== BROOKER BELCOURT (Every Consulting) - Financial research with Claude ===
+
+
+(07:29:36):
+See ya.
+
+(07:29:36):
+See ya.
+
+(07:29:38):
+All right, guys, we're going to close out the day.
+
+(07:29:42):
+It's getting dark out in New York,
+
+(07:29:44):
+and I don't want to say we're saving the best for last,
+
+(07:29:48):
+but I'm a big fan of Brooker.
+
+(07:29:49):
+So excited to have him share some of the work that he's been doing.
+
+(07:29:54):
+And Brooker, I'll turn it over to you.
+
+(07:29:58):
+Hey, everyone.
+
+(07:29:58):
+It's great to be here.
+
+(07:30:00):
+Just some quick background on who I am.
+
+(07:30:02):
+So I'm not an engineer.
+
+(07:30:05):
+My background is about a decade working at hedge funds,
+
+(07:30:08):
+investing,
+
+(07:30:09):
+and then a decade in fintech startups.
+
+(07:30:11):
+Most recently,
+
+(07:30:12):
+I was at Perplexity running the finance vertical and have since been doing a lot of
+
+(07:30:18):
+consulting and catching up investment firms in this world of AI.
+
+(07:30:23):
+And so what I wanted to show today is a different way to use Claude that I've been
+
+(07:30:28):
+really excited about.
+
+(07:30:29):
+And so a lot of it is Claude is building apps and that's really cool,
+
+(07:30:34):
+but I found it an incredibly powerful research assistant.
+
+(07:30:39):
+So I'm gonna share my screen right now,
+
+(07:30:44):
+and I'm gonna show you how I'm using it in the terminal here.
+
+(07:30:50):
+So sharing my screen.
+
+(07:30:52):
+And so what I'm doing is kind of showing you a little bit of like the end product
+
+(07:30:57):
+is I'm able to create an on the fly dashboard.
+
+(07:31:00):
+So let's say I'm a financial analyst and I want to produce an earnings preview for a company.
+
+(07:31:07):
+So Meta is reporting next week and I want to produce this earnings preview.
+
+(07:31:12):
+With Cloud Code,
+
+(07:31:14):
+it's really powerful because you can access MCPs,
+
+(07:31:17):
+you can access all the files on your computer,
+
+(07:31:22):
+and with one command,
+
+(07:31:24):
+you can actually create this dashboard.
+
+(07:31:28):
+What we've done is we've incorporated a lot of tools that keep you out of the
+
+(07:31:34):
+coding environment by using Cloud plugins.
+
+(07:31:38):
+What I'm doing is I can just call a plugin using this command here, just the slash command.
+
+(07:31:45):
+Now I'm calling up a prompt that I already have saved in here.
+
+(07:31:50):
+and just with a slash command.
+
+(07:31:52):
+Then I can just say, build a earnings preview for Meta.
+
+(07:31:58):
+With one click, it's going to create a dashboard basically similar to this.
+
+(07:32:05):
+The fun thing is it can access MCPs,
+
+(07:32:09):
+Like I have this Delupa MCP here, it can access all the files on my computer.
+
+(07:32:15):
+So it can be my notes, it can be transcripts, it can call APIs.
+
+(07:32:19):
+So it's really robust.
+
+(07:32:21):
+And rather than producing an output that is like an old sticky PDF style output or
+
+(07:32:27):
+an email style output,
+
+(07:32:29):
+it can actually produce interactive dashboards.
+
+(07:32:33):
+And so rather than having a static environment,
+
+(07:32:36):
+I'm producing a dashboard here running in my local host in Streamlit.
+
+(07:32:41):
+And so it's really interactive.
+
+(07:32:44):
+So I can move stuff around.
+
+(07:32:46):
+I can scroll over here and get more detail.
+
+(07:32:49):
+And this is all coming from an MCP.
+
+(07:32:53):
+So it's actually really good financial data.
+
+(07:32:56):
+And it can have tabs.
+
+(07:32:57):
+This is crazy robust.
+
+(07:32:59):
+It takes about 20 minutes or so to run this.
+
+(07:33:02):
+So crazy robust having revenue guidance, beat, miss, track record.
+
+(07:33:08):
+I can go in here and check out a different tab, guidance analysis.
+
+(07:33:13):
+It can produce these charts on the fly.
+
+(07:33:15):
+And the cool thing is that I'll show you in a minute
+
+(07:33:19):
+how I'm generating these things.
+
+(07:33:21):
+It's all natural language.
+
+(07:33:23):
+So I think just say what I want.
+
+(07:33:25):
+I want a guidance analysis and it will flex the dashboard to be based on the things
+
+(07:33:30):
+that meta guides to.
+
+(07:33:32):
+So meta guides like revenue expenses and CapEx and their tax rate.
+
+(07:33:36):
+Whereas another company may just guide to revenue or it may guide to just EPS.
+
+(07:33:41):
+It is flexible enough so that you can have a unique dashboard for every single
+
+(07:33:45):
+company or project that you're working on.
+
+(07:33:49):
+You can go through here.
+
+(07:33:50):
+It can even create a mini model in Excel.
+
+(07:33:54):
+These are specific line items that I care about.
+
+(07:33:56):
+It can show me where the guidance fits in here, all sourced from an MCP.
+
+(07:34:02):
+so crazy robust i just want to show you like how i generate all this stuff is is it
+
+(07:34:09):
+all comes from github and so when you start to use chat gpt and you're starting to
+
+(07:34:18):
+produce these prompts they get to be like really really long and they start to hit
+
+(07:34:23):
+like this 8 000 character limit
+
+(07:34:25):
+And the trouble is you actually want your prompts to be much more robust.
+
+(07:34:29):
+And so what we can do is we can create a Cloud plugin in a GitHub repo.
+
+(07:34:34):
+And now I'm saving all my prompts and I'm version controlling them.
+
+(07:34:38):
+And so you can see I've got this Cloud plugin here.
+
+(07:34:41):
+I've got skills associated with it.
+
+(07:34:43):
+So I kind of give it like my investment philosophy,
+
+(07:34:47):
+what things I care about,
+
+(07:34:48):
+what data sources it should prioritize.
+
+(07:34:50):
+And so when I want to use the Dilupa MCP,
+
+(07:34:52):
+which was all this work here on the left,
+
+(07:34:55):
+I just said,
+
+(07:34:55):
+use the Dilupa MCP.
+
+(07:34:57):
+I'm not writing any code or anything about that.
+
+(07:34:59):
+When I want to say like, where are the company transcripts?
+
+(07:35:02):
+I can just go here and tell it specifically.
+
+(07:35:06):
+So it's now it's asking me like, well, what, what is the directory I should use?
+
+(07:35:09):
+So I can just go in and give it the exact directory on my computer to go to.
+
+(07:35:13):
+And so it'll know it'll be in this format.
+
+(07:35:15):
+So super flexible.
+
+(07:35:16):
+And then I give it my investing principles.
+
+(07:35:18):
+Like I like all the goblies.
+
+(07:35:20):
+I like trajectory.
+
+(07:35:21):
+I like accelerating businesses, not decelerating businesses.
+
+(07:35:25):
+So I'm telling you like, what is a great investor?
+
+(07:35:27):
+Because I find LLMs are just very consensus in the way they look at ideas.
+
+(07:35:32):
+So I'm turning Claude into this research agent that is running code to produce
+
+(07:35:38):
+these custom dashboards.
+
+(07:35:40):
+And so when I want to call these commands, I've got my earnings preview command.
+
+(07:35:44):
+And so I say like, I want to beat miss track record.
+
+(07:35:47):
+And so there's my beat miss track record.
+
+(07:35:50):
+I want to do 12 quarters of beat rate, four quarters of beat rate.
+
+(07:35:55):
+So now I've got 12 quarters and last four quarters.
+
+(07:35:59):
+So I just,
+
+(07:36:00):
+I'm saying the stuff in all this natural language and it's doing all the work is to
+
+(07:36:03):
+be like,
+
+(07:36:04):
+well,
+
+(07:36:04):
+should this be a bar chart?
+
+(07:36:05):
+Should this be a line chart?
+
+(07:36:08):
+How should I present this?
+
+(07:36:09):
+I don't have to talk all about that.
+
+(07:36:10):
+I can just instruct it how to do this stuff.
+
+(07:36:14):
+So again, here, guidance analysis, like guidance range versus actual results.
+
+(07:36:18):
+It chose this graph.
+
+(07:36:19):
+All I told it to do was compare revenue guidance.
+
+(07:36:24):
+And I gave it maybe a little hint as to using a line charts.
+
+(07:36:30):
+And so it was able to do all this work on its own.
+
+(07:36:34):
+So really powerful combination of cloud code,
+
+(07:36:36):
+GitHub,
+
+(07:36:38):
+and streamlet apps to produce crazy analysis.
+
+(07:36:42):
+So I'll pause that and see if there's any questions.
+
+(07:36:44):
+Yeah.
+
+(07:36:44):
+Yeah.
+
+(07:36:45):
+I was going to say,
+
+(07:36:45):
+you know,
+
+(07:36:45):
+Brooker,
+
+(07:36:46):
+you grew up,
+
+(07:36:47):
+if you will,
+
+(07:36:48):
+at like some of the world's greatest hedge funds and have had like a career in
+
+(07:36:51):
+finance before you were at Perplex feeling the finance vertical.
+
+(07:36:56):
+How long would this have taken you to do as a hedge fund analyst in the earlier
+
+(07:37:01):
+side of your career?
+
+(07:37:03):
+my god it's it's crazy to imagine because this work for an earnings preview is like
+
+(07:37:09):
+five hours of work compiling all these different sources together into one
+
+(07:37:13):
+dashboard and my dashboard would be like a word document or a powerpoint
+
+(07:37:18):
+presentation it wouldn't be interactive it wouldn't be live and so now
+
+(07:37:24):
+i can do all this work and i can have a unique dashboard it's like you're building
+
+(07:37:28):
+a a bloomberg or like a dashboard system like a koi fin uh for your entire process
+
+(07:37:36):
+um and so now like it's the software development is combined with um the query and
+
+(07:37:42):
+and the actual output which is really cool i mean it strikes me that this is uh so
+
+(07:37:48):
+clearly the future of how we might think of engaging with the financial markets
+
+(07:37:53):
+and the public market specifically, what are you most excited to be working on this year?
+
+(07:37:59):
+And can you tell us a little bit about the,
+
+(07:38:01):
+you have a platform where you have a strategy that you run.
+
+(07:38:05):
+Can you tell us a little bit about that?
+
+(07:38:07):
+Yeah, so I can share.
+
+(07:38:09):
+The reason I'm so excited about this,
+
+(07:38:11):
+and I'll share my screen again,
+
+(07:38:12):
+what gets me going on this cloud code is if you can see my screen,
+
+(07:38:19):
+the issue is when you use ChatGPT or the web-based interfaces,
+
+(07:38:25):
+you're pretty much only getting 20 to 30 minutes of compute.
+
+(07:38:29):
+Ever since the start of 2025,
+
+(07:38:32):
+we've expanded to offer LLMs significantly more time to process and create answers.
+
+(07:38:40):
+But the web apps have kind of stuck at 20 minutes.
+
+(07:38:43):
+And so there's this huge gap.
+
+(07:38:45):
+And I think that's why ChatGPT is by cloud code is getting so much attention right
+
+(07:38:50):
+now is because this gap is so massive.
+
+(07:38:54):
+And so you're just scratching the service on compute.
+
+(07:38:56):
+And so I'm really excited about like this line going up.
+
+(07:39:00):
+And so you can create so much more analysis and let it run for so much longer on your machine.
+
+(07:39:07):
+And so, yeah, I do.
+
+(07:39:10):
+I do investing and I actually publish all my trades and all my ideas and all my
+
+(07:39:16):
+research on X.
+
+(07:39:18):
+And so you can actually see all my trades.
+
+(07:39:20):
+It's totally transparent.
+
+(07:39:21):
+And so I'm really excited with that with Autopilot.
+
+(07:39:24):
+It's the same people who created the Pelosi tracker.
+
+(07:39:26):
+And so, yeah, I love talking about these ideas and sharing the analysis there.
+
+(07:39:31):
+We had a question in the comments.
+
+(07:39:34):
+Where do you get your fundamental data from?
+
+(07:39:38):
+There's lots of good places.
+
+(07:39:40):
+If you're like an institutional investor, DeLupa is really good.
+
+(07:39:44):
+On the retail side, I'm partial to Perplexity Finance.
+
+(07:39:48):
+You can grab transcripts there really easily.
+
+(07:39:51):
+On Perplexity Finance, you can actually, I'll share my screen really quick.
+
+(07:39:56):
+on perplexity finance, you can actually download all the financials as well.
+
+(07:40:00):
+So I'll just look here.
+
+(07:40:03):
+So if I like my favorite company of mine is ICE.
+
+(07:40:05):
+They are a monopoly of exchanges.
+
+(07:40:08):
+So you can go here through earnings and you can download transcripts.
+
+(07:40:12):
+And then you can go through financials and you can download all the financials.
+
+(07:40:16):
+And so all this stuff, which used to be gated, you can access all this information.
+
+(07:40:21):
+You can even get research reports here as well.
+
+(07:40:25):
+So crazy powerful.
+
+(07:40:26):
+If you want to do it in API access, you can do like a fiscal AI is really good.
+
+(07:40:32):
+And you can build a skill inside cloud code that will be able to allow LLMs to access APIs.
+
+(07:40:41):
+So it's really easy to start layering and all these different data sets once you
+
+(07:40:45):
+have this base set up and running.
+
+(07:40:49):
+Um,
+
+(07:40:49):
+another question here is,
+
+(07:40:51):
+uh,
+
+(07:40:51):
+you know,
+
+(07:40:52):
+this is sort of maybe going off of your perplexity resource.
+
+(07:40:55):
+Any other favorite places to either learn anything financial industry related or
+
+(07:41:01):
+vibe coding favorites?
+
+(07:41:04):
+I've been paying a lot of attention to what Claude is releasing these days and what
+
+(07:41:08):
+MCPs are coming up next.
+
+(07:41:10):
+Um, but the X is the best source for the financial news.
+
+(07:41:16):
+And I would do a little plug for anyone that is particularly interested in this
+
+(07:41:21):
+topic and maybe in the public markets in particular,
+
+(07:41:24):
+we will be doing more content courses and workshops around this.
+
+(07:41:30):
+So stay tuned and you'll see more of Brooker around that topic.
+
+(07:41:36):
+Let's see if there are any other questions.
+
+(07:41:39):
+Brooker, anything else you would like to share?
+
+(07:41:41):
+No, that's it.
+
+(07:41:42):
+I was just really excited to share that with you guys.
+
+(07:41:44):
+I think there's a lot of stuff you can add because I think it's really important to
+
+(07:41:48):
+start building this IP of these prompts.
+
+(07:41:50):
+I think they're so valuable and GitHub is a great place to store that.
+
+(07:41:54):
+Yeah.
+
+(07:41:55):
+Thank you.
+
+(07:41:56):
+Thank you.
+
+(07:41:56):
+So excited to be doing more of this together.
+
+(07:41:59):
+And again,
+
+(07:42:00):
+if you're really into this particular side of the world,
+
+(07:42:04):
+stay tuned,
+
+(07:42:05):
+follow,
+
+(07:42:05):
+and there will be much more coming.
+
+(07:42:08):
+Back to you, Austin.
+
+
+

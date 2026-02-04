@@ -1,0 +1,189 @@
+[
+  {
+    "slug": "dan-shipper",
+    "speaker": "Dan Shipper",
+    "company": "Every CEO",
+    "topic": "Introduction & Proof/Anecdote Demo",
+    "timestamp": "0:00:00",
+    "timestamp_seconds": 0,
+    "youtube_url": "https://www.youtube.com/watch?v=5YBjll9XJlw&t=0s",
+    "line_start": 64,
+    "processed": true
+  },
+  {
+    "slug": "ben-tossell",
+    "speaker": "Ben Tossell",
+    "company": "Ben's Bites / Factory",
+    "topic": "Non-technical builder running 30 agents autonomously",
+    "timestamp": "0:31:23",
+    "timestamp_seconds": 1883,
+    "youtube_url": "https://www.youtube.com/watch?v=5YBjll9XJlw&t=1883s",
+    "line_start": 1869,
+    "processed": true
+  },
+  {
+    "slug": "ashe-magalhaes",
+    "speaker": "Ashe Magalhaes",
+    "company": "Hearth AI",
+    "topic": "Building a personal AI suite that knows your whole life",
+    "timestamp": "0:59:56",
+    "timestamp_seconds": 3596,
+    "youtube_url": "https://www.youtube.com/watch?v=5YBjll9XJlw&t=3596s",
+    "line_start": 3617,
+    "processed": true
+  },
+  {
+    "slug": "ryan-carson",
+    "speaker": "Ryan Carson",
+    "company": "Founder",
+    "topic": "The infinite loop agent that never stops working",
+    "timestamp": "1:30:04",
+    "timestamp_seconds": 5404,
+    "youtube_url": "https://www.youtube.com/watch?v=5YBjll9XJlw&t=5404s",
+    "line_start": 5551,
+    "processed": true
+  },
+  {
+    "slug": "natalia-quintero-nityesh-agarwal",
+    "speaker": "Natalia Quintero & Nityesh Agarwal",
+    "company": "Every Consulting",
+    "topic": "Turning 20-hour consulting decks into 2-hour workflows",
+    "timestamp": "2:00:01",
+    "timestamp_seconds": 7201,
+    "youtube_url": "https://www.youtube.com/watch?v=5YBjll9XJlw&t=7201s",
+    "line_start": 7512,
+    "processed": true
+  },
+  {
+    "slug": "katie-parrott",
+    "speaker": "Katie Parrott",
+    "company": "Every Editorial",
+    "topic": "Using Claude as your writing partner, not replacement",
+    "timestamp": "2:13:50",
+    "timestamp_seconds": 8030,
+    "youtube_url": "https://www.youtube.com/watch?v=5YBjll9XJlw&t=8030s",
+    "line_start": 8258,
+    "processed": true
+  },
+  {
+    "slug": "nat-eliason",
+    "speaker": "Nat Eliason",
+    "company": "Author",
+    "topic": "Clawdbot: The Mac Mini agent running 24/7 unsupervised",
+    "timestamp": "2:30:23",
+    "timestamp_seconds": 9023,
+    "youtube_url": "https://www.youtube.com/watch?v=5YBjll9XJlw&t=9023s",
+    "line_start": 9271,
+    "processed": true
+  },
+  {
+    "slug": "tina-he",
+    "speaker": "Tina He",
+    "company": "Pace Capital",
+    "topic": "Vibe coding as meditation: From non-coder to shipping daily",
+    "timestamp": "3:02:49",
+    "timestamp_seconds": 10969,
+    "youtube_url": "https://www.youtube.com/watch?v=5YBjll9XJlw&t=10969s",
+    "line_start": 11358,
+    "processed": true
+  },
+  {
+    "slug": "paula-dozsa",
+    "speaker": "Paula Dozsa",
+    "company": "Portola",
+    "topic": "Building a 200k MAU app with zero iOS experience",
+    "timestamp": "3:31:00",
+    "timestamp_seconds": 12660,
+    "youtube_url": "https://www.youtube.com/watch?v=5YBjll9XJlw&t=12660s",
+    "line_start": 13175,
+    "processed": true
+  },
+  {
+    "slug": "cj-hess",
+    "speaker": "CJ Hess",
+    "company": "Tenex",
+    "topic": "The MCP that teaches Claude every framework",
+    "timestamp": "4:02:10",
+    "timestamp_seconds": 14530,
+    "youtube_url": "https://www.youtube.com/watch?v=5YBjll9XJlw&t=14530s",
+    "line_start": 15250,
+    "processed": true
+  },
+  {
+    "slug": "logan-kilpatrick-ammaar-reshi",
+    "speaker": "Logan Kilpatrick & Ammaar Reshi",
+    "company": "Google",
+    "topic": "The latest from Google AI Studios",
+    "timestamp": "4:31:41",
+    "timestamp_seconds": 16301,
+    "youtube_url": "https://www.youtube.com/watch?v=5YBjll9XJlw&t=16301s",
+    "line_start": 17052,
+    "processed": true
+  },
+  {
+    "slug": "geoffrey-litt",
+    "speaker": "Geoffrey Litt",
+    "company": "Notion",
+    "topic": "Malleable software and Notion: Apps that rewrite themselves",
+    "timestamp": "4:59:55",
+    "timestamp_seconds": 17995,
+    "youtube_url": "https://www.youtube.com/watch?v=5YBjll9XJlw&t=17995s",
+    "line_start": 19082,
+    "processed": true
+  },
+  {
+    "slug": "kevin-rose-kieran-klaassen",
+    "speaker": "Kevin Rose & Kieran Klaassen",
+    "company": "True Ventures / Every",
+    "topic": "Compound Engineering: Plan, work, review, compound",
+    "timestamp": "5:29:51",
+    "timestamp_seconds": 19791,
+    "youtube_url": "https://www.youtube.com/watch?v=5YBjll9XJlw&t=19791s",
+    "line_start": 21241,
+    "processed": true
+  },
+  {
+    "slug": "thariq-shihipar",
+    "speaker": "Thariq Shihipar",
+    "company": "Anthropic",
+    "topic": "Inside Anthropic: Why tasks will replace to-dos",
+    "timestamp": "6:02:20",
+    "timestamp_seconds": 21740,
+    "youtube_url": "https://www.youtube.com/watch?v=5YBjll9XJlw&t=21740s",
+    "line_start": 23454,
+    "processed": true
+  },
+  {
+    "slug": "naveen-naidu",
+    "speaker": "Naveen Naidu",
+    "company": "Every / Monologue",
+    "topic": "One developer vs VC-backed voice note giants",
+    "timestamp": "6:30:47",
+    "timestamp_seconds": 23447,
+    "youtube_url": "https://www.youtube.com/watch?v=5YBjll9XJlw&t=23447s",
+    "line_start": 25517,
+    "processed": true
+  },
+  {
+    "slug": "yash-poojary",
+    "speaker": "Yash Poojary",
+    "company": "Every / Sparkle",
+    "topic": "Reverse engineering ChatGPT and Spotify to learn faster",
+    "timestamp": "6:59:38",
+    "timestamp_seconds": 25178,
+    "youtube_url": "https://www.youtube.com/watch?v=5YBjll9XJlw&t=25178s",
+    "line_start": 27130,
+    "processed": true
+  },
+  {
+    "slug": "brooker-belcourt",
+    "speaker": "Brooker Belcourt",
+    "company": "Every Consulting",
+    "topic": "5-hour hedge fund research in 20 minutes with Claude",
+    "timestamp": "7:29:36",
+    "timestamp_seconds": 26976,
+    "youtube_url": "https://www.youtube.com/watch?v=5YBjll9XJlw&t=26976s",
+    "line_start": 29001,
+    "processed": true
+  }
+]

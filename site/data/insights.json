@@ -1,0 +1,989 @@
+{
+  "generated": "2026-01-23T22:45:09.072Z",
+  "source": "Every's Vibe Code Camp (January 2026)",
+  "youtube_url": "https://www.youtube.com/watch?v=5YBjll9XJlw",
+  "speakerCount": 17,
+  "totalInsights": 51,
+  "speakers": [
+    {
+      "speaker": "Dan Shipper",
+      "company": "Every CEO",
+      "topic": "Introduction & Proof/Anecdote Demo",
+      "youtube_url": "https://www.youtube.com/watch?v=5YBjll9XJlw&t=0s",
+      "timestamp": "0:00:00",
+      "insightCount": 3,
+      "insights": [
+        {
+          "title": "Parity + Granularity = Emergent Features",
+          "insight": "When agents have both parity (can do what users can) and granularity (access to small tools, not big features), users get functionality that was never explicitly coded.",
+          "category": "antimeme",
+          "diagnosticScore": 9,
+          "types": [
+            "cognitive",
+            "implementation"
+          ],
+          "subTypes": [
+            "cognitive",
+            "implementation"
+          ],
+          "whyResists": "Traditional product thinking is \"build the feature the user wants\" This inverts to \"build small tools and let the agent compose features dynamically\" Requires giving up the satisfaction of explicitly building what users ask for",
+          "quote": "One thing that this app does not have yet is a clear all comments function... But because we have parity and granularity... I can say, at proof, can you clear all of the comments here? And because the agent can do anything the user can do, even if I haven't built this feature explicitly, it just knows how to do it."
+        },
+        {
+          "title": "Features As Skills, Not Code",
+          "insight": "In agent-native apps, features aren't written as code - they're defined as skills (prompts + tools) that the agent executes. This inverts the entire mental model of software development.",
+          "category": "antimeme",
+          "diagnosticScore": 9,
+          "types": [
+            "cognitive",
+            "system"
+          ],
+          "subTypes": [
+            "cognitive",
+            "system"
+          ],
+          "whyResists": "Features have always been code - this is fundamental to how people think about software No established patterns, frameworks, or best practices yet Requires thinking in prompts rather than functions",
+          "quote": "Each feature is essentially a skill that the agent can do that has prompts and tools and all that kind of stuff, and it runs in a loop until it's done."
+        },
+        {
+          "title": "\"No Idea How The Code Works\" Is The Point",
+          "insight": "Dan's repeated emphasis that he doesn't understand his own codebase isn't a confession of limitation - it's evidence of a new development paradigm where code comprehension becomes optional for shipping production software.",
+          "category": "antimeme",
+          "diagnosticScore": 8,
+          "types": [
+            "cognitive",
+            "social",
+            "system"
+          ],
+          "subTypes": [
+            "cognitive",
+            "social",
+            "system"
+          ],
+          "whyResists": "\"Understanding your codebase\" is a core professional identity for developers Code review processes assume human comprehension Debugging seems impossible without understanding",
+          "quote": "I just want to stop and say that's fucking crazy that I could build this in between meetings... This is a project that should have taken like engineers like a group of 300 years, like six months to do. And this is something that I just vibe coded in my spare time and I have absolutely no idea how any of the code works."
+        }
+      ]
+    },
+    {
+      "speaker": "Kevin Rose & Kieran Klaassen",
+      "company": "True Ventures / Every",
+      "topic": "Compound Engineering: Plan, work, review, compound",
+      "youtube_url": "https://www.youtube.com/watch?v=5YBjll9XJlw&t=19791s",
+      "timestamp": "5:29:51",
+      "insightCount": 3,
+      "insights": [
+        {
+          "title": "Planning Is the Senior Engineer Summoning",
+          "insight": "Models are trained on both high-quality and shitty code. When you just say \"build this,\" you get some average. But when you plan like a senior engineer, you \"summon the senior engineers to the table\" - you activate the high-quality patterns in the model.",
+          "category": "antimeme",
+          "diagnosticScore": 9,
+          "types": [
+            "cognitive",
+            "implementation"
+          ],
+          "subTypes": [
+            "cognitive",
+            "technical"
+          ],
+          "whyResists": "\"Just ask the AI\" is the default mental model The statistical mixture of quality levels is abstract \"Plan like a senior\" requires knowing what seniors do The model's response to high-quality input is hidden inside the black box It sounds mystical rather than mechanistic",
+          "quote": "Somewhere hidden in there is the advanced engineer and somewhere hidden in there is the junior engineer... if you plan like a senior engineer, in some sense it almost has to call those engineers to the table."
+        },
+        {
+          "title": "Two-Model Cross-Examination",
+          "insight": "Run two models simultaneously - one does the work, the other acts as a friend reviewing the code. Don't let them agree automatically. Force the reviewer to explain why changes should be made, not just what changes to make.",
+          "category": "workflow",
+          "diagnosticScore": 8,
+          "types": [
+            "implementation",
+            "cognitive"
+          ],
+          "subTypes": [
+            "implementation",
+            "cognitive"
+          ],
+          "whyResists": "Extra cost and complexity \"One model should be enough\" assumption The manual copy-paste loop is tedious Model comparison isn't built into most tools It feels redundant to double-check an AI with another AI",
+          "quote": "I would act like it was just a friend that was looking at my code. And I'd let Opus do all the heavy lifting and I'd be like, hey, friend, how do I do? Check it out. What do you think?"
+        },
+        {
+          "title": "We Forgot to Plan",
+          "insight": "When AI coding started, we stopped planning. Ironically, planning is what we always did with human engineers, but we thought AI could skip that step. The return to planning is just remembering what always worked.",
+          "category": "antimeme",
+          "diagnosticScore": 8,
+          "types": [
+            "cognitive"
+          ],
+          "subTypes": [
+            "cognitive",
+            "psychological"
+          ],
+          "whyResists": "The AI hype emphasized effortless generation Planning feels like overhead when AI is \"smart\" \"Just ask and it works\" is the marketing narrative We assumed AI transcended traditional software process Planning isn't as exciting as building",
+          "quote": "If you think about normal engineering work, the first thing you do is you go plan. And for some reason, when we started AI coding, we just kind of forgot to plan."
+        }
+      ]
+    },
+    {
+      "speaker": "Logan Kilpatrick & Ammaar Reshi",
+      "company": "Google",
+      "topic": "The latest from Google AI Studios",
+      "youtube_url": "https://www.youtube.com/watch?v=5YBjll9XJlw&t=16301s",
+      "timestamp": "4:31:41",
+      "insightCount": 3,
+      "insights": [
+        {
+          "title": "Tool Calling Is the Holy Grail",
+          "insight": "The breakthrough that enabled agentic coding isn't smarter reasoning - it's better tool calling over long-running tasks. Every user request triggers many subsequent micro-decisions (search files, edit code, check docs) that require reliable tool calling.",
+          "category": "antimeme",
+          "diagnosticScore": 9,
+          "types": [
+            "cognitive",
+            "implementation"
+          ],
+          "subTypes": [
+            "cognitive",
+            "technical"
+          ],
+          "whyResists": "\"The models got smarter\" is an easier narrative Tool calling is technical plumbing, not a sexy capability The micro-decisions are hidden by good UI \"On-the-fly context engineering\" isn't a marketing phrase Users experience results, not the mechanism",
+          "quote": "Tool calling is the basket of fruits that bears all the gifts. As you make tool calling better, specifically over long running tasks, it's the holy grail."
+        },
+        {
+          "title": "Slop Is What's In Distribution",
+          "insight": "Slop isn't about quality per se - it's about how far your output is from the model's default. The most in-distribution outputs are slop; you escape slop by pushing the model to do things it can barely do. This means the definition of slop is transitory.",
+          "category": "antimeme",
+          "diagnosticScore": 9,
+          "types": [
+            "cognitive",
+            "social"
+          ],
+          "subTypes": [
+            "cognitive",
+            "social"
+          ],
+          "whyResists": "\"Slop\" feels like a permanent category The idea that today's quality becomes tomorrow's slop is uncomfortable It implies endless treadmill of differentiation The statistical framing (distribution) is less intuitive than quality framing It makes craft feel more arbitrary",
+          "quote": "Things that are most in distribution for the model I would consider to most be slop... the goal is you get out of that by pushing on the edges of getting the model to do things that it can kind of barely do."
+        },
+        {
+          "title": "Loom Is the New Test Suite",
+          "insight": "For vibe-coded projects, human or AI testing via screen recordings replaces traditional test suites. When someone sends a PR, you want to see a Loom of them using the feature, not a code diff.",
+          "category": "workflow",
+          "diagnosticScore": 8,
+          "types": [
+            "social",
+            "implementation"
+          ],
+          "subTypes": [
+            "social",
+            "implementation"
+          ],
+          "whyResists": "Engineering culture values automated tests \"Show me a video\" sounds like QA, not engineering Loom integration isn't standard in code review flows The code diff is sacred in PR culture It feels like regression from proper engineering",
+          "quote": "When someone sends a PR for one of my Vibe Coded projects, I just want to see a loom of them going through the feature a few different times rather than a code diff, honestly."
+        }
+      ]
+    },
+    {
+      "speaker": "Natalia Quintero & Nityesh Agarwal",
+      "company": "Every Consulting",
+      "topic": "Turning 20-hour consulting decks into 2-hour workflows",
+      "youtube_url": "https://www.youtube.com/watch?v=5YBjll9XJlw&t=7201s",
+      "timestamp": "2:00:01",
+      "insightCount": 3,
+      "insights": [
+        {
+          "title": "Non-Worth Tasks Into Trivial Ones",
+          "insight": "The real value of AI automation isn't making hard tasks easy - it's making \"not-worth-it\" tasks so trivial that you actually do them, like creating a polished deck just to demo a plugin.",
+          "category": "antimeme",
+          "diagnosticScore": 8,
+          "types": [
+            "cognitive",
+            "implementation"
+          ],
+          "subTypes": [
+            "cognitive",
+            "implementation"
+          ],
+          "whyResists": "\"Made my hard task easier\" is a better story than \"I did a thing I wouldn't have bothered with\" The counterfactual (not doing the task at all) is invisible People want to talk about big productivity gains, not trivial tasks becoming even more trivial \"I made a demo deck\" sounds less impressive than \"I automated my workflow\"",
+          "quote": "I am using AI to turn producing not worth a task into trivial ones. So like this deck is the example of that. Like I just generated this deck to show you what this plugin does."
+        },
+        {
+          "title": "Blueprint → Visual Direction → Generation",
+          "insight": "Separate presentation creation into three distinct phases: content planning (blueprint), visual design decisions (visual direction), then final generation - working on the plan before the artifact.",
+          "category": "workflow",
+          "diagnosticScore": 7,
+          "types": [
+            "implementation"
+          ],
+          "subTypes": [
+            "implementation"
+          ],
+          "whyResists": "The temptation to skip to \"just make the deck\" is strong Planning documents feel like bureaucracy The value of separate phases isn't obvious until you've tried one-shot generation and hit quality issues",
+          "quote": "There's a generate blueprint command included in this plugin, which actually uses whatever we discussed above to generate a rough markdown file which discusses the entire Blueprint... And then there's another command called visual direction."
+        },
+        {
+          "title": "600-Line Style Guide Upfront Investment",
+          "insight": "Spend significant upfront time (600 lines) documenting your visual style so precisely that Claude can apply it consistently - this investment pays off across all future generations.",
+          "category": "tactic",
+          "diagnosticScore": 7,
+          "types": [
+            "implementation",
+            "cognitive"
+          ],
+          "subTypes": [
+            "implementation",
+            "cognitive"
+          ],
+          "whyResists": "600 lines sounds like overkill for \"just make it look nice\" The iteration to get there was \"a lot of back and forth\" Most people want plug-and-play, not documentation work The ROI only becomes clear after many generated decks",
+          "quote": "I basically gave it every visual style document and told it to use this to essentially understand how we think about design. Now, getting this 600-line style guide the majority of the time getting it right, it was a lot of back and forth and iterations."
+        }
+      ]
+    },
+    {
+      "speaker": "Ben Tossell",
+      "company": "Ben's Bites / Factory",
+      "topic": "Non-technical builder running 30 agents autonomously",
+      "youtube_url": "https://www.youtube.com/watch?v=5YBjll9XJlw&t=1883s",
+      "timestamp": "0:31:23",
+      "insightCount": 3,
+      "insights": [
+        {
+          "title": "\"It's Always My Fault\"",
+          "insight": "When stuck in a frustration loop, assume the problem is your guidance, not the agent's capability - because if you can't code, it's definitionally your instructions that are wrong.",
+          "category": "antimeme",
+          "diagnosticScore": 9,
+          "types": [
+            "cognitive"
+          ],
+          "subTypes": [
+            "cognitive",
+            "psychological"
+          ],
+          "whyResists": "When frustrated, the natural instinct is to blame the tool \"The agent should be smart enough to figure this out\" feels true even when it isn't Taking responsibility requires humility in the moment of maximum frustration",
+          "quote": "It's always a me problem, and I know that because I can't code. So it's always my fault... your job is to figure out how you can guide the agent in the best way to then get it to figure out what it needs to do next, no matter how complex it is."
+        },
+        {
+          "title": "Pain Threshold > Technical Ability",
+          "insight": "Success in vibe coding isn't determined by technical knowledge but by willingness to sit through frustration - the same pain threshold that separated no-code builders from non-builders still applies.",
+          "category": "antimeme",
+          "diagnosticScore": 8,
+          "types": [
+            "cognitive",
+            "social"
+          ],
+          "subTypes": [
+            "cognitive",
+            "social"
+          ],
+          "whyResists": "Marketing for AI tools promises ease, not pain tolerance Admitting frustration tolerance matters undercuts the \"anyone can do it\" narrative People want the shortcut, not \"it still requires perseverance\"",
+          "quote": "You're gonna hit issues all the time. Like professional developers hit issues all the time. Like you can't expect not to... it's just learning how to then navigate those issues."
+        },
+        {
+          "title": "Agent as First-Class User",
+          "insight": "Have the agent use your application as a real user would - clicking through, testing interactions, logging what happens - instead of just reading the code.",
+          "category": "workflow",
+          "diagnosticScore": 8,
+          "types": [
+            "implementation"
+          ],
+          "subTypes": [
+            "implementation"
+          ],
+          "whyResists": "Requires setting up browser tools (dev browser, agent browser) Feels slower than just \"look at the code and fix it\" People don't think of agents as potential end-users",
+          "quote": "The agent is then using your site as a first class user, doing everything you would be doing to test that it goes wrong. And then it just like is in a loop with itself. So then it can just continually like fix stuff, update its own plan and then continue from there."
+        }
+      ]
+    },
+    {
+      "speaker": "Ashe Magalhaes",
+      "company": "Hearth AI",
+      "topic": "Building a personal AI suite that knows your whole life",
+      "youtube_url": "https://www.youtube.com/watch?v=5YBjll9XJlw&t=3596s",
+      "timestamp": "0:59:56",
+      "insightCount": 3,
+      "insights": [
+        {
+          "title": "Integrations Add Noise, Not Signal",
+          "insight": "The people who matter in your network are the ones you're naturally thinking about and adding notes on - not the ones who show up in automated email syncs or LinkedIn imports.",
+          "category": "antimeme",
+          "diagnosticScore": 9,
+          "types": [
+            "cognitive",
+            "implementation"
+          ],
+          "subTypes": [
+            "cognitive",
+            "implementation"
+          ],
+          "whyResists": "The entire contact management industry is built on the opposite premise It feels irresponsible to \"not have complete data\" The work of manually noting what matters feels slower than automated sync You'd have to admit that most of your \"contacts\" don't actually matter to you",
+          "quote": "Integrations can add unnecessary noise to a rolodex and actually the people that are top of mind or that I care about are people that I'm naturally thinking about, meeting with live, adding notes on."
+        },
+        {
+          "title": "Rolodex as Journal, Not CRM",
+          "insight": "Treat your personal CRM like a therapist or journal - a place where you process your thoughts about relationships, not a database of transaction history.",
+          "category": "workflow",
+          "diagnosticScore": 8,
+          "types": [
+            "cognitive",
+            "social"
+          ],
+          "subTypes": [
+            "cognitive",
+            "social"
+          ],
+          "whyResists": "CRM tools are designed for transaction logging, not emotional processing Mixing personal reflection with \"networking\" feels unprofessional There's no off-the-shelf tool that frames contact management this way People might feel uncomfortable with the intimacy of actual notes",
+          "quote": "As I brought my Rolodex closer to like a therapist or a journal, a lot of these people are people that I have like notes on. So it's quite personal in that way I've interacted with."
+        },
+        {
+          "title": "Context Compounding Across Projects",
+          "insight": "Structure your AI system so every project feeds back into a central context - today's Remotion experiment becomes tomorrow's context for a future project.",
+          "category": "workflow",
+          "diagnosticScore": 8,
+          "types": [
+            "implementation",
+            "cognitive"
+          ],
+          "subTypes": [
+            "implementation",
+            "cognitive"
+          ],
+          "whyResists": "Setting up unified context requires significant upfront investment Each individual project seems to work fine without it The benefit only becomes apparent over time (delayed gratification) Most AI tools don't support this kind of context federation",
+          "quote": "Why this is relevant is because everything I do, I tie back into this suite. So even today, as we're going to talk about my philosophy with video... it's all within this Ash AI suite. So any future project would have this context."
+        }
+      ]
+    },
+    {
+      "speaker": "Ryan Carson",
+      "company": "Founder",
+      "topic": "The infinite loop agent that never stops working",
+      "youtube_url": "https://www.youtube.com/watch?v=5YBjll9XJlw&t=5404s",
+      "timestamp": "1:30:04",
+      "insightCount": 3,
+      "insights": [
+        {
+          "title": "You Are The Bottleneck",
+          "insight": "If you're still deciding what features to build based on your own analysis of data, you've made yourself the bottleneck - the agent should be identifying problems from data and autonomously implementing fixes.",
+          "category": "antimeme",
+          "diagnosticScore": 9,
+          "types": [
+            "cognitive",
+            "social",
+            "system"
+          ],
+          "subTypes": [
+            "cognitive",
+            "social",
+            "system"
+          ],
+          "whyResists": "Founders derive identity from product decisions \"I decide what we build\" is a core founder narrative Feels irresponsible to let an agent decide product direction Fear of the agent building the wrong thing",
+          "quote": "So the problem with that is that you are now the bottleneck. So you need to be thinking of the ideas to improve your app and then proactively going and building those things."
+        },
+        {
+          "title": "Three Layers of Agent Memory",
+          "insight": "Structure agent memory in three tiers: long-term (trained into model), medium-term (agents.md for this repo), and short-term (progress.txt for this loop) - with rules for when learnings escalate up.",
+          "category": "workflow",
+          "diagnosticScore": 8,
+          "types": [
+            "implementation",
+            "cognitive"
+          ],
+          "subTypes": [
+            "implementation",
+            "cognitive"
+          ],
+          "whyResists": "Eager builders skip architectural planning The three tiers aren't self-evident until you've hit context limits Requires discipline to maintain the progress.txt file Most tutorials focus on agents.md only",
+          "quote": "You've got what I call agent's long-term memory, which is trained into the model, right? And then you've got medium-term memory, which is your agents.md file, right? But what about the short-term memory where this loop that's running, this feature you're building, what are the gotchas that you're running into that you don't want the next loop to have to relearn?"
+        },
+        {
+          "title": "Humans Are Just Loops",
+          "insight": "Humans in organizations are essentially loops - wake up, read data, decide what to do, implement, sleep, repeat. Agent workflows should mirror this pattern.",
+          "category": "antimeme",
+          "diagnosticScore": 8,
+          "types": [
+            "cognitive",
+            "social"
+          ],
+          "subTypes": [
+            "cognitive",
+            "social"
+          ],
+          "whyResists": "Feels reductive to describe human work as \"just loops\" Implies your job might be automatable Challenges the narrative of human creativity and intuition in work Makes people uncomfortable about their replaceability",
+          "quote": "All we as humans are are loops. Like you wake up, you read your email, you look at your data, you decide what to do, you implement it and you go to sleep, right? This is what our armies of agents should be doing."
+        }
+      ]
+    },
+    {
+      "speaker": "Katie Parrott",
+      "company": "Every Editorial",
+      "topic": "Using Claude as your writing partner, not replacement",
+      "youtube_url": "https://www.youtube.com/watch?v=5YBjll9XJlw&t=8030s",
+      "timestamp": "2:13:50",
+      "insightCount": 3,
+      "insights": [
+        {
+          "title": "Claude Project Beat the Custom App",
+          "insight": "After failing to build a custom AI editing app, Every discovered that a simple Claude Project with custom instructions worked better and more reliably - because Anthropic maintains Claude, not you.",
+          "category": "antimeme",
+          "diagnosticScore": 8,
+          "types": [
+            "cognitive",
+            "social",
+            "implementation"
+          ],
+          "subTypes": [
+            "cognitive",
+            "social",
+            "implementation"
+          ],
+          "whyResists": "Custom apps feel like \"real\" building; Claude Projects feel like configuration You want credit for the work you did, not the work you avoided Admitting failure is uncomfortable, especially publicly The industry narrative celebrates building, not buying/configuring",
+          "quote": "I failed building this last year and we realized that a Claude project just set up with custom instructions and some documentation worked for editing our pieces as well as what I was building and more reliably because it wasn't built on an app that I had to maintain."
+        },
+        {
+          "title": "Audit First When Lost",
+          "insight": "When completely stuck on a codebase, use compound engineering to run an audit and identify improvement opportunities - the audit output becomes your guide for what to do next.",
+          "category": "workflow",
+          "diagnosticScore": 7,
+          "types": [
+            "implementation"
+          ],
+          "subTypes": [
+            "implementation"
+          ],
+          "whyResists": "When frustrated, you want to take action, not do analysis Audit feels like admitting you don't know what's wrong The output might tell you things you don't want to hear It requires plugins/setup most people don't have",
+          "quote": "I'll get stuck and I will ask the agent when I have no idea what's going on to do an audit through compound engineering... And I was like, oh yeah, that looks good. Let's go in that direction."
+        },
+        {
+          "title": "Theranos Demo Confession",
+          "insight": "When you hit your limits before a demo deadline, sometimes you show something with fake functionality - this is part of the learning process, not a shameful secret.",
+          "category": "antimeme",
+          "diagnosticScore": 7,
+          "types": [
+            "social",
+            "cognitive"
+          ],
+          "subTypes": [
+            "social",
+            "psychological"
+          ],
+          "whyResists": "Fear of being seen as a fraud Demos are supposed to be success stories \"Fake it till you make it\" is taboo to admit The Theranos reference makes it sound worse than it is",
+          "quote": "I was frantically trying to vibe code something to show a demo day and ultimately wound up having to Theranos it with a fake functionality."
+        }
+      ]
+    },
+    {
+      "speaker": "Nat Eliason",
+      "company": "Author",
+      "topic": "Clawdbot: The Mac Mini agent running 24/7 unsupervised",
+      "youtube_url": "https://www.youtube.com/watch?v=5YBjll9XJlw&t=9023s",
+      "timestamp": "2:30:23",
+      "insightCount": 3,
+      "insights": [
+        {
+          "title": "Terminal Is Stone Age (From Two Months Ago)",
+          "insight": "GUIs are back. The terminal-first approach that feels like the \"real\" way to code is actually the stone age from two months ago - the only reason to use terminal is \"to look cool in a coffee shop.\"",
+          "category": "antimeme",
+          "diagnosticScore": 9,
+          "types": [
+            "social",
+            "cognitive"
+          ],
+          "subTypes": [
+            "social",
+            "psychological",
+            "identity"
+          ],
+          "whyResists": "Terminal skills took effort to develop - who wants to hear they don't matter? GUI preference sounds like something a \"normie\" would say The technical community has strong aesthetic preferences for CLI It contradicts recent \"terminal is back\" narrative from AI coding tools",
+          "quote": "I'm sorry, but this is just better than working in terminal. I can't think of any reason we'd want to be in terminal besides to look cool in a coffee shop."
+        },
+        {
+          "title": "Opus as Engineering Manager, Codex as Coder",
+          "insight": "Use Opus 4.5 as the orchestrator/engineering manager that controls Codex 5.2 instances for actual implementation - Opus is better at judgment, Codex is better at deep coding.",
+          "category": "workflow",
+          "diagnosticScore": 8,
+          "types": [
+            "implementation",
+            "cognitive"
+          ],
+          "subTypes": [
+            "implementation",
+            "cognitive"
+          ],
+          "whyResists": "Adds setup complexity Requires understanding relative strengths of different models \"One model for everything\" is easier to reason about Most tutorials don't cover multi-model orchestration",
+          "quote": "I trust Opus to be my engineering manager, and to control all of my codex instances to write the code."
+        },
+        {
+          "title": "Scope Narrowing, Not Scope Creeping",
+          "insight": "Design autonomous loops to explicitly narrow scope, not expand it. Review should say \"just fix what has to be fixed\" and create follow-up issues for everything else - then the agent can decide those issues don't actually need implementing.",
+          "category": "antimeme",
+          "diagnosticScore": 8,
+          "types": [
+            "cognitive",
+            "implementation"
+          ],
+          "subTypes": [
+            "cognitive",
+            "implementation"
+          ],
+          "whyResists": "AI suggestions feel valuable by default \"More is better\" intuition for improvements The friction of creating issues feels like busywork Scope creep is often invisible until too late",
+          "quote": "What this is doing is it's scope narrowing. It's saying, just fix the things that have to be fixed and then create these follow-up issues."
+        }
+      ]
+    },
+    {
+      "speaker": "Tina He",
+      "company": "Pace Capital",
+      "topic": "Vibe coding as meditation: From non-coder to shipping daily",
+      "youtube_url": "https://www.youtube.com/watch?v=5YBjll9XJlw&t=10969s",
+      "timestamp": "3:02:49",
+      "insightCount": 3,
+      "insights": [
+        {
+          "title": "It's More About the Vibe Than the Coding",
+          "insight": "The key to vibe coding success isn't technical skill - it's having fun and being genuinely motivated by what you're building. The \"vibe\" part matters more than the \"coding\" part.",
+          "category": "antimeme",
+          "diagnosticScore": 8,
+          "types": [
+            "cognitive",
+            "social"
+          ],
+          "subTypes": [
+            "psychological",
+            "social"
+          ],
+          "whyResists": "\"Vibe coding\" already has the word \"vibe\" but people focus on \"coding\" Fun feels like a side effect, not the strategy Technical communities value skill over enjoyment The productivity mindset prioritizes output over experience",
+          "quote": "It's actually more about the vibe than the coding. It's like, if you are having fun building what you want to build, that's actually the most important motivation."
+        },
+        {
+          "title": "Writers as Vibe Coding Renaissance",
+          "insight": "The \"wordcel vs. shape rotator\" discourse actually flips with LLMs - writers who can describe things precisely can now will them into existence. This is a renaissance of wordcel power.",
+          "category": "antimeme",
+          "diagnosticScore": 8,
+          "types": [
+            "social",
+            "cognitive"
+          ],
+          "subTypes": [
+            "social",
+            "cognitive"
+          ],
+          "whyResists": "The wordcel/shape rotator meme has been coded as \"shape rotators win\" Writers may have internalized \"I'm not technical\" The skill translation (writing → prompting) isn't obvious Tech culture hasn't updated its mental model of who builds things",
+          "quote": "This is actually a renaissance of wordcels power. Like if you're able to describe something, you can really well into existence."
+        },
+        {
+          "title": "Lowered Cost to Create Joy",
+          "insight": "The meaningful non-work use of AI is that the cost to build something fun for someone is now cheaper than buying them a coffee - vibe coding becomes a form of gift-giving and self-expression.",
+          "category": "antimeme",
+          "diagnosticScore": 8,
+          "types": [
+            "cognitive",
+            "social"
+          ],
+          "subTypes": [
+            "cognitive",
+            "social"
+          ],
+          "whyResists": "Building things feels like serious work, not casual gift-giving The comparison to coffee price is unintuitive Social norms haven't caught up to the cost reduction \"I'll build you something\" sounds like a big promise",
+          "quote": "Given the cost is literally lower than probably buying someone a cup of coffee... it can just bring a smile on their face if you build an app for someone."
+        }
+      ]
+    },
+    {
+      "speaker": "Paula Dozsa",
+      "company": "Portola",
+      "topic": "Building a 200k MAU app with zero iOS experience",
+      "youtube_url": "https://www.youtube.com/watch?v=5YBjll9XJlw&t=12660s",
+      "timestamp": "3:31:00",
+      "insightCount": 3,
+      "insights": [
+        {
+          "title": "LLMs Have Physics Intuition",
+          "insight": "Claude understood animation physics intuitively - ease in/out, rotation while flying, deceleration toward target - and produced an animation better than the Figma design without being given explicit physics parameters.",
+          "category": "antimeme",
+          "diagnosticScore": 9,
+          "types": [
+            "cognitive",
+            "implementation"
+          ],
+          "subTypes": [
+            "cognitive",
+            "implementation"
+          ],
+          "whyResists": "\"LLMs don't have taste\" is a common belief Physics and animation feel like embodied knowledge LLMs shouldn't have Designers are protective of aesthetic decisions The success case is surprising, so people might not try",
+          "quote": "I did not expect that an LLM would have a feel for like the physics of it and how things should look. But it actually, I would say it did a better job than what was even prototyped in the Figma file."
+        },
+        {
+          "title": "Vibe Coding for Existing Codebases",
+          "insight": "The conventional wisdom that vibe coding is only for greenfield projects is wrong - with proper setup (skills, agents, hooks), you can vibe code production features into apps with years of established patterns.",
+          "category": "antimeme",
+          "diagnosticScore": 9,
+          "types": [
+            "cognitive",
+            "implementation"
+          ],
+          "subTypes": [
+            "cognitive",
+            "implementation"
+          ],
+          "whyResists": "Most demos show greenfield projects for good reason - easier to show \"Your codebase is too complex\" feels true for established apps The setup investment is invisible in successful demos Companies with legacy code assume they're excluded",
+          "quote": "I wanted to challenge something that I hear a lot, specifically that Vibe Coding is only for prototypes or side projects or projects that you're building from scratch."
+        },
+        {
+          "title": "Onboard Claude Like a New Hire",
+          "insight": "Treat Claude setup like onboarding a new team member - you don't just give them a ticket and tell them to figure it out. You explain architecture, patterns, conventions, and review their code with feedback.",
+          "category": "workflow",
+          "diagnosticScore": 8,
+          "types": [
+            "implementation",
+            "cognitive"
+          ],
+          "subTypes": [
+            "implementation",
+            "cognitive"
+          ],
+          "whyResists": "Onboarding takes effort; people want instant results \"It's AI, not a person\" makes the metaphor feel wrong The payoff is delayed and distributed across many future tasks Most tutorials skip the onboarding phase",
+          "quote": "I would think of it as like onboarding someone new to your team. You don't just give them a ticket and tell them to go figure it out."
+        }
+      ]
+    },
+    {
+      "speaker": "CJ Hess",
+      "company": "Tenex",
+      "topic": "The MCP that teaches Claude every framework",
+      "youtube_url": "https://www.youtube.com/watch?v=5YBjll9XJlw&t=14530s",
+      "timestamp": "4:02:10",
+      "insightCount": 3,
+      "insights": [
+        {
+          "title": "Anti-MCP: Skills and CLIs Are Better",
+          "insight": "MCPs are overhyped - skills and CLIs often do the same job with less context bloat. For reading (not just writing), MCPs struggle to give you exact one-to-one matches with your code.",
+          "category": "antimeme",
+          "diagnosticScore": 9,
+          "types": [
+            "social",
+            "cognitive"
+          ],
+          "subTypes": [
+            "social",
+            "cognitive"
+          ],
+          "whyResists": "MCPs are being heavily promoted by Anthropic and tool makers \"I'm anti-MCP\" sounds like a hot take rather than experience Context bloat is invisible until you're debugging The MCP ecosystem is expanding rapidly, FOMO pressure Skills require more upfront work to create",
+          "quote": "I'm anti-MCP. I find that skills and CLIs are often just as capable and also kind of give you way less context bloat."
+        },
+        {
+          "title": "Typing Laziness vs. Rambling Specificity",
+          "insight": "When typing prompts, there's \"inherent laziness\" that makes you write shorter, vaguer prompts. When rambling via voice-to-text, you naturally give way more context and specificity because talking is faster than typing.",
+          "category": "antimeme",
+          "diagnosticScore": 8,
+          "types": [
+            "cognitive",
+            "implementation"
+          ],
+          "subTypes": [
+            "psychological",
+            "implementation"
+          ],
+          "whyResists": "\"Typing is how I work\" is deeply ingrained Voice input in shared spaces feels awkward The connection between input method and prompt quality isn't obvious Most tutorials show typed prompts \"I can type fast\" is a point of pride for developers",
+          "quote": "When I'm typing, there's some inherent laziness where I don't want to spend the time to type out this perfectly exact prompt... But if I'm just rambling, I'm way more specific."
+        },
+        {
+          "title": "JSON as the Universal Design Language",
+          "insight": "The breakthrough isn't visual mockups for humans - it's JSON mockups that Claude can actually read and modify. Flowy stores diagrams as JSON files with spatial coordinates, which lets Claude iterate on them programmatically.",
+          "category": "workflow",
+          "diagnosticScore": 8,
+          "types": [
+            "cognitive",
+            "implementation"
+          ],
+          "subTypes": [
+            "cognitive",
+            "implementation"
+          ],
+          "whyResists": "Figma and design tools export images, not AI-readable JSON \"Design\" is mentally categorized as visual, not structural Building a custom tool like Flowy is a weekend project most won't do The JSON-to-visual translation layer is non-obvious",
+          "quote": "In your IDE, these actually live as JSON files... And Claude gets a much better place where it can iterate on the flow."
+        }
+      ]
+    },
+    {
+      "speaker": "Geoffrey Litt",
+      "company": "Notion",
+      "topic": "Malleable software and Notion: Apps that rewrite themselves",
+      "youtube_url": "https://www.youtube.com/watch?v=5YBjll9XJlw&t=17995s",
+      "timestamp": "4:59:55",
+      "insightCount": 3,
+      "insights": [
+        {
+          "title": "CLI: A Mediocre GUI and a Mediocre API",
+          "insight": "A CLI is a mediocre GUI and a mediocre API - but the fact that it's both is what makes it powerful. You can do stuff manually AND up-level to automations. GUIs usually can't do this, but they could.",
+          "category": "antimeme",
+          "diagnosticScore": 9,
+          "types": [
+            "cognitive",
+            "implementation"
+          ],
+          "subTypes": [
+            "cognitive",
+            "technical"
+          ],
+          "whyResists": "\"It's mediocre\" doesn't sound like praise The dual-use nature requires understanding both use cases GUI designers don't think in terms of composability The CLIs-for-power-users narrative obscures this \"Why can't my GUI do this?\" isn't a common question",
+          "quote": "A CLI is a mediocre GUI and a mediocre API. But the fact that it's both is what's great... you can do stuff manually in a CLI, but then you can also up-level to automations and compositions."
+        },
+        {
+          "title": "Quiz Yourself Before Shipping AI PRs",
+          "insight": "Never send a PR that an agent wrote unless you can pass a quiz about what's in it. Have the AI generate comprehension questions, then test yourself. This is an automated damper on speed that prevents self-deception about understanding.",
+          "category": "workflow",
+          "diagnosticScore": 9,
+          "types": [
+            "cognitive",
+            "implementation"
+          ],
+          "subTypes": [
+            "psychological",
+            "implementation"
+          ],
+          "whyResists": "Speed is the point of AI coding; this slows you down \"I read the code\" feels like enough verification Self-quizzing requires admitting you might not understand It's easy to convince yourself you understand without testing The practice isn't standard in any dev workflow",
+          "quote": "If I'm sending PRs to people that an agent wrote, I refuse to send it unless I can pass a quiz of understanding what's in the PR."
+        },
+        {
+          "title": "Explanations Start Zoomed Out, Not with Diffs",
+          "insight": "AI explanations should never start with a code diff. They should start with the domain context (what is this, how does this work) and only then show what changed. Build understanding before showing changes.",
+          "category": "antimeme",
+          "diagnosticScore": 8,
+          "types": [
+            "implementation"
+          ],
+          "subTypes": [
+            "process",
+            "implementation"
+          ],
+          "whyResists": "Diffs are the standard PR review format \"Get to the point\" culture in engineering Context feels like overhead The extra generation time for explanations \"I know the codebase\" assumption",
+          "quote": "My explanations never start with a code diff. They start really zoomed out. This is what lunar landers are, here's how the physics works... there's so much context."
+        }
+      ]
+    },
+    {
+      "speaker": "Thariq Shihipar",
+      "company": "Anthropic",
+      "topic": "Inside Anthropic: Why tasks will replace to-dos",
+      "youtube_url": "https://www.youtube.com/watch?v=5YBjll9XJlw&t=21740s",
+      "timestamp": "6:02:20",
+      "insightCount": 3,
+      "insights": [
+        {
+          "title": "Delete Code When Models Improve",
+          "insight": "When models get better, you have to delete the code that previously helped them. The AI capabilities start here, engineering takes you higher, then new model comes out and you delete and restart. Most people get stuck at the deletion step.",
+          "category": "antimeme",
+          "diagnosticScore": 10,
+          "types": [
+            "cognitive",
+            "implementation"
+          ],
+          "subTypes": [
+            "psychological",
+            "implementation"
+          ],
+          "whyResists": "Sunk cost fallacy - we built this, we should keep it Deleting code feels like regression \"It's not broken, don't fix it\" mentality Hard to measure what the model can now do natively The new capability baseline is invisible",
+          "quote": "The AI capabilities are like here, but with some engineering work, you can make it go up to here and then the next model comes out and it's here and you have to like delete the code... And most people get stuck at deleting the code."
+        },
+        {
+          "title": "Feel Can't Be Outsourced",
+          "insight": "Even if Claude could read all user feedback, there's something about hearing directly that motivates and reveals meta-patterns. Getting too abstracted from feedback - even via Claude summarization - makes you lose the \"feel\" of what users are saying.",
+          "category": "antimeme",
+          "diagnosticScore": 8,
+          "types": [
+            "cognitive",
+            "implementation"
+          ],
+          "subTypes": [
+            "cognitive",
+            "implementation"
+          ],
+          "whyResists": "AI summarization is supposed to be the efficiency unlock \"Talk to users\" is a startup cliché that feels outdated Meta-patterns sound vague compared to structured data The motivation benefit is hard to measure Engineers prefer building to reading feedback",
+          "quote": "There's definitely like something about like hearing directly that motivates you to do it and helps you figure out the common pattern... if you get too abstracted from it, like even if Claude is doing too much work for you, I think like that can also be hard to like understand what's the meta pattern."
+        },
+        {
+          "title": "Spec Mode for Ambiguity Reduction",
+          "insight": "Have Opus interview you to write specs for 30 minutes before it starts coding. This reduces ambiguity enough that the agent can then run for long periods productively. The human work shifts from coding to speccing.",
+          "category": "workflow",
+          "diagnosticScore": 8,
+          "types": [
+            "cognitive",
+            "implementation"
+          ],
+          "subTypes": [
+            "psychological",
+            "implementation"
+          ],
+          "whyResists": "\"I'll explain as we go\" feels more natural Spec writing sounds like enterprise bureaucracy The payoff (longer autonomous runs) isn't immediate Most people haven't tried interview mode 30 minutes of speccing tests patience",
+          "quote": "The spec mode stuff, I actually felt helped me reduce the ambiguity of a feature quite a lot so that then I could have Opus run for long periods of time, but it took a lot more work out of me like... I'm writing specs for like 30 minutes."
+        }
+      ]
+    },
+    {
+      "speaker": "Naveen Naidu",
+      "company": "Every / Monologue",
+      "topic": "One developer vs VC-backed voice note giants",
+      "youtube_url": "https://www.youtube.com/watch?v=5YBjll9XJlw&t=23447s",
+      "timestamp": "6:30:47",
+      "insightCount": 3,
+      "insights": [
+        {
+          "title": "Implementation Doesn't Matter - Knowing What Matters",
+          "insight": "In the age we're living in, implementing features is not really important. What's important is knowing what to implement and what actually gets people excited. The building is cheap; the deciding is valuable.",
+          "category": "antimeme",
+          "diagnosticScore": 9,
+          "types": [
+            "cognitive",
+            "social"
+          ],
+          "subTypes": [
+            "cognitive",
+            "identity"
+          ],
+          "whyResists": "Engineering culture valorizes the build \"Ideas are cheap, execution is everything\" is startup gospel Feels like diminishing technical skill Product people have been saying this for years without being believed The shift happened so fast most haven't updated",
+          "quote": "In the age that right now we are living in implementing features is not really that important, it's knowing what to implement and what actually gets people excited, that's the most important part for us."
+        },
+        {
+          "title": "Competitors Educating the Market Is a Gift",
+          "insight": "When VC-backed competitors raise $10-80M and spend it educating the market, they're doing your marketing for you. Education is expensive; building a competitive product with one person is cheap. Let them create the market, then capture it.",
+          "category": "antimeme",
+          "diagnosticScore": 9,
+          "types": [
+            "cognitive",
+            "system"
+          ],
+          "subTypes": [
+            "psychological",
+            "business"
+          ],
+          "whyResists": "Founders fear competitive pressure VC money looks like an advantage to compete against The reframe requires seeing your weakness as strength \"They're raising to crush you\" is the default narrative Education asymmetry (expensive) vs building asymmetry (cheap) isn't obvious",
+          "quote": "Getting people to use products that use AI is really hard, there's a lot of education... we have competitors that are spending millions of dollars educating a market and you building a product that is just as good, if not better."
+        },
+        {
+          "title": "Personal Use Test: If You Don't Use It, Throw It Away",
+          "insight": "Always try to implement a feature and see if you're using it personally. If you're not using it, better to throw it away and start from scratch. Your own non-use is the signal the feature is wrong.",
+          "category": "workflow",
+          "diagnosticScore": 7,
+          "types": [
+            "cognitive"
+          ],
+          "subTypes": [
+            "psychological"
+          ],
+          "whyResists": "Sunk cost of building the feature \"Users are different from me\" rationalization We convince ourselves we'll use it later Throwing away work feels wasteful Dogfooding advice is common but the \"throw it away\" part isn't",
+          "quote": "So that's a good learning point for me is always try to implement the feature and see if you're using it personally or not. If you're not using it, better to throw it away and start from scratch again."
+        }
+      ]
+    },
+    {
+      "speaker": "Yash Poojary",
+      "company": "Every / Sparkle",
+      "topic": "Reverse engineering ChatGPT and Spotify to learn faster",
+      "youtube_url": "https://www.youtube.com/watch?v=5YBjll9XJlw&t=25178s",
+      "timestamp": "6:59:38",
+      "insightCount": 3,
+      "insights": [
+        {
+          "title": "Every App on Your Mac Is a Book",
+          "insight": "Writers read thousands of books before writing. Athletes study game film. Artists copy masters stroke by stroke. Developers have had no equivalent - until now. Every macOS app is a book you can open and read. Reverse engineering is studying the masters.",
+          "category": "antimeme",
+          "diagnosticScore": 9,
+          "types": [
+            "cognitive",
+            "social"
+          ],
+          "subTypes": [
+            "cognitive",
+            "professional"
+          ],
+          "whyResists": "Apps feel like black boxes \"Learning from competitors\" feels unethical The analogy to writers/athletes isn't obvious Developers learn from tutorials, not production code The method (LLM parsing app bundles) is very new",
+          "quote": "Every app on your Mac is a book and you can open it and start reading it... Like studying game film or copying Picasso stroke by stroke. It's not to become them. It's just to learn what excellence looks like."
+        },
+        {
+          "title": "TikTokification of Code Is Wrong",
+          "insight": "When AI spits out code, the instinct is to swipe up - \"OK, next step.\" This TikTokification of code is wrong. Coding used to be meditative, a flow state. Reading AI-generated code line by line restores that meditation. The flow isn't in generation; it's in comprehension.",
+          "category": "antimeme",
+          "diagnosticScore": 9,
+          "types": [
+            "cognitive",
+            "social"
+          ],
+          "subTypes": [
+            "psychological",
+            "identity"
+          ],
+          "whyResists": "Speed is celebrated \"AI wrote it, must be fine\" is the default assumption Reading feels slower than generating The meditative quality of coding isn't discussed We're trained to optimize for output, not comprehension",
+          "quote": "It's like TikTokification of code, like swiping up. That's wrong. That's not how you build technology... Coding used to be meditative. Like, you can just look at an editor and just forget about all your concerns and just write code."
+        },
+        {
+          "title": "Teardown as Scoping Document",
+          "insight": "Use reverse engineering not to copy code but to scope features. When you don't know what the scope should be, asking an LLM gives you generic answers - it has no skin in the game. But billion-dollar companies have tested what matters. Their app bundle IS the tested spec.",
+          "category": "workflow",
+          "diagnosticScore": 8,
+          "types": [
+            "implementation",
+            "cognitive"
+          ],
+          "subTypes": [
+            "implementation",
+            "cognitive"
+          ],
+          "whyResists": "Scoping feels like forward planning, not backward analysis \"What frameworks does ChatGPT use?\" isn't the normal scoping question The connection between teardown and scope isn't obvious It requires running the prompt and reading the output Generic LLM advice feels authoritative even without skin in the game",
+          "quote": "What I use it personally is for scoping things. When you start building something new, you don't know what the scope is. You can ask Cloud or ChatGPT, but it doesn't have skin in the game. When you look at a billion dollar app, they have tested this out."
+        }
+      ]
+    },
+    {
+      "speaker": "Brooker Belcourt",
+      "company": "Every Consulting",
+      "topic": "5-hour hedge fund research in 20 minutes with Claude",
+      "youtube_url": "https://www.youtube.com/watch?v=5YBjll9XJlw&t=26976s",
+      "timestamp": "7:29:36",
+      "insightCount": 3,
+      "insights": [
+        {
+          "title": "The Compute Gap",
+          "insight": "Web interfaces (ChatGPT, Claude.ai) are stuck at 20-30 minutes of compute. Since early 2025, models can handle hours of processing, but web apps haven't caught up. Claude Code fills this gap - that's why it's exploding. You're barely scratching the surface with browser-based AI.",
+          "category": "antimeme",
+          "diagnosticScore": 9,
+          "types": [
+            "cognitive",
+            "implementation"
+          ],
+          "subTypes": [
+            "cognitive",
+            "technical"
+          ],
+          "whyResists": "\"I'm already using Claude/ChatGPT\" feels like full access The 20-minute limit isn't explicitly communicated Web UI is the default experience for most users CLI/API feels like \"developer stuff\" The capability gap is invisible - you don't see what you're missing",
+          "quote": "The issue is when you use ChatGPT or the web-based interfaces, you're pretty much only getting 20 to 30 minutes of compute... we've expanded to offer LLMs significantly more time to process. But the web apps have kind of stuck at 20 minutes. And so there's this huge gap."
+        },
+        {
+          "title": "LLMs Are Consensus by Default",
+          "insight": "Without explicit investment philosophy, LLMs give consensus analysis. They're trained on average opinions. You have to tell Claude what makes a great investor - trajectory, acceleration, specific metrics you care about - because by default it gives you what everyone else thinks.",
+          "category": "antimeme",
+          "diagnosticScore": 8,
+          "types": [
+            "cognitive"
+          ],
+          "subTypes": [
+            "cognitive"
+          ],
+          "whyResists": "\"AI analysis\" sounds sophisticated We assume LLMs have good judgment by default The consensus nature isn't obvious until you compare to expert analysis Adding philosophy feels like extra work Most people don't have articulated investment principles to add",
+          "quote": "I find LLMs are just very consensus in the way they look at ideas. So I'm turning Claude into this research agent... I give it my investing principles. Like I like trajectory. I like accelerating businesses, not decelerating businesses."
+        },
+        {
+          "title": "Prompts as Version-Controlled IP",
+          "insight": "When prompts hit 8,000 characters, you've outgrown chat windows. Store prompts in GitHub and version control them like code. The prompt library becomes IP - valuable, iterable, and yours. Cloud plugins let you call these prompts with slash commands.",
+          "category": "workflow",
+          "diagnosticScore": 8,
+          "types": [
+            "implementation",
+            "cognitive"
+          ],
+          "subTypes": [
+            "implementation",
+            "cognitive"
+          ],
+          "whyResists": "Prompts feel temporary, not permanent \"Just paste it again\" is the default approach GitHub for prompts seems like overkill The IP framing of prompts isn't common Most users haven't hit the character limit that forces this",
+          "quote": "When you use ChatGPT and you're starting to produce these prompts, they get to be really really long and they start to hit this 8,000 character limit... what we can do is create a Cloud plugin in a GitHub repo. And now I'm saving all my prompts and I'm version controlling them."
+        }
+      ]
+    }
+  ]
+}

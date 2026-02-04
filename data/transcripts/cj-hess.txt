@@ -1,0 +1,1810 @@
+# CJ Hess - The MCP that teaches Claude every framework
+
+**Company:** Tenex
+**Timestamp:** 4:02:10
+**YouTube:** https://www.youtube.com/watch?v=5YBjll9XJlw&t=14530s
+
+---
+
+=== CJ HESS (Tenex) - Context7 MCP ===
+
+
+(04:02:10):
+What's up, CJ?
+
+(04:02:11):
+What's up, Brandon?
+
+(04:02:12):
+How are you?
+
+(04:02:12):
+Good to see you.
+
+(04:02:16):
+I lost you there.
+
+(04:02:17):
+I said great to meet you.
+
+(04:02:18):
+Oh, yeah.
+
+(04:02:18):
+Great to meet you.
+
+(04:02:19):
+Thanks for having me on.
+
+(04:02:20):
+I think everyone here is pretty excited to make an appearance.
+
+(04:02:24):
+Yeah.
+
+(04:02:25):
+So you're a 10x engineer at 10x.
+
+(04:02:28):
+Oh, yeah.
+
+(04:02:29):
+Double 10x.
+
+(04:02:30):
+Maybe you can tell everybody what 10x is.
+
+(04:02:33):
+Yeah.
+
+(04:02:34):
+Maybe like a little bit about yourself and then what you want to get into today.
+
+(04:02:38):
+For sure.
+
+(04:02:38):
+Yeah.
+
+(04:02:38):
+So my background,
+
+(04:02:41):
+I went to Carnegie Mellon out in Pittsburgh,
+
+(04:02:43):
+studied computer science,
+
+(04:02:45):
+got out of school,
+
+(04:02:45):
+did the whole like I'm going to make a massive startup.
+
+(04:02:49):
+Did that a couple of times,
+
+(04:02:50):
+went through it,
+
+(04:02:51):
+eventually decided I wanted to make some money,
+
+(04:02:54):
+ended up doing some contracting work kind of around mobile apps is my focus.
+
+(04:03:00):
+And really started getting into the AI stuff,
+
+(04:03:03):
+just using it more and more,
+
+(04:03:04):
+feeling kind of the acceleration and also working as a contractor in an hourly
+
+(04:03:11):
+capacity.
+
+(04:03:11):
+I just felt like I was getting so much more work done.
+
+(04:03:17):
+And that made me start to think about things like,
+
+(04:03:19):
+okay,
+
+(04:03:20):
+I'm outputting more,
+
+(04:03:21):
+but I'm really getting paid less at the end of the day.
+
+(04:03:25):
+At the same time,
+
+(04:03:26):
+I was like exploring career opportunities and stumbled across 10X from a Twitter
+
+(04:03:31):
+post by Alex.
+
+(04:03:32):
+Basically, the 10X model has two pieces.
+
+(04:03:36):
+One is traditional AI consulting,
+
+(04:03:39):
+AI transformation,
+
+(04:03:40):
+kind of coming into a business,
+
+(04:03:41):
+finding the opportunities and the best places to plug in,
+
+(04:03:45):
+whether it's like a pre-made workflow or something custom.
+
+(04:03:47):
+And then also the side that is more like a dev shop,
+
+(04:03:51):
+where we're doing general engineering tasks, but we're looking for those 10x engineers.
+
+(04:03:58):
+And the kind of trick of the model is that we get paid by StoryPoint as engineers.
+
+(04:04:04):
+So each sprint, we kind of scope it out, and then it's up to us to build it.
+
+(04:04:09):
+And essentially,
+
+(04:04:10):
+as tools get better,
+
+(04:04:11):
+as we get better at utilizing the tools,
+
+(04:04:13):
+our capacity can expand,
+
+(04:04:15):
+and we're able to handle...
+
+(04:04:17):
+projects across a ton of different domains it's such a crazy change in the business
+
+(04:04:23):
+model of how to run like these sort of service type businesses around engineering
+
+(04:04:28):
+going from i'm going to pay you per hour in which case you would be incentivized to
+
+(04:04:31):
+like really take your time there's really like not that much incentive to like do a
+
+(04:04:35):
+great job unless you want to like keep your job long term to hey ai exists now you
+
+(04:04:41):
+can get things done really fast the more things you get done the more money you
+
+(04:04:44):
+make
+
+(04:04:45):
+And the best way to do that, obviously, is with AI, which is why you're a 10X engineer.
+
+(04:04:51):
+And we really focus on the output side.
+
+(04:04:54):
+So it's like, hey, this sprint, what feature can we ship?
+
+(04:04:58):
+And how can we scope that to fit within this?
+
+(04:05:00):
+And then how can we knock it out of the park?
+
+(04:05:02):
+And everyone's incentivized to do better on that output as opposed to take their
+
+(04:05:07):
+time and just rack up more hours.
+
+(04:05:10):
+So what's your stack?
+
+(04:05:11):
+How do you get shit done as a 10X engineer?
+
+(04:05:15):
+Yeah, so I'm big on monorepos.
+
+(04:05:19):
+I think that's kind of the way, right?
+
+(04:05:21):
+Can you explain what that means to everyone?
+
+(04:05:25):
+For sure, yeah.
+
+(04:05:27):
+I think sometimes traditionally,
+
+(04:05:28):
+especially at larger or older tech businesses,
+
+(04:05:33):
+you have a back-end team,
+
+(04:05:34):
+a front-end team,
+
+(04:05:35):
+you have a DevOps team,
+
+(04:05:36):
+you kind of have a bunch of people across...
+
+(04:05:39):
+different stacks and different code bases.
+
+(04:05:43):
+And really, the problem you run into there is, hey, I've implemented this new API endpoint.
+
+(04:05:48):
+Now I need to fetch that data from the front end.
+
+(04:05:50):
+If you're running Claude just within the front end,
+
+(04:05:53):
+you're going to spend half your time explaining what data is coming in.
+
+(04:05:55):
+It might not be right.
+
+(04:05:57):
+It's going to be a lot of back and forth.
+
+(04:05:58):
+When you're just sitting in the mono repo, you can kind of build the whole data flow.
+
+(04:06:04):
+You can say, I need this new feature.
+
+(04:06:06):
+It's going to store this data.
+
+(04:06:07):
+You're going to pull this data.
+
+(04:06:09):
+We're going to start at the database,
+
+(04:06:10):
+build it up through the back end,
+
+(04:06:11):
+and then we're going to build the front end for it.
+
+(04:06:14):
+And that just lets us move so much faster,
+
+(04:06:17):
+both from the coding side with Claude,
+
+(04:06:19):
+but even just coordination,
+
+(04:06:20):
+right?
+
+(04:06:20):
+Like when we're talking about full stack devs,
+
+(04:06:23):
+they can just move so much faster with these tools.
+
+(04:06:25):
+What about like, because I mean, you're working with clients.
+
+(04:06:28):
+I assume you have some really big clients.
+
+(04:06:29):
+What about those clients that don't have mono repos?
+
+(04:06:31):
+And I'm sure like some people watching are working in non-mono repos.
+
+(04:06:36):
+How do you navigate that?
+
+(04:06:39):
+There's kind of an interesting dynamic between a net new project,
+
+(04:06:45):
+something that we've started and is a monorepo and is the stack we like,
+
+(04:06:48):
+or if we're coming in to help an existing engineering team.
+
+(04:06:51):
+Really...
+
+(04:06:54):
+in those scenarios we just try to take the best practices things that we've kind of
+
+(04:06:59):
+built up whether they're skills or prompts internally on how to handle either a
+
+(04:07:04):
+different tech stack or kind of grab context from everywhere there's some like i'd
+
+(04:07:09):
+call them like a frankenstein mono repo where you know we're a part of the front
+
+(04:07:13):
+end and the back end directory so we can still reference them we actually run
+
+(04:07:17):
+claude in like a higher directory
+
+(04:07:20):
+And that usually gets us around most of the corners,
+
+(04:07:23):
+but there's definitely some times where,
+
+(04:07:24):
+you know,
+
+(04:07:25):
+maybe we're only interfacing with a backend team and we have kind of the
+
+(04:07:28):
+traditional coordination bottlenecks that any software team would.
+
+(04:07:32):
+Yeah, that makes sense.
+
+(04:07:33):
+Not as efficient.
+
+(04:07:34):
+So what do you want to demo?
+
+(04:07:37):
+Yeah, so there's a couple things.
+
+(04:07:40):
+There's basically a new workflow that I've been playing with,
+
+(04:07:44):
+and some people internally here have been playing with.
+
+(04:07:47):
+I'm going to just hop in and present real quick.
+
+(04:07:53):
+Let's see if this works.
+
+(04:07:58):
+I think we're going to get an Infinimir here.
+
+(04:08:00):
+Nice.
+
+(04:08:01):
+Sweet.
+
+(04:08:02):
+We are.
+
+(04:08:03):
+Cool.
+
+(04:08:04):
+So basically, I spun up this little app kind of as a clawed code guide.
+
+(04:08:10):
+It's got a basic couple steps of onboarding and a homepage.
+
+(04:08:14):
+And as I do this, like most people, I'm planning over here in Markdown files.
+
+(04:08:21):
+And kind of one of the bottlenecks that I've run into in my flow is...
+
+(04:08:27):
+situations like this where i prefer a lot of visual flows you know ui mock-ups if i
+
+(04:08:34):
+scroll down here i have rough ui mock-ups yeah and you're doing all this in
+
+(04:08:39):
+planning mode i assume
+
+(04:08:41):
+Yeah, yeah.
+
+(04:08:41):
+So I'll sit, you know, I'll sit in this markdown until this is almost exactly what I want.
+
+(04:08:46):
+There are definitely times where I even go a step further and I'm like,
+
+(04:08:50):
+write out all the code file by file.
+
+(04:08:53):
+Give me some diffs.
+
+(04:08:54):
+And I almost want to do a code review before we're actually touching the files.
+
+(04:08:57):
+Yep.
+
+(04:08:59):
+But kind of the big bottleneck I ran into here was whether it's a system diagram,
+
+(04:09:04):
+a flowchart,
+
+(04:09:05):
+a UI mockup.
+
+(04:09:07):
+When I hopped into this view, it's really hard to kind of change what we want to see here.
+
+(04:09:13):
+You know, let's say in this feature we're building, I want to build a quiz.
+
+(04:09:19):
+So instead of just having this be like a knowledge base about Cloud Code,
+
+(04:09:23):
+I'd want to quiz the user about it.
+
+(04:09:26):
+So we have kind of like some basic state diagrams of what we're going to do.
+
+(04:09:30):
+If I wanted to come in here and say, OK, I don't really want this to be multiple choice.
+
+(04:09:35):
+I want it to flow from here to here to here to here.
+
+(04:09:38):
+It ends up being like a long prompt that I often find gets convoluted.
+
+(04:09:44):
+So kind of a tool that I'm going to flip back to my browser for.
+
+(04:09:48):
+that we built internally is called Flowey.
+
+(04:09:52):
+Basically, it's local Figma type setup.
+
+(04:09:57):
+But in your IDE, these actually live as JSON files.
+
+(04:10:02):
+So if I'm here, these diagrams actually correspond to what we see over here.
+
+(04:10:07):
+And Claude gets a much better place where it can iterate on the flow.
+
+(04:10:11):
+Okay, so just to say that back to you.
+
+(04:10:13):
+So this is a file that lives in your system.
+
+(04:10:14):
+Obviously, it's localhost.
+
+(04:10:17):
+You're referencing, you're saving it in your directory.
+
+(04:10:19):
+And you're asking in the plan, hey, reference this diagram.
+
+(04:10:24):
+Don't actually reference what's in the plan itself.
+
+(04:10:27):
+Yep.
+
+(04:10:27):
+Yeah, I'll make often these are supplemental.
+
+(04:10:31):
+So I'll make the markdown plan and kind of the first few steps are to make these diagrams.
+
+(04:10:36):
+So it's,
+
+(04:10:37):
+you know,
+
+(04:10:37):
+when I was thinking about kind of onboarding,
+
+(04:10:40):
+it was designed these steps first.
+
+(04:10:42):
+Then we can talk about UI mockups, what we want it to look like.
+
+(04:10:46):
+And you just get a much more visual view.
+
+(04:10:49):
+And then you can even come in here and kind of change up some of the text.
+
+(04:10:52):
+So say we want this to say guide.
+
+(04:10:54):
+I can change this here.
+
+(04:10:56):
+And this will end up saving
+
+(04:11:00):
+I say that as it doesn't save on the screen,
+
+(04:11:02):
+but it'll end up saving to that JSON file at least,
+
+(04:11:04):
+and then Claude gets more and more context around exactly what you want to make.
+
+(04:11:08):
+Okay, so I just want to read this back to you because this is a new paradigm for me.
+
+(04:11:12):
+You have built Flowey, which...
+
+(04:11:16):
+allows you to actually sketch out what an experience is going to be like,
+
+(04:11:21):
+which is what your onboarding flow screen is.
+
+(04:11:25):
+And then this is real mock-ups that then in your plan are being referenced.
+
+(04:11:29):
+So when you say to Claude,
+
+(04:11:30):
+okay,
+
+(04:11:30):
+go execute on this plan,
+
+(04:11:32):
+it's referencing back to onboarding flow and whatever this is.
+
+(04:11:37):
+so that at the end of the day,
+
+(04:11:38):
+you have the flow built to match what you built in onboarding flow and also the UI
+
+(04:11:46):
+to look.
+
+(04:11:47):
+It looked pretty close to this.
+
+(04:11:49):
+Yeah, I mean, it's very lightweight.
+
+(04:11:53):
+I won't claim that the UI in this little vibe-coded app is super complex,
+
+(04:12:00):
+but it just gives that one step.
+
+(04:12:02):
+If I'm back in my IDE and I'm looking in this initial plan,
+
+(04:12:08):
+this UI mockup doesn't give me much signal.
+
+(04:12:11):
+Yeah.
+
+(04:12:12):
+And,
+
+(04:12:14):
+you know,
+
+(04:12:15):
+when we look at this one,
+
+(04:12:16):
+I get a lot more signal on what this is going to look like,
+
+(04:12:18):
+what the feel is going to be.
+
+(04:12:19):
+And I'm able to come in and,
+
+(04:12:21):
+you know,
+
+(04:12:21):
+if I wanted to move this around or delete something,
+
+(04:12:24):
+you know,
+
+(04:12:24):
+you kind of have full editing ability.
+
+(04:12:27):
+So it's almost like as a developer, I've become more of a designer.
+
+(04:12:32):
+Yeah.
+
+(04:12:32):
+yeah and then after running these steps i mean this flow implementation was you
+
+(04:12:39):
+know a single prompt right and now we have this full flow built out exactly how i'd
+
+(04:12:43):
+want it wow um is it is it like taking screenshots of that flow and adding giving
+
+(04:12:51):
+that to claude is there like or is it like turning that into you know some sort of
+
+(04:12:56):
+front-end code that then it's literally using here
+
+(04:12:58):
+Yeah, so this JSON file, frankly, Flowy was pretty Ralphed.
+
+(04:13:05):
+This was me experimenting with a Ralph loop on the weekend.
+
+(04:13:10):
+But in here, it's very much so just JSON of like, what's our ID?
+
+(04:13:16):
+What's the shape?
+
+(04:13:17):
+What is the label going to say?
+
+(04:13:19):
+Where is it?
+
+(04:13:20):
+And this is something that I think is really kind of emergent out of the newer version
+
+(04:13:27):
+generation of models i don't think a sonnet 4 would do this great for example um
+
+(04:13:32):
+just because of all the spatial you know reasoning it has to do about where
+
+(04:13:36):
+different things live in the diagram but this really you know i would say is a
+
+(04:13:42):
+rough set of styles and layout that then claude's really good at looking at this
+
+(04:13:49):
+and saying okay in react i need this component this component this component here's
+
+(04:13:53):
+how they're going to stack up and it's going to look like this
+
+(04:13:56):
+I mean, I can tell you just like for me, and I'm seeing from a lot of the comments too.
+
+(04:14:02):
+So I'm not technical, but I have a design background.
+
+(04:14:06):
+So I think very visually.
+
+(04:14:09):
+Yes,
+
+(04:14:09):
+I can like look at plans,
+
+(04:14:10):
+but I run into the same issue as you where like actually describing what I want to
+
+(04:14:14):
+build.
+
+(04:14:15):
+When I think about what I want to build, I think about it visually.
+
+(04:14:17):
+I don't think about it in code.
+
+(04:14:19):
+So something like this would be amazing for...
+
+(04:14:22):
+sort of the non-technical designer people to actually be able to build something
+
+(04:14:28):
+much faster than you would in markdown files.
+
+(04:14:30):
+Cause it's just such a pain in the ass to like go back and forth with a plan and
+
+(04:14:34):
+write out,
+
+(04:14:35):
+you know,
+
+(04:14:36):
+in words,
+
+(04:14:37):
+what you want.
+
+(04:14:39):
+I got tired of looking at these ASCII boxes.
+
+(04:14:42):
+Yeah.
+
+(04:14:43):
+You know, the nomenclature is different and you switch the words up by mistake.
+
+(04:14:47):
+So it's, it's really, it's really cool.
+
+(04:14:51):
+Yeah,
+
+(04:14:52):
+and basically what I've sketched out that I'll kick off a Claude and then we can
+
+(04:14:57):
+talk while it works and actually watch some of the new charts come up.
+
+(04:15:00):
+Yeah.
+
+(04:15:01):
+Sketched out this new feature as a quiz.
+
+(04:15:04):
+And in this first few steps of the plan are basically saying, hey, create the flow diagrams.
+
+(04:15:12):
+Here's the file you're going to create.
+
+(04:15:13):
+Let's put it in the flowy directory.
+
+(04:15:16):
+And here's roughly what it's going to look like.
+
+(04:15:20):
+So just hopping to Claude,
+
+(04:15:21):
+I'm just going to say,
+
+(04:15:22):
+great,
+
+(04:15:22):
+based on that plan,
+
+(04:15:26):
+please use the flowy skill and create the diagrams and mockups.
+
+(04:15:36):
+And in here, I've created two skills for Flowey.
+
+(04:15:40):
+One is around flowcharts and one is around UI mockups.
+
+(04:15:45):
+Both of these are kind of just how does Flowey work?
+
+(04:15:50):
+How did the layouts work?
+
+(04:15:51):
+How does the JSON work?
+
+(04:15:53):
+And then also kind of some specifics about what's our goal in a mockup?
+
+(04:15:56):
+What's our goal in a flowchart?
+
+(04:15:58):
+Yeah.
+
+(04:15:59):
+And then just so I understand that in the markdown file,
+
+(04:16:03):
+in the plan,
+
+(04:16:04):
+you're saying,
+
+(04:16:05):
+you know,
+
+(04:16:05):
+usually skills make this file,
+
+(04:16:07):
+but you're also giving it a rough outline of what you want before you then go ahead
+
+(04:16:10):
+and make it.
+
+(04:16:11):
+Yeah, for sure.
+
+(04:16:12):
+So I've kind of,
+
+(04:16:14):
+A lot of the times I'll use whisper flow or something to transcribe or dictate what
+
+(04:16:18):
+I'm going to say.
+
+(04:16:22):
+I'll just ramble, you know, just give it as much context as possible.
+
+(04:16:26):
+And then I have a prompt that roughly creates a structured plan.
+
+(04:16:32):
+First few steps of it are...
+
+(04:16:34):
+usually something i outline but if not i have it infer like what diagrams would be
+
+(04:16:39):
+helpful for this one i said you know i want to know the navigation flow which is
+
+(04:16:44):
+roughly like this right we're going to enter the main app going to go to the learn
+
+(04:16:48):
+tab there's going to be a quiz card that's going to take us through these different
+
+(04:16:53):
+pages this is great this is kind of exactly what i was looking for and described um
+
+(04:16:59):
+the other one i had mentioned was this gameplay flow
+
+(04:17:03):
+And this is, hey, what question are we on?
+
+(04:17:06):
+Did we get it correct?
+
+(04:17:07):
+What happens when we get it correct?
+
+(04:17:09):
+Kind of this whole visual mapping of what's actually going on in this quiz.
+
+(04:17:13):
+And the mock-up one is going to take Claude a second,
+
+(04:17:16):
+but when that pops up,
+
+(04:17:17):
+it'll actually show kind of the screens that we're going to build.
+
+(04:17:20):
+Yeah.
+
+(04:17:21):
+Can you talk about, like, just how impactful voice-to-text has been for your flow?
+
+(04:17:26):
+It...
+
+(04:17:29):
+So I was a hater of all the transcription type tools for a while.
+
+(04:17:36):
+But only recently did I start using Whisperflow.
+
+(04:17:40):
+And I found...
+
+(04:17:43):
+One, the speed is awesome.
+
+(04:17:44):
+Just being able to kind of ramble and talk much faster than you can type makes it
+
+(04:17:50):
+so much quicker to interact with Cloud.
+
+(04:17:52):
+I didn't realize how much of my time was truly just writing prompts.
+
+(04:17:56):
+And the other piece is I feel like when I'm typing,
+
+(04:17:59):
+There's some inherent laziness where I don't want to spend the time to type out
+
+(04:18:05):
+this perfectly exact prompt.
+
+(04:18:07):
+I'm fine if it infers a couple of things.
+
+(04:18:09):
+But if I'm just rambling, I'm way more specific.
+
+(04:18:12):
+I'm way more detailed.
+
+(04:18:14):
+I'll give it context that might even not be related from what I think,
+
+(04:18:18):
+but it actually helps the model solve the problem.
+
+(04:18:20):
+So it's been a pretty big unlock for me.
+
+(04:18:23):
+When we're here in the office, I don't do it as much, but absolutely clotting on the weekends.
+
+(04:18:28):
+I am I'm only talking.
+
+(04:18:30):
+Yeah,
+
+(04:18:30):
+I think that I found it to be a huge unlock to every has a voice to text tool
+
+(04:18:36):
+called monologue that that our team uses.
+
+(04:18:39):
+And one thing that Kieran just built in compound engineering that's really cool is
+
+(04:18:43):
+I will monologue into
+
+(04:18:46):
+his compound engineering skill,
+
+(04:18:48):
+um,
+
+(04:18:49):
+or plugin and then ask it to interview me back,
+
+(04:18:52):
+interview me on like things that it doesn't understand.
+
+(04:18:55):
+Cause I'm rambling as well.
+
+(04:18:56):
+Anyway, let's get into these mockups.
+
+(04:18:59):
+Yeah.
+
+(04:18:59):
+Mockups are finished.
+
+(04:19:00):
+Um, basically again, this is kind of looking pretty similar to the app we've built.
+
+(04:19:07):
+Um,
+
+(04:19:08):
+Nothing too,
+
+(04:19:09):
+too complex with this feature,
+
+(04:19:10):
+but something about like seeing it like this as opposed to seeing it in ASCII just
+
+(04:19:15):
+makes me so much more confident the model is going to actually do it right.
+
+(04:19:19):
+Yeah.
+
+(04:19:21):
+And then, you know, let's say I want to get rid of this box.
+
+(04:19:26):
+I can just delete this.
+
+(04:19:28):
+I'll delete the inner box and then I'll come back over to Claude and I'll say I
+
+(04:19:35):
+made some changes to the mock-up.
+
+(04:19:39):
+What did I change?
+
+(04:19:41):
+I usually like to ask something like this just to confirm understanding,
+
+(04:19:45):
+just to make it reread the file and see what I've changed.
+
+(04:19:52):
+And hopefully, Claude's not down again.
+
+(04:19:55):
+Great.
+
+(04:19:55):
+So I don't know.
+
+(04:19:57):
+It didn't look like it read any files, but somehow it knows.
+
+(04:20:01):
+But it's noticed that I removed it.
+
+(04:20:04):
+That's great.
+
+(04:20:05):
+Awesome.
+
+(04:20:06):
+So now I'm just going to say, based on the flow charts and the plan, build it.
+
+(04:20:16):
+And now we'll kind of just sit back and end up seeing this come to life.
+
+(04:20:22):
+I'll click into here and then hop back over to these flow charts.
+
+(04:20:26):
+But once Claude's done there, we should have that quiz feature kind of built out on this app.
+
+(04:20:31):
+Awesome.
+
+(04:20:33):
+Is there anything else that you want to talk about in the meantime?
+
+(04:20:36):
+Otherwise, I have a question.
+
+(04:20:40):
+Well,
+
+(04:20:40):
+I do want to know a little more about the transcription tool you guys have built
+
+(04:20:44):
+and how it's been the most impactful for your engineers.
+
+(04:20:52):
+Yeah, so it's an engineer on a team named Naveen.
+
+(04:20:56):
+He built out Monologue, which is a Mac app.
+
+(04:21:01):
+We're also launching iOS February 9th around then.
+
+(04:21:07):
+And I'd say the powerful tool that he built that our team loves is a feature called modes.
+
+(04:21:13):
+So basically,
+
+(04:21:16):
+It's like an editor can go over what you say depending on which product you're using.
+
+(04:21:20):
+So if you're in ChatGPT versus Warp versus Cursor,
+
+(04:21:24):
+you can ask it to sort of like edit on your behalf in very specific ways.
+
+(04:21:29):
+So the team really likes that.
+
+(04:21:31):
+It also just like sort of is like this beautiful skeuomorphic design that like I
+
+(04:21:35):
+personally love.
+
+(04:21:37):
+And then one feature that it has that has been really helpful for me,
+
+(04:21:40):
+I used it this morning on a hike,
+
+(04:21:42):
+is a really good notes feature.
+
+(04:21:44):
+So if I have an idea while hiking or just doing anything,
+
+(04:21:47):
+you can create a great note with a transcript and summary that I like that feature.
+
+(04:21:53):
+Yeah.
+
+(04:21:55):
+But yeah, our team is just like very, very voice-filled, for sure.
+
+(04:22:00):
+When Naveen is gonna be coming on,
+
+(04:22:02):
+somebody will drop it in the chat,
+
+(04:22:03):
+I forget what time,
+
+(04:22:04):
+but he's coming on like,
+
+(04:22:05):
+I think around like four or five to talk through monologue.
+
+(04:22:09):
+Yeah, that's super cool.
+
+(04:22:11):
+I do love the idea of almost passing prompts through an LLM.
+
+(04:22:15):
+In a way, that's what we're doing in plan mode, right?
+
+(04:22:18):
+It's,
+
+(04:22:19):
+hey,
+
+(04:22:19):
+I want to build this,
+
+(04:22:20):
+go learn some more,
+
+(04:22:21):
+and then write a big markdown file that I'm basically going to use as a prompt for
+
+(04:22:25):
+another agent.
+
+(04:22:26):
+Yeah,
+
+(04:22:27):
+I mean,
+
+(04:22:27):
+take what I'm saying and make it much better,
+
+(04:22:29):
+much more thoughtful,
+
+(04:22:30):
+much more built out.
+
+(04:22:31):
+Yeah.
+
+(04:22:32):
+Yeah, it's super powerful.
+
+(04:22:33):
+So question for you, unless this is actually built the quiz yet.
+
+(04:22:37):
+Yeah, I was just checking.
+
+(04:22:38):
+Looks like Claude's thinking about this one, but be there soon.
+
+(04:22:43):
+So what's next for Flowey?
+
+(04:22:45):
+I'm seeing a lot of people are interested in it.
+
+(04:22:48):
+It seems like a weekend project.
+
+(04:22:51):
+What would you build as a next step for it?
+
+(04:22:53):
+And would you ever want to bring it to market?
+
+(04:22:56):
+Yeah, there's definitely a couple ideas around making this available.
+
+(04:23:01):
+I really have spent a weekend on this and have found it impactful,
+
+(04:23:06):
+so definitely want to carve out time to build it further.
+
+(04:23:09):
+I think there's kind of some great examples.
+
+(04:23:13):
+If I look at Figma, basically I would want
+
+(04:23:18):
+70% of the functionality of just the design of Figma and then have Claude be able
+
+(04:23:27):
+to just work with the JSON off that.
+
+(04:23:29):
+If we can get to that point,
+
+(04:23:31):
+there's no reason these mockups can't even get higher and higher fidelity and then
+
+(04:23:37):
+you know, like Figma's dev mode, this almost just operates as that already.
+
+(04:23:42):
+And just hands.
+
+(04:23:44):
+What's stopping you from like using Figma's MCP to, to do what you're doing at Figma.
+
+(04:23:49):
+Um, there's kind of two pieces.
+
+(04:23:53):
+One is speed.
+
+(04:23:55):
+Um,
+
+(04:23:56):
+I guess I'd call it three.
+
+(04:23:57):
+There's speed and I'm anti-MCP.
+
+(04:24:01):
+I find that skills and CLIs are often just as capable and also kind of give you way
+
+(04:24:09):
+less context bloat.
+
+(04:24:13):
+I'm liking the skill paradigm more and more because of that.
+
+(04:24:16):
+But also that MCP is good and
+
+(04:24:22):
+from what I've found, for writing.
+
+(04:24:24):
+So it'll kind of make a design really well.
+
+(04:24:27):
+But if I need that to come into Claude and be read,
+
+(04:24:30):
+I've struggled to have it kind of do a one-to-one match.
+
+(04:24:33):
+So I almost want the specificity of that full JSON file to actually build this out
+
+(04:24:38):
+in the project I'm working on.
+
+(04:24:40):
+Yeah.
+
+(04:24:41):
+I mean, it just seems like such a no-brainer for Figma to figure that out.
+
+(04:24:46):
+In the meantime, I want Flowy, so I don't know.
+
+(04:24:51):
+Maybe you can get access for the Everyteam.
+
+(04:24:53):
+Hey, I'll spend another weekend on it.
+
+(04:24:56):
+Perfect.
+
+(04:24:58):
+Well, looks like we're here.
+
+(04:25:00):
+All right.
+
+(04:25:01):
+Let's see if we can pull it off.
+
+(04:25:03):
+This is looking solid so far.
+
+(04:25:05):
+We're going to start the quiz.
+
+(04:25:07):
+Oh, and we failed.
+
+(04:25:08):
+You're not sharing your screen now.
+
+(04:25:11):
+Oh, well, that's good because it threw a bug.
+
+(04:25:15):
+Okay, it happens.
+
+(04:25:18):
+Are we sharing this screen?
+
+(04:25:19):
+Yeah.
+
+(04:25:20):
+Nice.
+
+(04:25:22):
+If I start it,
+
+(04:25:24):
+it looks like there's a navigation bug,
+
+(04:25:26):
+so it appears that whole navigation flowchart didn't work out.
+
+(04:25:31):
+What would you do in this scenario?
+
+(04:25:33):
+Walk us through how you'd solve this.
+
+(04:25:35):
+Yeah.
+
+(04:25:36):
+The first step, just kind of from a mobile background, is I'm going to reload this real quick.
+
+(04:25:42):
+Seems like it could have been a hot reload issue.
+
+(04:25:45):
+Going to try it again.
+
+(04:25:47):
+Failed this time.
+
+(04:25:50):
+So I would often say, I would grab this error.
+
+(04:25:53):
+I'm going to give this right back to Claude.
+
+(04:25:56):
+And I'm going to say, this error is happening when I press get started.
+
+(04:26:05):
+Then I'm actually going to point it back to the charts and the plan because there's
+
+(04:26:09):
+kind of two places where I find the models trip up.
+
+(04:26:12):
+One,
+
+(04:26:13):
+they don't follow the plan,
+
+(04:26:15):
+particularly if anyone out there is still using Claude Sonnet 4.5.
+
+(04:26:21):
+I usually only pull it up if I need the million context window.
+
+(04:26:25):
+But that guy loves to just not follow the plan.
+
+(04:26:29):
+But if there's a discrepancy there, this won't end up working if that plan was correct.
+
+(04:26:34):
+And then also,
+
+(04:26:36):
+if the plan was wrong and it implemented that,
+
+(04:26:39):
+kind of sending it on a bug fixing mission.
+
+(04:26:42):
+So I'll give it the error.
+
+(04:26:43):
+I'll tell it when it happened.
+
+(04:26:44):
+And I'll say, reference the original plans.
+
+(04:26:48):
+Did we follow them correctly?
+
+(04:26:53):
+If so...
+
+(04:26:55):
+retrace the navigation flowchart and the code and tell me what is causing this
+
+(04:27:08):
+error in the chat.
+
+(04:27:12):
+I often like to add an in the chat to have almost a side conversation
+
+(04:27:17):
+Claude is historically eager and just giving it that prompt without that,
+
+(04:27:22):
+it'd probably start writing a bunch of code.
+
+(04:27:23):
+But, you know, I kind of want to look at this.
+
+(04:27:26):
+At this point,
+
+(04:27:26):
+I'd probably hop back into the IDE and start digging through some of these files
+
+(04:27:30):
+and,
+
+(04:27:31):
+you know,
+
+(04:27:31):
+seeing if there's anything obvious that's going wrong.
+
+(04:27:35):
+But if we're talking a pure like vibe coding check, this is how we would do it.
+
+(04:27:41):
+Again, Claude doesn't seem to have read anything, and it seems to have written code anyway.
+
+(04:27:46):
+Yeah.
+
+(04:27:50):
+Would you ever use, like, Ralph Loop here to just have it keep running until it figures it out?
+
+(04:27:56):
+Because, like, this seems pretty... This is probably a pretty simple solve.
+
+(04:27:59):
+Yeah.
+
+(04:28:00):
+I've...
+
+(04:28:01):
+So I've experimented with Ralph.
+
+(04:28:04):
+I need some lessons from Ryan Carson, but I can never get it to exactly do what I want.
+
+(04:28:12):
+It almost feels like a little bit of an abstraction.
+
+(04:28:14):
+That's great when I'm building something like flowy where I'm not super opinionated
+
+(04:28:19):
+and I'm kind of trying to get to a MVP on a side project.
+
+(04:28:23):
+But if it's
+
+(04:28:24):
+you know, some production system, I'd be terrified of Ralph.
+
+(04:28:29):
+I feel like I use a lot of that human in the loop control.
+
+(04:28:31):
+Okay.
+
+(04:28:33):
+So perfect for flow on the weekend, not for a 10 X client.
+
+(04:28:37):
+Yeah.
+
+(04:28:37):
+Yeah.
+
+(04:28:38):
+That's it's, it's been fun to play with.
+
+(04:28:41):
+I like the idea of kind of getting to the world where,
+
+(04:28:45):
+particularly the bash loop style,
+
+(04:28:47):
+Ralph,
+
+(04:28:48):
+where it's really spinning up brand new agents,
+
+(04:28:50):
+it's re-anchoring them,
+
+(04:28:51):
+and they're tackling one piece of the task.
+
+(04:28:54):
+But in terms of giving up that control, I'm still not fully comfortable with that yet.
+
+(04:29:01):
+Yeah.
+
+(04:29:02):
+Okay.
+
+(04:29:04):
+Let's see if Paul is able to fix it.
+
+(04:29:08):
+Final try.
+
+(04:29:08):
+We did it.
+
+(04:29:10):
+Nice.
+
+(04:29:12):
+Wow.
+
+(04:29:12):
+Let's see if I can get these right.
+
+(04:29:16):
+Bang.
+
+(04:29:17):
+This is a little Claude tutorial for everyone watching.
+
+(04:29:21):
+Yeah, this is cool.
+
+(04:29:22):
+Ooh, this one?
+
+(04:29:23):
+Nice.
+
+(04:29:27):
+I don't know this one.
+
+(04:29:31):
+Yeah.
+
+(04:29:32):
+Ooh, okay.
+
+(04:29:33):
+There we go.
+
+(04:29:34):
+I am jumping back in.
+
+(04:29:36):
+Hello, everybody.
+
+(04:29:37):
+CJ and Brandon, how's it going?
+
+(04:29:40):
+Dan, do you think you could pass this exam?
+
+(04:29:42):
+I don't.
+
+(04:29:42):
+Probably not.
+
+(04:29:43):
+Probably not.
+
+(04:29:44):
+I don't think I'd pass this exam.
+
+(04:29:46):
+I was close.
+
+(04:29:49):
+CJ, thank you so much.
+
+(04:29:50):
+That was great.
+
+(04:29:52):
+CJ, thank you.
+
+(04:29:53):
+Awesome.
+
+(04:29:53):
+Thanks for having me on.
+
+(04:29:54):
+Have a good one, man.
+
+(04:29:56):
+Brandon, thank you for hosting.
+
+(04:29:57):
+I will see everyone later with Naveen and Yash.
+
+(04:30:02):
+Sweet.
+
+(04:30:02):
+See you soon.
+
+(04:30:04):
+I am back.
+
+(04:30:06):
+Just a quick note to say that this podcast is brought to you by hydration.
+
+(04:30:14):
+If you are vibe coding,
+
+(04:30:16):
+it's very important that you drink water and maybe even feed your agent water as
+
+(04:30:20):
+well.
+
+(04:30:22):
+And if you're just getting here,
+
+(04:30:23):
+we are about to enter one of the most fun conversations of the day.
+
+(04:30:28):
+But before we do,
+
+(04:30:31):
+Uh,
+
+(04:30:31):
+you should subscribe to every every is the only subscription you need to stay at
+
+(04:30:35):
+the edge of AI.
+
+(04:30:37):
+When you subscribe to every you get three things, ideas, apps and training.
+
+(04:30:40):
+On the ideas side, we have a daily newsletter about AI.
+
+(04:30:42):
+It has everything you need to know to keep you up to date on what's new, what's interesting.
+
+(04:30:47):
+We test all the models before they come out and give you a day of vibe check to
+
+(04:30:50):
+tell you what to use and what not to use.
+
+(04:30:52):
+We also have a suite of apps that we've built.
+
+(04:30:55):
+So we have four apps, Quora, Sparkle, Spiral and Monologue that help you work better with AI.
+
+(04:31:00):
+Everything from doing your email and AI email assistant to an AI ghostwriter to a
+
+(04:31:04):
+speech to text app.
+
+(04:31:06):
+And we also do trainings.
+
+(04:31:08):
+So if you're if you like this live stream,
+
+(04:31:10):
+we do these sorts of camps twice a month for paying subscribers.
+
+(04:31:16):
+We have the whole team come on and demo their workflows,
+
+(04:31:20):
+the latest tools that they're using,
+
+(04:31:21):
+how they're thinking about building things.
+
+(04:31:22):
+We also have people from the top AI companies in the world like OpenAI and Cursor
+
+(04:31:27):
+come on to show you their workflows.
+
+(04:31:28):
+It's all for one subscription.
+
+(04:31:30):
+Go to every.to slash subscribe to sign up.
+
+(04:31:33):
+What are you waiting for?
+
+(04:31:34):
+OK, now I have two amazing people, Logan and Amar.
+
+(04:31:40):
+Welcome.
+
+
+

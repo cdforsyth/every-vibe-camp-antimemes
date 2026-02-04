@@ -1,0 +1,2221 @@
+# Kevin Rose & Kieran Klaassen - Compound Engineering: Plan, work, review, compound
+
+**Company:** True Ventures / Every
+**Timestamp:** 5:29:51
+**YouTube:** https://www.youtube.com/watch?v=5YBjll9XJlw&t=19791s
+
+---
+
+=== KEVIN ROSE & KIERAN KLAASSEN (True Ventures / Every) - Compound Engineering ===
+
+
+(05:29:51):
+sweet kieran how are we doing doing good
+
+(05:29:56):
+How are you?
+
+(05:29:57):
+This is amazing.
+
+(05:29:58):
+I have to say,
+
+(05:30:00):
+I had no idea what we would talk about the whole day,
+
+(05:30:04):
+but this inspires me to hear all of these perspectives.
+
+(05:30:07):
+And it's so fun how similar or different,
+
+(05:30:12):
+there is just something going on and that energy is just so cool.
+
+(05:30:17):
+Everyone is trying to give words to it and figure out what it is and integrate it
+
+(05:30:22):
+in their flows.
+
+(05:30:23):
+And it's amazing.
+
+(05:30:25):
+Yeah, love it.
+
+(05:30:26):
+I'm learning stuff.
+
+(05:30:27):
+Me too.
+
+(05:30:28):
+I really am.
+
+(05:30:29):
+It's so fun.
+
+(05:30:31):
+And I'm really excited to have you here to host this conversation with our next guest.
+
+(05:30:35):
+I'm adding to the stage, Kevin Rose.
+
+(05:30:37):
+Kevin, welcome.
+
+(05:30:38):
+Hello, hello.
+
+(05:30:39):
+How's it going?
+
+(05:30:40):
+Dan, you need some rest, man.
+
+(05:30:42):
+This is insane.
+
+(05:30:44):
+I don't know how you pull this off.
+
+(05:30:46):
+I'm staying hydrated and I've got some I've got cashew butter.
+
+(05:30:51):
+This is also a really good way to keep fueled.
+
+(05:30:54):
+But thank you.
+
+(05:30:55):
+I'm going to let you guys chat.
+
+(05:30:57):
+Kevin just want to say like huge fan was a was an early dig user back in the day to
+
+(05:31:01):
+see you back at it.
+
+(05:31:03):
+And I'm super excited.
+
+(05:31:04):
+You guys are going to chat about compound engineering here and take it away.
+
+(05:31:09):
+Thank you.
+
+(05:31:11):
+Dan, hopefully Dan takes a nap now.
+
+(05:31:13):
+He has a routine of doing naps.
+
+(05:31:15):
+He needs it.
+
+(05:31:16):
+Thank you.
+
+(05:31:18):
+Welcome.
+
+(05:31:19):
+So cool.
+
+(05:31:20):
+Welcome, Kevin.
+
+(05:31:22):
+As Dan, obviously, I'm also a gigantic fan.
+
+(05:31:27):
+Really cool thing, looking backwards.
+
+(05:31:29):
+You're a big inspiration why I am in tech and really pushed me...
+
+(05:31:35):
+with just everything you did from your newsletter to Dig to any podcast to build things.
+
+(05:31:42):
+And that energy, I feel that today with many people.
+
+(05:31:47):
+And it was just so cool to see you this week on X where someone said,
+
+(05:31:53):
+oh,
+
+(05:31:53):
+Kevin Rose is using your plugin.
+
+(05:31:55):
+I was like, what?
+
+(05:31:55):
+What?
+
+(05:31:57):
+Why is he using my plugin?
+
+(05:31:58):
+And then you said something like,
+
+(05:32:00):
+I'm just sharing this for my friends because I'm excited and this is cool.
+
+(05:32:05):
+And that just felt like this energy of creating, of building things.
+
+(05:32:12):
+And it just felt like a full circle moment for me where I was like,
+
+(05:32:15):
+yeah,
+
+(05:32:15):
+you inspired me,
+
+(05:32:16):
+I inspired you back.
+
+(05:32:19):
+It's really cool.
+
+(05:32:20):
+So...
+
+(05:32:22):
+And thank you for all that you've done.
+
+(05:32:24):
+And you've kind of blown my mind over the last couple of weeks.
+
+(05:32:28):
+So a huge fan of your work as well.
+
+(05:32:31):
+The feeling is mutual.
+
+(05:32:33):
+Amazing.
+
+(05:32:34):
+Yeah.
+
+(05:32:34):
+So really what we're going to talk about is this concept of compound engineering.
+
+(05:32:39):
+And it's a philosophy that many of us feel and are applying.
+
+(05:32:44):
+And like everyone is like kind of understanding this is how it should be done.
+
+(05:32:49):
+But like, how do we do it is always the question.
+
+(05:32:52):
+And I created a plugin around it that I just...
+
+(05:32:57):
+made by building Quora, which is my product for a year and a half.
+
+(05:33:01):
+And now there are like tens of thousands of people using this plugin, which is insane.
+
+(05:33:09):
+And it's not only using,
+
+(05:33:10):
+but it's also like people like Ryan Carson this morning was on and he got inspired
+
+(05:33:15):
+by creating like a product compounding flow for himself.
+
+(05:33:19):
+And like he's also building, he just started full time on his own.
+
+(05:33:24):
+uh app and just back at building again so uh and it's like this this is called vibe
+
+(05:33:31):
+coding but like we're we're kind of at a moment where it's not vibe coding again
+
+(05:33:36):
+it's not slop anymore we're actually building real companies and and that's kind of
+
+(05:33:42):
+what you're doing as well like you're building you're you're doing stuff and
+
+(05:33:48):
+And I would love to know,
+
+(05:33:49):
+since you have all of this experience from building so many things,
+
+(05:33:54):
+working with so many founders,
+
+(05:33:56):
+how do you apply all that knowledge into this new world and relearning how we
+
+(05:34:02):
+build?
+
+(05:34:02):
+Because we can take inspiration from all the knowledge we have.
+
+(05:34:07):
+Like Ryan said as well, I just ran companies with many engineers and did things.
+
+(05:34:11):
+And now suddenly AI can do those things.
+
+(05:34:14):
+So I would love to hear just your
+
+(05:34:17):
+take like why did compound engineering resonate with you like why did you share it
+
+(05:34:21):
+with your friends and like let's screen share and show stuff as well like it's just
+
+(05:34:26):
+very interesting what's happening all this for sure yeah there's so much to talk
+
+(05:34:31):
+about how much time do we have actually do you know we have 25 minutes left but we
+
+(05:34:36):
+can do we
+
+(05:34:38):
+Yeah, I mean, let's pick some things and we'll talk more at other points.
+
+(05:34:43):
+But today we have 25 minutes because there is a lot of stuff going on.
+
+(05:34:47):
+Oh, there's so much to talk about.
+
+(05:34:48):
+So I will say that,
+
+(05:34:51):
+yeah,
+
+(05:34:51):
+I'm in agreeance with you in that this world of kind of vibe coding is
+
+(05:34:56):
+transitioning from vibe to actually just coding,
+
+(05:34:58):
+right?
+
+(05:34:59):
+And when you see Linus Torvalds commit something via Claude or whatever he was
+
+(05:35:05):
+using,
+
+(05:35:05):
+I think it's safe to say this is kind of coding now.
+
+(05:35:09):
+The difficult thing is that it is still a little bit of a kind of dark arts,
+
+(05:35:14):
+kind of very confusing because there's two ways that people look at this largely
+
+(05:35:19):
+that I see on the entrepreneurial front,
+
+(05:35:20):
+which is they think of it as a fun little tool,
+
+(05:35:23):
+which is a one-shot or type situation where they're like,
+
+(05:35:26):
+oh,
+
+(05:35:26):
+I just,
+
+(05:35:27):
+you know,
+
+(05:35:27):
+my workout app should be slightly different.
+
+(05:35:30):
+I want a different functionality and I just want to say five sentences and then the
+
+(05:35:34):
+app should just work and be awesome,
+
+(05:35:35):
+right?
+
+(05:35:37):
+And yeah, that's fun.
+
+(05:35:38):
+It's a fun thing to try on some of these self-hosted do-it-all platforms.
+
+(05:35:43):
+But really where things are getting serious is when you actually get into the
+
+(05:35:47):
+terminal and you actually fire up VS Code or your favorite editor and
+
+(05:35:52):
+And you're kind of in the weeds a little bit more.
+
+(05:35:54):
+So for those of us like myself that,
+
+(05:35:57):
+you know,
+
+(05:35:57):
+I studied computer science in school,
+
+(05:35:59):
+but I dropped out my second year and I didn't realize actually until a few weeks
+
+(05:36:04):
+ago that I have this thing called aphantasia,
+
+(05:36:06):
+which is a condition where people cannot visualize something in their mind's eye.
+
+(05:36:11):
+And I was always wondering,
+
+(05:36:13):
+and apparently hundreds of thousands of people have this,
+
+(05:36:16):
+and I was always wondering,
+
+(05:36:16):
+why can I just not remember syntax and certain things the way that my friends can?
+
+(05:36:20):
+They were just so much faster than I was.
+
+(05:36:23):
+So I understood technically what was going on, but my speed and efficiency was just shit.
+
+(05:36:29):
+And so I realized I'm never going to be a developer, right?
+
+(05:36:31):
+And so I kind of went more of the product design route,
+
+(05:36:33):
+which I had a lot of fun doing and built a ton of different products.
+
+(05:36:37):
+And now we're at this time where I can kind of do it all, right?
+
+(05:36:41):
+And so,
+
+(05:36:42):
+but to get high quality code out,
+
+(05:36:44):
+I mean,
+
+(05:36:45):
+yes,
+
+(05:36:45):
+this changes every three months,
+
+(05:36:47):
+but I take a look at my GitHub commits over time.
+
+(05:36:51):
+I call it eight months ago.
+
+(05:36:52):
+I was like, okay, I'm going to give this a shot.
+
+(05:36:54):
+And I was not really impressed with the results.
+
+(05:36:57):
+Like there was like endless bugs and I just couldn't quite get into it.
+
+(05:37:00):
+And then I would jump into a function and try and figure it out on my own and try
+
+(05:37:03):
+and like really navigate with the AI to get it to work through an issue.
+
+(05:37:08):
+and then as the models matured and got better we were getting closer and closer to
+
+(05:37:12):
+you know shippable products buggy sure uh production ready for scale probably not
+
+(05:37:19):
+but we were getting closer right and i started developing kind of my own little
+
+(05:37:23):
+internal system to do this which was i would go and turn on you know insert your
+
+(05:37:28):
+favorite um you know top tier model here on their pro like deep thinking mode and i
+
+(05:37:33):
+would just rant
+
+(05:37:34):
+I would sit there and I'd hold down my function key and I would just go and I'd
+
+(05:37:39):
+just rant with voice flow or whisper flow and just go for about 20 minutes or maybe
+
+(05:37:46):
+10 to 15 minutes and say,
+
+(05:37:48):
+this is what I'm dreaming up.
+
+(05:37:50):
+And then now go do all the deep research on how you would structure this, the database schema.
+
+(05:37:55):
+You know,
+
+(05:37:55):
+I would give it basics like I want this to be in Next.js,
+
+(05:37:57):
+I want to deploy it on Vercel,
+
+(05:37:59):
+I want it to be super based on the backend,
+
+(05:38:00):
+and I would have kind of a,
+
+(05:38:01):
+you know,
+
+(05:38:02):
+overarching framework for what I wanted to do.
+
+(05:38:04):
+And I'd get back this really massive document.
+
+(05:38:08):
+And I found that when I could kind of distill that down and then send that,
+
+(05:38:12):
+and yes,
+
+(05:38:12):
+I'm front loading the model with a shit ton of tokens,
+
+(05:38:16):
+I would have more success in terms of those initial first builds.
+
+(05:38:20):
+And then there's all that weird stuff that happens around the compacting and trying
+
+(05:38:24):
+to summarizing.
+
+(05:38:24):
+And it gets to that 80% where it starts writing shitty code and all the stuff that
+
+(05:38:29):
+you've gone and largely fixed.
+
+(05:38:32):
+And then what I was doing is I was taking the work.
+
+(05:38:34):
+It was funny because inside of Cursor,
+
+(05:38:37):
+I would have two side panes.
+
+(05:38:39):
+One would be Opus 4.5 and the other would be GPT-5.
+
+(05:38:42):
+And what I would do is with GPT-5,
+
+(05:38:44):
+I would act like it was just a friend that was looking at my code.
+
+(05:38:48):
+And I'd let Opus do all the heavy lifting and I'd be like, hey, friend, how do I do?
+
+(05:38:51):
+Check it out.
+
+(05:38:52):
+What do you think?
+
+(05:38:53):
+And it would go in and be like, oh, I wouldn't have done this or this or this.
+
+(05:38:56):
+And then I would go and pass it back and be like,
+
+(05:38:57):
+hey,
+
+(05:38:58):
+my other friend looked at the code and said they would have changed these things.
+
+(05:39:00):
+Don't agree with me.
+
+(05:39:02):
+Don't just wholesale go in and make changes.
+
+(05:39:05):
+Tell me why you're about to make those changes,
+
+(05:39:07):
+why this is a better design decision than what you've done.
+
+(05:39:10):
+And I was manually doing these multi-step,
+
+(05:39:12):
+multi-agent process back and forth and back and forth.
+
+(05:39:15):
+And I was taking my code quality from about,
+
+(05:39:17):
+you know,
+
+(05:39:17):
+call it like first compile,
+
+(05:39:18):
+first build working to,
+
+(05:39:19):
+you know,
+
+(05:39:21):
+from call it 80% to like maybe close to 90% or something like that,
+
+(05:39:23):
+right?
+
+(05:39:24):
+Yeah.
+
+(05:39:26):
+But it was very laborious.
+
+(05:39:28):
+It was a lot of work.
+
+(05:39:30):
+And then somebody told me about what you had created.
+
+(05:39:32):
+And I'm like, oh, this changes everything.
+
+(05:39:36):
+Because I would explain my process to friends that were tech savvy.
+
+(05:39:40):
+And they're like, Kevin, this is too much work, man.
+
+(05:39:42):
+I don't want to do all this shit.
+
+(05:39:43):
+Like, come on.
+
+(05:39:44):
+I have to say, yeah.
+
+(05:39:45):
+Like, that's too much work, yeah.
+
+(05:39:47):
+Yeah.
+
+(05:39:47):
+And so then you went and created this.
+
+(05:39:50):
+and i heard about i saw it on twitter if you were x few places and i was like okay
+
+(05:39:55):
+well how do i i want to get a crash course on this i want to learn about this
+
+(05:39:58):
+really quickly like what is this actually doing so actually are you familiar with
+
+(05:40:03):
+deep wiki
+
+(05:40:05):
+No.
+
+(05:40:06):
+All right.
+
+(05:40:07):
+Yeah.
+
+(05:40:07):
+Is it,
+
+(05:40:08):
+is it that from,
+
+(05:40:09):
+is it the X one or is it the,
+
+(05:40:11):
+it's where you can paste in any GitHub link and it gives you like the full.
+
+(05:40:16):
+Okay.
+
+(05:40:17):
+So it's awesome.
+
+(05:40:17):
+So basically I use it and you can give it any GitHub link and it will build out a
+
+(05:40:23):
+full,
+
+(05:40:23):
+like deep document and you can ask questions of that GitHub and,
+
+(05:40:28):
+and all of it.
+
+(05:40:29):
+Right.
+
+(05:40:29):
+So I actually, you know, I can, I can do a,
+
+(05:40:33):
+Oh, it's the one from Devin.
+
+(05:40:34):
+Yeah, yeah.
+
+(05:40:34):
+Okay.
+
+(05:40:35):
+I know the deep wiki then.
+
+(05:40:36):
+Yeah.
+
+(05:40:36):
+Yeah.
+
+(05:40:37):
+So I went in there.
+
+(05:40:38):
+Exactly.
+
+(05:40:38):
+It's from Devin.
+
+(05:40:38):
+Yeah.
+
+(05:40:39):
+So I went in there and I did that with your plugin.
+
+(05:40:42):
+And then I took back like this big technical brief and then I dump it in a notebook
+
+(05:40:48):
+LM and I said,
+
+(05:40:49):
+make me a 15 minute podcast on this.
+
+(05:40:51):
+Love it.
+
+(05:40:52):
+This is great.
+
+(05:40:52):
+And then I listened back at 2X and in seven minutes,
+
+(05:40:57):
+I'm like,
+
+(05:40:57):
+oh yeah,
+
+(05:40:58):
+I got to give this a try.
+
+(05:40:58):
+Right?
+
+(05:40:59):
+Yeah.
+
+(05:41:00):
+And that's my flow because there's so much coming at us right now,
+
+(05:41:04):
+like so many new products and features.
+
+(05:41:06):
+How can we then take what multiple people are saying we should go spend hours on
+
+(05:41:11):
+and compress it down into something that we can quickly grok and understand,
+
+(05:41:14):
+does this make sense to take some of my precious time and go investigate whether
+
+(05:41:19):
+there's a there there or not,
+
+(05:41:21):
+right?
+
+(05:41:21):
+And so that's what I did with – That's really funny.
+
+(05:41:25):
+I love it, yeah.
+
+(05:41:27):
+Can you share that with me?
+
+(05:41:29):
+I would love to hear the podcast that got you into it, AI Generated.
+
+(05:41:35):
+Oh, for sure.
+
+(05:41:35):
+Yeah, I'll send it over.
+
+(05:41:36):
+That would be fun.
+
+(05:41:37):
+Nice.
+
+(05:41:37):
+Yeah.
+
+(05:41:38):
+So what I realized is that what you had done was the planning feature was phenomenal.
+
+(05:41:43):
+I love this idea of deepening the plan as well,
+
+(05:41:48):
+because you can look at a plan and pop it open and be like,
+
+(05:41:51):
+ah,
+
+(05:41:51):
+I know if I just added a little bit more structure here,
+
+(05:41:53):
+my agent's probably going to have a better hit rate.
+
+(05:41:57):
+And so having the optionality to deepen the plan is great.
+
+(05:42:00):
+And then you have this whole loop.
+
+(05:42:03):
+that is just beautiful that,
+
+(05:42:04):
+I mean,
+
+(05:42:05):
+obviously you can explain it better than I can,
+
+(05:42:06):
+but everything that I've touched since then has just made my engineering efforts
+
+(05:42:10):
+probably speed up.
+
+(05:42:12):
+I'd say my code quality went from like 80 to like 97%.
+
+(05:42:15):
+And then the time I've spent between jumping between different models,
+
+(05:42:20):
+like I just don't have to.
+
+(05:42:22):
+I just live in cloud code now with your plugin and I'm like good to go.
+
+(05:42:27):
+Yeah.
+
+(05:42:28):
+So it's kind of...
+
+(05:42:31):
+Yeah,
+
+(05:42:31):
+it's funny,
+
+(05:42:32):
+like,
+
+(05:42:32):
+if you say,
+
+(05:42:33):
+is there any magic to this or something like that,
+
+(05:42:35):
+like,
+
+(05:42:36):
+I'm always thinking,
+
+(05:42:37):
+like,
+
+(05:42:37):
+this is just the obvious,
+
+(05:42:39):
+because this is how we build software forever.
+
+(05:42:42):
+And with the same with planning,
+
+(05:42:45):
+like,
+
+(05:42:45):
+for some reason,
+
+(05:42:46):
+let me share my screen as well to show the screen,
+
+(05:42:53):
+to show the plugin here.
+
+(05:42:56):
+Yeah, so I think planning is very important.
+
+(05:43:00):
+So this is the plugin,
+
+(05:43:01):
+and this is the main workflow,
+
+(05:43:03):
+planning,
+
+(05:43:03):
+working,
+
+(05:43:04):
+reviewing,
+
+(05:43:04):
+compounding,
+
+(05:43:05):
+and repeating.
+
+(05:43:06):
+And if you think about normal engineering work, the first thing you do is you go plan.
+
+(05:43:13):
+And for some reason, when we started AI coding, we just kind of forgot to plan.
+
+(05:43:18):
+Yeah, we just one-to-one shot everything, yeah.
+
+(05:43:21):
+Yeah, we're like, oh, I want this feature, do it.
+
+(05:43:23):
+And we complain.
+
+(05:43:26):
+And I'm like,
+
+(05:43:26):
+yeah,
+
+(05:43:26):
+but if you just think about it,
+
+(05:43:28):
+how would you do this if you had a team of capable people?
+
+(05:43:31):
+It's just, you go plan.
+
+(05:43:33):
+So it is so obvious to me,
+
+(05:43:35):
+and obviously everyone is doing planning now,
+
+(05:43:38):
+but a year ago,
+
+(05:43:39):
+not everyone was doing planning.
+
+(05:43:42):
+So,
+
+(05:43:43):
+yeah,
+
+(05:43:43):
+it's just a realization of like,
+
+(05:43:44):
+hey,
+
+(05:43:45):
+actually,
+
+(05:43:45):
+we have to look back at what we've always done,
+
+(05:43:49):
+or maybe somewhere different where people already figured this out.
+
+(05:43:54):
+Because it could be that we look at manufacturing, for example.
+
+(05:43:58):
+Maybe we can learn there.
+
+(05:44:00):
+Like,
+
+(05:44:00):
+this is something Nate Bergetoff,
+
+(05:44:03):
+he said,
+
+(05:44:03):
+like,
+
+(05:44:03):
+I'm being inspired because software engineering has become more of like a
+
+(05:44:06):
+manufacturing industry.
+
+(05:44:08):
+process where things are automated.
+
+(05:44:10):
+So can we learn things from that industry?
+
+(05:44:12):
+But also from like, if you are an IC, maybe you've never planned.
+
+(05:44:18):
+So maybe that is also foreign to you.
+
+(05:44:20):
+And you need to relearn what it is to be an IC.
+
+(05:44:22):
+Because suddenly being an IC means planning.
+
+(05:44:25):
+But also being a tech lead maybe now is also making
+
+(05:44:30):
+like doing planning and managing things you've not really done as a tech lead ever.
+
+(05:44:36):
+And I think the people that know all of this are CEOs and leaders.
+
+(05:44:43):
+And you can see with Toby from Shopify,
+
+(05:44:45):
+for example,
+
+(05:44:46):
+he's just jamming,
+
+(05:44:47):
+he's going and he gets it.
+
+(05:44:49):
+And he recently said the ideal team now is a team of one.
+
+(05:44:54):
+Yeah.
+
+(05:44:54):
+Which is extreme.
+
+(05:44:55):
+But if you just extend that.
+
+(05:44:58):
+So I'm like, okay, planning is clearly what we need to do.
+
+(05:45:03):
+But from your perspective as managing gigantic companies and things like that,
+
+(05:45:08):
+what else can we learn from things that we already know?
+
+(05:45:12):
+Where do we go?
+
+(05:45:13):
+Because we have planning working with you and compounding.
+
+(05:45:15):
+But yeah, there's more.
+
+(05:45:17):
+Let me ask a couple questions.
+
+(05:45:19):
+yeah i'm curious to get your take on this because in and this is just kind of my
+
+(05:45:23):
+overarching thesis here and it's a very much a straw man and it's probably wrong
+
+(05:45:27):
+but i'd love to get your take on it since we're on here in real time i feel that as
+
+(05:45:32):
+i've coded with these models over time like they're being trained on high quality
+
+(05:45:37):
+code and they're being trained on shitty code right yeah and so in some sense
+
+(05:45:41):
+you're kind of getting some type of
+
+(05:45:45):
+average of it all you know when you when you go to invoke something and say hey go
+
+(05:45:49):
+do this thing and if you just say hey go build me this prototype you're not really
+
+(05:45:54):
+somewhere hidden in there is the advanced engineer and somewhere hidden in there is
+
+(05:45:58):
+the junior engineer in that big large language model right yeah and if you plan
+
+(05:46:02):
+like a senior engineer in some sense it almost has to like call those engineers to
+
+(05:46:08):
+the table
+
+(05:46:09):
+to go and actually execute against that work.
+
+(05:46:12):
+Is that wild to think or to say?
+
+(05:46:14):
+Or would you disagree with that?
+
+(05:46:16):
+I agree.
+
+(05:46:17):
+Yeah, I think it's very true.
+
+(05:46:19):
+Like if your plan is good.
+
+(05:46:22):
+So I think it even goes to like if you as a person...
+
+(05:46:26):
+talking to the computer because no one types, duh.
+
+(05:46:30):
+But if you do that and plan and your plan gets really good because you know what's good.
+
+(05:46:37):
+Like it kind of matches you.
+
+(05:46:39):
+I think there's even research from Anthropic that came out this week that alludes
+
+(05:46:44):
+to that where like if you are
+
+(05:46:47):
+very knowledgeable, like it will respond differently to you than if you're not.
+
+(05:46:52):
+So yes,
+
+(05:46:54):
+and then on top of that,
+
+(05:46:55):
+like the grounding you do in these flows is like you're pulling the things in that
+
+(05:47:01):
+you want.
+
+(05:47:01):
+So you're pulling the context in that you want, you're pulling the research in like your style.
+
+(05:47:07):
+And you're just surrounded with all the stuff you wanted to do good with.
+
+(05:47:11):
+And the planning phase, that's important.
+
+(05:47:14):
+Because if the plan is not good, the work is also not going to be good.
+
+(05:47:19):
+You're going to steer like a gigantic ship.
+
+(05:47:23):
+It's way easier to catch mistakes in the planning phase than after that.
+
+(05:47:30):
+Yeah,
+
+(05:47:30):
+so I think it's one of the things that is for people just to catch them up real
+
+(05:47:35):
+quick with 10 seconds of you install this plugin.
+
+(05:47:38):
+And then when you're in cloud code, you do like slash forward slash workflows plan.
+
+(05:47:43):
+And so it'll look like what you're seeing right now.
+
+(05:47:46):
+And then you start
+
+(05:47:48):
+you know, kind of pontificating into the AI, what you want to create.
+
+(05:47:52):
+And then you hit enter and it goes,
+
+(05:47:53):
+but it's important to know that you have to use that slash command to actually kick
+
+(05:47:58):
+off this whole process.
+
+(05:47:59):
+Now,
+
+(05:48:00):
+when it's done,
+
+(05:48:01):
+sometimes it asks follow-up questions and then I know I'm still working with it.
+
+(05:48:06):
+Other times it kicks me back to a plain prompt and I don't know,
+
+(05:48:09):
+do I need to re-invoke with the slash command or does it continue forward?
+
+(05:48:14):
+Yeah.
+
+(05:48:15):
+So the beauty is,
+
+(05:48:16):
+if this plugin is loaded and you're in the same flow,
+
+(05:48:19):
+in closed code,
+
+(05:48:21):
+you don't need to invoke it.
+
+(05:48:23):
+So actually you can say, can you use the compound?
+
+(05:48:27):
+Okay, I'm typing here, that's against the rules.
+
+(05:48:30):
+But you can even do this, create a plan.
+
+(05:48:35):
+And it will do it as well.
+
+(05:48:36):
+And this is the beauty of Claude.
+
+(05:48:40):
+You can call slash command.
+
+(05:48:41):
+So you don't need to do that.
+
+(05:48:42):
+I'm always doing slash every time because I'm scared I'm going to lose it.
+
+(05:48:47):
+You can do it.
+
+(05:48:48):
+Yes, you can do it.
+
+(05:48:49):
+You don't need to do it.
+
+(05:48:52):
+And the beauty is also, it is flexible.
+
+(05:48:55):
+So if you, for example, are...
+
+(05:48:58):
+making a plan,
+
+(05:48:59):
+if your job is to create plans,
+
+(05:49:00):
+you can just use the plan mode and then hand it off to people to work on it instead
+
+(05:49:05):
+of AI,
+
+(05:49:05):
+which is...
+
+(05:49:06):
+But it is composable.
+
+(05:49:08):
+Like, you can just push it up to GitHub and say, this is the plan.
+
+(05:49:11):
+I did my job here.
+
+(05:49:12):
+So you can use it in different pieces as well.
+
+(05:49:15):
+So many questions for you.
+
+(05:49:17):
+To try to save some time,
+
+(05:49:18):
+I want to get to a couple that I'm personally just so curious about,
+
+(05:49:21):
+if you don't mind.
+
+(05:49:23):
+Yes, let's do it.
+
+(05:49:23):
+Throw stuff back at me as well.
+
+(05:49:24):
+Yeah.
+
+(05:49:26):
+the compound portion of it yeah can you tell people exactly what that is doing on
+
+(05:49:32):
+the back end because I think this is the secret sauce here because planning we all
+
+(05:49:36):
+get launching multiple agents like really cool they're all they all have really
+
+(05:49:40):
+deep context windows they can do their best work that's fantastic uh
+
+(05:49:45):
+The reviewing makes a ton of sense.
+
+(05:49:46):
+Like you're just checking for security vulnerabilities.
+
+(05:49:48):
+You're launching very specific agents that go out and look for performance.
+
+(05:49:52):
+Like it's all kind of all in one, which is great.
+
+(05:49:55):
+It's all the stuff you would normally want to think to do kind of already.
+
+(05:49:59):
+But the compounding part is like you kind of don't know what's going on.
+
+(05:50:03):
+You see it working, but technically what is happening there?
+
+(05:50:07):
+Yeah, that's a good question.
+
+(05:50:08):
+So like the planning and the working and the reviewing is in most systems or people do that.
+
+(05:50:15):
+But the compounding is mostly the part people are not doing and the compounding part is really
+
+(05:50:21):
+like either there is something that went wrong and you want to say,
+
+(05:50:26):
+hey,
+
+(05:50:26):
+next time,
+
+(05:50:27):
+don't make this mistake again.
+
+(05:50:28):
+So this is like a specific context you are in at a time,
+
+(05:50:32):
+for example,
+
+(05:50:33):
+it made a design decision that you think is very ugly.
+
+(05:50:35):
+And what you then can do is run slash workflows compounds.
+
+(05:50:41):
+And what it will do is we'll try to extract
+
+(05:50:44):
+what it needs to learn from this.
+
+(05:50:46):
+And what it does is it creates documentation.
+
+(05:50:49):
+So there's a folder called docs,
+
+(05:50:52):
+and it will create a markdown file with frontmatter in there with some keywords.
+
+(05:50:57):
+And it will say, hey, like in this specific pattern, like we should do this instead of that.
+
+(05:51:03):
+It's more or less what we used to do to say,
+
+(05:51:06):
+hey,
+
+(05:51:06):
+can you add this to ClaudeMD so we never make this mistake again?
+
+(05:51:10):
+This is more of the way,
+
+(05:51:11):
+if you do it like this,
+
+(05:51:13):
+you can do thousands of files without bloating your context because we're not
+
+(05:51:17):
+always loading all these things in.
+
+(05:51:19):
+How do you know where the load is in?
+
+(05:51:22):
+You don't need to load this in.
+
+(05:51:23):
+How do you know, as the software creator, when to load them in?
+
+(05:51:29):
+So how I know to load them in is I just have them baked into the planning and the review.
+
+(05:51:37):
+So there is a specific agent that is the best practices,
+
+(05:51:41):
+and that agent will start to do agentic search
+
+(05:51:47):
+finding all the relevant files and maybe saying hey these are related and this uses
+
+(05:51:52):
+haiku so it's faster it doesn't like it doesn't spend a lot of tokens and just says
+
+(05:51:59):
+hey i found a few look at these because they're super applicable to the plan you
+
+(05:52:03):
+have or the codes you have uh in the review and then it will just learn from that
+
+(05:52:09):
+so that's auto shoves those into the context window as you're doing the planning
+
+(05:52:14):
+yeah yeah okay so it's it's kind of similar to it's it's it's a way better because
+
+(05:52:19):
+traditionally what would happen is they do like a a grep or a search and try and
+
+(05:52:23):
+find bits and pieces of the code that might be relevant and inject them and you're
+
+(05:52:27):
+like no no no these are some of the best practices and learnings that we've had
+
+(05:52:32):
+let's push that into the window instead as a way to kind of prime the system and in
+
+(05:52:36):
+essence yeah
+
+(05:52:38):
+Yeah, it's priming the system.
+
+(05:52:39):
+And it's also, like, I have many people now pushing PRs.
+
+(05:52:43):
+And,
+
+(05:52:43):
+like,
+
+(05:52:43):
+someone pushed one that said,
+
+(05:52:45):
+hey,
+
+(05:52:46):
+actually,
+
+(05:52:46):
+I ran the compound as,
+
+(05:52:49):
+like,
+
+(05:52:49):
+an initializer,
+
+(05:52:50):
+basically.
+
+(05:52:51):
+I said, okay, you just, like, extract everything from this repo and, like,
+
+(05:52:55):
+create it now because you can learn stuff.
+
+(05:52:57):
+And he said, that works very well.
+
+(05:53:00):
+So I'm like, yeah, we need to have an init and a setup and all of that.
+
+(05:53:03):
+So we're adding there.
+
+(05:53:04):
+But the point is just having really good documentation about your code.
+
+(05:53:10):
+And it's inspired by Context 7, for example.
+
+(05:53:13):
+Like they just have very good.
+
+(05:53:14):
+Yeah, Context 7 is great.
+
+(05:53:16):
+Yeah, so like a context 7, but then for your own code.
+
+(05:53:19):
+It's kind of something like that.
+
+(05:53:21):
+And it's just files.
+
+(05:53:23):
+So it's very clear what's happening.
+
+(05:53:25):
+And you can make changes very easily as well.
+
+(05:53:29):
+When you're coding and you're looking down and you're seeing that little wheel get
+
+(05:53:32):
+to 80% on your context window,
+
+(05:53:34):
+what do you do?
+
+(05:53:35):
+Do you compound?
+
+(05:53:35):
+Do you start a new window?
+
+(05:53:37):
+Do you start freaking out?
+
+(05:53:40):
+I'm pretty lazy.
+
+(05:53:42):
+I know there are purists here that are very good at managing.
+
+(05:53:46):
+I just think that's not my job.
+
+(05:53:48):
+I think Anthropic should just figure that shit out,
+
+(05:53:51):
+which we'll talk after you,
+
+(05:53:54):
+Tariq from Anthropic,
+
+(05:53:55):
+will be,
+
+(05:53:55):
+so I'll just ask him to make it work.
+
+(05:53:59):
+But I do think you need to manage your contacts, but they're doing lots of work.
+
+(05:54:03):
+I think my job is not...
+
+(05:54:06):
+like my job should be more on the like, what are the flows?
+
+(05:54:09):
+What are like the next things there?
+
+(05:54:12):
+And I think the next thing with compound engineering that like suddenly popped up
+
+(05:54:17):
+is like with Opus 4.5,
+
+(05:54:20):
+we can now run the entire
+
+(05:54:22):
+a compound engineering flow.
+
+(05:54:23):
+Like you were saying, I had to copy and paste.
+
+(05:54:26):
+I felt that as well with the planning and the working because I had to do a plan
+
+(05:54:30):
+and then it was like,
+
+(05:54:30):
+yeah,
+
+(05:54:31):
+it looks good.
+
+(05:54:31):
+And then hit work and then deepen.
+
+(05:54:34):
+I was like, why do I do all of these things manually still?
+
+(05:54:37):
+So I introduced a new command called slash LFG.
+
+(05:54:41):
+And basically that's just capturing all of those things in a relv loop.
+
+(05:54:46):
+And what it does, it does everything.
+
+(05:54:49):
+So it's just like, you have an idea.
+
+(05:54:51):
+until PR is up with screenshots and videos and test it in a browser.
+
+(05:54:56):
+It's just me trying to see where does this go.
+
+(05:55:01):
+And it actually kind of works already.
+
+(05:55:03):
+With Opus 4.5, we're at a point where you can do end-to-end flows like that.
+
+(05:55:09):
+And then we get into having your Mac mini run 24-7.
+
+(05:55:13):
+to just build features because suddenly that is an option because you don't need to
+
+(05:55:19):
+do these separate commands anymore.
+
+(05:55:21):
+It's funny you say that.
+
+(05:55:21):
+I literally just bought a Mac Mini.
+
+(05:55:24):
+I probably can vary it.
+
+(05:55:25):
+Just around 24.7.
+
+(05:55:26):
+Everyone.
+
+(05:55:30):
+If anyone is not running a Mac Mini or something... You can fire up with BCP Ensense, right?
+
+(05:55:36):
+And do the same thing, essentially.
+
+(05:55:37):
+I think a Mac Mini is kind of cool because you have access to the Mac ecosystem and
+
+(05:55:45):
+you can just use Apple Scripts.
+
+(05:55:47):
+So I have it linked to my iMessage because it's a Mac.
+
+(05:55:52):
+So I don't need to do anything.
+
+(05:55:53):
+I just have Apple Scripts send me iMessages and stuff like that.
+
+(05:55:56):
+So it's cool, but...
+
+(05:55:59):
+So what's next?
+
+(05:56:01):
+What does the next couple releases look like for you?
+
+(05:56:05):
+So I think something you were sharing with me that you were vibe coding and working
+
+(05:56:12):
+on prototypes before putting it into...
+
+(05:56:18):
+I spent a lot of my time in V0 just to get...
+
+(05:56:22):
+for me, a product has to feel right before I want to build it.
+
+(05:56:26):
+So even though I kind of have to like,
+
+(05:56:28):
+I'm a very visual person and I,
+
+(05:56:31):
+and I want to see it and touch it.
+
+(05:56:33):
+And,
+
+(05:56:34):
+and I just like,
+
+(05:56:34):
+I just crank on V zero,
+
+(05:56:36):
+like,
+
+(05:56:36):
+you know,
+
+(05:56:37):
+I just let that go in multiple windows with multiple projects.
+
+(05:56:39):
+And then when I get that gut feeling like this needs to exist,
+
+(05:56:42):
+then I jump over and I'll just download that,
+
+(05:56:45):
+that throw it into its own folder and then let compound engineering go to,
+
+(05:56:49):
+go to town on it,
+
+(05:56:50):
+you know?
+
+(05:56:51):
+Yeah, so I'm doing exactly the same, which is cool.
+
+(05:56:55):
+I just, yeah, I call mine Baby Quora, which is just my mock-up version.
+
+(05:57:00):
+It's like Ryu inspired from Cursor.
+
+(05:57:05):
+And I just Vibe code whatever I want.
+
+(05:57:10):
+And this is a new version for Quora on iOS that I'm working on as well.
+
+(05:57:15):
+So yeah, I think that's kind of next in compound engineering.
+
+(05:57:19):
+I think we'll push a little bit like towards the design and the iterative sides
+
+(05:57:24):
+because I think before the planning,
+
+(05:57:27):
+you can do so much more like discovery.
+
+(05:57:30):
+We have also a new command since yesterday that is brainstorm,
+
+(05:57:35):
+which if you don't have a plan yet or need some more thinking,
+
+(05:57:39):
+you can brainstorm.
+
+(05:57:40):
+So that's really cool.
+
+(05:57:41):
+And also, we are now on OpenCode.
+
+(05:57:44):
+So if you use OpenCode, you can install it as well, which is very cool.
+
+(05:57:48):
+I will be running experiments to see different models, how they work.
+
+(05:57:51):
+And we're on Codex.
+
+(05:57:52):
+So if you use Codex... By the way, you make DHH one of the reviewers when they do the review.
+
+(05:57:59):
+Yes.
+
+(05:58:00):
+You wrote that, right?
+
+(05:58:01):
+Yeah, yeah, yeah.
+
+(05:58:03):
+So I sent him his review of my code, and he had a good chuckle at it.
+
+(05:58:09):
+He said, that's actually something I would have said.
+
+(05:58:10):
+Oh, yeah.
+
+(05:58:13):
+DHH reviewer is hilarious.
+
+(05:58:15):
+I have people send me messages that say, just delete the whole plan.
+
+(05:58:19):
+This is crap.
+
+(05:58:20):
+Like that was his review.
+
+(05:58:23):
+Just delete the plan or something like that.
+
+(05:58:24):
+Yeah.
+
+(05:58:25):
+There's something about like, I know, like I love how opinionated he is.
+
+(05:58:28):
+Like that's the whole thing about,
+
+(05:58:30):
+you know,
+
+(05:58:32):
+37signals and Jason Fried and DHH is like,
+
+(05:58:34):
+you got to respect,
+
+(05:58:36):
+like they do it their way.
+
+(05:58:37):
+You know, there's something about that that is just like, no, no, no, this is the way we do it.
+
+(05:58:41):
+You don't have to sign up for it, but this is the way we do it.
+
+(05:58:44):
+Like I do love that.
+
+(05:58:46):
+Yeah,
+
+(05:58:46):
+and that's also kind of the spirit of the compound flow is like just having strong
+
+(05:58:51):
+opinions about how to do software because otherwise
+
+(05:58:55):
+it's just getting mediocre.
+
+(05:58:57):
+And it doesn't mean you have to agree with DHHs all the time,
+
+(05:59:00):
+but like sometimes the DHH reviewer has a point and it makes you think like,
+
+(05:59:04):
+hey,
+
+(05:59:05):
+maybe this is the complete wrong thing I'm building.
+
+(05:59:07):
+And that's good.
+
+(05:59:08):
+Like you want like opposites.
+
+(05:59:11):
+Yeah,
+
+(05:59:11):
+it's like a table side of mentors,
+
+(05:59:14):
+you know,
+
+(05:59:14):
+like it's just the table and they're just like,
+
+(05:59:17):
+hey,
+
+(05:59:18):
+this is the way I kind of think about it.
+
+(05:59:19):
+And
+
+(05:59:20):
+who doesn't want that you want people to be able to bounce around and have ideas
+
+(05:59:24):
+with you know so but next time we have more time I'm going to show you some wild
+
+(05:59:29):
+prototypes of weird stuff that I've built yeah I want to see it I want to see it
+
+(05:59:33):
+Kevin I'm so curious about the prototypes this was an incredible conversation I
+
+(05:59:39):
+love that little DHH anecdote that makes me so happy to hear um
+
+(05:59:43):
+Well, and I sent him that you ported it, Kieran, this morning.
+
+(05:59:45):
+I sent him a text that you ported it over because,
+
+(05:59:47):
+you know,
+
+(05:59:47):
+he's on Amarki,
+
+(05:59:49):
+which is his version of Linux.
+
+(05:59:50):
+And so the fact that it'll work on there will be great.
+
+(05:59:54):
+So that's awesome.
+
+(05:59:56):
+Great.
+
+(05:59:57):
+Would love to have you back to demo some of the stuff you're working on.
+
+(06:00:00):
+And thank you so much for joining.
+
+(06:00:02):
+Yeah.
+
+(06:00:02):
+Well, thanks for everything you guys do.
+
+(06:00:03):
+Like I'm,
+
+(06:00:04):
+I'm really,
+
+(06:00:05):
+um,
+
+(06:00:06):
+you know,
+
+(06:00:06):
+it was so cool to discover your site and I signed up and I put my email in there
+
+(06:00:10):
+and,
+
+(06:00:11):
+you know,
+
+(06:00:11):
+it's,
+
+(06:00:12):
+uh,
+
+(06:00:13):
+it's important that someone is like putting a lot of structure around this and
+
+(06:00:16):
+educating people because,
+
+(06:00:17):
+um,
+
+(06:00:17):
+it is certainly the future.
+
+(06:00:19):
+And I see a lot of teams that are like,
+
+(06:00:21):
+they're still believe it or not on the fence of whether they should actually go
+
+(06:00:24):
+into AI or not,
+
+(06:00:25):
+which is just for us.
+
+(06:00:26):
+It's like, once you, once you see it, you can't unsee it, you know?
+
+(06:00:29):
+So it's very important that people have a sources they can trust of high quality information.
+
+(06:00:34):
+So thanks for everything you do.
+
+(06:00:35):
+Thank you.
+
+(06:00:36):
+That makes me so happy to hear.
+
+(06:00:37):
+I really appreciate it.
+
+(06:00:39):
+Awesome.
+
+(06:00:39):
+Have a great day.
+
+(06:00:40):
+Have a good one.
+
+(06:00:42):
+You heard it here, folks.
+
+(06:00:44):
+Kevin Rose signed up for Every, and you should too.
+
+(06:00:48):
+Every is the only subscription you need to stay at the edge of AI.
+
+(06:00:51):
+We host stuff like this all the time.
+
+(06:00:53):
+If you're an Every subscriber, you get access to ideas, apps, and training.
+
+(06:00:58):
+On the idea side, we give you the best of what we know about how to build an AI.
+
+(06:01:02):
+We do day of vibe checks of new models and new products.
+
+(06:01:06):
+written videos live uh we also have a suite of apps that we build kieran is the gm
+
+(06:01:12):
+of quora not monologue uh which is an ai email agent that he builds with his
+
+(06:01:17):
+compound engineering plugin it's an entire email product that he builds by himself
+
+(06:01:21):
+he has he has one other uh engineer who helps him but it's it's mainly his brain
+
+(06:01:25):
+child um and he's also building the compound engineering plugin on the side
+
+(06:01:30):
+So we're taking everything that Kieran learns building Quora and pushing it into
+
+(06:01:33):
+all the ideas that all the things that we write and all the things that get
+
+(06:01:36):
+published on every.
+
+(06:01:37):
+We also have training, so we do these kinds of live streams a lot.
+
+(06:01:40):
+We call them camps.
+
+(06:01:41):
+This one is a free camp for everyone.
+
+(06:01:43):
+We have about 15,000 people on here right now, which is so cool.
+
+(06:01:48):
+I'm so happy.
+
+(06:01:52):
+But we also do them for paid subscribers.
+
+(06:01:53):
+So it's a more intimate setting.
+
+(06:01:55):
+You get to talk to us, ask questions.
+
+(06:01:57):
+We talk to you about what the latest of our workflows are.
+
+(06:02:00):
+We bring in people from places like OpenAI and Cursor and other big companies to
+
+(06:02:04):
+tell you about how they use these kinds of tools so you can stay at the edge with
+
+(06:02:08):
+us.
+
+(06:02:09):
+And that's all for one subscription.
+
+(06:02:11):
+Go to every.to to subscribe.
+
+(06:02:13):
+All right,
+
+(06:02:14):
+now we have a special guest that I'm super,
+
+(06:02:17):
+super,
+
+(06:02:17):
+super excited to have,
+
+(06:02:18):
+Dorek from Anthropic.
+
+
+

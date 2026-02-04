@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vibe Camp Antimemes - Insights Most Viewers Miss</title>
+  <meta name="description" content="@every's Vibe Code Camp: 17 experts building live for 8 hours. Viewed through the antimeme lens.">
+
+  <!-- Open Graph / Social sharing -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://vibecodecamp.antimeme.co">
+  <meta property="og:title" content="Every's Vibe Code Camp - Through the Antimeme Lens">
+  <meta property="og:description" content="17 experts building live for 8 hours. The workflow choices so automatic they don't get explained. The offhand remarks that contradict the advice you'd get if you asked directly.">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@antimemetic_">
+  <meta name="twitter:title" content="Every's Vibe Code Camp - Through the Antimeme Lens">
+  <meta name="twitter:description" content="17 experts building live for 8 hours. The workflow choices so automatic they don't get explained. The offhand remarks that contradict the advice you'd get if you asked directly.">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="hero-content">
+      <h1>An antimeme is an idea that resists spreading - despite being important.</h1>
+      <p class="hero-subtitle">Not because it's wrong, but because it's uncomfortable to sit with.</p>
+      <p class="hero-body"><a href="https://www.youtube.com/watch?v=5YBjll9XJlw" target="_blank">Every's Vibe Code Camp</a>: 17 experts building live for 8 hours. Viewed through the antimeme lens.</p>
+      <p class="hero-byline">by <a href="https://x.com/antimemetic_" target="_blank">@antimemetic_</a></p>
+      <div class="hero-stats" style="display: none;">
+        <span class="stat"><strong id="speaker-count">0</strong> Speakers</span>
+        <span class="stat"><strong id="insight-count">0</strong> Antimemes</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Quote Carousel -->
+  <section class="quote-carousel">
+    <div class="quote-icon">"</div>
+    <blockquote id="featured-quote" class="featured-quote"></blockquote>
+    <p id="featured-guest" class="featured-guest"></p>
+    <div class="quote-meta">
+      <span id="featured-type" class="quote-type"></span>
+      <span id="featured-context" class="quote-context"></span>
+    </div>
+    <button id="shuffle-quote" class="shuffle-btn">Shuffle Quote</button>
+    <p class="follow-cta">Follow <a href="https://x.com/antimemetic_" target="_blank">@antimemetic_</a> for more</p>
+  </section>
+
+  <!-- Filters -->
+  <nav class="filters">
+    <div class="filter-group">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="cognitive">Cognitive</button>
+      <button class="filter-btn" data-filter="social">Social</button>
+      <button class="filter-btn" data-filter="implementation">Implementation</button>
+      <button class="filter-btn" data-filter="system">System</button>
+    </div>
+    <div class="speaker-filter">
+      <select id="speaker-select">
+        <option value="all">All Speakers</option>
+      </select>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="container">
+    <!-- Speaker Grid View -->
+    <section id="speaker-grid" class="speaker-grid">
+      <!-- Speakers will be rendered here -->
+    </section>
+
+    <!-- Single Speaker View (hidden by default) -->
+    <section id="speaker-view" class="speaker-view hidden">
+      <button class="back-btn" id="back-to-grid">&larr; All Speakers</button>
+      <div class="speaker-header">
+        <h2 id="speaker-name"></h2>
+        <p id="speaker-topic" class="speaker-topic"></p>
+        <a id="speaker-youtube" class="youtube-link" href="#" target="_blank">Watch on YouTube &rarr;</a>
+      </div>
+      <div id="insight-cards" class="insight-cards">
+        <!-- Insight cards will be rendered here -->
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>
+      Built on <a href="https://www.youtube.com/watch?v=5YBjll9XJlw" target="_blank">Every's Vibe Code Camp</a>
+      &middot;
+      <a href="https://github.com/EveryInc/vibe-code-camp" target="_blank">Transcripts</a>
+      &middot;
+      <a href="https://x.com/antimemetic_" target="_blank">@antimemetic_</a>
+    </p>
+    <p class="footer-note">Antimemes: ideas that resist spreading because they're cognitively uncomfortable, socially inconvenient, or undermine conventional wisdom.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

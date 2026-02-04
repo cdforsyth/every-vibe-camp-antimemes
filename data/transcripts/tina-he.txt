@@ -1,0 +1,1825 @@
+# Tina He - Vibe coding as meditation: From non-coder to shipping daily
+
+**Company:** Pace Capital
+**Timestamp:** 3:02:49
+**YouTube:** https://www.youtube.com/watch?v=5YBjll9XJlw&t=10969s
+
+---
+
+=== TINA HE (Pace Capital) - Vibe coding as creative practice ===
+
+
+(03:02:49):
+So excited to have you.
+
+(03:02:51):
+Tina, you're awesome.
+
+(03:02:52):
+We've been friends for a while.
+
+(03:02:55):
+You've been a writer on Every.
+
+(03:02:56):
+You're doing a lot of vibe coding.
+
+(03:02:58):
+Thank you so much for joining.
+
+(03:02:59):
+I am excited to be here.
+
+(03:03:02):
+For people who don't know you,
+
+(03:03:04):
+well,
+
+(03:03:04):
+first of all,
+
+(03:03:04):
+they should they should follow you on Twitter or on X at fake pixels with no
+
+(03:03:08):
+vowels.
+
+(03:03:09):
+But for people who don't know you give us a little bit of a background like what
+
+(03:03:12):
+are you doing now?
+
+(03:03:12):
+What have you done in the past and and what are you vibe coding on?
+
+(03:03:17):
+Totally.
+
+(03:03:18):
+So I've always been a tinker, I would say, since I was very young.
+
+(03:03:23):
+I like for the very niche, I would say indie game lovers in the audience.
+
+(03:03:27):
+I was in love with this tool called RPG Game Maker.
+
+(03:03:32):
+It's like a very niche Japanese make tool.
+
+(03:03:34):
+And that's actually how I got into programming, like when I was really young.
+
+(03:03:38):
+And I've always loved gaming, I think both as a storytelling medium, but also like over time.
+
+(03:03:46):
+kind of fell in love with just how you could design like a world where you can like
+
+(03:03:52):
+honestly hang out with your friends and the social aspects of it.
+
+(03:03:57):
+And the other thing I do, I think outside of potentially being a gamer and like kind of a
+
+(03:04:04):
+the designer developer of games is that I've been a blogger, like since I was pretty young.
+
+(03:04:09):
+And so I will say that the main thread of my life is that I'm a,
+
+(03:04:13):
+like a tinker,
+
+(03:04:14):
+like perpetual tinker.
+
+(03:04:16):
+I'm a writer.
+
+(03:04:17):
+And, and I also fell in love with investing.
+
+(03:04:19):
+So yeah,
+
+(03:04:21):
+Basically, my career has been kind of a combination of those things.
+
+(03:04:25):
+Did product before.
+
+(03:04:28):
+Started a product studio in like even back when I was in school and then actually
+
+(03:04:32):
+started my career in venture in 2019 and joined this firm called Pace Capital,
+
+(03:04:38):
+which is a New York based venture capital firm.
+
+(03:04:41):
+And then started my own company in the crypto space because crypto is kind of this
+
+(03:04:46):
+consilience of
+
+(03:04:48):
+programmability of literally one of the most important concepts like inhumanity,
+
+(03:04:53):
+which is money.
+
+(03:04:55):
+And then you have,
+
+(03:04:56):
+you know,
+
+(03:04:56):
+this very crazy kind of developer community in crypto for kind of both the,
+
+(03:05:04):
+you know,
+
+(03:05:04):
+incentive around the ecosystem,
+
+(03:05:06):
+but also I think that it's just like a really kind of intellectually stimulating
+
+(03:05:10):
+concepts at a time.
+
+(03:05:11):
+So I built basically a developer platform that helps people create smart contracts,
+
+(03:05:15):
+ended up selling the company to Coinbase and was basically leading developer tools
+
+(03:05:21):
+at Coinbase's layer two blockchain called Base and basically built a bunch of open
+
+(03:05:27):
+source tooling.
+
+(03:05:28):
+for them as well to make building on chain easy.
+
+(03:05:30):
+And I think I've like kind of taken a lot of those like how do you make kind of
+
+(03:05:36):
+money building blocks like really fun and easy to use into this kind of new chapter
+
+(03:05:42):
+of
+
+(03:05:43):
+obviously agentic capabilities.
+
+(03:05:44):
+And I feel like as a writer myself and same with you,
+
+(03:05:47):
+Dan,
+
+(03:05:47):
+like I think the technology of LLM is just like deeply philosophically interesting
+
+(03:05:53):
+where there's this kind of interesting dichotomy of like the worst cell and the
+
+(03:05:58):
+shape rotator discourse on Twitter specifically.
+
+(03:06:01):
+And we kind of joke that,
+
+(03:06:03):
+wow,
+
+(03:06:03):
+this is like,
+
+(03:06:05):
+you know,
+
+(03:06:05):
+actually a renaissance of worst cells power.
+
+(03:06:08):
+Like if you're able to describe something, you can really well into existence.
+
+(03:06:11):
+Um,
+
+(03:06:12):
+and I feel like for a lot of writers in my life,
+
+(03:06:14):
+they,
+
+(03:06:14):
+they ended up actually becoming pretty good at vibe coding.
+
+(03:06:17):
+I think for that reason, um, especially if you have some like technical knowledge.
+
+(03:06:21):
+Uh,
+
+(03:06:22):
+so I think that like,
+
+(03:06:23):
+there's a lot of audience and,
+
+(03:06:24):
+and lineup and guests that you have here that,
+
+(03:06:27):
+uh,
+
+(03:06:28):
+you know,
+
+(03:06:28):
+have probably much better vibe coding skills than I do.
+
+(03:06:31):
+Um,
+
+(03:06:32):
+but I really do think that the,
+
+(03:06:34):
+the kind of concept of like,
+
+(03:06:35):
+okay,
+
+(03:06:36):
+vibe coding might still be a form of coding and programming can be somewhat
+
+(03:06:39):
+intimidating to people.
+
+(03:06:41):
+So I think that kind of perspectives maybe I can bring today is like,
+
+(03:06:45):
+it's actually more about the vibe than the coding.
+
+(03:06:49):
+It's like,
+
+(03:06:50):
+if you are having fun building what you want to build and,
+
+(03:06:54):
+you know,
+
+(03:06:54):
+that's actually the most important motivation.
+
+(03:06:56):
+And I think a lot of my best ideas literally just come from like a joke or,
+
+(03:07:01):
+or it comes from,
+
+(03:07:02):
+you know,
+
+(03:07:04):
+kind of using a piece of software that was like,
+
+(03:07:06):
+oh,
+
+(03:07:06):
+I don't want to pay for that.
+
+(03:07:07):
+So I just like build it myself.
+
+(03:07:10):
+I love it.
+
+(03:07:11):
+You heard it here first, folks.
+
+(03:07:12):
+It's all about the vibe, not about the coding.
+
+(03:07:16):
+If you want to be a good vibe coder, it's all about the vibe.
+
+(03:07:18):
+And I also love that.
+
+(03:07:19):
+I do agree.
+
+(03:07:20):
+I think if you're a good writer,
+
+(03:07:22):
+it translates kind of well to being a good vibe coder or prompter because you're
+
+(03:07:27):
+just good at casting spells that specify the specific thing you're thinking about,
+
+(03:07:32):
+which is helpful for writing.
+
+(03:07:34):
+It's also really helpful for coding.
+
+(03:07:37):
+On that note, I'd love to see what you're working on.
+
+(03:07:39):
+What are you building?
+
+(03:07:39):
+What's your workflow?
+
+(03:07:40):
+What do you want to share?
+
+(03:07:42):
+Yeah,
+
+(03:07:43):
+so I definitely have a lot of workflow that's a little bit more,
+
+(03:07:45):
+I think on the boring side,
+
+(03:07:47):
+given my current full-time job is like,
+
+(03:07:48):
+I focus a lot on developer tools and infra in my investment practice.
+
+(03:07:52):
+So,
+
+(03:07:52):
+you know,
+
+(03:07:53):
+I built kind of these very utilitarian tools,
+
+(03:07:56):
+like,
+
+(03:07:56):
+you know,
+
+(03:07:56):
+kind of GitHub trackers,
+
+(03:07:58):
+like,
+
+(03:07:58):
+you know,
+
+(03:07:59):
+analyzing on like the latest developer trends with LLM,
+
+(03:08:02):
+with research and happy to share some of that as well.
+
+(03:08:05):
+But I think my main goal is really to emphasize the fun part of coding.
+
+(03:08:10):
+i'm going to share my screen okay i will just share the entire screen can you see
+
+(03:08:22):
+my screen i can all right so um sorry about the
+
+(03:08:32):
+infinite maze here all right so i basically vibe coded this app um that i've always
+
+(03:08:39):
+wanted to have in my professional life where uh you know sometimes you get kind of
+
+(03:08:45):
+impatient with your you know coworkers or people like not merging your prs or you
+
+(03:08:51):
+know you kind of want to scream you know into the slack
+
+(03:08:54):
+Slack channel.
+
+(03:08:56):
+And sometimes you're just really angry.
+
+(03:08:58):
+And,
+
+(03:09:00):
+you know,
+
+(03:09:00):
+and I think I find myself sometimes it's like,
+
+(03:09:03):
+you build this like auto generated,
+
+(03:09:05):
+like,
+
+(03:09:05):
+hey,
+
+(03:09:05):
+just call me,
+
+(03:09:06):
+or you mark my email as low priority.
+
+(03:09:09):
+But then like, why don't you respond?
+
+(03:09:11):
+You know, or things like, you know, I put it put in PTO three months ago.
+
+(03:09:14):
+And you're asking if I can reschedule.
+
+(03:09:18):
+And all of these prompts are actually generated by cloud code.
+
+(03:09:23):
+My coworkers has been about to retire for six years and does nothing while I covered their work.
+
+(03:09:28):
+So you can basically be as frustrated as you want and then basically can translate
+
+(03:09:33):
+what you're about to say that's probably not work safe into a corporate language.
+
+(03:09:39):
+Okay, there's an issue here.
+
+(03:09:41):
+Let's see.
+
+(03:09:44):
+Deep live demos, folks.
+
+(03:09:46):
+Live demos, baby.
+
+(03:09:47):
+I love it.
+
+(03:09:48):
+All right.
+
+(03:09:49):
+So it was working.
+
+(03:09:50):
+Let me try to redeploy it.
+
+(03:09:54):
+How would you fix it?
+
+(03:09:55):
+Yeah.
+
+(03:09:55):
+Let's see if we can fix it live.
+
+(03:09:58):
+Yeah.
+
+(03:10:00):
+Let's see it.
+
+(03:10:06):
+Actually, I'm going to go to the deployed version versus local because I know this one works.
+
+(03:10:10):
+Oh, this is so cool.
+
+(03:10:11):
+Wait, like, look at this.
+
+(03:10:12):
+I love this UI.
+
+(03:10:14):
+Tell us about the UI.
+
+(03:10:15):
+Oh, my God.
+
+(03:10:16):
+Look at it.
+
+(03:10:16):
+It looks like an operating system.
+
+(03:10:17):
+Very intricate.
+
+(03:10:19):
+And it looks and there's more to come.
+
+(03:10:21):
+So let's say that,
+
+(03:10:22):
+OK,
+
+(03:10:23):
+you're wanting to do the work of a senior developer by paying me as a junior.
+
+(03:10:26):
+I'm going to translate this.
+
+(03:10:34):
+I think it might be my API key, to be honest.
+
+(03:10:36):
+OK, let me try again.
+
+(03:10:39):
+Up your limits.
+
+(03:10:42):
+You're maybe using too much.
+
+(03:10:43):
+All right, so let's see.
+
+(03:10:47):
+I've been preparing for this session, so.
+
+(03:10:49):
+I can give you.
+
+(03:10:53):
+Yeah, and let me see.
+
+(03:10:53):
+OK, so.
+
+(03:11:00):
+I,
+
+(03:11:01):
+so one thing about vibe coding that's a little annoying is when things break,
+
+(03:11:05):
+sometimes it's like a little mysterious what happened.
+
+(03:11:07):
+You have to kind of dive into the code base.
+
+(03:11:09):
+That's true.
+
+(03:11:10):
+Yeah.
+
+(03:11:11):
+I'm in the code base.
+
+(03:11:13):
+Can you ask Claude to fix it or like ask Claude what's going on?
+
+(03:11:17):
+So in terms of like workflow, I usually just use Claude code.
+
+(03:11:21):
+So I'm in this repo and let me see the error message.
+
+(03:11:29):
+There's one issue here.
+
+(03:11:31):
+Okay, call stack.
+
+(03:11:41):
+There you go.
+
+(03:11:42):
+As easy as that.
+
+(03:11:43):
+Pasting them into cloud code is next.
+
+(03:11:45):
+Is basically what, yeah.
+
+(03:11:46):
+Let's see.
+
+(03:11:55):
+Yeah, it's yeah, the API call failed.
+
+(03:12:00):
+So I think it probably is.
+
+(03:12:03):
+Yeah, my guess was API code.
+
+(03:12:05):
+So do you think you ran out of anthropocode?
+
+(03:12:07):
+We can run out of credit.
+
+(03:12:09):
+Have you stopped anyone in the audience?
+
+(03:12:10):
+Yeah, why don't you go do that?
+
+(03:12:12):
+Let me I can I can take over for a bit and give you some space to fix that.
+
+(03:12:16):
+Does that work?
+
+(03:12:17):
+Thank you.
+
+(03:12:18):
+Okay.
+
+(03:12:19):
+So while Tina's doing that,
+
+(03:12:21):
+I've like during the,
+
+(03:12:23):
+during the stream,
+
+(03:12:23):
+at the beginning of the stream,
+
+(03:12:24):
+I started demoing an app that I built.
+
+(03:12:26):
+And so if you just got here, I think it's worth me demoing this for you.
+
+(03:12:30):
+I'm going to just share my screen.
+
+(03:12:34):
+So the app is called proof and it's super cool.
+
+(03:12:39):
+So proof is an agent native Markdown editor.
+
+(03:12:42):
+And what that means is it's a really simple Markdown editor that I use with cloud
+
+(03:12:45):
+code and codex that I built.
+
+(03:12:48):
+From scratch, totally vibe coded over the last two weeks using cloud code and codex.
+
+(03:12:53):
+It's pretty cool.
+
+(03:12:54):
+So basically on the left,
+
+(03:12:55):
+you can see we have a sidebar which tells me what in a document,
+
+(03:12:59):
+what has been made by human versus what has been made by AI.
+
+(03:13:02):
+So this is a cloud code generated plan.
+
+(03:13:05):
+But if I go type in something and say this is from Dan,
+
+(03:13:08):
+you'll see a little green pops up here and if I type more,
+
+(03:13:12):
+it'll give me more human percent.
+
+(03:13:15):
+So it's a really nice way at the base to keep track of what I've written versus
+
+(03:13:21):
+what Claude or any other agent has written,
+
+(03:13:24):
+which I think is really helpful in this era.
+
+(03:13:26):
+It also has all the things you might expect, so I can leave a comment.
+
+(03:13:30):
+I can do track changes.
+
+(03:13:32):
+So I can do like this and it'll track my changes, all that kind of stuff.
+
+(03:13:37):
+But the really cool thing is it has a built-in, it's agent native.
+
+(03:13:43):
+So anything that I can do in the app,
+
+(03:13:45):
+agents can do in either an agent that is built in here or any other agent.
+
+(03:13:50):
+So for example, if I open up,
+
+(03:13:52):
+My cloud code and I have cloud code open over here and I have a I have a little
+
+(03:13:57):
+demo that I had to do.
+
+(03:13:58):
+So this is my agent presence demo slash command.
+
+(03:14:01):
+So it's just a it's just a slash command that says connect to proof and do some stuff in there.
+
+(03:14:06):
+And what will happen is which which is really, really cool.
+
+(03:14:10):
+If we just wait a moment.
+
+(03:14:17):
+It's it's currently boondoggling.
+
+(03:14:19):
+It's going to take a second.
+
+(03:14:24):
+So you'll see there's an there's an agent here.
+
+(03:14:26):
+My cloud code is in here.
+
+(03:14:27):
+It's starting to it's starting to make changes and as it as it makes changes,
+
+(03:14:32):
+it's scrolling me around so I can see the changes that it makes.
+
+(03:14:37):
+This is all I literally built all this in like in between meetings for the last
+
+(03:14:42):
+couple of last last two weeks and it's actually quite useful.
+
+(03:14:47):
+And I think it's a good sign of what's possible right now that you might not really expect.
+
+(03:14:53):
+Anyway, the following features is a little bit buggy right now, but that's how proof works.
+
+(03:14:59):
+We will make this available to every readers.
+
+(03:15:02):
+I'm actually currently working on this today while we're on the stream,
+
+(03:15:06):
+and I'm trying to get a version out that we'll be able to launch internally
+
+(03:15:09):
+tomorrow.
+
+(03:15:09):
+So we'll see if I hit my goal.
+
+(03:15:12):
+Tina, give me a thumbs up if you're ready to come back on.
+
+(03:15:19):
+Let me see.
+
+(03:15:20):
+Oh, she says she can come back.
+
+(03:15:21):
+Okay.
+
+(03:15:22):
+Hello.
+
+(03:15:22):
+Tina, welcome back.
+
+(03:15:24):
+Thank you.
+
+(03:15:25):
+So I have to say that I ran out of credits.
+
+(03:15:28):
+That's exactly what happened because I've been testing this.
+
+(03:15:31):
+So I just refilled another $20 to Anthropic.
+
+(03:15:36):
+And I think it might take some time for the credits to refilled.
+
+(03:15:42):
+But I can demo the rest of my app.
+
+(03:15:44):
+Please.
+
+(03:15:44):
+Because that doesn't require an API key.
+
+(03:15:48):
+Let's see.
+
+(03:15:50):
+or it or it uses like another part of the part of the sack so yes you can you can
+
+(03:15:56):
+do that um and then obviously like if you want to have music going on here you can
+
+(03:16:03):
+play music um while you're not we're not seeing your screen give me a sec okay here
+
+(03:16:07):
+we go there we go um wait just what is this app what is what is it
+
+(03:16:14):
+This app is my vision for the future of work.
+
+(03:16:17):
+Like in the future,
+
+(03:16:18):
+when you're working,
+
+(03:16:20):
+you can basically create your own customized workspace for you to do all kinds of
+
+(03:16:25):
+different random stuff.
+
+(03:16:26):
+And I was going to basically,
+
+(03:16:28):
+after my credit get filled,
+
+(03:16:30):
+buy a couple of new apps to this app store that basically belongs to my own little
+
+(03:16:36):
+workspace.
+
+(03:16:37):
+And is this like a website or is it native app?
+
+(03:16:39):
+This is a website.
+
+(03:16:40):
+This is a web app.
+
+(03:16:42):
+Oh, can we go on it?
+
+(03:16:43):
+Is it live right now?
+
+(03:16:44):
+Yeah, it's live.
+
+(03:16:45):
+What's the URL?
+
+(03:16:46):
+The URL is here, but some of the features will be updated and you can use it already.
+
+(03:16:54):
+And then some of them need my clock code.
+
+(03:16:58):
+And how is this built?
+
+(03:16:59):
+Like what is the underlying technology that does this?
+
+(03:17:02):
+It looks so good.
+
+(03:17:04):
+Yeah,
+
+(03:17:04):
+so I strongly recommend,
+
+(03:17:07):
+I've been a Vercel and Next.js fan for a long time,
+
+(03:17:10):
+and I think they definitely are,
+
+(03:17:12):
+you know,
+
+(03:17:13):
+a huge inspiration in kind of pioneering the movement of Vibe Coding,
+
+(03:17:18):
+you know,
+
+(03:17:19):
+alongside,
+
+(03:17:19):
+I think that their product v0 is doing a good job.
+
+(03:17:22):
+But generally, because there's this website actually called Context 7, I will share as well.
+
+(03:17:29):
+Let me share.
+
+(03:17:43):
+Can you see my screen?
+
+(03:17:43):
+We can.
+
+(03:17:46):
+Okay, perfect.
+
+(03:17:46):
+Can you see the Contact 7 page?
+
+(03:17:48):
+Page N. Yes.
+
+(03:17:49):
+So basically this is a page.
+
+(03:17:51):
+So Contact 7 is a MCP server.
+
+(03:17:55):
+What is an MCP is basically, you can think of it as like an API for agents.
+
+(03:18:01):
+So it basically create an interface for agents to know, to call any external data or tools.
+
+(03:18:08):
+And basically there's this very cool idea created by an engineer and a team at
+
+(03:18:13):
+Upstash called Contact 7.
+
+(03:18:15):
+And basically what it does is that it basically updates,
+
+(03:18:18):
+you know,
+
+(03:18:18):
+the tool library for your agents.
+
+(03:18:21):
+So their agents are basically always able to access the kind of most popular and
+
+(03:18:27):
+best in class tools.
+
+(03:18:29):
+So this is actually a good way to see like what stack people are using,
+
+(03:18:33):
+because it's like I kind of joke internally that tokens don't lie.
+
+(03:18:37):
+It's like basically I love that.
+
+(03:18:39):
+Oh, put it up on a banner.
+
+(03:18:41):
+Let's go.
+
+(03:18:41):
+Tokens don't lie.
+
+(03:18:44):
+Like how tokens are being allocated.
+
+(03:18:46):
+And obviously another great source that I think many of the audience know would be
+
+(03:18:49):
+like open router.
+
+(03:18:51):
+Although,
+
+(03:18:51):
+you know,
+
+(03:18:52):
+the kind of legitimacy of like the,
+
+(03:18:54):
+or the actual accuracy of the data is to be debated because you can opt in and out
+
+(03:19:00):
+as like a app or models.
+
+(03:19:02):
+So it's still TBD, but you can also see like the amount of tokens that are used.
+
+(03:19:07):
+So this is like also a great resource for you to basically understand,
+
+(03:19:11):
+you know,
+
+(03:19:11):
+the latest,
+
+(03:19:13):
+the most used models,
+
+(03:19:15):
+you know,
+
+(03:19:15):
+week,
+
+(03:19:16):
+month,
+
+(03:19:17):
+but also
+
+(03:19:18):
+I love this.
+
+(03:19:19):
+It's like you can basically select different use cases like for finance or for role play.
+
+(03:19:25):
+There are basically different models that are good for that use case.
+
+(03:19:28):
+And for Contact 7 here,
+
+(03:19:30):
+like as you can see,
+
+(03:19:30):
+like the most popular one is Next.js,
+
+(03:19:33):
+which is what I used to build my app.
+
+(03:19:36):
+Got it.
+
+(03:19:37):
+Yes.
+
+(03:19:38):
+Uh,
+
+(03:19:38):
+so when in doubt was like,
+
+(03:19:40):
+oh,
+
+(03:19:40):
+what,
+
+(03:19:40):
+like,
+
+(03:19:40):
+for example,
+
+(03:19:41):
+you want to do authentication,
+
+(03:19:43):
+like the most boring,
+
+(03:19:44):
+but important part of the building an app is like,
+
+(03:19:46):
+you want users to log into your app and be able to do stuff.
+
+(03:19:50):
+And traditionally they're really popular libraries like,
+
+(03:19:53):
+you know,
+
+(03:19:53):
+clerk is a very popular and like a,
+
+(03:19:56):
+they're like a very well funded venture backed company.
+
+(03:19:58):
+You know, they're off zero.
+
+(03:20:00):
+There, there are many ways to do off now.
+
+(03:20:02):
+And obviously you can also just use,
+
+(03:20:03):
+you know,
+
+(03:20:03):
+the traditional super base or,
+
+(03:20:05):
+or,
+
+(03:20:06):
+or fire like Google Firebase to do off.
+
+(03:20:08):
+But if you want something that's like a little bit nicer,
+
+(03:20:10):
+it comes with like a prebuilt UI,
+
+(03:20:12):
+you can use better off.
+
+(03:20:13):
+And basically like this stack is,
+
+(03:20:16):
+like shows you or like tailwind for like, you know, making your app look nice.
+
+(03:20:19):
+Um, it's basically the number one styling, uh, CSS framework to make the website look pretty.
+
+(03:20:26):
+And,
+
+(03:20:26):
+uh,
+
+(03:20:27):
+so you basically like using sites like this,
+
+(03:20:30):
+you're able to get like a view into the most popular frameworks.
+
+(03:20:34):
+Can you tell me like, okay, but just looking at this, like going back to your site, um,
+
+(03:20:39):
+Did you use cloud code for this?
+
+(03:20:41):
+Did you use codex?
+
+(03:20:42):
+And what was the, how did you begin?
+
+(03:20:43):
+Or what did you, how do you even start?
+
+(03:20:45):
+Like, Hey, I want like a full operating system as a website.
+
+(03:20:47):
+Like what was your problem?
+
+(03:20:48):
+What was your process?
+
+(03:20:49):
+My process was basically like I want a vintage Mac OS.
+
+(03:20:55):
+I can share like the full prompt with the with if you want to do a follow up like transcript.
+
+(03:21:00):
+I really do.
+
+(03:21:00):
+I absolutely do.
+
+(03:21:02):
+Yeah, I can do it.
+
+(03:21:03):
+It's basically like a vintage Mac OS operating system and then I want the
+
+(03:21:08):
+background to look a certain way.
+
+(03:21:09):
+Like I want the icons to look a certain way and I basically just also give it an
+
+(03:21:14):
+image of like what that like that era of UI looks like.
+
+(03:21:20):
+And I think that's also like a really good way,
+
+(03:21:22):
+like if you want the UI of clock code to look similar to whatever you give them,
+
+(03:21:28):
+sometimes it's like,
+
+(03:21:29):
+oh,
+
+(03:21:29):
+why does it look so different?
+
+(03:21:30):
+I think a lot of that is actually prompting and also the new feature skills you
+
+(03:21:35):
+might have seen on,
+
+(03:21:37):
+you know,
+
+(03:21:37):
+from the Anthropic release that there's this file called skills.md that basically
+
+(03:21:42):
+describes how to like precisely do a task.
+
+(03:21:48):
+And it basically creates some level of...
+
+(03:21:50):
+It's not hard guardrails,
+
+(03:21:51):
+but it's like a soft kind of in-context guardrail for cloud code or just your cloud
+
+(03:21:59):
+to understand what you're looking for.
+
+(03:22:01):
+So if you're a small startup, it's like...
+
+(03:22:05):
+it will be very efficient to store your ui system like into like a like a startup
+
+(03:22:11):
+skill uh and then every time you build a site like they would just like refer to
+
+(03:22:16):
+the style guide of that skill file before they kind of generate any internal apps
+
+(03:22:21):
+or or any of the products that you want to build and when you're doing this are you
+
+(03:22:26):
+like uh maybe to start this are you doing a plan mode uh like
+
+(03:22:31):
+In Claude, how are you iterating until you're satisfied and letting it build?
+
+(03:22:37):
+Yeah.
+
+(03:22:39):
+I would say that the biggest thing in...
+
+(03:22:44):
+kind of creating really good outcome.
+
+(03:22:47):
+And usually with one-shot success, it's just really well-written PRDs.
+
+(03:22:53):
+And I would say that even a year ago,
+
+(03:22:54):
+you need to put a lot more time in drafting the product spec.
+
+(03:23:00):
+And I think that's probably music to the ears of the product managers.
+
+(03:23:05):
+in in our world where um they're very used to writing these type of products back
+
+(03:23:09):
+um but the more specific you are like obviously the better performing um the
+
+(03:23:14):
+outcome is going to be uh so generally i would say like the the more detailed you
+
+(03:23:19):
+are the better uh but at the same time like if you want to do something like for
+
+(03:23:23):
+example i think a lot of apps here like i have a couple funny ones like for example
+
+(03:23:27):
+you can like build a trading app
+
+(03:23:30):
+and you can do like 2x leverage and then put all my network.
+
+(03:23:34):
+Is this hooked up to your Charles Schwab, right?
+
+(03:23:36):
+This is not.
+
+(03:23:38):
+For demo purposes,
+
+(03:23:39):
+but if you do want to hook it up to either your crypto wallet or your real trading
+
+(03:23:46):
+account,
+
+(03:23:47):
+definitely you need to use an API for that.
+
+(03:23:50):
+But this is just for demo purpose of what a personalized UI looks like if you just
+
+(03:23:55):
+want to control,
+
+(03:23:56):
+you want to monitor the situation while you're at work in the future.
+
+(03:24:00):
+And I wanted to demo some like image related features.
+
+(03:24:03):
+So you can like take a photo and then you can enhance it.
+
+(03:24:07):
+So here I'm using the replicate AI and I wanted to showcase beyond text,
+
+(03:24:12):
+like,
+
+(03:24:13):
+and then you see it generates like a corporate background for me and I can download
+
+(03:24:17):
+this image.
+
+(03:24:19):
+And...
+
+(03:24:22):
+I love it.
+
+(03:24:23):
+It's very silly.
+
+(03:24:24):
+And then there you can, I can also do a side hustle where I can do like data labeling task.
+
+(03:24:31):
+Like this is a dog, this is a tree.
+
+(03:24:34):
+Just imagine, you know, I'm like also.
+
+(03:24:36):
+This is the new economy.
+
+(03:24:37):
+This is the AI economy.
+
+(03:24:39):
+This is the AI economy, right?
+
+(03:24:41):
+And then I was planning to also vibe code live, potentially an app for Valentine's Day.
+
+(03:24:48):
+We're like, wow, I'm doing all of that at work.
+
+(03:24:50):
+I can also just vibe code a bunch of Valentine's Day cards to my friends and my loved ones.
+
+(03:24:57):
+But I know that we're a little running out of time.
+
+(03:24:58):
+I mean, we've got four minutes.
+
+(03:25:00):
+What can you do with four minutes?
+
+(03:25:02):
+All right, let's try it.
+
+(03:25:02):
+Let's try it.
+
+(03:25:05):
+I'm going to...
+
+(03:25:09):
+Oh, I'm not sharing all of my screen now.
+
+(03:25:11):
+Let me try that.
+
+(03:25:20):
+All right, so let's say create another app on the desktop.
+
+(03:25:28):
+Also, I know that I saw Nat's session where he was using a voice to text.
+
+(03:25:33):
+He was using Monologue by Every, which you should definitely be using.
+
+(03:25:36):
+I don't know if you're using Whisperflow, boo, but it's okay.
+
+(03:25:40):
+I'm using SuperWhisper.
+
+(03:25:42):
+SuperWhisper, also boo, but it's fine.
+
+(03:25:43):
+Also boo.
+
+(03:25:45):
+First to market.
+
+(03:25:46):
+I just like it kind of works.
+
+(03:25:48):
+So I just have been sticking with it.
+
+(03:25:50):
+But for the purpose of time,
+
+(03:25:52):
+I'm just going to do create another app on the desktop that creates beautiful
+
+(03:25:57):
+Valentine Day cards to send to your loved ones.
+
+(03:26:02):
+All right, let's see how it does.
+
+(03:26:04):
+I love it.
+
+(03:26:06):
+I love it.
+
+(03:26:06):
+While it's while it's cooking,
+
+(03:26:09):
+I'm I just like love how creative and like whimsical and thoughtful all of this is.
+
+(03:26:16):
+And it feels like you're playing in this amazing way.
+
+(03:26:21):
+Tell me about that,
+
+(03:26:22):
+because I think a lot of people approach AI from like,
+
+(03:26:24):
+I need to get something done and it needs to be valuable.
+
+(03:26:28):
+And this is obviously quite valuable,
+
+(03:26:31):
+but it also just has this playful part of it that I think is actually so important
+
+(03:26:37):
+as a way to approach new technologies,
+
+(03:26:39):
+in particular AI.
+
+(03:26:40):
+Tell me about that.
+
+(03:26:41):
+Yeah, I would say this is less definitely not useful.
+
+(03:26:46):
+And I'm keenly aware of that.
+
+(03:26:48):
+And I think I'm trying to take a slightly alternative approach with this session
+
+(03:26:54):
+where I obviously use AI.
+
+(03:26:56):
+I think 80% of it is actually for work, like maybe 90% of it.
+
+(03:27:01):
+I use a lot of the features that I think other guests on the show probably also have shared.
+
+(03:27:08):
+everything from research to operating or automating my own day-to-day life.
+
+(03:27:14):
+But I feel like those are going to get even easier to do.
+
+(03:27:18):
+I feel like with the progress that Anthropic and ChatGPT is making,
+
+(03:27:23):
+there's going to be less and less
+
+(03:27:25):
+So I was like a new better lesson.
+
+(03:27:26):
+There's going to be less and less like handholding on the agent and on the AI to do
+
+(03:27:31):
+specific tasks.
+
+(03:27:33):
+In the future,
+
+(03:27:33):
+we can really just describe what we want to do in natural language,
+
+(03:27:37):
+especially for personal use case.
+
+(03:27:39):
+So we need to get pretty good results if we don't have to think about scalability.
+
+(03:27:44):
+And then the 10% of it,
+
+(03:27:46):
+you know,
+
+(03:27:46):
+is actually the meaningfully lowered cost to create joy and fun.
+
+(03:27:50):
+And I think that that's why in the intro, I kind of like emphasize that gaming aspect.
+
+(03:27:54):
+I feel like this is my childhood dream to be able to just like,
+
+(03:27:58):
+create fun experiences that make people laugh and make people have fun and enjoy a
+
+(03:28:04):
+kind of life a little bit more.
+
+(03:28:05):
+And given the cost is literally lower than probably buying someone a cup of coffee,
+
+(03:28:11):
+like definitely lower than buying someone a cup of coffee.
+
+(03:28:14):
+Like it can just bring a smile on their face if you build an app for someone.
+
+(03:28:18):
+So I think it's just like a new way of self-expression and a new way of also,
+
+(03:28:23):
+you know,
+
+(03:28:24):
+socializing that I think will become more and more common.
+
+(03:28:27):
+And there are like tools that kind of,
+
+(03:28:29):
+you know,
+
+(03:28:29):
+clock code,
+
+(03:28:30):
+it still feels a little intimidating.
+
+(03:28:32):
+You need a terminal,
+
+(03:28:33):
+although there are like tools like,
+
+(03:28:34):
+you know,
+
+(03:28:34):
+conductor and whatnot,
+
+(03:28:35):
+that's like creating a better UI,
+
+(03:28:37):
+but it's still a little intimidating.
+
+(03:28:38):
+And there are apps out there that are like, you know, lovable or Wabi.
+
+(03:28:42):
+There are more and more companies out there that are basically removing even like
+
+(03:28:47):
+seeing any line of code at all.
+
+(03:28:50):
+And in the future,
+
+(03:28:51):
+it's like,
+
+(03:28:51):
+you know,
+
+(03:28:52):
+you can kind of imagine a future where people are,
+
+(03:28:53):
+you know,
+
+(03:28:54):
+sharing with loved ones this funny app that they make.
+
+(03:28:58):
+Like, what does that content look like?
+
+(03:28:59):
+It's probably going to look even like way more creative than this little experiment that I did.
+
+(03:29:04):
+I totally, totally agree.
+
+(03:29:06):
+I mean,
+
+(03:29:07):
+the reason I have the same thing,
+
+(03:29:08):
+like I got into programming because I wanted to make games and then games were like
+
+(03:29:13):
+too hard to make.
+
+(03:29:13):
+So I ended up making B2B SaaS.
+
+(03:29:16):
+And I feel like now it's possible to just do the games and do the like really fun,
+
+(03:29:21):
+creative projects.
+
+(03:29:22):
+So thank you for re-inspiring me, re-inspiring all of us.
+
+(03:29:26):
+If people want to find you, where can they find you?
+
+(03:29:30):
+Um, they can find me on, uh, yes.
+
+(03:29:33):
+So my Twitter handle is in below like fake pixels,
+
+(03:29:36):
+but my,
+
+(03:29:36):
+I also have a newsletter called fake pixels.substack.com.
+
+(03:29:41):
+And,
+
+(03:29:42):
+uh,
+
+(03:29:42):
+yeah,
+
+(03:29:42):
+that's where I share more of my long form writing about usually the philosophy of
+
+(03:29:46):
+tech and investing and AI and all of the above.
+
+(03:29:50):
+Amazing.
+
+(03:29:51):
+And on every, you've got a couple of great essays on every, we'll, we'll put them in the chat.
+
+(03:29:55):
+Um, thank you so much, Tina.
+
+(03:29:57):
+Um, yeah.
+
+(03:29:58):
+See you soon.
+
+(03:30:02):
+All right, so we've got a stacked lineup coming up.
+
+(03:30:05):
+We've got a couple of really cool people just off stage, just getting ready to get started.
+
+(03:30:11):
+If you just got here, this is Vibe Code Camp.
+
+(03:30:14):
+We are live all day.
+
+(03:30:15):
+We've been live for almost four hours now with some of the top coders in the world
+
+(03:30:20):
+showing us their workflows,
+
+(03:30:21):
+how they build stuff with AI.
+
+(03:30:22):
+We just saw Tina He showing her personal operating system website.
+
+(03:30:26):
+It's like one of the coolest things I've ever seen.
+
+(03:30:29):
+And if you're here and you want to see the agenda, go to every.to slash agenda.
+
+(03:30:35):
+You'll see everybody that we've got coming up.
+
+(03:30:39):
+And you should check out Every.
+
+(03:30:41):
+Every is the only subscription you need to stay at the edge of AI.
+
+(03:30:44):
+If you subscribe, you get access to ideas, apps, and training.
+
+(03:30:47):
+It's a bundle of all the things you're going to need to stay at the edge.
+
+(03:30:51):
+And with that...
+
+(03:30:54):
+I'm very excited to welcome to the stage, Paula Doja.
+
+
+

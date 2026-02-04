@@ -1,0 +1,1621 @@
+# Naveen Naidu - One developer vs VC-backed voice note giants
+
+**Company:** Every / Monologue
+**Timestamp:** 6:30:47
+**YouTube:** https://www.youtube.com/watch?v=5YBjll9XJlw&t=23447s
+
+---
+
+=== NAVEEN NAIDU (Every / Monologue) - Building Monologue iOS ===
+
+
+(06:30:47):
+monologue naveen welcome
+
+(06:30:49):
+Thank you.
+
+(06:30:51):
+I've been keeping a silent tally,
+
+(06:30:55):
+and I'd say about half the people on here are using Monologue,
+
+(06:30:58):
+and half of them are between Super Whisper and Whisperflow.
+
+(06:31:02):
+So I think you're actually doing a good job because you're splitting the competition.
+
+(06:31:07):
+But we're still, I have shamed every single person who is using Monologue.
+
+(06:31:14):
+that's good you are if you want to live in the future you cannot be typing anything
+
+(06:31:19):
+you have to be using your voice and you should use monologue from every built by
+
+(06:31:23):
+the one and only naveen um i'm gonna let you two have a great conversation and uh
+
+(06:31:27):
+i'm gonna listen and enjoy awesome thank you
+
+(06:31:32):
+um all right yeah navine there's been a lot of requests to dig in a bit tomorrow
+
+(06:31:37):
+when i was uh in my last uh dream people were also asking a lot about modes i think
+
+(06:31:43):
+like like people yeah people want to know how modes work and what they are so i
+
+(06:31:48):
+think we should spend some time on that but first things first why don't you
+
+(06:31:52):
+introduce yourself um
+
+(06:31:55):
+You're like the smartest guy I've ever met, and I think that's actually an official number.
+
+(06:31:59):
+I want to hype you up on that.
+
+(06:32:06):
+This guy is like the 200th smartest guy.
+
+(06:32:09):
+Not at all.
+
+(06:32:12):
+Don't do that.
+
+(06:32:13):
+I just love building products.
+
+(06:32:17):
+That's it.
+
+(06:32:18):
+Yeah,
+
+(06:32:18):
+no,
+
+(06:32:19):
+Naveen is like one of the best builders I know and one of the most humble people I
+
+(06:32:22):
+know.
+
+(06:32:22):
+So it's like an amazing combination, and I think it comes through in the product.
+
+(06:32:27):
+So what do you want to talk about today?
+
+(06:32:29):
+Yeah, so for me, oh, hey, Ron.
+
+(06:32:32):
+So maybe a quick intro.
+
+(06:32:33):
+I joined every, as a EAR first, around one year, three months, and I did a ton of experiments.
+
+(06:32:40):
+You can write, like, see my experiments, and I wrote a couple of articles about it as well.
+
+(06:32:45):
+And Monologue is one of the experiments that came out of it.
+
+(06:32:50):
+And then when we initially released it internally, people started using it 100 times per day.
+
+(06:32:56):
+And Kiran is one of the first persons to use it heavily.
+
+(06:33:00):
+And I'm really grateful to partner with every and also getting every audience as
+
+(06:33:06):
+early adopters giving me a ton of feedback.
+
+(06:33:09):
+So that's what made Monologue what right now it is.
+
+(06:33:13):
+and i want to get a little bit into a few features that monologue has i know a ton
+
+(06:33:19):
+of people are using like voice to text but monologue also has these advanced
+
+(06:33:22):
+features that people can take advantage of so i want to just a little bit talk
+
+(06:33:27):
+about advanced features and then also do a demo of ios app and then at the end
+
+(06:33:32):
+maybe we can if you have any questions you can talk about those or how i use uh
+
+(06:33:37):
+VibeCode, Cloud Code or Codex, I can talk about that as well.
+
+(06:33:41):
+So yeah.
+
+(06:33:42):
+Cool.
+
+(06:33:43):
+Yeah,
+
+(06:33:43):
+maybe while you're going through,
+
+(06:33:44):
+like,
+
+(06:33:44):
+if there's any,
+
+(06:33:45):
+while you're going through some of the functionality,
+
+(06:33:48):
+I'd love for you to talk about,
+
+(06:33:49):
+like,
+
+(06:33:51):
+places where you VibeCoded something versus,
+
+(06:33:53):
+like,
+
+(06:33:53):
+where you had to do it by hand and,
+
+(06:33:55):
+you know,
+
+(06:33:56):
+where Cloud Code was able to,
+
+(06:33:57):
+like,
+
+(06:33:57):
+excel in building this and where it really struggled.
+
+(06:34:01):
+Yeah.
+
+(06:34:01):
+I think that might be interesting.
+
+(06:34:02):
+Awesome.
+
+(06:34:04):
+I'm going to share my screen.
+
+(06:34:09):
+Okay.
+
+(06:34:11):
+So maybe for people who don't know what monologue is, I'll just do a quick intro.
+
+(06:34:15):
+It's a smart voice to text Mac app right now,
+
+(06:34:18):
+but in future,
+
+(06:34:19):
+in a couple of weeks,
+
+(06:34:20):
+we are releasing the iOS app as well.
+
+(06:34:23):
+The first thing that you should is the shortcut.
+
+(06:34:29):
+So right now, my shortcut is right side option key.
+
+(06:34:34):
+We're not seeing your screen right now.
+
+(06:34:35):
+Right now.
+
+(06:34:35):
+Oh, really?
+
+(06:34:40):
+Let me see.
+
+(06:34:41):
+Why is that?
+
+(06:34:50):
+There we go.
+
+(06:34:51):
+I need to tap on that.
+
+(06:34:53):
+I didn't know about it.
+
+(06:34:56):
+Now you can see it.
+
+(06:34:58):
+Yep.
+
+(06:34:58):
+Yep.
+
+(06:34:59):
+We're here.
+
+(06:35:00):
+Awesome.
+
+(06:35:01):
+Awesome.
+
+(06:35:01):
+So yeah, I'm just like, you know, going through the settings.
+
+(06:35:04):
+So you can set your shortcut to trigger monologue.
+
+(06:35:08):
+So right now for me, it's right side option key.
+
+(06:35:11):
+So there are two ways of like, you know, triggering the monologue.
+
+(06:35:15):
+One is hold to record.
+
+(06:35:16):
+This is for quick recordings.
+
+(06:35:17):
+If you want to do five to 10 seconds recordings, you can just hold the right side option key.
+
+(06:35:24):
+yeah how is it going and then once you're done you can just like you know leave it
+
+(06:35:29):
+and then text gets pasted wherever your current active cursor is and for longer
+
+(06:35:38):
+recording yeah so for one minute like sometimes i'm doing brain upside
+
+(06:35:49):
+One thing I have is give as much as much to do and then it performs that much better.
+
+(06:36:00):
+So option key and then you get that option key and then you get back.
+
+(06:36:09):
+Navin, we're kind of losing you right now.
+
+(06:36:11):
+Hey, Navin, are you there?
+
+(06:36:19):
+Yeah, I'm here.
+
+(06:36:21):
+You're cutting out pretty bad.
+
+(06:36:22):
+Maybe you can hop on your hotspot or something.
+
+(06:36:30):
+Yeah.
+
+(06:36:31):
+AI can't fix this.
+
+(06:36:33):
+Worst of all,
+
+(06:36:33):
+I know exactly where Naveen is right now,
+
+(06:36:35):
+which he's in the every office,
+
+(06:36:38):
+which we have phenomenal Wi-Fi.
+
+(06:36:40):
+But I think that's just some, you know, I think we got to blame this one on Spectrum.
+
+(06:36:47):
+And that's what Spectrum Brooklyn Wi-Fi is like.
+
+(06:36:52):
+But I think Naveen will be back here in a second.
+
+(06:36:55):
+There we go.
+
+(06:36:58):
+Okay.
+
+(06:36:59):
+I connected to my hotspot.
+
+(06:37:00):
+How is it looking?
+
+(06:37:01):
+Much better.
+
+(06:37:04):
+Much better.
+
+(06:37:04):
+Sorry about that.
+
+(06:37:05):
+I think, yeah, everyone is like on the stream, right?
+
+(06:37:08):
+Yeah.
+
+(06:37:09):
+It might be.
+
+(06:37:11):
+I have a question about how people use monologue.
+
+(06:37:18):
+Maybe you can start sharing your screen again so they know.
+
+(06:37:21):
+Do you have any data on how many people are holding it versus the length of a monologue?
+
+(06:37:29):
+Is the length of a monologue typically a short monologue,
+
+(06:37:34):
+or is it a long one,
+
+(06:37:35):
+like they're putting a huge prompt into Cloud Code?
+
+(06:37:38):
+Yeah,
+
+(06:37:39):
+so last time I checked,
+
+(06:37:41):
+the average is around P50,
+
+(06:37:43):
+average is around 48 words,
+
+(06:37:45):
+but P90,
+
+(06:37:47):
+ton of people who put in the words,
+
+(06:37:49):
+it's around 400 to 1000 words.
+
+(06:37:51):
+So actually people are like,
+
+(06:37:53):
+talking a lot to their cloud code or codex.
+
+(06:37:56):
+And that's a good thing.
+
+(06:37:58):
+Because you're giving as much context and you get better output.
+
+(06:38:02):
+OK.
+
+(06:38:02):
+So yeah.
+
+(06:38:04):
+Can you guys see my screen?
+
+(06:38:06):
+No.
+
+(06:38:07):
+Oh, now we do.
+
+(06:38:08):
+Yeah.
+
+(06:38:10):
+Okay, awesome.
+
+(06:38:11):
+Yeah, that's a quick intro.
+
+(06:38:13):
+Let me maybe talk more about mods and then we can then get back to other features.
+
+(06:38:18):
+So mods is one thing.
+
+(06:38:19):
+What's actually happening is we have these custom instructions.
+
+(06:38:23):
+If you tell who you are and what you do,
+
+(06:38:25):
+and then if you have any calendar links or phone numbers or anything like that,
+
+(06:38:29):
+you can just mention it here in your custom instructions.
+
+(06:38:32):
+What happens is Monolog understands you much better.
+
+(06:38:35):
+So the output that you get from Monolog is much better.
+
+(06:38:38):
+So that's one quick tip I recommend everyone to just like do a brain dump here.
+
+(06:38:44):
+Like you can come here, tell about yourself and then it would be great.
+
+(06:38:49):
+uh some people actually use uh you know also mention either to use british british
+
+(06:38:55):
+english or like their own way of how they talk and then you can just uh mention it
+
+(06:39:01):
+in here and coming to modes so we have this parap mode for example right now i have
+
+(06:39:06):
+this cloud code mode where i added ghosty which is my terminal and barb maybe i can
+
+(06:39:13):
+also add my
+
+(06:39:14):
+Claude app.
+
+(06:39:16):
+So what happens is whenever you are on that app and you start a monologue session,
+
+(06:39:21):
+it automatically activates this particular mode,
+
+(06:39:24):
+Claude code mode.
+
+(06:39:25):
+And how I personally work is I have this auto enter as well enabled.
+
+(06:39:30):
+So let me open ghost.
+
+(06:39:32):
+So right now I'm opening codex.
+
+(06:39:45):
+Hey, can you go through my code base and see if there are any kind of perks?
+
+(06:39:52):
+And right now I just selected that recording, right?
+
+(06:39:55):
+I stopped it and my hands are, it all entered.
+
+(06:40:00):
+Did you see that?
+
+(06:40:01):
+Yeah.
+
+(06:40:01):
+So basically you're,
+
+(06:40:02):
+you're like blindly just trusting that it's going to get,
+
+(06:40:06):
+uh,
+
+(06:40:08):
+your transcription correct and,
+
+(06:40:10):
+and you're going to send it.
+
+(06:40:11):
+So you're really going hands-free as much as you, you possibly can.
+
+(06:40:14):
+Yeah.
+
+(06:40:15):
+No, you're not.
+
+(06:40:16):
+Yeah.
+
+(06:40:17):
+Yeah.
+
+(06:40:18):
+I don't have any instructions usually like,
+
+(06:40:20):
+because default monologue is really good and I want to like experience how the
+
+(06:40:23):
+default monologue works.
+
+(06:40:25):
+So that's why I don't.
+
+(06:40:26):
+But enough people actually come here and add some custom instructions so that they
+
+(06:40:30):
+can merge in the right direction.
+
+(06:40:31):
+So for me, it's just like tap, talk, tap, paste the text, it auto sends.
+
+(06:40:38):
+I think that's one of the best ways for you to work with Codex or Cloud Code.
+
+(06:40:43):
+And I believe, yeah, other apps don't do it, so yeah.
+
+(06:40:46):
+Yeah,
+
+(06:40:47):
+I want you to show everybody a feature that I don't think many people know about,
+
+(06:40:49):
+which is the ability to toggle through modes while you're actually monologuing.
+
+(06:40:55):
+Because I find that to be really helpful sometimes.
+
+(06:40:59):
+Yeah.
+
+(06:40:59):
+Let's say if you're in cloud code and it automatically added this, right?
+
+(06:41:02):
+Cloud code.
+
+(06:41:03):
+And then here you can click on change mode.
+
+(06:41:07):
+here you can actually like, oh, I want to have a different mode now.
+
+(06:41:11):
+You can just go to the different mode.
+
+(06:41:13):
+Yeah.
+
+(06:41:14):
+My favorite example of that is somebody made a mode that was like,
+
+(06:41:17):
+it had added an emoji,
+
+(06:41:18):
+a clapping emoji in between every word.
+
+(06:41:21):
+So if they like really wanted to make a point while they were monologuing,
+
+(06:41:23):
+they like toggle to that mode.
+
+(06:41:25):
+And I think you can do that via the keyboard as well.
+
+(06:41:29):
+Yeah.
+
+(06:41:30):
+So yeah.
+
+(06:41:32):
+Cool.
+
+(06:41:34):
+Yeah, that's the most feature.
+
+(06:41:36):
+If anyone has any questions, I can answer that.
+
+(06:41:39):
+We can go on.
+
+(06:41:42):
+Cool.
+
+(06:41:44):
+Yeah, what else do you want to get into?
+
+(06:41:46):
+Yeah, the next thing is really cool thing is the paste loss transcript.
+
+(06:41:51):
+I think not a ton of people know about it.
+
+(06:41:54):
+For example,
+
+(06:41:54):
+if you're coding,
+
+(06:41:55):
+sometimes I have codex,
+
+(06:41:59):
+add Claude code opened at the same time,
+
+(06:42:02):
+and then I just like do a brain dump,
+
+(06:42:04):
+big brain dump,
+
+(06:42:05):
+right?
+
+(06:42:06):
+And then once it's done,
+
+(06:42:08):
+I just come to Claude code and then hit,
+
+(06:42:10):
+my shortcut is control V,
+
+(06:42:13):
+and then that gets pasted.
+
+(06:42:15):
+So yeah.
+
+(06:42:16):
+like here that like my previous transcript gets pasted immediately and that's a
+
+(06:42:22):
+cool way for you to access your lost transcript and then other thing is here you
+
+(06:42:27):
+can access mac menu bar you can just see all my these all your recent transcripts
+
+(06:42:32):
+and you can access uh the patient transcripts as well what about um what about the
+
+(06:42:37):
+notes feature
+
+(06:42:40):
+That is coming soon.
+
+(06:42:41):
+Should we talk about it?
+
+(06:42:43):
+I think let's talk about it.
+
+(06:42:44):
+I also think you should talk about how you built it.
+
+(06:42:46):
+I'm sure you haven't written much code for it.
+
+(06:42:49):
+Yeah.
+
+(06:42:51):
+Let me do that.
+
+(06:42:56):
+Yeah.
+
+(06:42:56):
+Okay.
+
+(06:42:56):
+Awesome.
+
+(06:42:57):
+So I'll talk more about how notes work.
+
+(06:43:00):
+So the first thing that we did here is actually
+
+(06:43:03):
+If you wanted to implement a notes feature.
+
+(06:43:05):
+Wait, hang on.
+
+(06:43:06):
+Before we get into this, I just want to make clear for everybody.
+
+(06:43:09):
+We have monologue iOS launching.
+
+(06:43:12):
+We're aiming for February 9th.
+
+(06:43:14):
+That might change like a couple days, but we're aiming for February 9th.
+
+(06:43:17):
+I've been using it for a month and a half.
+
+(06:43:19):
+We have like hundreds of people that have been using it.
+
+(06:43:22):
+um it works extremely well it's my go-to um everything that you do on the mac app
+
+(06:43:27):
+just like transcribing directly from your keyboard it works beautifully here all of
+
+(06:43:31):
+your modes are synced um and your scores are synced so it's like very unified but
+
+(06:43:38):
+notes is a feature that we're also uh launching so um we're just gonna talk i use
+
+(06:43:43):
+notes this morning on a hike so like i'm really stoked about about notes
+
+(06:43:47):
+Yeah.
+
+(06:43:47):
+Yeah.
+
+(06:43:48):
+So for us,
+
+(06:43:48):
+the notes feature,
+
+(06:43:49):
+like how I initially implemented it is just went to Codex and then went to cloud
+
+(06:43:55):
+code.
+
+(06:43:56):
+I just did a brain dump using monologue saying, okay, this is what I want.
+
+(06:44:00):
+And then it just white coded everything from scratch.
+
+(06:44:03):
+So that's the age that we are living in.
+
+(06:44:06):
+So let me do a quick demo so you can click on this new button.
+
+(06:44:12):
+this is the ui that we got uh you can just go like once you start the recording you
+
+(06:44:18):
+can put it in the background as well you can see the timer is spinning and then it
+
+(06:44:24):
+also shows up in your home bar as well saying it's still recording and then once
+
+(06:44:29):
+you're done you can just stop it automatically sends uh to the background and then
+
+(06:44:36):
+we'll be getting the transcript and summary and everything so this is how like you
+
+(06:44:40):
+know so but one
+
+(06:44:42):
+Right now,
+
+(06:44:43):
+it looks everything well polished,
+
+(06:44:45):
+but when we initially prototyped,
+
+(06:44:49):
+the big thing that we able to do it is I'm able to write coded it in one hour and
+
+(06:44:54):
+start sharing it internally.
+
+(06:44:56):
+And people start giving the feedback.
+
+(06:44:57):
+I think that's one of the best ways for you to use this codex.
+
+(06:45:03):
+If you have an idea, just go talk about it, use monologue, and then implement that feature.
+
+(06:45:10):
+Just start sharing and talking.
+
+(06:45:12):
+in the age that right now we are living in implementing features is not really that
+
+(06:45:18):
+uh important it's knowing what to implement and what actually gets uh people
+
+(06:45:22):
+excited that's the most important part for us when do you use codex versus when you
+
+(06:45:29):
+like hand it sounds like you start with codex and then you hand off the cloud code
+
+(06:45:31):
+how do you split the two
+
+(06:45:33):
+Yeah,
+
+(06:45:35):
+I'm a big Codex fan because Codex is really good at understanding Swift,
+
+(06:45:42):
+iOS and Mac code base.
+
+(06:45:43):
+Right now, Mac, it's a huge code base.
+
+(06:45:47):
+Slowly iOS is also getting there and Codex is really good at that.
+
+(06:45:51):
+So whenever I'm fixing any bug,
+
+(06:45:54):
+or implementing any feature that involves ton of files,
+
+(06:45:57):
+ton of context,
+
+(06:45:59):
+I just give that to Codex because Codex is that one senior engineer where it
+
+(06:46:05):
+understands all the code,
+
+(06:46:06):
+everything,
+
+(06:46:07):
+and it does that precise edits.
+
+(06:46:10):
+But when I'm wipe coding,
+
+(06:46:11):
+I don't usually do codecs because codecs is like,
+
+(06:46:14):
+it's not that creative.
+
+(06:46:16):
+So that's when I go to plot code.
+
+(06:46:19):
+Oh, this is the feature I'm thinking.
+
+(06:46:20):
+What do you think?
+
+(06:46:21):
+And then it just goes and implements it and gives me a prototype that I can quickly
+
+(06:46:26):
+iterate or test.
+
+(06:46:29):
+Okay, cool.
+
+(06:46:33):
+What's been one surprising thing that you've encountered while building out iOS?
+
+(06:46:41):
+Let me start.
+
+(06:46:44):
+So the cool thing that we did is we are getting ton of requests for iOS app.
+
+(06:46:50):
+And I'm like, should we do it?
+
+(06:46:51):
+Because I'm the only guy working on Mac app and there's still ton of features that
+
+(06:46:56):
+I want to implement within Mac.
+
+(06:46:58):
+So the cool thing is I just went, pipe coded the whole thing, but I started using it personally.
+
+(06:47:04):
+So that's a good learning point for me is always try to implement the feature and
+
+(06:47:11):
+see if you're using it personally or not.
+
+(06:47:13):
+if you're not using it better to throw it away and start from scratch again so the
+
+(06:47:19):
+interesting thing that i learned is how much people actually talk and choose
+
+(06:47:23):
+dictation i never thought there are people uh who are using it 300 times per day
+
+(06:47:30):
+which is crazy and then we recently two people crossed one million words talking to
+
+(06:47:36):
+monologue well i think it's amazing that you're like what are you number 80
+
+(06:47:41):
+Yeah, I think you shot my screen.
+
+(06:47:46):
+I'm 80.
+
+(06:47:47):
+Yeah,
+
+(06:47:47):
+I mean,
+
+(06:47:47):
+that's remarkable that the only builder of this product,
+
+(06:47:51):
+and you probably use it every day because you're dogfooding it,
+
+(06:47:53):
+is 80.
+
+(06:47:54):
+It's pretty remarkable.
+
+(06:47:56):
+So yeah, people are loving it.
+
+(06:47:57):
+I mean,
+
+(06:47:58):
+I think when we launched it,
+
+(06:47:58):
+we had like a million words a month,
+
+(06:48:00):
+and we were like psyched,
+
+(06:48:01):
+and now we're doing like a million a day.
+
+(06:48:03):
+I think now we are hitting 1.5 million a day.
+
+(06:48:07):
+So it's getting, yeah, a ton of people are
+
+(06:48:11):
+started using monologue and it's really awesome.
+
+(06:48:14):
+Yeah.
+
+(06:48:16):
+Cool.
+
+(06:48:16):
+What's next for monologue?
+
+(06:48:19):
+I'm seeing a bunch of requests in the comments.
+
+(06:48:22):
+I've seen people asking for mode templates, which I think is a great idea.
+
+(06:48:29):
+Maybe a public library of mode templates.
+
+(06:48:33):
+Obviously PC and Windows, a lot of requests for that.
+
+(06:48:38):
+I just saw somebody asking if this can replace granola,
+
+(06:48:42):
+which I know we're not like...
+
+(06:48:45):
+People will do that,
+
+(06:48:46):
+but I don't know if that's the point of it yet,
+
+(06:48:48):
+especially on desktop.
+
+(06:48:49):
+I don't know how notes is going on desktop yet, but I know we have a vision.
+
+(06:48:53):
+What in your mind are you like...
+
+(06:48:56):
+I want to break it up into two different questions.
+
+(06:48:58):
+What are you most excited to build as like your just like most harebrained crazy idea?
+
+(06:49:04):
+And what do you think is the most realistic thing that you need to build next for?
+
+(06:49:09):
+Yeah, here's my crazy idea.
+
+(06:49:12):
+I'm pitching it to Brandon as well.
+
+(06:49:15):
+And he's like, okay, let's wait for a second.
+
+(06:49:18):
+If you want to build hardware.
+
+(06:49:21):
+I'm going to take this conversation off the live stream.
+
+(06:49:25):
+My crazy idea is more luck shouldn't have a hardware product.
+
+(06:49:29):
+so but uh yeah it's a huge investment so that's not it at least this uh short term
+
+(06:49:35):
+the next couple of uh at least six months goal is with most ton of people are
+
+(06:49:41):
+asking okay that they want templates that's good but i want to give more than
+
+(06:49:46):
+templates template i feel is an easy way out like you putting ton of things people
+
+(06:49:50):
+can copy this and that's good starting point but for me
+
+(06:49:55):
+If you're in cloud code or if you're in iMessage or Discord and then you paste like
+
+(06:50:00):
+you did Bonolog and text got pasted and then you edited it out.
+
+(06:50:04):
+Like you've collected some of the things that Monolog got wrong or you know that's
+
+(06:50:11):
+not how you usually write.
+
+(06:50:14):
+Monolog actually actually learns from it.
+
+(06:50:17):
+and then goes and updates the mode underlying.
+
+(06:50:20):
+So what happens is it learns from you as you use monologue more and then obviously
+
+(06:50:26):
+modes are transparent so you can go and edit it out.
+
+(06:50:30):
+So that's the goal that I'm planning towards so that you have this like really
+
+(06:50:36):
+well-adaptive understanding smart voice to text software on your laptop and on your
+
+(06:50:42):
+iOS as well.
+
+(06:50:44):
+so that's my crazy idea that automatically modes get updated and then whatever you
+
+(06:50:49):
+type uh typing like it's better for you to just use voice yeah well that also seems
+
+(06:50:54):
+like it's you know that that would be super beneficial for for everyone what would
+
+(06:50:58):
+would you answer the other question of just like hey you're just getting hit over
+
+(06:51:02):
+the head with this same request over and over
+
+(06:51:05):
+Yeah, same request iOS.
+
+(06:51:07):
+People are getting like requests are getting.
+
+(06:51:10):
+So I think we are getting there.
+
+(06:51:11):
+And second one is the notes feature.
+
+(06:51:14):
+And to answer your question where, you know, is it like a Granola replacement?
+
+(06:51:19):
+I would say no.
+
+(06:51:21):
+We are personally not going off the Granola or like meeting notes space.
+
+(06:51:26):
+It's more about like Granola is I think good for people who are in like living in
+
+(06:51:30):
+the meetings day in day out for people who are like uh need to make decisions and
+
+(06:51:36):
+stay in meetings uh but for monologue it's more about let's say if you have less
+
+(06:51:40):
+than five meetings or something like that per week monologue can be a good
+
+(06:51:44):
+alternative and then monologue can be a good partner when you have stream of
+
+(06:51:50):
+thoughts and you immediately want to record on the go so you can just start it like
+
+(06:51:56):
+we also have widgets so like you can just click on it you don't even have to open
+
+(06:52:00):
+the app
+
+(06:52:01):
+You can just start immediately recording and then stop it.
+
+(06:52:04):
+It will be on your laptop.
+
+(06:52:06):
+It will get synced.
+
+(06:52:07):
+It will be on your phone as well.
+
+(06:52:09):
+And then we will be in future integrating with Spiral.
+
+(06:52:13):
+That's another writing product from Emory.
+
+(06:52:16):
+And then obviously you can convert that into whatever that you think.
+
+(06:52:24):
+My goal is write a blog post.
+
+(06:52:26):
+Just a blog post.
+
+(06:52:27):
+It makes so much sense to connect the two.
+
+(06:52:29):
+I was on a walk this morning and I had an idea.
+
+(06:52:33):
+I opened up monologue.
+
+(06:52:34):
+I took a note and the only thing that was missing was a button that was send a
+
+(06:52:39):
+spiral and choose my style in spiral.
+
+(06:52:43):
+That flow sounds pretty magical to me.
+
+(06:52:47):
+We have seven minutes left, Navin.
+
+(06:52:52):
+have sort of like a uh i i have kind of a controversial topic that we can talk
+
+(06:52:56):
+about um but before we get there i want to uh just know if there's anything else
+
+(06:53:02):
+that you want to share with everyone yeah uh just i know there are a ton of uh
+
+(06:53:09):
+competitors in this space this space is like really crowded right now and the only
+
+(06:53:14):
+way for
+
+(06:53:15):
+for me to like you know think okay people ask me right this is a question i think
+
+(06:53:20):
+people kind of people ask why are building in this space i personally feel even
+
+(06:53:25):
+though there are a ton of crowded uh things the way i work no app supports me and
+
+(06:53:31):
+that's why we added mods that's why we had this auto enter feature so i think uh
+
+(06:53:37):
+yeah like uh i'm like
+
+(06:53:39):
+good with even though there's competition it's good so i'm actually talking with
+
+(06:53:44):
+none of users so that's why if anyone like in the discord or anyone who is
+
+(06:53:48):
+interacting with me knows like i want more people to give me feedback so that
+
+(06:53:52):
+monologue gets uh improved a lot so everyone can just use it the way i personally
+
+(06:53:58):
+use it cool um
+
+(06:54:01):
+I think, yeah, I mean, that ties into sort of what I want to talk about next.
+
+(06:54:04):
+But before we do that, I do want to mention, Courtney just said, when do we get custom skins?
+
+(06:54:10):
+And, like, that was one of the very, very first ideas that we had.
+
+(06:54:14):
+And we actually had the ability to, like, choose different colors.
+
+(06:54:17):
+But I think that's,
+
+(06:54:18):
+like,
+
+(06:54:18):
+such a fun idea to get,
+
+(06:54:20):
+like,
+
+(06:54:20):
+I want this sort of,
+
+(06:54:21):
+like,
+
+(06:54:21):
+see-through Nintendo DS.
+
+(06:54:25):
+uh skin that you can apply and like i just think there's a lot of fun things that
+
+(06:54:28):
+we can we can do that ios and desktop um okay so yeah the the the note that i took
+
+(06:54:36):
+this morning was um i just had this realization that uh i i tweet a lot about how
+
+(06:54:42):
+like monologue and you are building a product that is competitive uh in this super
+
+(06:54:49):
+crowded space that people are saying is better than competitors
+
+(06:54:54):
+And you're one person and every other app in this space is VC backed teams that
+
+(06:55:01):
+have raised between 10 million and $80 million.
+
+(06:55:03):
+You're one person,
+
+(06:55:05):
+you have the support of every but even every has raised less than like $700,000.
+
+(06:55:12):
+you're one person building this out and what i realized this morning is like it's
+
+(06:55:17):
+actually amazing in this day and age to build a product and have competitors that
+
+(06:55:24):
+have raised a ton of money because getting people to use new ai prop to use
+
+(06:55:30):
+products that are that use ai is really hard there's a lot of education and
+
+(06:55:34):
+educating educating a market is so expensive and we have competitors that are
+
+(06:55:39):
+spending millions of dollars educating a market
+
+(06:55:44):
+And you building a product that is just as good, if not better.
+
+(06:55:49):
+And obviously the distribution of every.
+
+(06:55:51):
+So I realized how thankful I am actually that we have these competitors that have
+
+(06:55:57):
+raised so much money to like sort of seed the market and teach people to use this
+
+(06:56:03):
+type of tool.
+
+(06:56:05):
+Yeah, a hundred percent.
+
+(06:56:05):
+Even I'm like,
+
+(06:56:06):
+I think this week I realized that even when a few people are asking what's the best
+
+(06:56:11):
+voice to text app on X and Monologue is getting mentioned recently,
+
+(06:56:17):
+so which is really great feeling.
+
+(06:56:19):
+But at the same time, like market, you know, other companies are educating it.
+
+(06:56:25):
+Apple dictation is also there, but which is really bad.
+
+(06:56:28):
+And,
+
+(06:56:29):
+you know,
+
+(06:56:29):
+if market is mature and if you have a great product,
+
+(06:56:33):
+I think it works out at the end.
+
+(06:56:35):
+Yeah, I mean, you should be really, really proud of what you've done.
+
+(06:56:39):
+And we've got a lot coming down the pipe right now.
+
+(06:56:42):
+Again, iOS launching early February.
+
+(06:56:46):
+It's very, very well done.
+
+(06:56:50):
+All the same tools that you have in desktop built into iOS.
+
+(06:56:54):
+Notes is launching in iOS and I believe on desktop too.
+
+(06:56:58):
+It's not a granola replacement, but if you want to, you could use it for that.
+
+(06:57:05):
+Naveen is going to be building an auto-improving feature,
+
+(06:57:09):
+it sounds like,
+
+(06:57:10):
+so that it catches when you actually change an output and automatically improves
+
+(06:57:16):
+future dictations.
+
+(06:57:17):
+But we got a lot in the pipe.
+
+(06:57:19):
+I mean, I know that we are excited about building out for Windows at some point.
+
+(06:57:23):
+Big opportunity there.
+
+(06:57:27):
+Skins are fun.
+
+(06:57:28):
+A lot of magical moments that we can add.
+
+(06:57:32):
+to the experience.
+
+(06:57:35):
+Yeah,
+
+(06:57:35):
+having users in our Discord,
+
+(06:57:38):
+I think that's a great feeling because a ton of people just give feedback and we
+
+(06:57:43):
+have a rich roadmap now.
+
+(06:57:47):
+Yeah,
+
+(06:57:47):
+I mean,
+
+(06:57:47):
+speaking of which,
+
+(06:57:48):
+you know,
+
+(06:57:49):
+if you're listening to this and you're excited about Monologue or your current user
+
+(06:57:54):
+of Monologue and you want to impact the roadmap,
+
+(06:57:59):
+Every has a super active Discord.
+
+(06:58:02):
+So all you need to do is go to every.to,
+
+(06:58:04):
+become a paid subscriber,
+
+(06:58:06):
+and you'll get access to our Discord where we have...
+
+(06:58:09):
+channels for cloud code channels for all of our different apps um it's very active
+
+(06:58:14):
+people sharing things people are announcing products that they've launched but one
+
+(06:58:18):
+of those channels is monologue and um people give a lot of feedback in there and
+
+(06:58:22):
+navin is in there um uh chatting with everybody in in real time so um this is my my
+
+(06:58:29):
+last call to go to monologue.to and download it and uh keep an eye out for ios
+
+(06:58:36):
+launch early february
+
+(06:58:38):
+Yeah, try it out.
+
+(06:58:39):
+If there are any issues,
+
+(06:58:40):
+any feedback,
+
+(06:58:41):
+anything,
+
+(06:58:42):
+just ping me and happy to take a look and fix it immediately.
+
+(06:58:46):
+Yeah, Naveen is grinding.
+
+(06:58:48):
+He's in our Brooklyn office right now from spending a month, two months in New York from India.
+
+(06:58:56):
+And like the week that you got there,
+
+(06:58:58):
+Dan DMed me and was like,
+
+(06:58:59):
+Naveen hasn't gotten up for nine hours.
+
+(06:59:04):
+Yeah, he told me about that.
+
+(06:59:06):
+And I thought that's normal.
+
+(06:59:09):
+I think for some of us, it's normal.
+
+(06:59:11):
+I'm with you there.
+
+(06:59:13):
+Definitely.
+
+(06:59:14):
+Levine, thank you so much for joining us.
+
+(06:59:18):
+Appreciate you.
+
+(06:59:19):
+Awesome.
+
+(06:59:19):
+This is super fun.
+
+(06:59:21):
+And the whole day, it's super fun to listen to other speakers.
+
+(06:59:25):
+I'm super pumped to take those ideas back to my monologue building things.
+
+(06:59:33):
+yeah thank you thank you brandon cool man yeah see you there all right so we have
+
+
+

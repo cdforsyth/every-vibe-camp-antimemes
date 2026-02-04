@@ -1,0 +1,2038 @@
+# Logan Kilpatrick & Ammaar Reshi - The latest from Google AI Studios
+
+**Company:** Google
+**Timestamp:** 4:31:41
+**YouTube:** https://www.youtube.com/watch?v=5YBjll9XJlw&t=16301s
+
+---
+
+=== LOGAN KILPATRICK & AMMAAR RESHI (Google) - Google AI Studios ===
+
+
+(04:31:41):
+Thank you for joining.
+
+(04:31:44):
+Thanks for having us.
+
+(04:31:46):
+Yeah, so excited to have you.
+
+(04:31:49):
+Maybe give people,
+
+(04:31:50):
+I mean,
+
+(04:31:50):
+I think people probably know both of you,
+
+(04:31:53):
+but maybe give people a little bit of background,
+
+(04:31:55):
+who you are,
+
+(04:31:56):
+where you're coming from,
+
+(04:31:57):
+and what you're going to talk about today.
+
+(04:32:01):
+The same idea.
+
+(04:32:02):
+Yeah, so Amar, elite product and design on the AI studio team, worked super closely with Logan.
+
+(04:32:08):
+Love basically all things AI and hacking on AI for the longest time.
+
+(04:32:14):
+Since 2022,
+
+(04:32:15):
+first chat GBT moment,
+
+(04:32:16):
+I think I was messing around with it and then code got better,
+
+(04:32:19):
+video got better and so on.
+
+(04:32:21):
+Did you get soft canceled for making a children's book?
+
+(04:32:25):
+Oh, Dan, you had to bring that up.
+
+(04:32:27):
+Uh, I thought it was amazing.
+
+(04:32:30):
+Like I thought, I love, I loved that project.
+
+(04:32:33):
+I'm on your side.
+
+(04:32:34):
+I'm on your side.
+
+(04:32:35):
+Logan's got a copy.
+
+(04:32:38):
+This copy almost ended up in the trash can about three times in the office.
+
+(04:32:43):
+And I think every bin,
+
+(04:32:44):
+he looked at it and was like,
+
+(04:32:45):
+maybe,
+
+(04:32:45):
+maybe this one,
+
+(04:32:46):
+uh,
+
+(04:32:46):
+but yeah,
+
+(04:32:49):
+great to,
+
+(04:32:50):
+great to be here at Logan.
+
+(04:32:51):
+Yeah.
+
+(04:32:52):
+And my name's Logan.
+
+(04:32:53):
+Um,
+
+(04:32:54):
+I work on AI studio,
+
+(04:32:55):
+the Gemini API and a bunch of developer products off inside of deep mine.
+
+(04:32:58):
+So really focused on helping people build with our models, APIs, five coding, all the fun stuff.
+
+(04:33:04):
+So excited to excited to five code with folks today.
+
+(04:33:09):
+Fuck yeah.
+
+(04:33:09):
+What are you going to show us?
+
+(04:33:11):
+We got some cool stuff, and the best part is that Amar and I love to wing it.
+
+(04:33:14):
+Amar, I have some examples.
+
+(04:33:16):
+I think one of the things that's definitely top of mind for me these days is vibe
+
+(04:33:21):
+coding,
+
+(04:33:22):
+interactive experiences around data.
+
+(04:33:24):
+I think there's so many people who practically do this in their job.
+
+(04:33:29):
+I feel like there's lots of you can build anything,
+
+(04:33:31):
+things going on in the world right now,
+
+(04:33:33):
+and lots of tools that help you do that.
+
+(04:33:35):
+I think this data story is actually really, really interesting and
+
+(04:33:38):
+helps us continue to bridge into these new areas where there's less saturation in the market.
+
+(04:33:44):
+So I've got some examples of that.
+
+(04:33:47):
+I think we have some cool stuff that we want to show for some of the upcoming Vibe
+
+(04:33:50):
+Coding stuff that we're working on.
+
+(04:33:52):
+But what else do you have, Coach, Damar?
+
+(04:33:54):
+Yeah,
+
+(04:33:54):
+I've got a thing that one thing I think has been pretty awesome is that the
+
+(04:33:58):
+beginning of this year,
+
+(04:33:59):
+we've barely been in Figma.
+
+(04:34:00):
+We've just been making a lot of our prototypes and UI work in AI Studio,
+
+(04:34:05):
+inside of AI Studio,
+
+(04:34:06):
+which has been really fun.
+
+(04:34:07):
+It's really changed how the Teams works as well.
+
+(04:34:10):
+So I'll show a bit of that,
+
+(04:34:11):
+like what our workflow is,
+
+(04:34:13):
+kind of the things you'll see upcoming,
+
+(04:34:15):
+both in the UI.
+
+(04:34:17):
+And then to top it off, I saw the ex-algo was recently open source.
+
+(04:34:21):
+So just before this call,
+
+(04:34:23):
+I was like,
+
+(04:34:23):
+let's make an app that just like gamifies that whole thing.
+
+(04:34:29):
+So we'll also see how that came out while we're on this.
+
+(04:34:33):
+Amazing.
+
+(04:34:33):
+And before I guess before we get started,
+
+(04:34:35):
+one thing that I would love for you to you guys to level set us on.
+
+(04:34:38):
+So we've we've been going for we've gone for a few hours now.
+
+(04:34:40):
+We've gone through claw.
+
+(04:34:41):
+We've gone through codecs.
+
+(04:34:42):
+We've gone through a conductor,
+
+(04:34:44):
+a bunch of different tools like tell us about AI studio for people who have maybe
+
+(04:34:48):
+used a little bit or maybe are new to it.
+
+(04:34:50):
+How do you think about is like at Google,
+
+(04:34:53):
+a studio as as an entry point into AI when you use it,
+
+(04:34:55):
+when you don't use it,
+
+(04:34:56):
+what do you think it's good at all that kind of stuff?
+
+(04:34:59):
+Yeah, I would take, and then Logan, I'd love your take as well.
+
+(04:35:02):
+Yeah, so I think AI Studio, I think about it in a couple of ways.
+
+(04:35:05):
+Like one, it is the place to discover all of Google DeepMind's latest models.
+
+(04:35:09):
+And then the playground is effectively where we have bespoke experiences so that
+
+(04:35:13):
+you can see the best capabilities,
+
+(04:35:15):
+you can effectively tweak every parameter,
+
+(04:35:17):
+and then you should be able to take any of that to code.
+
+(04:35:20):
+So our principle in the playground is whatever you do,
+
+(04:35:22):
+you should take it to code and you can take it to code.
+
+(04:35:25):
+Then the vibe coding side of it is,
+
+(04:35:27):
+Super easy to make AI powered apps with Gemini with just a single prompt.
+
+(04:35:32):
+So we automatically stitch up the API for you.
+
+(04:35:34):
+We figure out how to set up like Nano Banana or any of these other things in your app.
+
+(04:35:38):
+And all you have to do is just ask for it.
+
+(04:35:40):
+So you don't have to worry about any of that kind of setup and stuff.
+
+(04:35:43):
+And that is only going to get better.
+
+(04:35:45):
+How do I think about using it versus like anti-gravity, for example?
+
+(04:35:50):
+Yeah,
+
+(04:35:51):
+the way I think about that,
+
+(04:35:52):
+and I'm curious to get your take on this one,
+
+(04:35:54):
+is I think of that as like,
+
+(04:35:56):
+that's the full-blown IDE.
+
+(04:35:57):
+You want all the bells and whistles of an IDE,
+
+(04:35:59):
+and you want something closer to cursor and all of that control.
+
+(04:36:03):
+Like, I think antigravity is like a great set of things for that.
+
+(04:36:06):
+for us it's like we're really going after folks who are uh you know entering by
+
+(04:36:10):
+coding for the first time or are more casual builders uh and we're simplifying it
+
+(04:36:15):
+you know we're making it approachable and easy and we're bringing you all the power
+
+(04:36:19):
+without the complexity uh we don't ever want to necessarily be a full-blown ide uh
+
+(04:36:23):
+look
+
+(04:36:24):
+Yeah,
+
+(04:36:25):
+and I think one tactical comment is we'll make it super easy as something we're
+
+(04:36:28):
+working on to go from AI Studio to Antigravity,
+
+(04:36:30):
+which we're really excited about.
+
+(04:36:31):
+So as you build the initial version of what you want,
+
+(04:36:34):
+if you're a developer,
+
+(04:36:35):
+you want to continue in an IDE,
+
+(04:36:37):
+we'll let you do that very easily,
+
+(04:36:38):
+single click.
+
+(04:36:40):
+We're also,
+
+(04:36:41):
+and I think we'll show a little bit of this on the horizon,
+
+(04:36:44):
+but also the forthcoming version of AI Studio is actually powered by the
+
+(04:36:48):
+anti-gravity coding agent.
+
+(04:36:49):
+So you'll be able to,
+
+(04:36:51):
+from how advanced you can build some of these things,
+
+(04:36:55):
+you'll be able to start going a lot farther than what we let you do in AI Studio
+
+(04:36:58):
+today,
+
+(04:36:59):
+which is really exciting.
+
+(04:37:00):
+And I think the gap between
+
+(04:37:03):
+the professional developer and what they can build and the average person.
+
+(04:37:08):
+I think our goal is to help continue to compress that so that people can actually
+
+(04:37:12):
+build the things that they want to build.
+
+(04:37:15):
+Sweet.
+
+(04:37:15):
+Well, let's get into some demos.
+
+(04:37:18):
+I love it.
+
+(04:37:19):
+Amazing.
+
+(04:37:20):
+Amar, you want to go first?
+
+(04:37:21):
+You want me to go first?
+
+(04:37:21):
+Whatever you prefer.
+
+(04:37:23):
+Happy to jump in.
+
+(04:37:24):
+I think the first thing I'll jump into is how it's changing the way we're working.
+
+(04:37:30):
+Let me share my screen.
+
+(04:37:34):
+I'm going to riskily share my entire screen, so hopefully.
+
+(04:37:38):
+We're doing it live, folks.
+
+(04:37:39):
+We're doing it live.
+
+(04:37:40):
+That's the only way.
+
+(04:37:42):
+So, okay.
+
+(04:37:43):
+So we're in this.
+
+(04:37:44):
+Okay.
+
+(04:37:44):
+So this is Figma, right?
+
+(04:37:46):
+And we were exploring what a new homepage would look like for AI Studio,
+
+(04:37:50):
+something a bit more utilitarian.
+
+(04:37:52):
+It's got this kind of omnibar situation going on,
+
+(04:37:55):
+your recent builds and stuff,
+
+(04:37:57):
+and then some charts.
+
+(04:38:00):
+So wanted to see what this would feel like.
+
+(04:38:02):
+A Figma only really goes so far.
+
+(04:38:05):
+And so to get back into it,
+
+(04:38:07):
+took that over and you can see it in AI studio here where we basically have a live
+
+(04:38:12):
+version of it.
+
+(04:38:13):
+And what was really nice about this was you could actually feel out all the interactions.
+
+(04:38:17):
+So if I click into this and I wanted to start a new chat or whatever,
+
+(04:38:20):
+I can quickly pick my models.
+
+(04:38:22):
+you know, type something and it just simulates what that send would be like.
+
+(04:38:26):
+Or maybe I want to create a new key so I can actually just say a new key and then
+
+(04:38:31):
+it goes ahead and creates a key that is a fake API key for everybody on this live
+
+(04:38:35):
+stream.
+
+(04:38:36):
+But what was really cool about it was like,
+
+(04:38:38):
+Immediately, we were able to make it real just by giving it a screenshot and some information.
+
+(04:38:44):
+And I just asked, what does the new user experience look like?
+
+(04:38:48):
+Because I haven't designed that yet.
+
+(04:38:49):
+And it came up with something like that.
+
+(04:38:51):
+So I think this gets back to our workflow is changing because it's so much faster
+
+(04:38:55):
+to just ask for that new user experience and then go and tweak it here and there.
+
+(04:38:59):
+Wait, that was so fast.
+
+(04:39:00):
+I want to, I want to back up and like really understand that.
+
+(04:39:03):
+So, so you started in, you started in a Figma.
+
+(04:39:06):
+Yeah.
+
+(04:39:06):
+Right.
+
+(04:39:07):
+Yep.
+
+(04:39:07):
+We started basic version.
+
+(04:39:09):
+Right.
+
+(04:39:09):
+Basic version of Figma.
+
+(04:39:10):
+And then what was the, what was the step after that?
+
+(04:39:12):
+I think I, I like blinked and missed it.
+
+(04:39:14):
+Um, how did you get it into AI studio?
+
+(04:39:16):
+Yeah, so two things.
+
+(04:39:17):
+We basically just like copy a screenshot.
+
+(04:39:20):
+There'll be something like this,
+
+(04:39:21):
+you know,
+
+(04:39:21):
+and I just go go back to a studio and in build mode and I paste it.
+
+(04:39:26):
+And then we also have this Figma plugin that we like to use a lot that just
+
+(04:39:31):
+basically grabs everything you need.
+
+(04:39:33):
+So for instance, if I wanted
+
+(04:39:35):
+this chart.
+
+(04:39:36):
+And I wanted it to look exactly like that.
+
+(04:39:39):
+We have essentially a plugin which gets you all the JSON code and you basically
+
+(04:39:44):
+just pass that over.
+
+(04:39:45):
+And so what this ensures is that the model has effectively the exact styles,
+
+(04:39:50):
+the right typography,
+
+(04:39:51):
+everything.
+
+(04:39:51):
+So it really looks and feels like your Figma file.
+
+(04:39:53):
+Because I think that's the biggest thing designers wrestle with, right?
+
+(04:39:57):
+It's like that precision.
+
+(04:39:59):
+And so once you get that in, you basically just like fire away your prompt, make changes.
+
+(04:40:03):
+And this was the end result of that.
+
+(04:40:05):
+I see.
+
+(04:40:06):
+Okay.
+
+(04:40:07):
+And basically,
+
+(04:40:08):
+what it looks like you have in here is there's a sidebar where you're doing your
+
+(04:40:12):
+prompting,
+
+(04:40:13):
+and then it has a preview panel that you can kind of look at the result and go back
+
+(04:40:19):
+and forth with the model,
+
+(04:40:20):
+right?
+
+(04:40:21):
+Exactly.
+
+(04:40:21):
+Exactly.
+
+(04:40:22):
+So yeah, and that's maybe just a level set on the UI so that it's easier to see that.
+
+(04:40:26):
+So this is basically the start screen of where you
+
+(04:40:29):
+you go in and start prompting um and then once you're in you look at something like
+
+(04:40:33):
+this where you have the left chat chat you know that we're all used to seeing now
+
+(04:40:37):
+um and then and then your app preview on the right and you did that from and and is
+
+(04:40:42):
+it hooked up to any sort of project where it knows anything about what you're doing
+
+(04:40:45):
+or just doing it like raw from scratch raw from scratch okay yeah that's pretty
+
+(04:40:49):
+cool
+
+(04:40:51):
+Yeah, we see this all over Google, which is really exciting.
+
+(04:40:54):
+I think it's like some double digit percentage points of all Googlers are using AI
+
+(04:41:00):
+Studio to go and do this type of workflow.
+
+(04:41:05):
+really exciting so uh we're seeing more more of these demos flying around and and i
+
+(04:41:10):
+think it's just letting us like explore more ideas like i think the team is
+
+(04:41:14):
+basically like more creative now because we can just riff on random ideas and the
+
+(04:41:19):
+cost of doing that is not like a month or a week it's like you know an hour of just
+
+(04:41:24):
+like coming up with crazy ideas and seeing new work and i feel like the omni barth
+
+(04:41:28):
+uh proposal that amar is showing i think is a is one of these examples and also
+
+(04:41:33):
+this is a great way to test it folks have feedback on this
+
+(04:41:35):
+Omnibar experience.
+
+(04:41:37):
+If you think this is the time before we go and build it all to get the feedback.
+
+(04:41:43):
+Exactly.
+
+(04:41:44):
+Very cool.
+
+(04:41:45):
+Yeah.
+
+(04:41:46):
+Logan, what do you got?
+
+(04:41:48):
+Yeah, let me show.
+
+(04:41:48):
+This is one of the experiences that I love the most,
+
+(04:41:53):
+which is this was inspired by somebody on our team.
+
+(04:41:56):
+I went online.
+
+(04:41:57):
+I found a bunch of it was a CSV file with a bunch of like YouTube shorts analytics
+
+(04:42:02):
+data from Kaggle.
+
+(04:42:04):
+And I just dropped that in.
+
+(04:42:05):
+And for whatever reason, it's hiding my original message.
+
+(04:42:08):
+But I promise it was not like a crazy prompt.
+
+(04:42:10):
+It was just like, hey, here's the CSV file.
+
+(04:42:12):
+Build me an interactive visualization to look at all this data.
+
+(04:42:16):
+So it built me this interactive visualization,
+
+(04:42:18):
+which is just like parsing through the data and then showing me a bunch of
+
+(04:42:21):
+different information on the YouTube Shorts.
+
+(04:42:24):
+The cool thing,
+
+(04:42:24):
+and this is what was really interesting,
+
+(04:42:26):
+was I was able to add a bunch of AI features to this.
+
+(04:42:29):
+So I was able to say, now I want an option to automatically use VO3.
+
+(04:42:33):
+One,
+
+(04:42:34):
+to create YouTube shorts that mirror the performance of those videos riffing on the
+
+(04:42:38):
+ideas using AI.
+
+(04:42:40):
+So it's taking in like the real actual content that was in this example,
+
+(04:42:44):
+which is like food hacks and daily habits that changed my life and all these things
+
+(04:42:49):
+which are like,
+
+(04:42:49):
+you know,
+
+(04:42:50):
+have comments and likes and other data about them.
+
+(04:42:53):
+And then I can literally just one click,
+
+(04:42:55):
+create a new version of that video,
+
+(04:42:58):
+which is really exciting.
+
+(04:42:59):
+We'll see if it works.
+
+(04:43:01):
+I don't know if this is a demo of that.
+
+(04:43:13):
+Hopefully it works.
+
+(04:43:16):
+Okay, this part is working.
+
+(04:43:18):
+Please.
+
+(04:43:18):
+This is actually, I'll make a quick comment.
+
+(04:43:22):
+One of my biggest gripes,
+
+(04:43:23):
+and I'm curious what you two think about this,
+
+(04:43:25):
+is that I end up building UIs these days where I don't actually know how the UI
+
+(04:43:30):
+works and I just end up fumbling through like this.
+
+(04:43:33):
+I was expecting something to happen when I click on this video and it's actually
+
+(04:43:36):
+this tiny little gem right here,
+
+(04:43:39):
+which does it.
+
+(04:43:40):
+I don't know if that's a me problem or if that's something that other folks
+
+(04:43:43):
+experience as well,
+
+(04:43:44):
+but I'm always running into this.
+
+(04:43:47):
+I need like a direction.
+
+(04:43:51):
+Here's the thing that I just built because I'm always confused.
+
+(04:43:53):
+I think that's the AI.
+
+(04:43:54):
+It's like, you know, it has to do a better UX for you.
+
+(04:43:57):
+You know, that's not your fault.
+
+(04:43:58):
+Yeah.
+
+(04:44:00):
+It is funny though,
+
+(04:44:00):
+because I have seen people who have started asking for in their prompts,
+
+(04:44:04):
+like create a walkthrough of the feature as well.
+
+(04:44:07):
+And it actually then just goes and clicks through things and shows you stuff.
+
+(04:44:11):
+And I think that's a pretty interesting way to do it too.
+
+(04:44:13):
+This has been a big thing is like, okay, how do you validate something that has been vibe coded?
+
+(04:44:18):
+And I do think that
+
+(04:44:21):
+just actual testing, either human or AI testing is the new test suite in a lot of ways.
+
+(04:44:28):
+And when someone sends a PR for one of my Vibe Coded projects,
+
+(04:44:33):
+I just want to see a loom of them going through the feature a few different times
+
+(04:44:38):
+rather than a code diff,
+
+(04:44:40):
+honestly.
+
+(04:44:40):
+I don't know if you guys have been noticing that,
+
+(04:44:43):
+but I think it's a new unit of proof of quality.
+
+(04:44:45):
+I walk through it a lot.
+
+(04:44:48):
+Oh wow.
+
+(04:44:54):
+I love it.
+
+(04:44:55):
+So a fun,
+
+(04:44:56):
+just like a fun way of like going from some random data source,
+
+(04:45:00):
+which like I literally never even opened up the CSV file.
+
+(04:45:03):
+It was able to go and take that information.
+
+(04:45:05):
+It was able to process it, build me a visualization.
+
+(04:45:07):
+And then actually like the next step of like taking action based on that
+
+(04:45:12):
+information and like build me a bunch of like new content and things like that is a
+
+(04:45:17):
+fun example.
+
+(04:45:19):
+That's awesome.
+
+(04:45:23):
+Should we tease some upcoming stuff?
+
+(04:45:26):
+Let's do it.
+
+(04:45:26):
+Let's see what we're talking.
+
+(04:45:29):
+Yeah.
+
+(04:45:29):
+So I think one of the other things that we're doing,
+
+(04:45:31):
+uh,
+
+(04:45:32):
+in AI studio is like I said,
+
+(04:45:33):
+we're still making our vibe coding experience even more capable.
+
+(04:45:36):
+And the thing we're doing there is it's going to support full stack apps.
+
+(04:45:40):
+It's going to have amazing integrations.
+
+(04:45:42):
+Um,
+
+(04:45:43):
+and part of it is just seeing how good the new,
+
+(04:45:45):
+uh,
+
+(04:45:45):
+anti-gravity agent is as well inside of AI studio,
+
+(04:45:48):
+making those apps.
+
+(04:45:49):
+So, uh, the one I wanna show, and I'm gonna paste it in our chat in the studio as well.
+
+(04:45:54):
+So we can see if this works live, um, and you know,
+
+(04:45:58):
+We'll see.
+
+(04:45:59):
+I love risking it with these demos.
+
+(04:46:00):
+So what we're going to do is I'm sending you all a link to a multiplayer FigJam clone.
+
+(04:46:09):
+And so that should hopefully work.
+
+(04:46:12):
+And meanwhile, I'm just going to jump right in.
+
+(04:46:14):
+I hope you guys show up in there.
+
+(04:46:17):
+Let me see.
+
+(04:46:18):
+I just want to make sure it's actually.
+
+(04:46:21):
+Where did you send the link?
+
+(04:46:23):
+I think I sent it in private chat.
+
+(04:46:25):
+Yeah, yeah, yeah.
+
+(04:46:26):
+I'm there.
+
+(04:46:26):
+Hopefully that works.
+
+(04:46:27):
+Did you just do that Logan?
+
+(04:46:29):
+Hello?
+
+(04:46:29):
+Okay.
+
+(04:46:30):
+Nice.
+
+(04:46:30):
+Okay.
+
+(04:46:31):
+So you guys are in there, right?
+
+(04:46:32):
+We are.
+
+(04:46:33):
+That's awesome.
+
+(04:46:33):
+Yeah.
+
+(04:46:34):
+So the whole the whole the whole chat, everybody.
+
+(04:46:37):
+Why not?
+
+(04:46:37):
+Let's see.
+
+(04:46:38):
+Get in there.
+
+(04:46:40):
+Click the link.
+
+(04:46:41):
+Oh, boy.
+
+(04:46:49):
+uh and also you know don't don't put anything horrible yeah please yeah please
+
+(04:46:55):
+don't yeah i'm gonna be nice people be nice you can put in feature requests we'll
+
+(04:47:00):
+accept those this is so cool look at this there's so many people and so the crazy
+
+(04:47:05):
+thing is this was one shot like this was literally a screenshot of the fig jam
+
+(04:47:10):
+website and i was like make me this app
+
+(04:47:13):
+Um,
+
+(04:47:13):
+and then obviously like I added more and more features to it and was like fixing on
+
+(04:47:16):
+the left,
+
+(04:47:17):
+but the one shot experience had the,
+
+(04:47:19):
+you know,
+
+(04:47:20):
+had people joining in.
+
+(04:47:21):
+This is wild to see, um, had people joining in and, uh, you could do a bunch of the basic stuff.
+
+(04:47:27):
+So these are the kinds of apps that were really excited that people will be able to
+
+(04:47:30):
+make in just one shot.
+
+(04:47:32):
+Um, and, uh, yeah, more of that coming.
+
+(04:47:34):
+So easy multiplayer apps, games, all sorts of things and great UI, right?
+
+(04:47:39):
+Um,
+
+(04:47:40):
+All in one.
+
+(04:47:41):
+I love it.
+
+(04:47:41):
+Yes.
+
+(04:47:42):
+Make me this app.
+
+(04:47:43):
+Oh, is it always a top tier prompt?
+
+(04:47:45):
+Good.
+
+(04:47:45):
+A good reminder.
+
+(04:47:46):
+Don't don't make it too complicated.
+
+(04:47:48):
+Keep it simple.
+
+(04:47:49):
+I am curious as we're as we're watching,
+
+(04:47:52):
+like,
+
+(04:47:53):
+I don't know how many people,
+
+(04:47:54):
+but at least 10,
+
+(04:47:56):
+50,
+
+(04:47:59):
+100 people like,
+
+(04:47:57):
+you know,
+
+(04:47:57):
+use this use this app that you one shot it.
+
+(04:47:59):
+I am kind of curious.
+
+(04:48:02):
+For people who are thinking about, okay, how do I, how does this fit into my workflow?
+
+(04:48:07):
+When would I wanna use this versus any other tool out there?
+
+(04:48:11):
+First thing is,
+
+(04:48:12):
+are you thinking about this as being an alternative to like the Claude codes of the
+
+(04:48:16):
+world or more of like an alternative to the maybe like bolt lovables,
+
+(04:48:21):
+maybe like artifacts in Claude,
+
+(04:48:24):
+or I can't remember what Chachupete calls it,
+
+(04:48:26):
+Canvas and Chachupete.
+
+(04:48:28):
+Like, where do you think this whole thing sits?
+
+(04:48:31):
+Yeah,
+
+(04:48:32):
+I definitely see it as like bold,
+
+(04:48:34):
+lovable,
+
+(04:48:35):
+that world where you're not jumping into an ID per se,
+
+(04:48:38):
+you're not necessarily looking at CLI.
+
+(04:48:41):
+But the idea here is that it's effectively a powerful way to make
+
+(04:48:46):
+you know,
+
+(04:48:46):
+full blown apps that you could totally deploy without much of the complexity of the
+
+(04:48:51):
+setup and having to go through the pains of,
+
+(04:48:54):
+you know,
+
+(04:48:54):
+getting integrations and it's really easy for teams and it's easy to share these
+
+(04:48:59):
+apps and remix them.
+
+(04:49:01):
+So I kind of think it's all what I really like about it is like it's all in the
+
+(04:49:05):
+cloud,
+
+(04:49:06):
+super easy for you to share with your team as an artifact.
+
+(04:49:08):
+Anybody can go and remix it.
+
+(04:49:10):
+So yeah, both indie builders and teams, I think are great fits.
+
+(04:49:13):
+To that point, and I know Logan, you're about to jump in.
+
+(04:49:15):
+If you,
+
+(04:49:16):
+the first person to do a copy of this app fully from any agent of their choice,
+
+(04:49:22):
+throw it in the chat and we'll send you every hat.
+
+(04:49:25):
+I want to see the first person to do it well.
+
+(04:49:27):
+Logan, go for it.
+
+(04:49:28):
+Yeah,
+
+(04:49:28):
+I think then the beauty of this and actually like your example of just copying this
+
+(04:49:32):
+app,
+
+(04:49:32):
+like the real,
+
+(04:49:35):
+thing that we're trying to solve is like the code quality generation across all
+
+(04:49:39):
+these products is actually like somewhat similar assuming you can make the agent
+
+(04:49:42):
+harness it's like if you're in IDE you then there's like four or five hops that you
+
+(04:49:47):
+have to do to then like take the thing that's running locally on your computer and
+
+(04:49:50):
+actually like go and make it available to more people other than running like a
+
+(04:49:53):
+little
+
+(04:49:53):
+local dev server and deploy it and do all the other things, spin up a production database.
+
+(04:49:58):
+So we're definitely, the goal is make all of that as simple as possible.
+
+(04:50:01):
+Make it so that you have the freedom to build.
+
+(04:50:04):
+You don't need to worry about how do I set up this integration access to a database
+
+(04:50:09):
+or auth or sign in or payments or whatever it is.
+
+(04:50:14):
+And one of the cool things, and this is where I think we have
+
+(04:50:17):
+our team and Google has an interesting edge and advantage is we have this whole
+
+(04:50:21):
+Google ecosystem that we can tap into.
+
+(04:50:24):
+With one click, you'll be able to connect to Google Workspace.
+
+(04:50:27):
+With one click, you can add Google Calendar.
+
+(04:50:29):
+With one click, you can add Gemini, which already works today.
+
+(04:50:32):
+I think you'll see more of us going in that direction of trying to just make it
+
+(04:50:38):
+really easy to connect to all the things which everyone wants to connect to across
+
+(04:50:42):
+the Google ecosystem.
+
+(04:50:43):
+Cool.
+
+(04:50:44):
+You guys have both been involved in AI for a long time,
+
+(04:50:48):
+at least since I've been paying attention to it in the GBT three days.
+
+(04:50:52):
+And I'm sort of curious how things feel to you right now versus then in terms of
+
+(04:50:59):
+like what your hopes back then,
+
+(04:51:01):
+where we are now,
+
+(04:51:02):
+where we're going,
+
+(04:51:03):
+like just reflect a little bit for me.
+
+(04:51:04):
+I'm really curious.
+
+(04:51:06):
+yeah biggest thing is like you you are more free um i felt like back then you could
+
+(04:51:11):
+like you could like taste it a little bit where it was like i i'm like kind of
+
+(04:51:14):
+getting close to being able to make the thing that i want like a mars crappy
+
+(04:51:18):
+children's book i was like you know it's kind of close it wasn't crappy it was so
+
+(04:51:22):
+good yeah there you go i'm gonna get dan a copy immediately my copy
+
+(04:51:30):
+No,
+
+(04:51:30):
+but I think it's just like you're,
+
+(04:51:33):
+you,
+
+(04:51:34):
+there's early signs of like one day you'd be able to like do something ambitious.
+
+(04:51:38):
+And I feel like the moment that we're in and especially the last six months is
+
+(04:51:40):
+like,
+
+(04:51:41):
+you can now do the ambitious thing,
+
+(04:51:42):
+which I think is like what all of us originally wanted to do.
+
+(04:51:45):
+And I feel like that's been my like personal biggest differences.
+
+(04:51:48):
+I don't need to be like worried about trying to build something too complex.
+
+(04:51:52):
+I can just build that thing that I wanted.
+
+(04:51:54):
+do you have a sense for like what changed like to me it's it's obviously like the
+
+(04:51:58):
+models just got better but is there something about the models like something that
+
+(04:52:01):
+we learned over the last six months that made us be able to make the models better
+
+(04:52:05):
+that would sort of cross the line anything different
+
+(04:52:08):
+Tool calling is the, is the, is the fruits, the basket of fruits that bears all the gifts.
+
+(04:52:13):
+Um,
+
+(04:52:14):
+and so as you make tool calling better,
+
+(04:52:16):
+um,
+
+(04:52:16):
+and specifically over long running tasks,
+
+(04:52:18):
+it's the holy grail.
+
+(04:52:20):
+I agree with you,
+
+(04:52:20):
+but I think it's probably unintuitive to a lot of people listening or watching why
+
+(04:52:24):
+that would be,
+
+(04:52:25):
+why is that?
+
+(04:52:26):
+Yeah, I think, I mean,
+
+(04:52:29):
+It's because, and like editing code is a good example of this.
+
+(04:52:32):
+Like you're not actually,
+
+(04:52:34):
+there's like a,
+
+(04:52:35):
+and I think the UI products actually do a reasonable job of like abstracting this,
+
+(04:52:39):
+but like there's all of these micro decisions being made.
+
+(04:52:41):
+Like, should I look through these files?
+
+(04:52:43):
+Should I go and edit this thing?
+
+(04:52:44):
+Should I use this tool to search for documentation so that I better understand what
+
+(04:52:48):
+this package or this random thing is doing?
+
+(04:52:51):
+in every one of your user return requests of I want to do this thing in some
+
+(04:52:56):
+software environment,
+
+(04:52:57):
+there's many,
+
+(04:52:58):
+many,
+
+(04:52:58):
+many subsequent requests of the model basically doing on-the-fly context
+
+(04:53:03):
+engineering to make sure that it has the right stuff and it's making the right
+
+(04:53:07):
+edits and it's doing all that.
+
+(04:53:09):
+From a model capability perspective, it's tool calling that is actually what's enabling that.
+
+(04:53:14):
+yeah i think the other thing i i think is like when we were jumping into it we were
+
+(04:53:19):
+all still so so early in terms of understanding what the practical applications of
+
+(04:53:24):
+this will be and i think it's like finally becoming mainstream enough i think 2026
+
+(04:53:28):
+we're seeing more and more teams and non-technical teams actually move into
+
+(04:53:32):
+building things with these products um and i think that'll become the norm by the
+
+(04:53:36):
+end of the year for sure and i also think my hot take is that now we're in the in
+
+(04:53:40):
+the era of like there's
+
+(04:53:41):
+going to be now you can make more and more things that are not slop now you could
+
+(04:53:45):
+argue the book was slop because it was like you know there were issues with the
+
+(04:53:49):
+hands and things like that but that's all easy argument but like the point is
+
+(04:53:55):
+that's gone now it's actually much easier to make high quality looking things and i
+
+(04:53:59):
+think um i think the slop era is uh honestly behind us it's just if you have taste
+
+(04:54:05):
+you're you can go and make the thing
+
+(04:54:07):
+What what is slop like?
+
+(04:54:09):
+OK, here's something I've been I've been thinking about.
+
+(04:54:11):
+So I don't know if you saw this this stream at the beginning and I don't blame you
+
+(04:54:15):
+if you haven't been watching for the last five hours,
+
+(04:54:18):
+but I've been demoing this.
+
+(04:54:20):
+This Markdown editor I made is an agent native Markdown editor.
+
+(04:54:23):
+It's just a very simple one where it's a text editor,
+
+(04:54:27):
+all the main features you want,
+
+(04:54:28):
+but you can attribute,
+
+(04:54:29):
+hey,
+
+(04:54:29):
+this is written by me,
+
+(04:54:30):
+this is written by AI,
+
+(04:54:32):
+and also it has a built-in agent,
+
+(04:54:33):
+and any agent cloud code or codex or demini or whatever can go and write in it,
+
+(04:54:37):
+and you can start your collaborating back and forth.
+
+(04:54:39):
+So it's a really good thing to use with plan mode is you look at your plan in this editor.
+
+(04:54:44):
+And it's...
+
+(04:54:46):
+I wrote it in like less than two weeks in between meetings and I have no idea how
+
+(04:54:51):
+it works,
+
+(04:54:51):
+but it works really well.
+
+(04:54:54):
+And so it's forcing me to reevaluate a little bit of like what counts a slot
+
+(04:54:59):
+because I don't know how the code works,
+
+(04:55:02):
+but the app itself works well.
+
+(04:55:03):
+So does it matter that if I if I probably looked underneath the hood,
+
+(04:55:09):
+I would probably be like, there are ways I would make this a lot better.
+
+(04:55:12):
+But because software is so cheap to do, is it even worth it?
+
+(04:55:15):
+Like, I feel like it's changing.
+
+(04:55:17):
+The bar is changing for what craft looks like between are the actual lines of code
+
+(04:55:23):
+good to like,
+
+(04:55:23):
+is the output sort of what I want?
+
+(04:55:25):
+I don't know.
+
+(04:55:25):
+What do you guys think?
+
+(04:55:26):
+Yeah, I mean, my immediate reaction to when I hear the word slop is like, it's lazy.
+
+(04:55:30):
+It's like you look at it and you're like, oh, that was this first generation.
+
+(04:55:34):
+You didn't really iterate on it.
+
+(04:55:36):
+You basically are copying all the AI-isms of the thing and you didn't refine it and
+
+(04:55:41):
+actually make it great.
+
+(04:55:42):
+I mean, the app you described, you made it with intention.
+
+(04:55:44):
+You basically designed around a workflow.
+
+(04:55:46):
+It works really well for you, right?
+
+(04:55:48):
+Now,
+
+(04:55:48):
+the code may be considered by engineers at Slop,
+
+(04:55:51):
+and I think they hold a different craft bar,
+
+(04:55:53):
+right?
+
+(04:55:54):
+The same way we would hold a different craft bar to any media we would see
+
+(04:55:57):
+generated with AI if it was necessarily not great or whatnot.
+
+(04:56:00):
+So I think it's a bit of that.
+
+(04:56:02):
+It's like,
+
+(04:56:02):
+how much effort and tension did you do to actually refine the thing and make it
+
+(04:56:06):
+great?
+
+(04:56:07):
+And the point being that that refining and making the thing great was actually
+
+(04:56:10):
+really hard to do a while ago.
+
+(04:56:13):
+You still had to put a ton of effort, and it still looked like crap.
+
+(04:56:16):
+Like now I think we're at a point where no, it actually works well.
+
+(04:56:19):
+You can deploy the thing.
+
+(04:56:20):
+You can, you know, be confident about like using it daily.
+
+(04:56:23):
+Um, those things kind of stick out to me, but Logan, do you have a take?
+
+(04:56:27):
+Yeah.
+
+(04:56:27):
+My quick take is like,
+
+(04:56:28):
+it's,
+
+(04:56:29):
+it's where your thing that you built is in distribution to like the,
+
+(04:56:34):
+the.
+
+(04:56:37):
+things that are like most in distribution for the model i would consider to like
+
+(04:56:41):
+most b-slop right like the easiest thing to make the model do it's like the default
+
+(04:56:45):
+and so the goal is like you get out of that by like pushing on the edges of the of
+
+(04:56:49):
+getting the model to do things that it can like kind of barely do um and i think
+
+(04:56:53):
+it's more or less the models can like barely generate high quality like really
+
+(04:56:58):
+aesthetic apps with high high code quality etc but i think amar to your point i
+
+(04:57:02):
+think it's like
+
+(04:57:03):
+that is a transitory effect.
+
+(04:57:05):
+I think the expectation you would imagine is that as we're sitting here in 12
+
+(04:57:08):
+months,
+
+(04:57:09):
+like that's actually no longer the case in a lot of ways,
+
+(04:57:11):
+which is really interesting.
+
+(04:57:12):
+So you're thinking like in 12 months from what you're seeing internally,
+
+(04:57:17):
+like that's going to be the case.
+
+(04:57:20):
+Yeah,
+
+(04:57:20):
+I think the hard part,
+
+(04:57:21):
+though,
+
+(04:57:22):
+is if then you just took my definition of slop at face value,
+
+(04:57:25):
+it's like the thing that looks nice and has all the right aesthetics,
+
+(04:57:29):
+et cetera,
+
+(04:57:29):
+et cetera,
+
+(04:57:29):
+and high code quality becomes the thing that's mostly in distribution.
+
+(04:57:33):
+The definition of slop will change.
+
+(04:57:37):
+It's like I was,
+
+(04:57:39):
+if you read,
+
+(04:57:39):
+if you read like Kierkegaard,
+
+(04:57:40):
+he has a lot of like,
+
+(04:57:41):
+if it's not X,
+
+(04:57:43):
+it's Y isms.
+
+(04:57:44):
+And you're like, Kierkegaard, you're using Chachibiti.
+
+(04:57:46):
+Like what the fuck?
+
+(04:57:47):
+But it's actually,
+
+(04:57:48):
+that was a,
+
+(04:57:49):
+just a very good rhetorical move for a while,
+
+(04:57:52):
+but it got overused by Chachibiti.
+
+(04:57:53):
+So it sounds like, yeah, the, the, the slop target is always moving.
+
+(04:58:00):
+that's why i say delve is just to sort of just see but i'm like i feel like
+
+(04:58:04):
+everyone should be able to use these words just because it's in distribution for
+
+(04:58:08):
+for the models for whatever random reason doesn't mean bring back delve you heard
+
+(04:58:12):
+it here first um also m dashes we can't let them take that away from us no i
+
+(04:58:17):
+totally everywhere yeah um guys thank you so much for joining if people want to
+
+(04:58:23):
+find you or ai studio where should they find you
+
+(04:58:27):
+AI.studio slash build.
+
+(04:58:28):
+Go make stuff.
+
+(04:58:29):
+And then don't find Amar on the internet.
+
+(04:58:31):
+He doesn't.
+
+(04:58:32):
+More followers.
+
+(04:58:34):
+Look for the book.
+
+(04:58:35):
+Great.
+
+(04:58:35):
+Thanks, guys.
+
+(04:58:36):
+Have a good one.
+
+(04:58:37):
+Yeah.
+
+(04:58:42):
+All right, everybody.
+
+(04:58:43):
+So that was that was amazing.
+
+(04:58:45):
+Super fun.
+
+(04:58:46):
+I'm really excited for our next guest because I think he's going to have a lot of
+
+(04:58:49):
+thoughts on code quality and slop and craft in this new world.
+
+(04:58:53):
+We will get to that in one second.
+
+(04:58:55):
+Before we do, if you are here, if you just got here, this is vibe code camp.
+
+(04:59:01):
+We have been live for the last five hours showing you the best five coders in the
+
+(04:59:06):
+world doing their thing,
+
+(04:59:07):
+showing their workflows,
+
+(04:59:08):
+what they built.
+
+(04:59:08):
+We've seen some amazing stuff.
+
+(04:59:10):
+If you want to get access to this whole stream turned into really consumable
+
+(04:59:17):
+content,
+
+(04:59:18):
+like guides that you can kind of go through and learn from all these people,
+
+(04:59:21):
+subscribe to Every,
+
+(04:59:22):
+every.to slash subscribe.
+
+(04:59:24):
+Just put it in your email.
+
+(04:59:25):
+We will be dripping those out over the next couple of weeks.
+
+(04:59:28):
+As we have time to cut the stream up,
+
+(04:59:29):
+we'll turn them into guides and videos that you can put into Claude or put into
+
+(04:59:33):
+your LLM of choice.
+
+(04:59:33):
+You can read.
+
+(04:59:34):
+And you can apply all the things that you're learning.
+
+(04:59:36):
+So please go to every.to slash subscribe.
+
+(04:59:39):
+And you also get a bunch of other stuff as well.
+
+(04:59:41):
+There's a free tier and then there's a paid tier.
+
+(04:59:43):
+And you'll get a lot of stuff on the free tier.
+
+(04:59:45):
+But I highly recommend, highly recommend the paid tier.
+
+(04:59:50):
+With that, I am very excited to add to the stage my friend Jeffrey Lit.
+
+(04:59:54):
+Jeffrey, welcome.
+
+
+

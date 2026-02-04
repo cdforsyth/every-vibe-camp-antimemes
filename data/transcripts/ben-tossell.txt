@@ -1,0 +1,1756 @@
+# Ben Tossell - Non-technical builder running 30 agents autonomously
+
+**Company:** Ben's Bites / Factory
+**Timestamp:** 0:31:23
+**YouTube:** https://www.youtube.com/watch?v=5YBjll9XJlw&t=1883s
+
+---
+
+=== BEN TOSSELL (Ben's Bites / Factory) - Non-technical builder, session sharing ===
+
+
+(00:31:23):
+Yeah, well, quick background is I can't code, still can't.
+
+(00:31:28):
+I've tried and just couldn't never get it to work for me.
+
+(00:31:31):
+So I built a company called MakerPad where we taught people no code back in the day.
+
+(00:31:35):
+So this is 2019, drag and drop type stuff.
+
+(00:31:38):
+I sold that to Zapier.
+
+(00:31:40):
+It was there for a few years.
+
+(00:31:43):
+Started Ben's Bytes before Chatwt came around and then just sort of rode the AI
+
+(00:31:47):
+wave and then I've been investing and building ever since.
+
+(00:31:50):
+And I'm an investor in a factory and have joined them recently to help on the DevRel side.
+
+(00:31:56):
+And yeah, that's kind of what I'm doing.
+
+(00:31:58):
+So just build stuff all day and all night as much as possible.
+
+(00:32:02):
+Fuck yeah.
+
+(00:32:03):
+Okay, what do you want to show us?
+
+(00:32:06):
+Lots of stuff.
+
+(00:32:08):
+So I will share my screen, I suppose.
+
+(00:32:12):
+here let me know if you can see it not yet uh no but it's coming i see it now cool so this is
+
+(00:32:38):
+A couple of things.
+
+(00:32:38):
+This is one session reviewer that I have built for myself.
+
+(00:32:44):
+So you can basically see my whole entire session with my agent.
+
+(00:32:47):
+So basically export the session from the terminal where I'm talking to Droid all
+
+(00:32:51):
+day and it presents it in this UI.
+
+(00:32:54):
+So you can sort of see I don't want to see any of the tools.
+
+(00:32:57):
+I just want to see the user message.
+
+(00:32:59):
+Then you can basically scroll down and just see the actual like what I actually say
+
+(00:33:04):
+to the agent and what did it actually do.
+
+(00:33:07):
+this one i did 10 minutes ago to say quick i've got to present this to dan's
+
+(00:33:11):
+audience in 10 minutes one shot put the pop-up on exit to effectively show i gave
+
+(00:33:18):
+it this code my snippet from my newsletter so that's it's just embedding there
+
+(00:33:22):
+because it renders it on this on this site um so then if i go to the site and go to
+
+(00:33:29):
+leave it it should come up with a pop-up
+
+(00:33:34):
+So built that,
+
+(00:33:35):
+yeah,
+
+(00:33:35):
+10 minutes ago,
+
+(00:33:37):
+just as like a,
+
+(00:33:38):
+let me do a quick thing to see if I can just quickly one shot something.
+
+(00:33:43):
+So that's one thing, but like even building this session builder
+
+(00:33:47):
+It's kind of a format that I follow a lot, and I've got a few here.
+
+(00:33:51):
+This is where I stole it from, basically.
+
+(00:33:53):
+So there's a developer called Mario who has built an agent called Pi,
+
+(00:33:59):
+and he's got a share command on his agent that basically renders a HTML page like
+
+(00:34:04):
+this,
+
+(00:34:05):
+exactly like this,
+
+(00:34:06):
+actually,
+
+(00:34:06):
+but colors are slightly different.
+
+(00:34:08):
+So I just said, find the share command code from his coding agent,
+
+(00:34:16):
+So then the agent went and did a bunch of that stuff.
+
+(00:34:19):
+Let me try and get the raw file, blah, blah, blah, blah, blah.
+
+(00:34:22):
+All the different tools it's doing.
+
+(00:34:23):
+Then it found the share command and sort of what it does.
+
+(00:34:27):
+So then I say, make a plan to copy the implementation and replace what we currently have.
+
+(00:34:34):
+Because I think I just had, basically a GitHub gist is created.
+
+(00:34:38):
+So this is showing you the spec that Droid comes up with.
+
+(00:34:42):
+And then I basically just said,
+
+(00:34:47):
+I was trying to figure out how you submit it and all that kind of stuff.
+
+(00:34:52):
+Then this was me building this thing,
+
+(00:34:54):
+just saying yes,
+
+(00:34:55):
+approving the plan,
+
+(00:34:56):
+going through the plan a few times and then wanted a web view.
+
+(00:35:00):
+So I just hook it up to my website and all that kind of stuff.
+
+(00:35:03):
+And then it did it.
+
+(00:35:05):
+So every session, like I just shared that one, I just do a share session command.
+
+(00:35:12):
+And then it renders, it basically exports the whole session to a GitHub gist that is a secret.
+
+(00:35:18):
+And then it populates my website with this view so I can show you and everyone else
+
+(00:35:25):
+watching how you can do these sessions.
+
+(00:35:26):
+And I think for me,
+
+(00:35:28):
+how I'm learning to build stuff is often just being in a session and talking to an
+
+(00:35:34):
+agent.
+
+(00:35:35):
+I'm just doing stuff I'm not supposed to be allowed to do.
+
+(00:35:38):
+because you can.
+
+(00:35:39):
+And then you just start picking up those things as you go past.
+
+(00:35:43):
+You start seeing like Glob, what the fuck is Glob?
+
+(00:35:45):
+Like, oh, then you realize it's like, it's a search tool.
+
+(00:35:48):
+It's searching for something globally across your project for certain things.
+
+(00:35:54):
+You just start recognizing the patterns and feeling more confident with what you're doing.
+
+(00:35:58):
+And I actually just published
+
+(00:36:00):
+this which was like all the terminology and everything you kind of need to know and
+
+(00:36:06):
+what i feel like i learned as i've been doing this of how to get comfortable with
+
+(00:36:10):
+working with agents because something i have built is this sort of cookbook site
+
+(00:36:16):
+for myself and i want to the idea is to like share all of my sessions that i'm
+
+(00:36:21):
+doing and then do a walkthrough of my session
+
+(00:36:24):
+And obviously in building this, I can share the sessions of building this as well.
+
+(00:36:28):
+So if we go to this, this is where I was.
+
+(00:36:32):
+I saw this tweet, which many people might have.
+
+(00:36:35):
+It's got this fun button that has these different states and it kind of changes and
+
+(00:36:40):
+has an animation.
+
+(00:36:41):
+And I had had these things called nutshells, which is an open source project.
+
+(00:36:48):
+And it basically is an expandable that then explain in line.
+
+(00:36:54):
+So my idea was I can go through a session of how I'm reverse engineering something
+
+(00:36:58):
+or building something.
+
+(00:36:59):
+And anytime there's a technical term, it will come up with a nutshell.
+
+(00:37:05):
+You can be like, okay, what the hell is that?
+
+(00:37:07):
+And then these,
+
+(00:37:08):
+I try to make sure I'm manually writing them or curating them at least to make them
+
+(00:37:13):
+actually easy to understand.
+
+(00:37:15):
+So that's what I've been doing.
+
+(00:37:18):
+And then, yeah, this is what I wrote to my agent.
+
+(00:37:21):
+Use a bird tool to get this tweet.
+
+(00:37:23):
+download the video,
+
+(00:37:24):
+analyze it to reverse engineer it and create a similar component that we could use.
+
+(00:37:27):
+And then again, you can go to the full session and review the full session.
+
+(00:37:34):
+And then you just talk about what actually happens then in this session here or in
+
+(00:37:39):
+this assistant part of the session and then go through and open it.
+
+(00:37:47):
+It's just all so simple stuff that I think people get scared of
+
+(00:37:51):
+but they don't need to be.
+
+(00:37:51):
+And I was like, how you replace our nutshell with this?
+
+(00:37:54):
+And then do it like it comes up with a plan.
+
+(00:37:56):
+I think then it comes up with two options or three options because models love
+
+(00:38:01):
+coming up with a hybrid option for some reason.
+
+(00:38:05):
+So then I just said,
+
+(00:38:05):
+yeah,
+
+(00:38:06):
+do a start the server,
+
+(00:38:08):
+start the buttons with more 3D,
+
+(00:38:10):
+better,
+
+(00:38:10):
+it's too big,
+
+(00:38:11):
+make it a bit smaller.
+
+(00:38:12):
+And that's actually what you see now on the site is what I built here.
+
+(00:38:16):
+So I think that's pretty cool.
+
+(00:38:18):
+I love just being able to share my session.
+
+(00:38:20):
+I think that's how I've learned is poking around other people's code,
+
+(00:38:24):
+reverse engineering it,
+
+(00:38:25):
+going through a session,
+
+(00:38:27):
+just asking questions and doing dumb stuff.
+
+(00:38:30):
+So that's a couple of things I've built.
+
+(00:38:33):
+Wait, I want to pause you there.
+
+(00:38:34):
+This is super cool.
+
+(00:38:36):
+And so basically like if I'm interested in what you're doing,
+
+(00:38:39):
+I can go look at your almost basically your raw five coding sessions and then your
+
+(00:38:46):
+output of,
+
+(00:38:46):
+you know,
+
+(00:38:48):
+almost the story version of this is how I did something.
+
+(00:38:51):
+I think that's so helpful for technical people.
+
+(00:38:55):
+Can you talk for a second about like how far are you able to take this?
+
+(00:39:00):
+So
+
+(00:39:01):
+You're not technical.
+
+(00:39:02):
+Obviously you're building this stuff,
+
+(00:39:03):
+but I think someone looking at it could be like,
+
+(00:39:05):
+yeah,
+
+(00:39:06):
+like,
+
+(00:39:06):
+but it's all static sites or whatever.
+
+(00:39:08):
+Like, what are you, what's, what are the limits of what you're able to do?
+
+(00:39:11):
+Like, are you, are you pushing you work at, at, at factory?
+
+(00:39:14):
+Are you, are you pushing code for factory or like possible?
+
+(00:39:18):
+Yeah.
+
+(00:39:18):
+Yeah, I mean, I've pushed code to the actual code base, which was like a big moment for me.
+
+(00:39:24):
+And this is one I wanted to show,
+
+(00:39:27):
+which is we had my brother in Bubble,
+
+(00:39:30):
+which is a no code tool from back in the day,
+
+(00:39:32):
+which I found very,
+
+(00:39:34):
+very difficult to ever use.
+
+(00:39:36):
+So he bought this sort of newsletter booking system that we used for our newsletter.
+
+(00:39:41):
+So this is like our ad platform.
+
+(00:39:43):
+Instead of like Passion Fruit or anything like that,
+
+(00:39:45):
+I didn't want to talk to any sponsors at the time.
+
+(00:39:47):
+So we just had this.
+
+(00:39:48):
+People would just book main ad, a tool placement, whatever.
+
+(00:39:51):
+So this...
+
+(00:39:54):
+which works as you would expect it to, fill in a form, pick some dates, all that kind of stuff.
+
+(00:40:00):
+But it stopped working recently and we can't figure it out.
+
+(00:40:03):
+So I thought, well, I can just rebuild this.
+
+(00:40:07):
+And this is a very, very long session.
+
+(00:40:09):
+I think there's 766 messages here.
+
+(00:40:13):
+But what I said was I need to clone a piece of software we built on Bubble several years ago.
+
+(00:40:17):
+Bubble's an old platform.
+
+(00:40:19):
+Rebuilt in the simplest possible way.
+
+(00:40:21):
+Least lines of code, dependencies, et cetera, but look good, work the same way.
+
+(00:40:25):
+If anyone from Bubble is watching, we apologize.
+
+(00:40:27):
+I know, I apologize.
+
+(00:40:29):
+Yeah, I didn't think about this when I was exporting more sessions.
+
+(00:40:31):
+Yeah.
+
+(00:40:33):
+Use the dev browser skill to go through the website,
+
+(00:40:35):
+click every link and button,
+
+(00:40:36):
+explore every interaction,
+
+(00:40:37):
+come up with a master plan on how you rebuild it.
+
+(00:40:39):
+I forgot to give it to the link.
+
+(00:40:40):
+So I said, good point, give it a link.
+
+(00:40:43):
+And then I also have this in my agent's MD,
+
+(00:40:46):
+I've got this line from Cool Runnings,
+
+(00:40:48):
+just so I know that the agent has read my agent's MD before it starts.
+
+(00:40:55):
+So yeah, good point.
+
+(00:40:57):
+And then it comes up with a plan somewhere here.
+
+(00:41:02):
+A big plan.
+
+(00:41:02):
+And I basically have been building it now.
+
+(00:41:05):
+So it's currently here.
+
+(00:41:07):
+This is the staging site.
+
+(00:41:09):
+So we've got a calendar.
+
+(00:41:10):
+It won't work now, probably.
+
+(00:41:13):
+So it's got all the sessions here and stuff.
+
+(00:41:16):
+You can like hold it, remove it.
+
+(00:41:18):
+You can like add available hold.
+
+(00:41:26):
+So add things there, there's orders.
+
+(00:41:28):
+So you can like create a new order.
+
+(00:41:30):
+Okay, someone wants these dates, so you can sort of mark them for them.
+
+(00:41:35):
+You can send them an IO, we can sign it.
+
+(00:41:37):
+Like we've built a lot, or I've built a lot with all these connective pieces.
+
+(00:41:43):
+Obviously there's super bases connected behind the hood.
+
+(00:41:46):
+So you can have things changing in real time from the database.
+
+(00:41:51):
+All of this is just, yeah, it's basically all vibe coded from that session.
+
+(00:41:57):
+Even got an audit log to just see like everything that's changed and happened at any point.
+
+(00:42:01):
+So we know that anything, you can see my agent also going through and testing stuff.
+
+(00:42:07):
+So, I mean, it goes to a fully fledged, it just goes all the way.
+
+(00:42:12):
+It's the same principles.
+
+(00:42:14):
+It's just, you've kind of got to have a bit of a pain threshold
+
+(00:42:20):
+And I think in that post that I mentioned,
+
+(00:42:21):
+I posted on Twitter,
+
+(00:42:23):
+it talks about like,
+
+(00:42:24):
+I mean,
+
+(00:42:25):
+everyone gets there where you're like,
+
+(00:42:26):
+fix it,
+
+(00:42:27):
+fix it,
+
+(00:42:27):
+fix it.
+
+(00:42:27):
+And you're sort of in that loop and you're like, why the fuck is it?
+
+(00:42:29):
+This agent is so smart that I can't fix this thing that's a bug that seems like an
+
+(00:42:33):
+obvious thing.
+
+(00:42:34):
+And you've given it documentation, you've given it whatever else.
+
+(00:42:36):
+And it's just, I actually just quite like figuring out
+
+(00:42:41):
+It's always a me problem, and I know that because I can't code.
+
+(00:42:44):
+So it's always my fault,
+
+(00:42:46):
+but just knowing that and saying,
+
+(00:42:47):
+well,
+
+(00:42:47):
+yes,
+
+(00:42:48):
+obviously you don't know how to fix this because you can't code.
+
+(00:42:50):
+So your job is to figure out how you can guide the agent in the best way to then
+
+(00:42:54):
+get it to figure out what it needs to do next,
+
+(00:42:56):
+no matter how complex it is.
+
+(00:42:59):
+So I just play around with that, and I switch up the models.
+
+(00:43:02):
+I use a lot of Opus 4.5, but more recently, especially on this platform,
+
+(00:43:07):
+project i've been using gpt 5.2 codex and obviously with factory you can just
+
+(00:43:11):
+switch like in the middle of a session um so it's been really helpful to like
+
+(00:43:15):
+review the code that opus has written or make a plan with codex and then switch
+
+(00:43:19):
+over to opus to implement it and all that kind of stuff but yeah i mean i've hit a
+
+(00:43:23):
+fair amount of issues with building this platform for example but um i mean in all
+
+(00:43:30):
+of these sessions there's going to be a bunch of stuff
+
+(00:43:32):
+me just like swearing at it or just like getting really frustrated but that's just
+
+(00:43:36):
+part of part of how this whole thing goes i think um let me just stop you there
+
+(00:43:42):
+because i think this is really interesting and very helpful for people who are
+
+(00:43:46):
+maybe non-technical like when you get stuck the first thing that you said that
+
+(00:43:53):
+really
+
+(00:43:54):
+struck me is you're like this is my fault it's not the agent's fault it's my fault
+
+(00:43:59):
+i can't code yeah and i think that's really really interesting so once you've taken
+
+(00:44:03):
+that responsibility and you're stuck um what's there what's your first step that
+
+(00:44:09):
+you take to help yourself get unstuck well i do a few different things so often to
+
+(00:44:15):
+validate if something is working like an implementation that the agent's working on
+
+(00:44:19):
+is going to work i don't know anything about tests but i say make sure you write
+
+(00:44:23):
+tests
+
+(00:44:24):
+And also I used, I used to use dev browser.
+
+(00:44:28):
+I now use the agent browser from Vercel.
+
+(00:44:31):
+So I say, use the agent browser, go through everything and like log exactly what's happening.
+
+(00:44:36):
+And then you come up with,
+
+(00:44:38):
+like,
+
+(00:44:38):
+I also can't be bothered to keep going onto the site where it says it's done
+
+(00:44:41):
+something.
+
+(00:44:42):
+Okay.
+
+(00:44:42):
+It doesn't work.
+
+(00:44:43):
+I'm not going to copy paste console logs and Vercel logs and all the rest of it.
+
+(00:44:47):
+Like the agent can figure that out and do it itself.
+
+(00:44:49):
+Yeah.
+
+(00:44:51):
+So I kind of get it to do that kind of stuff, to see that.
+
+(00:44:54):
+And what I did,
+
+(00:44:55):
+I was stuck on a database issue,
+
+(00:44:58):
+especially writing to the wrong database for a start.
+
+(00:45:00):
+So that's not a good sign.
+
+(00:45:04):
+So what I did more recently was kind of taking some
+
+(00:45:10):
+take some concepts from that route,
+
+(00:45:11):
+the Ralph sort of phenomenon that's happening,
+
+(00:45:14):
+which is just everything's running in a loop and you've got to have a file that has
+
+(00:45:17):
+like,
+
+(00:45:17):
+this is your plan.
+
+(00:45:18):
+And then you've got a file that is like,
+
+(00:45:19):
+this is your progress and you're taking stuff off as you go.
+
+(00:45:22):
+So every agent knows where you are at every stage.
+
+(00:45:26):
+So I just said,
+
+(00:45:26):
+right,
+
+(00:45:27):
+let's go through and list all the possible issues of what could be happening with
+
+(00:45:31):
+this like bug.
+
+(00:45:33):
+The problem with, you basically couldn't create orders, inquiries or customers.
+
+(00:45:37):
+Nothing was getting written to Superbase.
+
+(00:45:40):
+So I knew that there was the issue,
+
+(00:45:42):
+like nothing's going from this site to Superbase,
+
+(00:45:44):
+but it was all working locally.
+
+(00:45:47):
+So say, come up with all the ideas that you have of all of the bugs.
+
+(00:45:52):
+Now let's go through them one by one.
+
+(00:45:53):
+Or you can say to the agent, which do you think is the most likely culprit?
+
+(00:45:58):
+I also, after several iterations of trying to fix the bug,
+
+(00:46:02):
+I realized I was in that loop and thinking,
+
+(00:46:04):
+OK,
+
+(00:46:04):
+I know now it's not going to be any of these sort of things that seemingly are
+
+(00:46:09):
+going to fix it.
+
+(00:46:10):
+I think it's a super base issue somewhere.
+
+(00:46:12):
+There's no connection with it somewhere.
+
+(00:46:14):
+And I was like, well, we're not even using super base functions.
+
+(00:46:18):
+So.
+
+(00:46:19):
+maybe use that and i just sort of guided it from doing that like planning of think
+
+(00:46:24):
+about all the bugs this could be run through some of them validate with tests and
+
+(00:46:29):
+the agent browser and then if it's not working just keep going like keep going
+
+(00:46:33):
+through that loop um
+
+(00:46:35):
+And I just pointed it to Superbase Functions.
+
+(00:46:38):
+Sure enough, that was the issue.
+
+(00:46:39):
+We didn't have it set up properly.
+
+(00:46:41):
+It went through, validated it.
+
+(00:46:43):
+And then it's basically like the agent is then using your site as a first class
+
+(00:46:47):
+user,
+
+(00:46:48):
+doing everything you would be doing to test that it goes wrong.
+
+(00:46:51):
+And then it just like is in a loop with itself.
+
+(00:46:54):
+So then it can just continually like fix stuff,
+
+(00:46:58):
+update its own plan and then continue from there.
+
+(00:47:01):
+So I just try and think about how I can
+
+(00:47:05):
+what is a what my markdown file what instruction can i give it to guide it to do
+
+(00:47:09):
+something over and over and over again to like bang its own head against the wall
+
+(00:47:12):
+to figure it out um and like are there things i've picked up from doing many
+
+(00:47:18):
+projects or just this one project that feel like i feel like it's not that we've
+
+(00:47:22):
+gone down that road before or like to me it feels like it must be to do with it's
+
+(00:47:28):
+not that
+
+(00:47:29):
+Like it's not that part of the code,
+
+(00:47:31):
+it's gotta be this part because there's nothing in Superbase,
+
+(00:47:33):
+for example.
+
+(00:47:33):
+It's like obvious to me.
+
+(00:47:38):
+So that's kind of how,
+
+(00:47:40):
+and I've only gotten that intuition,
+
+(00:47:42):
+I suppose,
+
+(00:47:42):
+from just building a load of stuff.
+
+(00:47:46):
+And the point is,
+
+(00:47:47):
+I think if you're really non-technical and the point of that article is like,
+
+(00:47:52):
+you're gonna hit issues all the time.
+
+(00:47:54):
+Like professional developers hit issues all the time.
+
+(00:47:57):
+Like you can't expect not to.
+
+(00:47:59):
+it's just learning how to then navigate those issues and like if they come up again
+
+(00:48:03):
+ask the agent why did that come up again do we need to add something to our agents
+
+(00:48:07):
+md to like improve that so we don't come up with that again or is it something that
+
+(00:48:11):
+i've given the instructions that are conflicting or um things like that so i think
+
+(00:48:15):
+there's i i know you guys have your like compound engineering plug-in and people
+
+(00:48:20):
+have really really extensive setups on slash commands and hooks and skills and mcps
+
+(00:48:26):
+and all the rest of it and i think
+
+(00:48:28):
+when you see people like Peter Steinberg and even Boris from Claude Code talking
+
+(00:48:32):
+about like the simplest setups that they've got,
+
+(00:48:35):
+and yes,
+
+(00:48:35):
+they are very good programmers,
+
+(00:48:37):
+but it's mostly up to the model.
+
+(00:48:40):
+Like the model does most of the work.
+
+(00:48:42):
+You're there to guide it.
+
+(00:48:43):
+And if you really think about that, as you're going through your session,
+
+(00:48:49):
+you start thinking about like,
+
+(00:48:51):
+I'm being stupid here by telling it just to fix it,
+
+(00:48:53):
+fix it,
+
+(00:48:53):
+fix it.
+
+(00:48:54):
+It's getting through its context.
+
+(00:48:56):
+Like I'm not really helping it.
+
+(00:48:58):
+I'm just thinking it should be able to have fixed this by now.
+
+(00:49:01):
+I've given it no guidance or anything like, okay, maybe that's a bit unfair.
+
+(00:49:04):
+Like maybe,
+
+(00:49:05):
+okay,
+
+(00:49:05):
+if I point it over here and then it gets it straight away and you're like,
+
+(00:49:08):
+okay,
+
+(00:49:09):
+that's a skill issue for me.
+
+(00:49:10):
+Like that's fine.
+
+(00:49:12):
+I know that, but now I'll know in the future,
+
+(00:49:16):
+when that happened to me and that was painful for 24 hours,
+
+(00:49:18):
+then hopefully we won't repeat that mistake again,
+
+(00:49:20):
+but we all fall into the trap.
+
+(00:49:22):
+Yeah.
+
+(00:49:23):
+There's a, you said a lot of things I think are really important that I want to emphasize.
+
+(00:49:27):
+One thing that you said that is totally true is I feel like people discount vibe
+
+(00:49:34):
+coding because they're like,
+
+(00:49:35):
+well,
+
+(00:49:35):
+if something goes wrong,
+
+(00:49:36):
+how are you going to know how to fix it?
+
+(00:49:37):
+And it's like,
+
+(00:49:40):
+professional developers all the time run into problems where they're like,
+
+(00:49:43):
+I actually don't know what's wrong and I don't know how to fix this.
+
+(00:49:46):
+And the mindset is the same.
+
+(00:49:48):
+It's just like, I'm going to figure out why it's not working and I'm going to fix it.
+
+(00:49:53):
+And if you're a professional developer, you do that by understanding all the code.
+
+(00:49:57):
+If you're vibe coding,
+
+(00:49:58):
+it's a process of you understanding what's the difference between what you think
+
+(00:50:02):
+should happen and what is happening and what the agent thinks should happen and how
+
+(00:50:06):
+do you close that gap?
+
+(00:50:08):
+So it sounds like a lot of what you're doing
+
+(00:50:10):
+when you get into one of those like frustration loops,
+
+(00:50:12):
+which I find too,
+
+(00:50:13):
+like I just demo this app proof.
+
+(00:50:15):
+And two days ago,
+
+(00:50:17):
+it was like,
+
+(00:50:17):
+I was just like,
+
+(00:50:18):
+make it work,
+
+(00:50:18):
+make it work,
+
+(00:50:19):
+make it work,
+
+(00:50:19):
+make it work for like hours.
+
+(00:50:21):
+And then eventually I was like, okay, I just need to spend the time to sit down
+
+(00:50:25):
+and explain in detail all the things that are not working,
+
+(00:50:29):
+and then go back and forth with Claude and Codex until we'd created a shared
+
+(00:50:35):
+understanding of like what good looks like.
+
+(00:50:37):
+And then I just said, Codex, go do it.
+
+(00:50:39):
+And it did it, and it just one-shotted it in like an hour.
+
+(00:50:41):
+Yeah.
+
+(00:50:42):
+I think that is the, like, vibe coding gets a bad rap, much like no coders did.
+
+(00:50:49):
+I think it's like, it's like it's a negative connotation of like the real version.
+
+(00:50:53):
+You're caught, you're not there.
+
+(00:50:54):
+So you're like the fake version of this and you're like pretending and you're just
+
+(00:50:57):
+sort of like flying by the seat of your pants or whatever.
+
+(00:51:02):
+But I think,
+
+(00:51:04):
+I mean,
+
+(00:51:04):
+I am vibe coding because I can't write code,
+
+(00:51:07):
+but I wouldn't class myself as like,
+
+(00:51:09):
+I'm one shotting Pomodoro timers on lovable.
+
+(00:51:11):
+And then just like, that's kind of where I'm at.
+
+(00:51:14):
+I'm looking at what the agents do.
+
+(00:51:16):
+I'm thinking about the,
+
+(00:51:17):
+How do I guide the context?
+
+(00:51:19):
+I think really it is just engineering,
+
+(00:51:22):
+not to insult any other engineers,
+
+(00:51:23):
+but I think that's just like engineering on the very one end of the spectrum where
+
+(00:51:30):
+what you've got to understand is how you give instructions to an agent,
+
+(00:51:33):
+because yes,
+
+(00:51:34):
+the agent will be able to figure it out most likely on what you're building and
+
+(00:51:37):
+probably not building something that it can't figure out.
+
+(00:51:40):
+But it's just guiding it.
+
+(00:51:42):
+Like you said,
+
+(00:51:43):
+it's like you've got to put yourself in the session with it and try and feel like
+
+(00:51:48):
+you can be there as a resource to the agent rather than the agent's just going to
+
+(00:51:53):
+go off and do all of this stuff.
+
+(00:51:54):
+And maybe it will one day and hopefully soon and all the rest of it.
+
+(00:51:57):
+But I actually find it really interesting to learn about...
+
+(00:52:02):
+okay,
+
+(00:52:02):
+there's all these errors happening and like bug fixes and as they're frustrating at
+
+(00:52:05):
+the time,
+
+(00:52:06):
+as soon as you,
+
+(00:52:06):
+when you like figure it out,
+
+(00:52:08):
+you just feel like,
+
+(00:52:09):
+oh my God,
+
+(00:52:09):
+I actually did that.
+
+(00:52:10):
+Like, how did I do that?
+
+(00:52:12):
+And like all these things that I'm, I reverse engineer everything.
+
+(00:52:15):
+I just, there was one,
+
+(00:52:17):
+I can't remember where it is now.
+
+(00:52:18):
+There's like a video that Danny Postma put up of the Ralph Loop stuff.
+
+(00:52:23):
+He built himself a UI for it and just did a video.
+
+(00:52:28):
+So I looked at that and I think Matt Pocock had an actual system in his repo of
+
+(00:52:33):
+like how he uses the Ralph Loop in his code.
+
+(00:52:35):
+So I was like, pull these two things together, reverse engineer it and like build this system.
+
+(00:52:41):
+like Ralph loop thing that can be triggered by creating a GitHub issue.
+
+(00:52:46):
+Then it runs through the loop and then it like creates a PR and that's how you can
+
+(00:52:51):
+get work done like remotely.
+
+(00:52:53):
+And I did a video on that on Twitter and there's a repo that people can clone and
+
+(00:52:58):
+stuff for that.
+
+(00:52:58):
+So like I just do so much of exploring because I just find it interesting.
+
+(00:53:03):
+And I feel like there's nothing I can't have a go at
+
+(00:53:07):
+And it just will be a question of how long I'm willing to sit here and figure out
+
+(00:53:13):
+how I need to guide the agent.
+
+(00:53:14):
+Like, do I really want to guide the agent this much?
+
+(00:53:16):
+Or like, do I want to keep going through this for days on end?
+
+(00:53:19):
+But like things like the ad platform is,
+
+(00:53:21):
+that's a core piece of software that we like to use for ads.
+
+(00:53:24):
+And the alternative is sponsors emailing us all the time.
+
+(00:53:28):
+So I'm going to get it done.
+
+(00:53:30):
+So that's kind of,
+
+(00:53:32):
+there's definitely incentives to it.
+
+(00:53:33):
+And a lot of it is just like play, like tinkering.
+
+(00:53:35):
+And I've got so many projects that I just don't do anything or they're just local
+
+(00:53:39):
+or they're just in GitHub that I never finished.
+
+(00:53:42):
+But that's part of it.
+
+(00:53:44):
+That's not the point is not to just do one project ever.
+
+(00:53:49):
+one of the things that i would really love your perspective on is i feel like
+
+(00:53:53):
+you've been vibe coding for way longer than anybody else in the world because you
+
+(00:53:56):
+were doing no code stuff yeah 10 years ago and so you've just been in this world
+
+(00:54:03):
+for so for for a long time and watch it change can you just i'm just curious about
+
+(00:54:08):
+you were reflecting on
+
+(00:54:10):
+then and now and like how things have changed and how your perspective on all this
+
+(00:54:14):
+has changed you know when you had the original sort of no code dream and got that
+
+(00:54:19):
+bug to now yeah i think like the no code dream was oh my god i can actually build
+
+(00:54:24):
+something like this like i can use webflow and air table and have zapier in the
+
+(00:54:28):
+middle to like build a marketplace or build a job board um that was the extent of
+
+(00:54:33):
+my dreams then um
+
+(00:54:35):
+But I was like, oh, actually, anybody in the world can do this.
+
+(00:54:40):
+This is actually so much more approachable and attainable for anybody than I've got
+
+(00:54:44):
+to sit down and learn script tags and hello world and go through the 100 days of
+
+(00:54:49):
+programming or whatever courses and stuff you should take to be a coder.
+
+(00:54:55):
+and my argument was always that yes it's not going to be software that's like going
+
+(00:55:00):
+to change the world or going to run a hundred thousand users concurrently but i
+
+(00:55:05):
+spent so much less time on it i spent like an hour on it or a few hours or a
+
+(00:55:08):
+weekend like if it doesn't work and no one ever uses it i can throw it away and i'm
+
+(00:55:13):
+not emotionally invested in the fact that i spent 12 months coding to try and build
+
+(00:55:17):
+this crap version of something that no one wants
+
+(00:55:20):
+I think that's true today still.
+
+(00:55:21):
+That's still the thing.
+
+(00:55:22):
+You can just build stuff, throw it away.
+
+(00:55:25):
+It doesn't matter.
+
+(00:55:25):
+It took an hour of your time, two hours of your time.
+
+(00:55:28):
+It's not like you've got to be in this to build.
+
+(00:55:30):
+And I think more and more people are doing that now.
+
+(00:55:32):
+You see projects flying around Twitter all day, every day.
+
+(00:55:35):
+I still think that I think I mistakenly thought anyone could build and
+
+(00:55:41):
+democratization of software is here with no code.
+
+(00:55:44):
+But it was actually only the people who still had a certain threshold of pain to go through
+
+(00:55:50):
+to build something like we still have to know to want to build something or have an
+
+(00:55:53):
+incentive to build something and that is still true today because you still if you
+
+(00:55:57):
+one shot something on lovable that's probably not going to go into production
+
+(00:56:02):
+you're going to end up with five prompts 15 prompts 300 prompts before you can get
+
+(00:56:06):
+it there are you willing to get like to get through that session and do that i
+
+(00:56:12):
+don't know that's still out there so i don't know about the those kind of tools
+
+(00:56:16):
+like i think they're great but i think there's
+
+(00:56:20):
+for what purpose may they exist?
+
+(00:56:23):
+I don't know.
+
+(00:56:23):
+I think people would prefer...
+
+(00:56:24):
+Lots of people would prefer this kind of...
+
+(00:56:27):
+I felt like I built it.
+
+(00:56:29):
+And even... Even no-code...
+
+(00:56:34):
+what I was doing was programming.
+
+(00:56:36):
+It was just a different abstraction.
+
+(00:56:37):
+Like Webflow was the front end,
+
+(00:56:38):
+Zapier was the roots,
+
+(00:56:41):
+the API layer in the middle,
+
+(00:56:43):
+and Airtable was the back end.
+
+(00:56:45):
+So I kind of started picking up the fact that these three pieces and other pieces
+
+(00:56:50):
+sort of need to talk together,
+
+(00:56:52):
+need to like be connected.
+
+(00:56:53):
+When something breaks, it all breaks and like data needs to flow in a certain way.
+
+(00:56:57):
+So I think that probably helps with my understanding of
+
+(00:57:03):
+generally how like projects are how you see a project and like what it is and like
+
+(00:57:07):
+where what's happening behind the behind the scenes or underneath the hood um so
+
+(00:57:12):
+that kind of helps but i think it's very easy to just be poking around and
+
+(00:57:16):
+tinkering these days so
+
+(00:57:18):
+There's lots of similarities, but I think this is what I actually meant back then.
+
+(00:57:22):
+So when I was thinking of anyone could build anything,
+
+(00:57:25):
+I meant AI actually,
+
+(00:57:26):
+but I just didn't know anything about AI or was really using it.
+
+(00:57:28):
+So there's a sort of right time,
+
+(00:57:31):
+no,
+
+(00:57:31):
+right message,
+
+(00:57:33):
+wrong timing,
+
+(00:57:35):
+which is the same as being wrong.
+
+(00:57:36):
+But I think- Well, you stuck around long enough for it to be right.
+
+(00:57:38):
+I know, luckily enough.
+
+(00:57:40):
+Yeah, it wasn't too long away that I can kind of look right now.
+
+(00:57:44):
+So that's fine.
+
+(00:57:45):
+Awesome.
+
+(00:57:47):
+Ben, thank you so much for joining.
+
+(00:57:49):
+If people are looking for you or for Factory, where can they go find you to find out more?
+
+(00:57:57):
+So at Droid on Twitter for Factory.
+
+(00:57:59):
+And I recommend that agent over any others that you'll hear about today.
+
+(00:58:03):
+Of course, I think it's just the best one.
+
+(00:58:05):
+I don't have to worry about maintaining it.
+
+(00:58:07):
+It just handles everything for me.
+
+(00:58:09):
+Actually, give us 30 seconds on that.
+
+(00:58:11):
+Well, it's multimodal.
+
+(00:58:13):
+So like I said, you can change multimodal, sorry.
+
+(00:58:15):
+So you can change between Opus and Gemini and GBT models all in the same session.
+
+(00:58:21):
+The compaction that we have,
+
+(00:58:23):
+so when your agent runs out of context,
+
+(00:58:24):
+which it will,
+
+(00:58:25):
+our compaction is phenomenal and it basically won't lose anything.
+
+(00:58:29):
+You don't have to keep starting new sessions, hence my 766 message session.
+
+(00:58:35):
+And yeah, I mean, it's the one that I feel like
+
+(00:58:40):
+does more for me than others where others need more handholding.
+
+(00:58:43):
+And I've got enough handholding to do myself, not knowing how to code.
+
+(00:58:46):
+So actually I think it's obviously I work there,
+
+(00:58:50):
+but yeah,
+
+(00:58:51):
+it's been the best one that I can't stick to any others,
+
+(00:58:54):
+but I'm on Twitter at Ben Tossel or bensbytes.com is our newsletter.
+
+(00:59:02):
+Amazing.
+
+(00:59:03):
+Thank you, Ben.
+
+(00:59:04):
+Thank you.
+
+(00:59:06):
+all right we've got our next guest coming up in a in a short second i just want to
+
+(00:59:11):
+take a second to remind you all
+
+(00:59:14):
+who we are and what we're doing here.
+
+(00:59:16):
+Um, this is vibe code camp.
+
+(00:59:19):
+Uh,
+
+(00:59:19):
+we're,
+
+(00:59:20):
+we're going to be here live all day with the best vibe coders in the world showing
+
+(00:59:24):
+you about their workflow.
+
+(00:59:26):
+We just had a bent also from Ben's bites coming on.
+
+(00:59:28):
+We have a stacked guest list.
+
+(00:59:30):
+Um,
+
+(00:59:31):
+if you're interested in figuring out what's,
+
+(00:59:33):
+uh,
+
+(00:59:33):
+what the agenda is,
+
+(00:59:34):
+you can go to every.to slash agenda.
+
+(00:59:36):
+And I'm going to just throw that in a chat here.
+
+(00:59:38):
+Um,
+
+(00:59:40):
+We've got people from Google, from Anthropic, from AMP, from lots and lots of cool places.
+
+(00:59:46):
+All the top body coders in the world are coming up.
+
+(00:59:50):
+And now I'm excited to welcome our next guest.
+
+(00:59:55):
+Ash, welcome.
+
+
+

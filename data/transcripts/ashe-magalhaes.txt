@@ -1,0 +1,1942 @@
+# Ashe Magalhaes - Building a personal AI suite that knows your whole life
+
+**Company:** Hearth AI
+**Timestamp:** 0:59:56
+**YouTube:** https://www.youtube.com/watch?v=5YBjll9XJlw&t=3596s
+
+---
+
+=== ASHE MAGALHAES (Hearth AI) - Personal AI suite ===
+
+
+(00:59:56):
+How are you doing?
+
+(00:59:57):
+Good.
+
+(00:59:58):
+I loved catching the end of bends around pain and vibe coding.
+
+(01:00:01):
+I was like nodding backstage.
+
+(01:00:03):
+Isn't he great?
+
+(01:00:04):
+Yeah, I love that.
+
+(01:00:06):
+The pain threshold is your ceiling for vibe coding.
+
+(01:00:09):
+Hell yeah.
+
+(01:00:11):
+So we've known each other for a while.
+
+(01:00:13):
+You were previously the founder of Hearth AI.
+
+(01:00:15):
+Now I believe you're exploring what's next, which is honestly a great place to be right now.
+
+(01:00:20):
+I'm a little jealous.
+
+(01:00:23):
+And I've also been watching you just post really,
+
+(01:00:25):
+really awesome vibe coding demos on X.
+
+(01:00:28):
+So before we get into some of your demos,
+
+(01:00:32):
+can you introduce yourself to people and introduce what you've been doing recently
+
+(01:00:37):
+and what you've been vibe coding?
+
+(01:00:38):
+Yeah.
+
+(01:00:39):
+So hi, everyone.
+
+(01:00:40):
+My name is Ash McGallis, and I identify most as like an engineer and builder.
+
+(01:00:45):
+Went to school,
+
+(01:00:45):
+majored in CS,
+
+(01:00:47):
+fell into a bunch of FANG jobs early on,
+
+(01:00:49):
+then dived into politics as an ML engineer.
+
+(01:00:52):
+I was abroad working for Apple as well.
+
+(01:00:55):
+worked at philanthropy.
+
+(01:00:56):
+And these were all the same problems.
+
+(01:00:58):
+It was,
+
+(01:00:58):
+okay,
+
+(01:00:58):
+there are these massive networks to mine and match people with large amounts of
+
+(01:01:02):
+funding or opportunity or other people.
+
+(01:01:05):
+And how do you do that effectively over time?
+
+(01:01:08):
+Brought that into a company.
+
+(01:01:09):
+We were really early to the agentic space.
+
+(01:01:13):
+And my fundamental thesis is around relational intelligence.
+
+(01:01:15):
+It's this idea that AI should augment the human experience by extending our ability
+
+(01:01:21):
+to reason on who we're connected to and why and how you act and take a step
+
+(01:01:25):
+across your relationship, across the optimization landscape that is all of your relationships.
+
+(01:01:31):
+And also I'm, I'm battling five day five of the flu.
+
+(01:01:33):
+So thank you for coming on anyway.
+
+(01:01:37):
+We're excited.
+
+(01:01:39):
+Yeah, I definitely, I definitely think of you as the relationship network draft person.
+
+(01:01:44):
+So anytime I have a thought about that, I'm like, you're, you're the person that comes up.
+
+(01:01:48):
+Show us what you've been building.
+
+(01:01:50):
+Yes.
+
+(01:01:50):
+Okay.
+
+(01:01:51):
+So is my, I'll share my screen.
+
+(01:01:54):
+People are asking, what's your ad on X?
+
+(01:01:56):
+Yes.
+
+(01:01:57):
+It's Ash, A-S-H-E, Bytes, B-Y-T-E-S.
+
+(01:02:01):
+All right.
+
+(01:02:03):
+Okay,
+
+(01:02:03):
+so I guess something to ground us is I've tweeted a lot about this,
+
+(01:02:09):
+but I have something called Ash AI.
+
+(01:02:12):
+So publicly, I have like Ash.ai here.
+
+(01:02:16):
+But behind the scenes of my website are like all of these different projects that I
+
+(01:02:22):
+put on,
+
+(01:02:22):
+including like agents.
+
+(01:02:24):
+And so I have a whole Ash AI Slack workspace.
+
+(01:02:27):
+So I'm basically talking to my agents all day.
+
+(01:02:30):
+I have these different projects that I'm putting.
+
+(01:02:33):
+So Ash AI,
+
+(01:02:34):
+yes,
+
+(01:02:35):
+they're public facing pages,
+
+(01:02:36):
+but they're also like products that I'm putting out.
+
+(01:02:38):
+And my agents have access to everything that goes on Ash AI.
+
+(01:02:42):
+They have that context.
+
+(01:02:44):
+There are different agents with different context windows or what they're focused on.
+
+(01:02:48):
+And so throughout the day,
+
+(01:02:49):
+the Slack,
+
+(01:02:50):
+I've posted screenshots,
+
+(01:02:51):
+but I'm having kind of constant conversations with the agents on.
+
+(01:02:55):
+Ash AI.
+
+(01:02:56):
+And why this is relevant is because everything I do, I tie back into this suite.
+
+(01:03:01):
+So even today,
+
+(01:03:01):
+as we're going to talk about my philosophy with video and why I'm focused on it,
+
+(01:03:06):
+why I'm thinking about it,
+
+(01:03:07):
+it's all within this Ash AI suite.
+
+(01:03:09):
+So any future project would have this context.
+
+(01:03:12):
+This is so freaking cool.
+
+(01:03:13):
+Wait, can you go back?
+
+(01:03:15):
+Okay.
+
+(01:03:15):
+So is this the homepage of Ash AI?
+
+(01:03:17):
+No.
+
+(01:03:18):
+So there's like a secrets page, which should be private.
+
+(01:03:21):
+And there are all of these like hidden URLs,
+
+(01:03:24):
+but then anyone can of course go to like Ash AI and you can see like,
+
+(01:03:27):
+okay,
+
+(01:03:28):
+what was my timeline?
+
+(01:03:30):
+And I'm really big on like this humanist,
+
+(01:03:32):
+element to like,
+
+(01:03:33):
+yes,
+
+(01:03:33):
+we're engineers,
+
+(01:03:34):
+but I think we're entering this era of like understanding people as the full human.
+
+(01:03:39):
+And so I've explored that like products, blog, stream.
+
+(01:03:42):
+So this is one of my favorite workflows.
+
+(01:03:43):
+And I call all of the different like agent focuses workflows.
+
+(01:03:47):
+That's how I like to categorize it.
+
+(01:03:48):
+when i'm out in the world and someone says something really interesting like even
+
+(01:03:52):
+ben's quote about pain i would text or slack message my agent and my agent would
+
+(01:03:57):
+add it here and then anyone who wants to know like what is my ambient stream of
+
+(01:04:01):
+thought and like what was my last location with it some of these have location you
+
+(01:04:05):
+would have access to that so part of this like public stream mood board this is so
+
+(01:04:10):
+cool wait what's like what is underneath what's what is what is the agent running
+
+(01:04:14):
+here
+
+(01:04:16):
+Yes, so this one is hosted.
+
+(01:04:19):
+It's like a Next.js cron.
+
+(01:04:22):
+It has a Slack webhook in this case.
+
+(01:04:24):
+I also have the ability to email and text my agents.
+
+(01:04:28):
+The one I tend to use for the quotes page is Slack because I'm already always on Slack.
+
+(01:04:33):
+I guess like, is it like, is it cloud code?
+
+(01:04:35):
+Is it cloud?
+
+(01:04:36):
+Oh, okay.
+
+(01:04:37):
+So because I've been working with agents for a while now,
+
+(01:04:40):
+I just continue to roll my own custom architecture over time.
+
+(01:04:45):
+So I think this one specifically is like open AI tool calling because it's quite simple.
+
+(01:04:50):
+And then you put it up from there.
+
+(01:04:51):
+Okay, so it's a bunch of different agents, not actually just one agent that does.
+
+(01:04:54):
+That's right.
+
+(01:04:55):
+So it's different agent architecture.
+
+(01:04:57):
+So I also have my own next evolution of Hearth that I'm very excitedly working on.
+
+(01:05:03):
+And that is its own like Rolodex agent architecture,
+
+(01:05:06):
+but then it would be able to pull on different contexts.
+
+(01:05:09):
+Okay, sick.
+
+(01:05:09):
+Yeah.
+
+(01:05:10):
+Someone in the chat,
+
+(01:05:11):
+I was just about to ask you this or like on the same page outside now asks,
+
+(01:05:15):
+Ash,
+
+(01:05:15):
+can you show that first page again with the graph?
+
+(01:05:17):
+I want to see the graph.
+
+(01:05:19):
+That's the coolest thing.
+
+(01:05:20):
+Templates, the neural dendrite thing, this.
+
+(01:05:23):
+Okay, what is this?
+
+(01:05:24):
+OK, yeah.
+
+(01:05:25):
+So I have always been fascinated in visualizing networks like since 2015.
+
+(01:05:31):
+And the best organization that I saw do this was the Google GDELT project.
+
+(01:05:36):
+I don't even think they're live anymore.
+
+(01:05:38):
+But it's this idea that like understanding and visualizing networks in 2D is
+
+(01:05:42):
+actually really hard.
+
+(01:05:43):
+I don't think anyone does this well.
+
+(01:05:45):
+So until we're all looking into like spatial computing and having 3D
+
+(01:05:49):
+representations of networks and the ability to like zoom,
+
+(01:05:52):
+because you also don't want to get bogged down in the complexity of like the full
+
+(01:05:56):
+dimensionality of who someone is to you,
+
+(01:05:58):
+your brain,
+
+(01:05:58):
+when you see a human face really starts to light up beyond other things like we're
+
+(01:06:02):
+wired towards that.
+
+(01:06:03):
+So this pulled into my Rolodex and I think pulled into some links between people
+
+(01:06:09):
+and was just meant to be like,
+
+(01:06:10):
+okay,
+
+(01:06:11):
+what is a good network representation?
+
+(01:06:13):
+I really like co-occurrence networks.
+
+(01:06:16):
+So I'm in the center here and it's everyone co-occurred to me.
+
+(01:06:19):
+But like over time,
+
+(01:06:20):
+I'd want to develop this,
+
+(01:06:22):
+hopefully not in 2D space,
+
+(01:06:23):
+hopefully in 3D space into like,
+
+(01:06:25):
+okay,
+
+(01:06:26):
+if I sit down,
+
+(01:06:26):
+how do I understand people and who they are to me visually,
+
+(01:06:29):
+not just like with tables.
+
+(01:06:30):
+And what's the data source and how is this maintained?
+
+(01:06:33):
+yes okay so i have my full kind of rolodex system um so something i've really come
+
+(01:06:39):
+to believe in through the hearth journey is that integrations can add unnecessary
+
+(01:06:45):
+noise to a rolodex and actually the people that are top of mind or that i care
+
+(01:06:51):
+about are people that i'm naturally thinking about meeting with live adding notes
+
+(01:06:56):
+on
+
+(01:06:56):
+So as I brought my Rolodex closer to like a therapist or a journal,
+
+(01:07:01):
+a lot of these people are people that I have like notes on.
+
+(01:07:04):
+So it's quite personal in that way I've interacted with.
+
+(01:07:06):
+But they're beyond like the integrations of we've exchanged an email.
+
+(01:07:10):
+It's like, oh, I've dedicated thought or like conversational back and forth to these people.
+
+(01:07:14):
+Can you find me?
+
+(01:07:15):
+Do you have notes on me?
+
+(01:07:16):
+I do.
+
+(01:07:17):
+I do somewhere here.
+
+(01:07:19):
+That's why today was funny with the demo.
+
+(01:07:20):
+I'm like, okay, I want to make sure some of it's still private.
+
+(01:07:22):
+Yeah, you're here.
+
+(01:07:23):
+What are your notes on me?
+
+(01:07:26):
+We're all positive.
+
+(01:07:28):
+I love every New Yorker in AI, so we'll go get a great walk.
+
+(01:07:31):
+Yeah.
+
+(01:07:33):
+This is super cool.
+
+(01:07:34):
+If someone wanted to implement something like this, do you have it on GitHub or anything?
+
+(01:07:38):
+I can actually add this on GitHub.
+
+(01:07:40):
+I don't mind doing that.
+
+(01:07:42):
+Interestingly, I've actually had a couple of these.
+
+(01:07:45):
+With vibe coding or visualizations,
+
+(01:07:47):
+I love having that creator mindset where you sit down and you understand that the
+
+(01:07:51):
+first 20 versions are probably going to be shitty.
+
+(01:07:54):
+And how do you just similar to what Ben said, you just like keep putting work out.
+
+(01:07:58):
+And obviously this didn't feel very good to me.
+
+(01:08:00):
+And then I tried like some spotlight effect.
+
+(01:08:03):
+And this also didn't land in a good place.
+
+(01:08:05):
+And I don't know that LLMs are the best at network visualizing.
+
+(01:08:07):
+It takes a while, but this was like the third go.
+
+(01:08:10):
+And I was like, oh, this is starting to look special.
+
+(01:08:11):
+It's something that looks closer to like a neural dendrite and a co-occurrence network.
+
+(01:08:15):
+oh it's so good yeah and so uh the kind of intersection here that i've been
+
+(01:08:22):
+interested in is we're in this really strange new moment and i think a lot of
+
+(01:08:26):
+people are feeling it where wow there's so much ai slop in terms of written text on
+
+(01:08:32):
+twitter now everyone's writing articles so that has the negative capacity to like
+
+(01:08:37):
+waste even more time
+
+(01:08:39):
+um images you can't really trust and videos you can't trust but i'm kind of liking
+
+(01:08:44):
+video because there is an authenticity element to it like when you see me on
+
+(01:08:48):
+recording i'm stuttering it's not perfect i'm sick i'm sniffly and there's that
+
+(01:08:52):
+element of like connection like you are meeting me we are exchanging some type of
+
+(01:08:57):
+connection and so for 2026
+
+(01:09:00):
+as AI generation across the board gets better,
+
+(01:09:03):
+I'm really interested in myself getting comfortable on video and putting out video
+
+(01:09:08):
+that feels like authentic communication versus the maybe like less authentic or
+
+(01:09:14):
+like at least less solely derived by human content that we're going to see across
+
+(01:09:18):
+the board this year.
+
+(01:09:19):
+So I'm going to pause.
+
+(01:09:20):
+I'm wondering what your thoughts are on that.
+
+(01:09:23):
+I mean, I think that's really cool.
+
+(01:09:25):
+We definitely I mean, you're on a big live stream.
+
+(01:09:28):
+So obviously we care about we care about video and we're thinking a lot about this.
+
+(01:09:35):
+I do think it's really interesting the
+
+(01:09:39):
+video as a way to have a,
+
+(01:09:42):
+maybe not guaranteed,
+
+(01:09:43):
+but a way to have an authentic connection with people in an AI world.
+
+(01:09:49):
+Although obviously like now there's tons and tons of AI generated video.
+
+(01:09:52):
+And so there's also,
+
+(01:09:53):
+I think there's going to be also ways to do AI generated video that feel good and
+
+(01:09:57):
+feel authentic.
+
+(01:09:59):
+We just haven't figured that out yet.
+
+(01:10:01):
+But yeah, I'm with you.
+
+(01:10:03):
+Yeah,
+
+(01:10:03):
+I'm wondering if TikTok is like a little ahead in this way,
+
+(01:10:07):
+where at least I'm noticing when I scroll,
+
+(01:10:10):
+and also the subconscious picks up on so much more information than is consciously
+
+(01:10:14):
+surfaced.
+
+(01:10:15):
+And so I will quickly kind of scroll away from anything that starts to feel too
+
+(01:10:20):
+marketing,
+
+(01:10:21):
+too like networky or too inauthentic in a way.
+
+(01:10:24):
+So I wonder if people within the first three seconds might be able to feel on some
+
+(01:10:29):
+level,
+
+(01:10:29):
+okay,
+
+(01:10:29):
+there's a person being
+
+(01:10:31):
+that delivered this and it feels authentic versus this is some repackaged,
+
+(01:10:35):
+like artificial content.
+
+(01:10:36):
+I agree.
+
+(01:10:37):
+And I got to say, people are really vibing with this.
+
+(01:10:39):
+Like I put the comments up.
+
+(01:10:41):
+If you can see the comments, everyone's like, wow, this is so cool.
+
+(01:10:43):
+Wow.
+
+(01:10:44):
+This is super cool.
+
+(01:10:44):
+The people want more.
+
+(01:10:46):
+Give us more.
+
+(01:10:50):
+okay give you more okay so i guess okay so from first principles if my goal is to
+
+(01:10:56):
+get more into video and also i have trained as a photographer for a long time and
+
+(01:11:00):
+video is really different so i am not the most comfortable at this moment and
+
+(01:11:04):
+putting myself on video but i hope to change that throughout the year so if that's
+
+(01:11:07):
+my goal a question for me is always how do i create like a canvas as an artist
+
+(01:11:11):
+where every day i'm doing a little bit more of this
+
+(01:11:14):
+And so you'll see me on Twitter putting out videos every day.
+
+(01:11:17):
+But aside from that remotion, which came out yesterday, I haven't played with that.
+
+(01:11:21):
+This this that much seems really interesting and that you can start prompting your way to video.
+
+(01:11:26):
+So in the spirit of like systematizing this on my ash.ai templates quickly this
+
+(01:11:31):
+morning,
+
+(01:11:32):
+I put up a remotion video folder again,
+
+(01:11:35):
+only I can see this.
+
+(01:11:36):
+Let me pause you right there.
+
+(01:11:38):
+So you put this remotion video experiment.
+
+(01:11:40):
+It's linked to your yearly goal when you were doing it this morning.
+
+(01:11:44):
+What did you open to do it?
+
+(01:11:46):
+Yeah.
+
+(01:11:47):
+Great question.
+
+(01:11:48):
+Also for anyone that knows me, I really love contribution graphs.
+
+(01:11:52):
+As an engineer,
+
+(01:11:53):
+I think it is a great thing to look at because it lets me be a little bit more
+
+(01:11:58):
+forgiving on the days that I miss the goal.
+
+(01:12:02):
+Otherwise, I tend to self-flagellate because I'm really big on streaks.
+
+(01:12:06):
+I love knowing that I did something 49 days in a row.
+
+(01:12:09):
+So part of my Slack bot is like,
+
+(01:12:11):
+okay,
+
+(01:12:12):
+I know I haven't shopped for any expensive piece of clothing in 49 days.
+
+(01:12:19):
+That makes me feel good.
+
+(01:12:21):
+In having these contribution grids,
+
+(01:12:22):
+I have my agents tied to my daily goals,
+
+(01:12:25):
+doing a lot of cold showers.
+
+(01:12:26):
+I'm a convert for this.
+
+(01:12:27):
+Oh my God.
+
+(01:12:28):
+I cannot believe you're doing that in the New York winter when it's five degrees out.
+
+(01:12:32):
+Yeah.
+
+(01:12:32):
+It actually is okay because I run when it's cold.
+
+(01:12:35):
+Then when you go from running in the cold to a cold shower, it's actually not that bad.
+
+(01:12:39):
+Then I go into a heated room like a sauna.
+
+(01:12:43):
+That's awesome.
+
+(01:12:44):
+You gotta love pain.
+
+(01:12:45):
+Like to Ben's point,
+
+(01:12:46):
+you can have a relationship with pain that starts to feel like with more ease.
+
+(01:12:51):
+This is what I did not expect from VibeCodeCamp.
+
+(01:12:54):
+We're like two hours in and everyone's just talking about loving pain.
+
+(01:13:01):
+That's so funny.
+
+(01:13:03):
+So yeah, so my agents are all tied into these goals.
+
+(01:13:07):
+And so part of why I like having these videos hooked into Ash AI is I can imagine a
+
+(01:13:12):
+workflow later that's not only like,
+
+(01:13:14):
+did you post a video on Twitter,
+
+(01:13:16):
+but did you play with Remotion to make a new animated video?
+
+(01:13:20):
+And that's all tied into the same backend.
+
+(01:13:22):
+So it can automatically be posed here into a new graph if I want it.
+
+(01:13:26):
+And I have some private goals as well, but it's nice, I think, to have public accountability.
+
+(01:13:30):
+I think that's really cool.
+
+(01:13:32):
+And so going back to the Remotion dashboard, did you use Cloud Code for this?
+
+(01:13:36):
+Did you use Codex?
+
+(01:13:39):
+So I used Cloud Code this morning very quickly,
+
+(01:13:42):
+and then I was looking on Twitter at the Remotion posts.
+
+(01:13:47):
+And they shared their prompt.
+
+(01:13:49):
+But like, interestingly, it's definitely not one and done.
+
+(01:13:52):
+There was a lot of editing.
+
+(01:13:54):
+So you'll see kind of live my first couple versions of this have not been good.
+
+(01:13:59):
+What's nice is that now all the versions are here in this template side by side.
+
+(01:14:04):
+Otherwise, Remotion just has like a studio.
+
+(01:14:07):
+So I think I'm still learning how to prompt it.
+
+(01:14:10):
+And then because everything's in one spot in the background,
+
+(01:14:14):
+I'm asking it to pull my dendrite network and I'm actually running it to see kind
+
+(01:14:18):
+of effectively put this into a little commercial.
+
+(01:14:22):
+Oh, wow.
+
+(01:14:22):
+Interesting.
+
+(01:14:23):
+Okay.
+
+(01:14:23):
+So,
+
+(01:14:24):
+so you're,
+
+(01:14:25):
+explain for me your emotion from,
+
+(01:14:27):
+from the beginning,
+
+(01:14:28):
+cause I'm not that familiar with it.
+
+(01:14:29):
+So you can use.
+
+(01:14:30):
+It just came out.
+
+(01:14:31):
+Just came out.
+
+(01:14:33):
+To make videos basically.
+
+(01:14:34):
+yes so they have a skill and they've shared the skill and and part of why i wanted
+
+(01:14:39):
+to talk about this today is because i haven't touched it so you get to see the in
+
+(01:14:42):
+real time like chaotic okay how am i thinking about this but they i just added
+
+(01:14:47):
+their skill here and then pulled it into my ash ai suite and another tangent is
+
+(01:14:53):
+Yesterday, I put up a video about explaining what happened in 2017 to get us to LLMs.
+
+(01:14:59):
+And part of the tension I'm feeling in this moment is we're all like running ahead
+
+(01:15:03):
+with vibe coding,
+
+(01:15:05):
+but it's easy to forget like,
+
+(01:15:07):
+okay,
+
+(01:15:07):
+what is under the hood in even a way that I can explain that feels accessible and
+
+(01:15:12):
+memorable,
+
+(01:15:12):
+you know,
+
+(01:15:13):
+to my mom.
+
+(01:15:14):
+And so I, my goal yesterday was to put together a couple slides that made it really
+
+(01:15:20):
+easy to to integrate okay what happened in 2017 how did we get here um how do we
+
+(01:15:27):
+think about 2020 2022 like what did this contribute um and this animation i just
+
+(01:15:34):
+did with clawed code and then seeing remotion on twitter my idea was okay could i
+
+(01:15:39):
+make this that much better with remotion i don't know yet but it's promising show
+
+(01:15:43):
+us like i i've never used this skill i think it'd be really fun to just like try to
+
+(01:15:46):
+make some videos yes
+
+(01:15:48):
+okay before uh before we get into that i just want to remind everyone um please
+
+(01:15:53):
+drink water planted starburst 6481 is has been reminding us in the chat and i just
+
+(01:15:58):
+want everyone who's not looking at the chat remember to hydrate okay keep going i
+
+(01:16:02):
+love that because i need to be doing that
+
+(01:16:06):
+Okay.
+
+(01:16:06):
+So again, maybe it was like 7 a.m.
+
+(01:16:08):
+this morning when I started playing with Remotion.
+
+(01:16:12):
+So I'm pretty new to it.
+
+(01:16:14):
+And the first couple ones that it did, I was not too impressed by.
+
+(01:16:18):
+Let me stop you there.
+
+(01:16:20):
+So Remotion,
+
+(01:16:21):
+it's a video editor and they have a skill that you can use to have Cloud Code make
+
+(01:16:27):
+videos.
+
+(01:16:28):
+So can you go into your Cloud Code?
+
+(01:16:33):
+Yes.
+
+(01:16:34):
+I'm kind of curious,
+
+(01:16:34):
+like what was your,
+
+(01:16:35):
+what was,
+
+(01:16:36):
+what's like the prompt you're giving it to,
+
+(01:16:38):
+to make a video?
+
+(01:16:39):
+Yes.
+
+(01:16:39):
+So because I did the first couple that were really simple and didn't love them,
+
+(01:16:44):
+I knew that I had to prompt it a little bit more.
+
+(01:16:47):
+So what I tried to do for what's currently running now,
+
+(01:16:51):
+is they posted the gist of their whole prompting situation.
+
+(01:16:58):
+I actually passed this into Claude Code and said,
+
+(01:17:02):
+hey,
+
+(01:17:03):
+I want to do the same thing,
+
+(01:17:04):
+but I want to do it around like a Rolodex.
+
+(01:17:09):
+And
+
+(01:17:11):
+And this is the pass that says, and pull in my dendrite from the template within Ash AI.
+
+(01:17:18):
+So you're saying,
+
+(01:17:19):
+okay,
+
+(01:17:20):
+promotion render,
+
+(01:17:21):
+and then you're giving it,
+
+(01:17:23):
+it looks like a TSX file,
+
+(01:17:25):
+and then something that says dendrite commercial.
+
+(01:17:28):
+What are those things?
+
+(01:17:29):
+So the dendrite is the image that I had up before that, let me go back to...
+
+(01:17:39):
+templates.
+
+(01:17:40):
+It's the network that we were looking at.
+
+(01:17:43):
+I see.
+
+(01:17:44):
+So you're saying turn this network into it.
+
+(01:17:47):
+So I already have this and this is already in Ash AI and it's operating out of Ash
+
+(01:17:51):
+AI right now and it already has the remotion context as well.
+
+(01:17:55):
+So I'm seeing and it looks like it generated it.
+
+(01:18:00):
+If it can put together a commercial with those two.
+
+(01:18:04):
+Got it.
+
+(01:18:04):
+Okay.
+
+(01:18:05):
+But you're, are you giving it any like other directions for what the commercial should be?
+
+(01:18:08):
+Or are you just saying just make a commercial?
+
+(01:18:09):
+I gave it context for the founder, I guess, of Remotion.
+
+(01:18:17):
+This is the gist that they went through to generate this prompt video, they said.
+
+(01:18:22):
+I see.
+
+(01:18:25):
+Yeah, so I don't know where it's going to land, but let's see if we can get it up in this time.
+
+(01:18:30):
+OK, cool.
+
+(01:18:31):
+And can I see some of the videos that you already made?
+
+(01:18:35):
+I'm just curious, what's the output like?
+
+(01:18:38):
+Yes.
+
+(01:18:38):
+So, and these I like placed together, I had Claude placed together on my template.
+
+(01:18:43):
+So this was not very good.
+
+(01:18:44):
+I think the prompt, I should actually ask it to print the prompt here.
+
+(01:18:48):
+I asked it to visualize a network, but it's not surprising to me.
+
+(01:18:52):
+It didn't one shot it because I have found LLMs are really not great at generating
+
+(01:18:56):
+network visualizations.
+
+(01:18:57):
+I don't think we as humans have a good history of network visualizations, to be honest.
+
+(01:19:01):
+If anyone has seen an amazing network on a website,
+
+(01:19:04):
+please send it to me because it's like my life's
+
+(01:19:06):
+One of my life goals to aggregate all of those.
+
+(01:19:11):
+But yes, okay, so it has put it up.
+
+(01:19:14):
+Now, can you link this to my templates page?
+
+(01:19:18):
+So it's now available here.
+
+(01:19:23):
+Oh, did it already link it?
+
+(01:19:25):
+Okay, so there's also a Remotion Studio.
+
+(01:19:31):
+Let's see, this is what it generated.
+
+(01:19:33):
+I don't know if I have high hopes, let's see.
+
+(01:19:40):
+You're no longer screen sharing.
+
+(01:19:42):
+Oh, let's see.
+
+(01:19:44):
+Maybe it has trouble with everything.
+
+(01:19:49):
+Okay.
+
+(01:19:51):
+Am I screen sharing again?
+
+(01:19:54):
+You are.
+
+(01:19:54):
+Okay, great.
+
+(01:19:57):
+This is the Remotion Studio.
+
+(01:19:59):
+This is what it generated.
+
+(01:20:02):
+Connecting intelligence.
+
+(01:20:03):
+It's so bad.
+
+(01:20:06):
+Still need some work.
+
+(01:20:07):
+Still need some work on the graph visualization.
+
+(01:20:10):
+Okay.
+
+(01:20:11):
+Yes.
+
+(01:20:11):
+This was not a one-shot thing at all.
+
+(01:20:15):
+And in the background, it's adding it to my templates folder.
+
+(01:20:19):
+Yeah.
+
+(01:20:19):
+So people are saying they've had to go back and forth for 30 minutes.
+
+(01:20:24):
+Maybe the network coupled with it is too hard of a problem.
+
+(01:20:29):
+Yeah.
+
+(01:20:30):
+Hmm.
+
+(01:20:33):
+I am generally,
+
+(01:20:34):
+though,
+
+(01:20:34):
+a fan of even if I don't use remotion like this,
+
+(01:20:39):
+I was able to get up yesterday in like 30 minutes,
+
+(01:20:42):
+45 minutes.
+
+(01:20:44):
+And I really love the idea of like animating the explanation of technical topics.
+
+(01:20:51):
+Like I found myself imagining this this morning, like the encoder decoder translation.
+
+(01:20:58):
+So I think
+
+(01:20:58):
+even for like education or even for people that have been engineers for a long time
+
+(01:21:03):
+to like integrate these images,
+
+(01:21:05):
+I think will be really cool.
+
+(01:21:07):
+What if let's say I wanted to make one of these things, like what's your process?
+
+(01:21:11):
+Can you can you walk me through and either Claude or any other tool?
+
+(01:21:16):
+Yes.
+
+(01:21:16):
+So visualization like this.
+
+(01:21:19):
+Yeah.
+
+(01:21:21):
+OK, so in this case, let's add to our LLM breakthrough.
+
+(01:21:30):
+I think what's useful,
+
+(01:21:31):
+too,
+
+(01:21:31):
+as you're making these animations is to make sure the first slide or the first
+
+(01:21:36):
+smaller version feels representative of what you would want the rest of the
+
+(01:21:41):
+animation to look like and then saying,
+
+(01:21:43):
+hey,
+
+(01:21:43):
+this is your context.
+
+(01:21:45):
+So let's extend.
+
+(01:21:46):
+Can we make one for agent native, like what agent native architectures are?
+
+(01:21:50):
+Yeah.
+
+(01:21:51):
+And I have a whole guide that I wrote.
+
+(01:21:53):
+So give me.
+
+(01:21:54):
+Yeah, if you give me the link.
+
+(01:21:55):
+I'll give you the link.
+
+(01:21:59):
+Let's create a new explainer.
+
+(01:22:03):
+I think I'll be able to pull it from the chat.
+
+(01:22:05):
+If you just search agent-native architecture.
+
+(01:22:08):
+Let's create a new explainer in my explainer's route for agent-native.
+
+(01:22:15):
+We want to explain agent-native architecture in an animated way,
+
+(01:22:20):
+just like what we did for the LLM breakthrough,
+
+(01:22:24):
+keep colors muted,
+
+(01:22:26):
+use shoddy cyan,
+
+(01:22:29):
+Here is a reference link you can pull.
+
+(01:22:33):
+And also, I will probably go into Cursor for Opus 4.5.
+
+(01:22:39):
+Let's see if this can at least set us up.
+
+(01:22:43):
+Why go into Cursor?
+
+(01:22:45):
+um this sky is set up to 4.1 and then cursor i kind of just like sometimes stepping
+
+(01:22:52):
+through and seeing it live or just being able to switch to codex 5.2 i've actually
+
+(01:22:59):
+found as much as i think there's been negativity towards like open ai codex 5.2 on
+
+(01:23:05):
+the timeline it's saved me time with 4.5 going in loops for certain things with
+
+(01:23:10):
+animations interesting yeah why are you using 4.1 in cloud code
+
+(01:23:17):
+I think.
+
+(01:23:20):
+So wait, with Claude, did they update this to have four or five at this point?
+
+(01:23:26):
+Yeah, yeah.
+
+(01:23:27):
+OK, yeah.
+
+(01:23:29):
+But yeah, no, I actually agree with I agree with that.
+
+(01:23:32):
+I I use Codex 5.2.
+
+(01:23:34):
+It turns out a lot and I think they're a really good pair.
+
+(01:23:39):
+I actually really like when Opus uses Codex to debug something.
+
+(01:23:44):
+Um,
+
+(01:23:45):
+especially when you're getting into more complex projects,
+
+(01:23:47):
+just asking,
+
+(01:23:48):
+uh,
+
+(01:23:49):
+cloud code and Opus to like prompt,
+
+(01:23:52):
+um,
+
+(01:23:52):
+codex and be like,
+
+(01:23:53):
+debug this issue and then come back.
+
+(01:23:55):
+Like, it's just, it's so slow, but it's so effective and efficient.
+
+(01:24:00):
+Like it's just going to get exactly the thing done that it's supposed to.
+
+(01:24:02):
+Whereas Opus might do something weird that you don't really understand.
+
+(01:24:06):
+Yeah.
+
+(01:24:06):
+And I'm still kind of watching all the context it's pulling in at times.
+
+(01:24:10):
+And I feel like we live in such like a luxurious or like it's such a weird time
+
+(01:24:16):
+where we're just pulling in so much context for like basic things.
+
+(01:24:20):
+Like I've seen people tweet about this and I do it too,
+
+(01:24:23):
+where it's like,
+
+(01:24:23):
+oh,
+
+(01:24:23):
+change the font or like change the color.
+
+(01:24:25):
+It's like me, I can just click through in the file system and do this.
+
+(01:24:30):
+Totally.
+
+(01:24:30):
+Totally.
+
+(01:24:32):
+I'm so curious.
+
+(01:24:33):
+So do you have a skill for you just saying like build it based on based on what
+
+(01:24:37):
+I've already done?
+
+(01:24:38):
+I like I say just build it based on the context you're pulling from here.
+
+(01:24:43):
+Very cool.
+
+(01:24:44):
+I think it could be pulled into a skill,
+
+(01:24:46):
+but I feel like with aesthetic or UX,
+
+(01:24:50):
+it's done really well with just this is the page that already looks good from here.
+
+(01:24:55):
+What are your what like what are your what do you normally do?
+
+(01:24:59):
+um when you are waiting for your claude to finish i jam out with some music what
+
+(01:25:06):
+kind of music are you talking about so i was just gonna like play music um i like
+
+(01:25:13):
+reading i like um just look on my rolodex and message people i love it
+
+(01:25:22):
+This is how you vibe code.
+
+(01:25:23):
+You can't vibe code without music.
+
+(01:25:25):
+Yeah, you gotta.
+
+(01:25:27):
+In a different language.
+
+(01:25:33):
+So Courtney asks, did you just say using Codex with Opus?
+
+(01:25:39):
+And yes, I did say that.
+
+(01:25:40):
+So you can actually ask.
+
+(01:25:42):
+Codex is available via command line.
+
+(01:25:44):
+So you can just ask Cloud Code to use Codex.
+
+(01:25:47):
+There are also some MCP tools.
+
+(01:25:49):
+I've not had a lot of success with the MCP tools.
+
+(01:25:52):
+Um, uh, but there are, they are doable.
+
+(01:25:55):
+So yes,
+
+(01:25:56):
+there's,
+
+(01:25:56):
+there's a lot of ways to do this and I,
+
+(01:25:57):
+I highly recommend searching back and forth.
+
+(01:25:59):
+Um, yeah.
+
+(01:26:02):
+So did we get a result?
+
+(01:26:04):
+No, still moving, still moving through.
+
+(01:26:06):
+Hopefully this should be able to set up the, um, baseline.
+
+(01:26:09):
+I think it's looking at here, going in here.
+
+(01:26:11):
+Okay.
+
+(01:26:12):
+Very cool.
+
+(01:26:13):
+Um, yeah.
+
+(01:26:15):
+Do you,
+
+(01:26:15):
+one of the things you said,
+
+(01:26:16):
+you,
+
+(01:26:16):
+you listen to music and you read while this is happening.
+
+(01:26:18):
+What are you reading?
+
+(01:26:19):
+Yeah, great question.
+
+(01:26:21):
+I am reading this fiction book.
+
+(01:26:24):
+called Tangerine.
+
+(01:26:26):
+Oh, cool.
+
+(01:26:28):
+And it's kind of crazy.
+
+(01:26:30):
+It's this Italian woman who finds another roommate in Paris,
+
+(01:26:36):
+and she feels this huge cultural divide and has to go home because something's
+
+(01:26:40):
+happening with her family,
+
+(01:26:42):
+but then sabotages the roommate,
+
+(01:26:44):
+but doesn't know why she's sabotaging her.
+
+(01:26:47):
+He's in her conditioner bottle or
+
+(01:26:50):
+If they're shopping together, she exchanges the clothes and makes them an extra size smaller.
+
+(01:26:55):
+Oh my God.
+
+(01:26:57):
+Okay.
+
+(01:26:58):
+So there's some like gaslighting basically happening.
+
+(01:27:01):
+Yeah.
+
+(01:27:02):
+Very weird human fiction story to compliment the agents.
+
+(01:27:09):
+Do you find that when you're waiting for an agent to finish,
+
+(01:27:13):
+it's hard to concentrate on reading?
+
+(01:27:15):
+No, I'm really good.
+
+(01:27:16):
+I think a lot of women are good at multitasking.
+
+(01:27:20):
+So I can have many parallel threads going.
+
+(01:27:22):
+I also just love like talking to people on Twitter or texting or even phone calls.
+
+(01:27:28):
+That's really interesting.
+
+(01:27:29):
+Yeah, I've been finding that like, it feels like I pulled this like a slot on a slot machine.
+
+(01:27:34):
+And so if I do too much vibe coding in the morning, I can't read anymore.
+
+(01:27:39):
+Yeah, I feel that way.
+
+(01:27:40):
+If I'm too on Twitter, I feel like very stimulated by conversations or interacting with people.
+
+(01:27:47):
+So
+
+(01:27:48):
+I'll actually like try to keep the morning for solo creative work time and then
+
+(01:27:54):
+start taking meetings or even going on Twitter later in the day.
+
+(01:27:57):
+So we're almost out of time.
+
+(01:28:02):
+If anybody here wants to find you or find the work that you're doing,
+
+(01:28:09):
+where can they come find you?
+
+(01:28:10):
+Yeah, so Twitter.
+
+(01:28:12):
+I'm on Twitter these days quite a lot.
+
+(01:28:15):
+And then my website also has my contact info.
+
+(01:28:19):
+And you can also quickly send me a message this way.
+
+(01:28:22):
+Amazing.
+
+(01:28:23):
+Ash, this is so fun.
+
+(01:28:24):
+Thank you so much for coming on, for vibing with us.
+
+(01:28:28):
+Remember, everybody drink water.
+
+(01:28:30):
+Have your claw drink water.
+
+(01:28:31):
+I hope you feel better.
+
+(01:28:33):
+And please, everyone, go check out what she's doing.
+
+(01:28:36):
+She's doing amazing stuff.
+
+(01:28:37):
+We are about to have our next guest on.
+
+(01:28:40):
+But before we get started, I want to remind you all who we are and what we're doing.
+
+(01:28:46):
+This is Vibe Code Camp.
+
+(01:28:48):
+We're doing an all-day stream with the best Vibe Coders in the world.
+
+(01:28:52):
+We've had some incredible people already.
+
+(01:28:55):
+And we have some incredible people coming up.
+
+(01:28:57):
+If you want to know what's coming up on the stream,
+
+(01:29:01):
+you should go to the agenda,
+
+(01:29:04):
+which I just popped up on the screen,
+
+(01:29:06):
+every.to slash agenda.
+
+(01:29:08):
+And you should also check out Every.
+
+(01:29:09):
+Every is the only subscription you need to stay at the edge of AI.
+
+(01:29:13):
+When you subscribe to Every, you get ideas, apps, and training on the ideas side.
+
+(01:29:17):
+We cover all the new model releases, all the new products that come out.
+
+(01:29:20):
+We review them in a hands-on way and tell you what to pay attention to and what not
+
+(01:29:24):
+to pay attention to.
+
+(01:29:25):
+That's a really good way to cut through the noise.
+
+(01:29:27):
+On the app side,
+
+(01:29:28):
+we have a suite of apps that we had built for ourselves that help us work better
+
+(01:29:32):
+with AI.
+
+(01:29:34):
+Everything from an AI email assistant to an AI file organizer to a speech-to-text app.
+
+(01:29:40):
+And then on the training side,
+
+(01:29:41):
+we also do things like this,
+
+(01:29:43):
+live streams and camps where we explain to you how we use AI in our own workflows.
+
+(01:29:49):
+It's all available for one subscription.
+
+(01:29:50):
+You pay one price, you get access to all the ideas, all the apps, and all the trainings.
+
+(01:29:54):
+Um, so check out every, and now I am very excited to welcome, uh, two new people to the stage.
+
+(01:30:02):
+We've got, uh, Ryan Carson.
+
+
+

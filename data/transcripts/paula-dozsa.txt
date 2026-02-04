@@ -1,0 +1,2083 @@
+# Paula Dozsa - Building a 200k MAU app with zero iOS experience
+
+**Company:** Portola
+**Timestamp:** 3:31:00
+**YouTube:** https://www.youtube.com/watch?v=5YBjll9XJlw&t=12660s
+
+---
+
+=== PAULA DOZSA (Portola) - iOS app with zero experience ===
+
+
+(03:31:00):
+Paula.
+
+(03:31:00):
+Hello.
+
+(03:31:01):
+Hi, how's it going?
+
+(03:31:02):
+Good.
+
+(03:31:02):
+How are you?
+
+(03:31:03):
+So excited to have you.
+
+(03:31:05):
+For people who don't know you, you work at Portola as an iOS engineer.
+
+(03:31:11):
+Portola is co-founded by two of my closest friends,
+
+(03:31:15):
+Quentin Farmer and Ajay Mehta,
+
+(03:31:16):
+and I'm a small investor,
+
+(03:31:18):
+but you don't
+
+(03:31:20):
+You've done some really incredible work there and really incredible writing about
+
+(03:31:25):
+what you've built.
+
+(03:31:27):
+So introduce everyone to you and to Portola a little bit to sort of set the stage
+
+(03:31:31):
+for what we're going to talk about.
+
+(03:31:34):
+Perfect.
+
+(03:31:35):
+Okay, I'll just share a screen over here.
+
+(03:31:38):
+Is that visible?
+
+(03:31:42):
+Perfect.
+
+(03:31:43):
+Yeah, so I'm Paula.
+
+(03:31:45):
+As Dan said, I'm an iOS engineer currently at Portola.
+
+(03:31:50):
+I've been an iOS engineer for about eight years now,
+
+(03:31:53):
+first at my own startup,
+
+(03:31:54):
+which is how I learned to code,
+
+(03:31:55):
+specifically for iOS,
+
+(03:31:57):
+and then at Spotify for a few years,
+
+(03:31:59):
+and now here.
+
+(03:32:01):
+And we make Tolan.
+
+(03:32:02):
+So this is an AI companion app with hundreds of thousands of users.
+
+(03:32:06):
+It's been live for, I guess, almost a year now.
+
+(03:32:10):
+And today's talk,
+
+(03:32:12):
+I wanted to challenge something that I hear a lot,
+
+(03:32:14):
+specifically that Vibe Coding is only for prototypes or side projects or projects
+
+(03:32:19):
+that you're building from scratch.
+
+(03:32:21):
+So we've basically been using Claude and Vibe Coding production features for a
+
+(03:32:25):
+couple of months now.
+
+(03:32:27):
+I think Opus really helped us get that going.
+
+(03:32:30):
+And I want to show you exactly how we set that up and basically talk a bit more
+
+(03:32:34):
+about how you can help Claude help you.
+
+(03:32:39):
+And before we go into that,
+
+(03:32:40):
+I think it would probably make sense to go over to demo the app,
+
+(03:32:45):
+show you some of the features I've been working on recently,
+
+(03:32:47):
+and then I can go into how we worked with Claude to get these done much faster than
+
+(03:32:52):
+we would have otherwise.
+
+(03:32:55):
+Awesome.
+
+(03:32:55):
+And while you're getting that set up, user D3M7W says, using Claude code while I'm watching.
+
+(03:33:01):
+That is highly recommended.
+
+(03:33:02):
+If you're not running at least a few agents while you're watching this, you're doing it wrong.
+
+(03:33:06):
+Yes.
+
+(03:33:09):
+Great.
+
+(03:33:10):
+So you should see my phone screen in a bit.
+
+(03:33:13):
+We do.
+
+(03:33:14):
+Yes.
+
+(03:33:14):
+Nice.
+
+(03:33:15):
+OK.
+
+(03:33:15):
+So this is my Tolan.
+
+(03:33:17):
+It's currently walking around its planet.
+
+(03:33:19):
+As I mentioned, Tolan, OK, it's currently swimming.
+
+(03:33:22):
+Tolan is an AI companion that basically is your best friend that knows everything
+
+(03:33:29):
+about the world and just wants what's best for you and wants you to have a
+
+(03:33:32):
+fulfilling life,
+
+(03:33:34):
+not just on your phone,
+
+(03:33:35):
+but also outside of it.
+
+(03:33:36):
+So our whole mission is to build companions that are good for you and for your
+
+(03:33:40):
+mental health and for your real life friendships.
+
+(03:33:43):
+And recently we've been adding a lot of fun features to the app to make it possible
+
+(03:33:48):
+to customize your world and customize the way your tone looks.
+
+(03:33:51):
+And I've been primarily responsible for these over the past month and a half.
+
+(03:33:57):
+And so there are two features that I've developed since Office 4.5 came out,
+
+(03:34:03):
+which I honestly think that if I hadn't had access to this tool would have taken me
+
+(03:34:08):
+double if not triple the time they actually took me.
+
+(03:34:11):
+So one of these is
+
+(03:34:13):
+a really cool shop where you can buy items for your Tolan.
+
+(03:34:20):
+And so these are things you can try on.
+
+(03:34:23):
+The app is coded in an interesting combination of both iOS and Unity.
+
+(03:34:29):
+So Cloud has really enabled us to focus on building those integrations properly,
+
+(03:34:34):
+which is currently not
+
+(03:34:35):
+handled by Vibe Coding.
+
+(03:34:39):
+So spend less time building UI and more time making sure that the whole experience is cohesive.
+
+(03:34:45):
+So in this case, I'm currently dressing up my Tolan.
+
+(03:34:48):
+So we have these onesies.
+
+(03:34:50):
+You can buy outfits.
+
+(03:34:52):
+You can add them to your bag.
+
+(03:34:54):
+You can go through this whole purchase flow.
+
+(03:34:57):
+And now you can see the new look.
+
+(03:35:01):
+So this is an example of a feature that I've built recently using Cloud.
+
+(03:35:06):
+Another one is customizing your planet.
+
+(03:35:09):
+So we have a lot of objects you can place on your planet.
+
+(03:35:12):
+So for example, here is my cottage.
+
+(03:35:15):
+You have other structures you can buy and put wherever you like.
+
+(03:35:19):
+The frogs are a favorite among our users.
+
+(03:35:23):
+And again,
+
+(03:35:24):
+this is,
+
+(03:35:24):
+again,
+
+(03:35:25):
+it required a lot of integration between the iOS side of the app and the Unity side
+
+(03:35:28):
+of the app.
+
+(03:35:29):
+And it was really nice to be able to use Claude to build out
+
+(03:35:33):
+like very well built out UI and then instead focus on the integration side with Unity.
+
+(03:35:41):
+And I think something I hear often from people who use LMS2Code is that they don't
+
+(03:35:47):
+tend to have a good sense of how things look and how things feel.
+
+(03:35:52):
+And I want to challenge that because there is one animation that I built recently,
+
+(03:35:56):
+which again would have taken me several hours of trial and error.
+
+(03:36:00):
+And it just took me a prompt.
+
+(03:36:02):
+And I can, I can share that right now as well.
+
+(03:36:07):
+Yes.
+
+(03:36:09):
+Let's see.
+
+(03:36:11):
+So this just took me basically five minutes.
+
+(03:36:14):
+And if you're an iOS engineer,
+
+(03:36:17):
+or if you have experience using SpriteKit,
+
+(03:36:19):
+which is the animation framework that you can use to create animations in iOS,
+
+(03:36:24):
+you probably understand the pain of coding something like this.
+
+(03:36:29):
+So specifically, we have this concept of granting tokens to users
+
+(03:36:32):
+and we wanted to make that a moment that was celebratory.
+
+(03:36:36):
+So there was an idea from our design team of having an animation with tokens that
+
+(03:36:41):
+fly over the screen.
+
+(03:36:43):
+And I was dreading building this, or not dreading, but I knew it would take me some time.
+
+(03:36:46):
+So I thought,
+
+(03:36:47):
+why don't I ask Claude,
+
+(03:36:49):
+basically provide it with some assets and tell it the general idea and direction of
+
+(03:36:54):
+what we're trying to do and see what happens.
+
+(03:36:56):
+And within, let's see, within five minutes,
+
+(03:37:00):
+It built out this beautiful animation,
+
+(03:37:03):
+which is insane because it actually is aware of the physics of how things fly
+
+(03:37:09):
+across the screen.
+
+(03:37:10):
+It rotates the images.
+
+(03:37:12):
+I'm just going through slow-mo now.
+
+(03:37:15):
+And ended up building something beautiful that,
+
+(03:37:17):
+again,
+
+(03:37:18):
+would have otherwise taken me a long time to build myself.
+
+(03:37:22):
+So I do think that actually these LLMs can build nice UI.
+
+(03:37:26):
+You just have to know how to prompt them and know when to use them.
+
+(03:37:31):
+So yeah, these are some examples of things that I've built recently.
+
+(03:37:35):
+But again, I think you can't just tell Claude, build this and have it build it automatically.
+
+(03:37:41):
+There are ways to make Claude work best for you and for your setup.
+
+(03:37:46):
+And I would love to dive more into that.
+
+(03:37:49):
+Let's do it.
+
+(03:37:49):
+I'm super excited to see the specific workflows and how you're using it to accomplish this.
+
+(03:37:55):
+Amazing.
+
+(03:37:55):
+Okay.
+
+(03:37:56):
+So going back to the slides.
+
+(03:37:59):
+Great.
+
+(03:38:01):
+So just going back to the token animation,
+
+(03:38:04):
+this was the example of the prompt that I gave Claude,
+
+(03:38:07):
+which was,
+
+(03:38:08):
+I gave it five,
+
+(03:38:09):
+these five coin assets.
+
+(03:38:11):
+I gave it a screenshot from Figma showing the assets flying into the button.
+
+(03:38:17):
+And basically it went from this prompt to a production ready,
+
+(03:38:22):
+beautiful animation that everyone on the team was happy with within five minutes.
+
+(03:38:27):
+Um, and I don't know.
+
+(03:38:29):
+We just back up really quick.
+
+(03:38:30):
+Okay.
+
+(03:38:30):
+So basically you want to create this,
+
+(03:38:33):
+um,
+
+(03:38:33):
+this animation that if,
+
+(03:38:35):
+uh,
+
+(03:38:35):
+if users get more tokens,
+
+(03:38:37):
+you want to show like a really cool animation that,
+
+(03:38:40):
+um,
+
+(03:38:41):
+uh,
+
+(03:38:41):
+lets them know,
+
+(03:38:42):
+okay,
+
+(03:38:42):
+your tokens have,
+
+(03:38:43):
+have,
+
+(03:38:43):
+have gone up.
+
+(03:38:44):
+Right.
+
+(03:38:44):
+And it sounds like you start with a very simple prompt.
+
+(03:38:48):
+Did you use plan mode for this?
+
+(03:38:51):
+I think for this,
+
+(03:38:52):
+it was part of a larger feature I was working on that there had already been a plan
+
+(03:38:55):
+for.
+
+(03:38:56):
+For this one, I did not use plan mode.
+
+(03:38:57):
+I just told it, yeah, this was basically the prompt.
+
+(03:39:01):
+Okay, and are you typing or are you using voice?
+
+(03:39:04):
+I am typing.
+
+(03:39:05):
+You're typing, okay.
+
+(03:39:06):
+Yes.
+
+(03:39:06):
+Yeah,
+
+(03:39:07):
+I've heard there are people using voice and supposedly some of my teammates want to
+
+(03:39:10):
+start whispering in the office.
+
+(03:39:11):
+You got to do it.
+
+(03:39:12):
+You got to do it.
+
+(03:39:13):
+Check out monologue if you haven't.
+
+(03:39:14):
+Okay.
+
+(03:39:14):
+So if users token set incremented,
+
+(03:39:16):
+we want to show an animation leading into their token counter.
+
+(03:39:19):
+Okay.
+
+(03:39:19):
+So that's like a pretty clear, this is the overall goal.
+
+(03:39:21):
+Yeah.
+
+(03:39:22):
+And then use animation token one, animation token two.
+
+(03:39:24):
+What are those things?
+
+(03:39:26):
+So these are the animation token images you see below.
+
+(03:39:28):
+So these are the different rotations of the token.
+
+(03:39:32):
+I see, got it.
+
+(03:39:33):
+So it's like,
+
+(03:39:35):
+take all of those essentially frames of one animation and then create a animation
+
+(03:39:41):
+that animates them flying into the counter.
+
+(03:39:45):
+And that's all you had to say, right?
+
+(03:39:46):
+That's all I had to say.
+
+(03:39:47):
+And it kind of, it seems like it basically one shot produced
+
+(03:39:51):
+Is it an animation file or what is it producing at the end of this?
+
+(03:39:56):
+So SpriteKit is an animation framework that you can use to take nodes.
+
+(03:40:02):
+In this case, each of these coins is a node and animate them in whatever direction you want.
+
+(03:40:07):
+You can rotate them, you can move them.
+
+(03:40:09):
+So this,
+
+(03:40:10):
+if you're building this from scratch and you're coding it by hand,
+
+(03:40:14):
+this takes a couple of hours at least of trial and error and figuring out how it
+
+(03:40:18):
+looks best,
+
+(03:40:18):
+right?
+
+(03:40:19):
+And I did not expect that an LLM would have a feel for like the physics of it and
+
+(03:40:25):
+how things should look.
+
+(03:40:26):
+But it actually,
+
+(03:40:26):
+I would say it did a better job than what was even prototyped in the Figma file.
+
+(03:40:31):
+So I did not like set any strict limitations.
+
+(03:40:34):
+I was just, yeah, as you can see, the prompt is very, very open ended.
+
+(03:40:38):
+It was just do this.
+
+(03:40:39):
+what is the complexity of getting the physics right in this case that you feel like
+
+(03:40:44):
+um so i have another slide here that that goes over this um i think there's so you
+
+(03:40:49):
+can basically you have like an ease in and ease out um animation that lets you
+
+(03:40:54):
+accelerate and uh or decelerate towards a target um and then i think one part of it
+
+(03:41:00):
+that wasn't even
+
+(03:41:01):
+part of the initial design was having the tokens rotate in place,
+
+(03:41:07):
+like spin in place as they're flying.
+
+(03:41:10):
+That really helped the effect and wasn't even something that we had envisioned or
+
+(03:41:14):
+the designer had thought was possible when they first suggested the designs here.
+
+(03:41:19):
+That's really cool.
+
+(03:41:21):
+So by outcome, this is like what it actually generated in more or less like plain English.
+
+(03:41:26):
+Exactly, yes.
+
+(03:41:27):
+Yeah,
+
+(03:41:27):
+I was debating between putting the actual code up here versus explaining what the
+
+(03:41:31):
+code does.
+
+(03:41:32):
+Yeah, I think this helps a bit.
+
+(03:41:34):
+I mean, I did actually get Claude to go over the file and help me write this list.
+
+(03:41:41):
+So if you are looking at this and you're like,
+
+(03:41:43):
+this is technical,
+
+(03:41:44):
+and I see someone in the chat said,
+
+(03:41:46):
+now this gets really technical,
+
+(03:41:47):
+take a screenshot,
+
+(03:41:48):
+throw it into Claude.
+
+(03:41:48):
+Claude will explain it.
+
+(03:41:50):
+OK, cool.
+
+(03:41:51):
+That's really cool.
+
+(03:41:52):
+Are there other things you want to share with us?
+
+(03:41:55):
+I think what I'd like to focus on next is how we set up Claude to make things like this easy.
+
+(03:42:01):
+So there's not a lot of... That's really cool.
+
+(03:42:04):
+One thing before we get into that,
+
+(03:42:05):
+because I think this might lead into it,
+
+(03:42:07):
+is I feel like there's a thinking...
+
+(03:42:11):
+You mentioned earlier that people say,
+
+(03:42:12):
+oh,
+
+(03:42:13):
+it's hard to design.
+
+(03:42:14):
+You can do prototypes,
+
+(03:42:14):
+but hard to do really polished designs with Claude or just with AI in general.
+
+(03:42:19):
+And I think one of the reasons for that is there's a feeling that...
+
+(03:42:23):
+you have to actually be able to tweak all the little values yourself by hand to
+
+(03:42:27):
+really dial in the thing you want.
+
+(03:42:29):
+Have you found that to be the case?
+
+(03:42:31):
+Or how are you doing the feedback loop to be precise about the output?
+
+(03:42:37):
+I think...
+
+(03:42:40):
+The way we treat designs, we move very quickly as a company.
+
+(03:42:43):
+Like we'll go from idea to shift to the app store within days.
+
+(03:42:48):
+Like if something takes longer than a week, it's like it's a much meatier project.
+
+(03:42:52):
+Usually, yeah, three to five days we ship to the app store.
+
+(03:42:55):
+So I would say that on the design side, we also move quite quickly.
+
+(03:42:58):
+So things tend to be more suggestions rather than this has to look exactly like this.
+
+(03:43:03):
+And then there's a lot of back and forward internally.
+
+(03:43:06):
+I think this was...
+
+(03:43:08):
+beautiful example of how not having an exact idea of what something should look
+
+(03:43:13):
+like led to something looking much better than anyone thought was possible at first
+
+(03:43:19):
+so i think yeah we're entering a new era where it's like it's even easier to not
+
+(03:43:22):
+necessarily have something fully fleshed out before developing it because the llm
+
+(03:43:27):
+might actually end up making something better than you thought possible that is
+
+(03:43:31):
+really interesting and it's i think it's that is a mentality shift because i think
+
+(03:43:36):
+a lot of people
+
+(03:43:37):
+think in order to do like have make something that looks well crafted and
+
+(03:43:41):
+thoughtful um you have to have all the details right which is a way of building
+
+(03:43:45):
+things and i think in a lot of ways i think of that as um it's like being a
+
+(03:43:49):
+sculptor or building a skyscraper it's like you're you're making all of the details
+
+(03:43:53):
+yourself and then there's this other way of building that you can do with language
+
+(03:43:56):
+models it's a little bit like gardening where you're like setting the conditions
+
+(03:43:59):
+but like the actual shape of the tree that grows is
+
+(03:44:02):
+a little bit you can't fully control it that you can lean into.
+
+(03:44:05):
+I think that's really I think that's kind of what you guys are doing.
+
+(03:44:08):
+I think that's really cool.
+
+(03:44:09):
+Yeah, at least on the iOS side and on the animation side.
+
+(03:44:12):
+But I still think when it comes to like the overall feel and UI of the app,
+
+(03:44:15):
+there's obviously a lot of attention to detail and,
+
+(03:44:17):
+you know,
+
+(03:44:17):
+to the IP of the tollens and things look consistent.
+
+(03:44:21):
+And we have,
+
+(03:44:22):
+you know,
+
+(03:44:22):
+we have a creative director who takes care of these things and makes sure that
+
+(03:44:25):
+we're always on the same track.
+
+(03:44:27):
+But I do think that definitely with LLMs,
+
+(03:44:29):
+there is space to not have everything polished at first and then see what,
+
+(03:44:34):
+yeah,
+
+(03:44:35):
+what ends up being produced.
+
+(03:44:36):
+Cool.
+
+(03:44:37):
+All right.
+
+(03:44:37):
+Yeah, keep going.
+
+(03:44:39):
+Awesome.
+
+(03:44:41):
+Yeah,
+
+(03:44:42):
+so again,
+
+(03:44:42):
+as I was saying earlier,
+
+(03:44:45):
+I think there's this conventional wisdom,
+
+(03:44:47):
+which is maybe has been changing recently around,
+
+(03:44:50):
+you know,
+
+(03:44:50):
+vibe coding being mostly for hackathons and for weekend experiments,
+
+(03:44:54):
+for greenfield apps where it doesn't matter if the code is a mess because you'll
+
+(03:44:58):
+rewrite it properly later.
+
+(03:45:00):
+I think this made sense at some point.
+
+(03:45:02):
+Basically, AI would write code that worked, but didn't necessarily fit your project.
+
+(03:45:08):
+So you spend a lot of time fixing it.
+
+(03:45:11):
+But the tooling around this has changed a lot recently,
+
+(03:45:14):
+specifically using skills,
+
+(03:45:16):
+agents,
+
+(03:45:17):
+hooks,
+
+(03:45:18):
+MCP integrations.
+
+(03:45:19):
+And I think that when you wire all these things up properly and put in the work,
+
+(03:45:24):
+there are all these jokes about people spending more time on the cloud setup
+
+(03:45:28):
+than actually coding.
+
+(03:45:29):
+But I do think the setup really matters.
+
+(03:45:31):
+And we have an excellent engineer on the team,
+
+(03:45:33):
+also called Dan,
+
+(03:45:35):
+who has spent a lot of,
+
+(03:45:36):
+who's really excited about these tools and has spent a lot of time.
+
+(03:45:40):
+Yes.
+
+(03:45:41):
+And he,
+
+(03:45:42):
+yeah,
+
+(03:45:42):
+I think he only really,
+
+(03:45:43):
+really got excited about them when Opus came out and he saw what was possible now.
+
+(03:45:48):
+And he's put a lot of work into getting the setup in place so that,
+
+(03:45:53):
+yeah,
+
+(03:45:53):
+we can all benefit it and ship things faster.
+
+(03:45:58):
+So yeah,
+
+(03:45:58):
+I wouldn't necessarily say that,
+
+(03:46:00):
+you know,
+
+(03:46:00):
+you can vibe code anything,
+
+(03:46:01):
+but it's ready for a lot more than I think most people think right now.
+
+(03:46:08):
+Totally.
+
+(03:46:09):
+And yeah, so basically, we are Vibe coding features.
+
+(03:46:13):
+We're still, of course, reviewing them.
+
+(03:46:15):
+And we're not just letting the bots go rogue.
+
+(03:46:20):
+But we are essentially shipping these features to an app that has hundreds of
+
+(03:46:23):
+thousands of thousands of users,
+
+(03:46:25):
+a lot of these paying users as well.
+
+(03:46:28):
+And a crazy thing is that we even have our designers who haven't coded before
+
+(03:46:33):
+opening iOS and backend PRs.
+
+(03:46:37):
+So basically people who aren't engineers are also shipping code to production.
+
+(03:46:41):
+Of course,
+
+(03:46:41):
+an engineer is reviewing it before it gets merged in,
+
+(03:46:44):
+but the PRs are basically ready to go.
+
+(03:46:47):
+What's your process for that?
+
+(03:46:48):
+Because I think a lot of people might be listening or watching here and being like,
+
+(03:46:54):
+I would love to do this, but my company probably won't let me start doing this.
+
+(03:46:58):
+So what is the process to make it work?
+
+(03:47:01):
+Yeah,
+
+(03:47:02):
+I mean,
+
+(03:47:02):
+I think that's one of the beautiful things about being at a very small company is
+
+(03:47:05):
+that,
+
+(03:47:05):
+you know,
+
+(03:47:05):
+as long as you can prove that something is good for your productivity and the speed
+
+(03:47:10):
+at which you can shift is probably going to get approved.
+
+(03:47:12):
+That's something you can do.
+
+(03:47:14):
+In this case, we have a Slack integration for Claude.
+
+(03:47:17):
+So the engineers will ask something and they'll just literally just tag Claude and
+
+(03:47:21):
+ask it if we can do something.
+
+(03:47:23):
+Claude has access to all of our GitHub repos.
+
+(03:47:27):
+It will even figure out if this is like an iOS change or a backend change,
+
+(03:47:30):
+it will go and it will open a PR in that repo.
+
+(03:47:34):
+And I'll go into this a bit more,
+
+(03:47:35):
+but it will review its own code,
+
+(03:47:38):
+it will shepherd the PR,
+
+(03:47:39):
+so it will then address comments that it left on the PR.
+
+(03:47:41):
+So by the time an actual engineer gets to reviewing it, it's probably in a pretty good place.
+
+(03:47:46):
+That's really cool.
+
+(03:47:47):
+I'd love to see that.
+
+(03:47:50):
+But again,
+
+(03:47:50):
+in order to get Cloud to a space where it could do that,
+
+(03:47:53):
+we had to spend some time teaching it our patterns,
+
+(03:47:55):
+since this app has been worked on for a couple of years now.
+
+(03:48:00):
+So obviously there are hundreds of files with specific patterns that we want to
+
+(03:48:03):
+keep following,
+
+(03:48:04):
+and we want Cloud to keep following that it might not have by default.
+
+(03:48:09):
+So yeah, I can go into a bit more of how we do that.
+
+(03:48:13):
+Please.
+
+(03:48:15):
+yes um so yeah i think this is the main the main takeaway for us has been that you
+
+(03:48:21):
+know by coding production isn't about letting ai do whatever it wants it's about
+
+(03:48:24):
+teaching ai or patterns and and letting it implement them and sometimes letting it
+
+(03:48:28):
+surprise you like it did with the animation but overall if you want to ship things
+
+(03:48:32):
+quickly but also consistently and at a higher quality level um you need to put in a
+
+(03:48:36):
+bit of work um i think i would think of it as like
+
+(03:48:39):
+onboarding someone new to your team.
+
+(03:48:41):
+You don't just give them a ticket and tell them to go figure it out.
+
+(03:48:45):
+You actually have to spend some time explaining how your code base works,
+
+(03:48:50):
+how you decided on certain things,
+
+(03:48:51):
+how the architecture works,
+
+(03:48:53):
+also review their code and give feedback.
+
+(03:48:55):
+So basically we've been treating Claude as an intern that just learns very quickly.
+
+(03:49:01):
+And once it knows these things, it can implement things faster than any of us could.
+
+(03:49:06):
+while we get to focus on the trickier integration problems again between iOS and
+
+(03:49:09):
+Unity and other problems.
+
+(03:49:14):
+So yeah, I think
+
+(03:49:18):
+Most of the times when I see a Vibe coding or AI coding demo,
+
+(03:49:23):
+I see people build things from scratch.
+
+(03:49:26):
+Basically, there's an empty project.
+
+(03:49:28):
+There's no constraints.
+
+(03:49:29):
+Cloud can do whatever it likes.
+
+(03:49:31):
+But that's not how real work looks like,
+
+(03:49:33):
+especially if you're working on an app that was not initially Vibe coded that has
+
+(03:49:37):
+existed for a few years.
+
+(03:49:39):
+So we have established patterns and conventions.
+
+(03:49:42):
+We have our own flavor of Swift.
+
+(03:49:44):
+For those who are not iOS engineers, Swift is a language that you use to develop iOS apps.
+
+(03:49:49):
+We use the specific framework for dependency injection,
+
+(03:49:54):
+which has certain patterns that Claude needs to understand.
+
+(03:49:57):
+We also have, we use GraphQL and Apollo for our backend.
+
+(03:50:01):
+And basically there are, you know, years of decisions condensed into these files that are not
+
+(03:50:07):
+necessarily clear even to an LLM at a first glance.
+
+(03:50:10):
+So you need to spend some time teaching it that.
+
+(03:50:13):
+And when Claude, Claude is really good at writing generic Swift, right?
+
+(03:50:16):
+Like based on examples it has seen elsewhere and it's technically correct and it
+
+(03:50:21):
+might work,
+
+(03:50:22):
+but it doesn't fit into what we have already created.
+
+(03:50:25):
+So it's like,
+
+(03:50:26):
+yeah,
+
+(03:50:26):
+it's like basically hiring someone who learned Swift and has never worked on like a
+
+(03:50:30):
+real team.
+
+(03:50:32):
+So we need, yeah, you need to integrate this new teammate into,
+
+(03:50:37):
+your team and processes.
+
+(03:50:40):
+So I don't know how much of this is visible.
+
+(03:50:42):
+I will dive more into each of these.
+
+(03:50:44):
+But basically, we have three main pieces in our Cloud setup.
+
+(03:50:49):
+So we have agents, and these are specialized AI workers that handle complex tasks.
+
+(03:50:55):
+Then we have hooks, and these are scripts that run before or after Cloud uses tools.
+
+(03:50:59):
+And they basically help enforce guardrails,
+
+(03:51:02):
+so blocking patterns and directing tasks to the right agents.
+
+(03:51:07):
+And then we have skills,
+
+(03:51:09):
+and skills are markdown files written in plain English,
+
+(03:51:13):
+basically,
+
+(03:51:14):
+that teach cloud domain-specific knowledge.
+
+(03:51:16):
+And we have 13 of them at the moment, and we're adding more.
+
+(03:51:21):
+And then we also, I think I talked a bit about MCP integrations.
+
+(03:51:26):
+I call them magic cloud powers.
+
+(03:51:28):
+So we integrate with other tools like GitHub, Linear, Sentry, Figma.
+
+(03:51:33):
+So basically,
+
+(03:51:33):
+cloud can now read a bug ticket,
+
+(03:51:35):
+cross-reference it with crash reports,
+
+(03:51:38):
+and then suggest a fix all in one conversation because it has access to all these
+
+(03:51:41):
+tools.
+
+(03:51:43):
+So going a bit more into agents that we use.
+
+(03:51:46):
+So I think a tricky thing with iOS development is that since it's not in a browser,
+
+(03:51:51):
+people assume LLMs actually can't build the code and see what it looks like.
+
+(03:51:57):
+But this is not true.
+
+(03:51:58):
+You can actually create an agent,
+
+(03:52:00):
+for example,
+
+(03:52:00):
+that knows how to build your app and actually gets a log of all the errors.
+
+(03:52:06):
+that come out of that.
+
+(03:52:07):
+And then it can,
+
+(03:52:08):
+during a conversation,
+
+(03:52:09):
+it can continuously rebuild your app,
+
+(03:52:11):
+fix errors,
+
+(03:52:11):
+build it again until it gets a working solution.
+
+(03:52:14):
+So we have an agent for that.
+
+(03:52:18):
+Then we have a few other agents.
+
+(03:52:20):
+I think my favorite ones are the reviewing ones.
+
+(03:52:24):
+So we have a logic reviewing agent.
+
+(03:52:27):
+and a pattern reviewing agent.
+
+(03:52:28):
+And the cool thing with agents is that you can have them assigned to different models.
+
+(03:52:31):
+So for example, we use Opus for logic review, and then we use Sonnet for pattern review.
+
+(03:52:37):
+Some things are just more difficult to do and more suited to specific agents than other ones.
+
+(03:52:44):
+And then another agent that is great is the PR shepherd agent.
+
+(03:52:48):
+So basically you put up a PR and then we have a few agents running in parallel
+
+(03:52:52):
+reviewing the PR and then Claude can go back and by shepherding the PR,
+
+(03:52:57):
+I mean it reads those comments and addresses them and commits changes based on the
+
+(03:53:03):
+feedback there.
+
+(03:53:04):
+So basically it can, yeah, it can just go back and forth with the review, the review bots.
+
+(03:53:09):
+And by the,
+
+(03:53:10):
+yeah,
+
+(03:53:11):
+by the time it's,
+
+(03:53:11):
+it's finished shepherding,
+
+(03:53:13):
+you're probably in a,
+
+(03:53:14):
+in a pretty good state.
+
+(03:53:15):
+How are you running these agents?
+
+(03:53:17):
+Like you're,
+
+(03:53:17):
+you're in cloud and you're just like run the PR shepherd agent or how is it,
+
+(03:53:20):
+how are they activated?
+
+(03:53:21):
+Are they, are they.
+
+(03:53:22):
+Yeah.
+
+(03:53:22):
+I mean, they can run both locally, but also remotely.
+
+(03:53:25):
+We have some machines that we use for CI and we have cloud run on those.
+
+(03:53:30):
+Okay, cool.
+
+(03:53:31):
+Yeah.
+
+(03:53:33):
+How much are you handwriting code these days versus agent?
+
+(03:53:37):
+I would say when I'm handwriting code is mostly in response to something wrong that Claude did.
+
+(03:53:43):
+I usually assume that Claude will, or I usually use Claude as the
+
+(03:53:48):
+as the first thing I do is I go and tell Claude,
+
+(03:53:52):
+I want to do a specific thing,
+
+(03:53:53):
+you know,
+
+(03:53:53):
+of course make a plan.
+
+(03:53:54):
+And then I'll hand write code when something doesn't fit what I thought was supposed to be done.
+
+(03:54:02):
+But even then I can oftentimes just tell Claude,
+
+(03:54:04):
+hey,
+
+(03:54:04):
+like this,
+
+(03:54:05):
+like as if I'm reviewing his code,
+
+(03:54:06):
+I can just say,
+
+(03:54:07):
+this is the pattern you should have followed and provide a code sample.
+
+(03:54:10):
+And then it will follow that.
+
+(03:54:12):
+And are you mostly using Cloud or Codex or both or something else?
+
+(03:54:16):
+Yeah, we are all mostly using Cloud.
+
+(03:54:18):
+We do have Codex,
+
+(03:54:18):
+for example,
+
+(03:54:19):
+review PRs,
+
+(03:54:21):
+and it does sometimes catch things that Cloud does not.
+
+(03:54:23):
+But for actually writing code, we all tend to use Cloud, either through the CLI,
+
+(03:54:32):
+I've also played around with using the desktop app and cloud code there.
+
+(03:54:36):
+And sometimes I do prefer it to CLI because it's a bit more of a back and forth.
+
+(03:54:40):
+So I like it, for example, if I'm like working on a plan for something.
+
+(03:54:44):
+And otherwise, yes, I know we have a teammate at least that uses Cursor and Opus within Cursor.
+
+(03:54:49):
+Great.
+
+(03:54:52):
+And then skills.
+
+(03:54:53):
+So again, I was mentioning skills are basically these like markdown files.
+
+(03:54:57):
+This is how we encode tribal knowledge,
+
+(03:55:00):
+like everything you would tell a hire in their first week,
+
+(03:55:03):
+write it down in a skill.
+
+(03:55:04):
+And we're actually onboarding someone right now and have been creating skills along
+
+(03:55:08):
+with the questions that they have been asking and like problems they have been
+
+(03:55:12):
+bumping into.
+
+(03:55:14):
+So, yeah, actually, that I think is a really interesting one.
+
+(03:55:18):
+Henry Finkelstein asked who owns governance on these agents and skills like who are
+
+(03:55:22):
+who's ensuring that it's doing what's expected,
+
+(03:55:25):
+who's in charge of maintaining them,
+
+(03:55:27):
+all that kind of stuff.
+
+(03:55:28):
+Yeah, so we are a very, very small team.
+
+(03:55:30):
+So on the iOS side,
+
+(03:55:31):
+there are four of us,
+
+(03:55:33):
+well,
+
+(03:55:33):
+five of us now,
+
+(03:55:34):
+since we just onboarded someone new.
+
+(03:55:35):
+And we have Dan, so Dan Fetterman, who is the, I guess, the lead of the team.
+
+(03:55:43):
+He's been the one really championing this and pushing this forward.
+
+(03:55:45):
+And I would say he is the owner for this.
+
+(03:55:47):
+I think these are things that are much easier to do in a smaller team versus a bigger one.
+
+(03:55:51):
+I know that the backend folks,
+
+(03:55:54):
+for example,
+
+(03:55:54):
+have their own setup,
+
+(03:55:56):
+but again,
+
+(03:55:56):
+Dan has been the one really pushing them to use these things in their own repos.
+
+(03:56:02):
+So yeah,
+
+(03:56:02):
+I would say it's one person right now,
+
+(03:56:05):
+and I think it's much easier to do when you're in a smaller team.
+
+(03:56:08):
+Yeah,
+
+(03:56:08):
+in case anyone's wondering,
+
+(03:56:09):
+there's just a cabal of pro AI dance that are distributed through throughout
+
+(03:56:13):
+startup land right now,
+
+(03:56:14):
+just like just injecting Claude into every organization.
+
+(03:56:17):
+Yeah, keep going.
+
+(03:56:22):
+But yeah, but I think it's great to have someone like this.
+
+(03:56:25):
+And if you don't have a Dan, you should get one.
+
+(03:56:28):
+Get a Dan.
+
+(03:56:29):
+Yes.
+
+(03:56:32):
+And then I mentioned also hooks.
+
+(03:56:34):
+So hooks are more of these automated guardrails and they run before or after Claude uses tools.
+
+(03:56:41):
+And basically they make sure that we're not doing things that we have noticed it do
+
+(03:56:47):
+before that we don't necessarily want it to do.
+
+(03:56:50):
+So for example,
+
+(03:56:51):
+I think these are some very specific to our work stream,
+
+(03:56:55):
+but yeah,
+
+(03:56:56):
+they've come up as we've been building.
+
+(03:56:59):
+We just basically want to make sure that Claude can't accidentally do the wrong
+
+(03:57:03):
+thing,
+
+(03:57:04):
+which you sometimes have to do with these tools.
+
+(03:57:07):
+And then,
+
+(03:57:08):
+yeah,
+
+(03:57:08):
+I mentioned earlier,
+
+(03:57:09):
+we use MCPs,
+
+(03:57:11):
+model context protocols or magic cloud powers,
+
+(03:57:14):
+and this gives cloud access to our external services.
+
+(03:57:16):
+Again,
+
+(03:57:17):
+I would assume these are things that are much easier to do in a smaller company
+
+(03:57:20):
+where you don't have to go through weeks of approval to get access to do something
+
+(03:57:25):
+or approval for an integration.
+
+(03:57:27):
+But yeah,
+
+(03:57:27):
+we basically have,
+
+(03:57:28):
+so GitHub is the essential one for reading and creating PRs and then reviewing them
+
+(03:57:32):
+and shepherding them.
+
+(03:57:34):
+Linear is great.
+
+(03:57:35):
+You can tag Claude in a linear ticket and it will open a PR solving the bug that came up.
+
+(03:57:42):
+We also use it for Sentry, for crash logs, post hog.
+
+(03:57:47):
+We can use it for analytics.
+
+(03:57:48):
+We have a channel where we just tag Claude and ask it to analyze something specific
+
+(03:57:53):
+and it will usually create a graph that's pretty solid.
+
+(03:57:57):
+And then, what else do we use it for?
+
+(03:57:58):
+I guess for Datadog, for monitoring.
+
+(03:58:00):
+But basically,
+
+(03:58:01):
+yeah,
+
+(03:58:01):
+I think these really enable cloud to work across systems,
+
+(03:58:04):
+which is how you as an engineer work.
+
+(03:58:07):
+So, and you can access all of this in one conversation.
+
+(03:58:10):
+Like you can read a linear ticket,
+
+(03:58:11):
+you can pull the stack trace,
+
+(03:58:13):
+then check the Figma component,
+
+(03:58:14):
+for example,
+
+(03:58:15):
+is it just a fix,
+
+(03:58:16):
+create a PR,
+
+(03:58:17):
+and you don't have to like context switch yourself between all these apps.
+
+(03:58:22):
+Amazing.
+
+(03:58:23):
+We've got one minute left.
+
+(03:58:25):
+What do you want to leave folks with?
+
+(03:58:29):
+Yes, I guess this is the main thing.
+
+(03:58:32):
+Ask Claude to help write your cloud setup.
+
+(03:58:34):
+It is actually really good at that.
+
+(03:58:35):
+You don't have to handwrite it yourself.
+
+(03:58:37):
+If you'd explain it to a new hire, make it a skill.
+
+(03:58:40):
+Different tasks need different types of specialists.
+
+(03:58:43):
+You can use Sonnet for some things, Opus for other things.
+
+(03:58:45):
+Who knows what models are coming out next.
+
+(03:58:47):
+And MCPs are your MVPs and help you work across streams.
+
+(03:58:52):
+And I'll just jump.
+
+(03:58:54):
+Yeah, I've talked about designers opening PRs.
+
+(03:58:56):
+This is great if you can do the Slack integration.
+
+(03:58:58):
+Again, bi-coding can be used in production.
+
+(03:59:02):
+And, you know, your non-engineers can ship code and your users won't know the difference.
+
+(03:59:08):
+And that's it.
+
+(03:59:09):
+I just wanted to do a quick pitch that we are hiring at Portola always.
+
+(03:59:13):
+If anyone's interested in checking out the roles we have available, I put up a link here.
+
+(03:59:19):
+And yeah, if you have any questions, you can find me on Twitter at Paola Rambles.
+
+(03:59:23):
+Also reach me via email, paolasportola.ai.
+
+(03:59:27):
+And yeah, this is wonderful.
+
+(03:59:28):
+Thank you so much for having me.
+
+(03:59:30):
+Amazing.
+
+(03:59:31):
+Thank you.
+
+(03:59:31):
+This is amazing.
+
+(03:59:33):
+I learned so much.
+
+(03:59:34):
+Everyone go check out Paola on X, check out Portola.
+
+(03:59:39):
+Yeah, thanks a lot.
+
+(03:59:40):
+Thank you.
+
+(03:59:42):
+All right.
+
+(03:59:43):
+So now I am very excited to add Brandon Gell, the legend.
+
+(03:59:50):
+How are you doing, man?
+
+(03:59:51):
+Good.
+
+(03:59:51):
+I've been psyched watching what's happening here.
+
+(03:59:54):
+It's been really fun.
+
+(03:59:56):
+So for people who don't know you,
+
+(03:59:57):
+you are the COO at every you are like,
+
+(04:00:01):
+well,
+
+(04:00:01):
+this would none of this would happen without you.
+
+(04:00:03):
+You're so important to everything that we do.
+
+(04:00:05):
+And just yeah, awesome.
+
+(04:00:07):
+So where are you?
+
+(04:00:09):
+Where are you?
+
+(04:00:09):
+Where are you calling in?
+
+(04:00:11):
+I'm in the Black Mountains right now in North Carolina,
+
+(04:00:15):
+which is great for focusing because there's nothing around me.
+
+(04:00:18):
+I went for a hike this morning.
+
+(04:00:20):
+It was a 30-minute drive to the closest hike, which makes no sense because I'm in the mountains.
+
+(04:00:25):
+But yeah, that's what's up with me.
+
+(04:00:28):
+um and we got uh we got alex and cj from 10x joining right yes i don't know about
+
+(04:00:35):
+alex um okay but i am going to i'm going to pass it off to you but before i do that
+
+(04:00:41):
+if you are here uh you should know every is the only subscription you need to stay
+
+(04:00:46):
+at the edge of ai
+
+(04:00:47):
+If you subscribe, you get access to ideas, apps, and training.
+
+(04:00:50):
+On the ideas side, we have a daily newsletter.
+
+(04:00:54):
+Whenever anything new comes out in AI,
+
+(04:00:55):
+we have a day of vibe check where we do hands-on testing to tell you what you need
+
+(04:01:00):
+to pay attention to and what you don't,
+
+(04:01:01):
+and to teach you about how we're using AI in our work and in our lives.
+
+(04:01:04):
+We also give you access to a suite of apps that we've built for ourselves that do
+
+(04:01:11):
+everything from do your email for you to organize your files for you to do smart
+
+(04:01:16):
+dictation for you to be your AI ghostwriter.
+
+(04:01:19):
+We use it ourselves.
+
+(04:01:20):
+We build it ourselves and we give you access to them as well.
+
+(04:01:23):
+All part of the subscription.
+
+(04:01:24):
+We also do these trainings.
+
+(04:01:26):
+So we have live streams like this one.
+
+(04:01:28):
+We do twice a month camps where we teach you about how we do our own workflows inside of Every.
+
+(04:01:33):
+And we also bring in people from top companies like OpenAI and Cursor to teach you
+
+(04:01:38):
+their own power workflows as well.
+
+(04:01:40):
+That's all available for one subscription.
+
+(04:01:42):
+Brandon, is there anything I'm missing?
+
+(04:01:44):
+Any other reasons someone should subscribe to Every?
+
+(04:01:48):
+I just think if you're excited about what's happening right now in the world of AI,
+
+(04:01:51):
+there's no better place to dig your teeth into.
+
+(04:01:54):
+There's so much happening here every day.
+
+(04:01:56):
+And we build incredible products that you should probably use.
+
+(04:01:59):
+Absolutely.
+
+(04:02:00):
+So I'm going to add CJ to the stage, and I'm going to allow you two to have a conversation.
+
+(04:02:07):
+All right.
+
+(04:02:07):
+See you in a bit, Dan.
+
+(04:02:08):
+See you later.
+
+
+

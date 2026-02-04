@@ -1,0 +1,2071 @@
+# Thariq Shihipar - Inside Anthropic: Why tasks will replace to-dos
+
+**Company:** Anthropic
+**Timestamp:** 6:02:20
+**YouTube:** https://www.youtube.com/watch?v=5YBjll9XJlw&t=21740s
+
+---
+
+=== THARIQ SHIHIPAR (Anthropic) - Inside Claude Code ===
+
+
+(06:02:20):
+Welcome.
+
+(06:02:21):
+Hey, how's it going, guys?
+
+(06:02:23):
+Can you hear me right?
+
+(06:02:24):
+Yes.
+
+(06:02:25):
+We can hear you.
+
+(06:02:26):
+Where are you calling in from?
+
+(06:02:28):
+Anthropic.
+
+(06:02:29):
+So, yeah, yeah, yeah.
+
+(06:02:32):
+Great.
+
+(06:02:32):
+Possible, I don't know, maybe I get kicked out of this room at some point.
+
+(06:02:36):
+We'll see.
+
+(06:02:36):
+That's fine.
+
+(06:02:37):
+That's fine.
+
+(06:02:37):
+We would love a little virtual live stream tour of the office,
+
+(06:02:41):
+so if you get kicked out,
+
+(06:02:42):
+it's really cool.
+
+(06:02:43):
+Um, so I mean, we're big, uh, obviously anthropic cloud code stands over here.
+
+(06:02:50):
+So I'm, I'm like fanboying a little bit, just getting to talk to you.
+
+(06:02:53):
+Thank you so much for,
+
+(06:02:55):
+um,
+
+(06:02:55):
+for being part of building cloud code and all this,
+
+(06:02:57):
+all the stuff you're making.
+
+(06:02:58):
+It's, it's been awesome.
+
+(06:02:59):
+And I think all the people on here are super psyched about the stuff that you're making.
+
+(06:03:03):
+Um, can you just give us a little bit of a intro on you?
+
+(06:03:05):
+Like maybe people for people who haven't like met you online before or heard of,
+
+(06:03:10):
+heard of what you're working on.
+
+(06:03:10):
+Like, tell us about, tell us about yourself.
+
+(06:03:13):
+And all the tool calls you introduced as well, because people need to know.
+
+(06:03:18):
+Yeah, so I'm Tarek.
+
+(06:03:20):
+I used to be a founder, ran a YC company for about five years.
+
+(06:03:25):
+It was in video games.
+
+(06:03:27):
+And then about a year ago, I was kind of wound down that company.
+
+(06:03:31):
+I was trying to figure out what to do next.
+
+(06:03:32):
+And yeah, it was just deeply in AI.
+
+(06:03:36):
+I think they call it having AI psychosis right now.
+
+(06:03:38):
+That's kind of a new term, but definitely...
+
+(06:03:42):
+Yeah,
+
+(06:03:43):
+and so I was,
+
+(06:03:44):
+yeah,
+
+(06:03:45):
+and,
+
+(06:03:45):
+you know,
+
+(06:03:45):
+Cloud Code just seemed like,
+
+(06:03:46):
+as soon as Opus 4 came out in particular,
+
+(06:03:49):
+I was like,
+
+(06:03:49):
+oh,
+
+(06:03:49):
+this is like,
+
+(06:03:50):
+you know,
+
+(06:03:50):
+I need to work on this.
+
+(06:03:52):
+And so, in particular, what I do on Cloud Code is, like, I do a lot of, essentially, like,
+
+(06:04:01):
+content, talking to customers, and engineering is a part of that, I think.
+
+(06:04:06):
+Basically because I think for a dev tool,
+
+(06:04:08):
+you really need to deeply,
+
+(06:04:11):
+and especially for Cloud Code,
+
+(06:04:12):
+it changes so fast.
+
+(06:04:13):
+You really need to deeply know how it works at every level.
+
+(06:04:18):
+And then also, I think something that we care a lot about on Cloud Code is
+
+(06:04:23):
+like the feedback loop between customers and users right and just like uh what is
+
+(06:04:28):
+like you know what are people saying like how can we sort of amalgamate the like
+
+(06:04:33):
+you know the the feedback that we get into into things we do um how do we
+
+(06:04:36):
+communicate when things are you know cloud code feels dumber or something like that
+
+(06:04:40):
+so um i do all of that work and then yeah i think like um
+
+(06:04:45):
+probably the biggest impact like engineering work I've done is like the ask user
+
+(06:04:50):
+question tool,
+
+(06:04:50):
+which was like,
+
+(06:04:52):
+you know,
+
+(06:04:52):
+like the interface that Claude pulls up when it wants you to ask a question and it
+
+(06:04:59):
+happens,
+
+(06:05:00):
+especially in plan mode,
+
+(06:05:01):
+but you can kind of use it whenever I've been using it a lot to like write specs
+
+(06:05:04):
+and things like that.
+
+(06:05:05):
+And I think it's just one of those examples of like the models have a lot of
+
+(06:05:09):
+inherent capabilities.
+
+(06:05:11):
+They have a lot of like,
+
+(06:05:13):
+you know, knowledge that like maybe we're not pulling out properly, right?
+
+(06:05:18):
+And an anthropic,
+
+(06:05:19):
+we call it like unhobbling the model very often,
+
+(06:05:21):
+where it's like you have like,
+
+(06:05:24):
+you're asking it to do something,
+
+(06:05:25):
+but you could ask it to do something else or give it like more space in the box,
+
+(06:05:30):
+kind of like put more things that it can do into it.
+
+(06:05:33):
+Um, and I think that is like a forever, you know, like problem.
+
+(06:05:37):
+That's kind of the goal of the cloud code team,
+
+(06:05:39):
+you know,
+
+(06:05:39):
+so like on hobble cloud,
+
+(06:05:40):
+as much as we can,
+
+(06:05:41):
+um,
+
+(06:05:42):
+matching its capabilities so that it can like,
+
+(06:05:45):
+you know,
+
+(06:05:45):
+do the work it needs for you.
+
+(06:05:46):
+So.
+
+(06:05:47):
+I love that.
+
+(06:05:48):
+I'm super curious.
+
+(06:05:49):
+There's so many things we could talk about.
+
+(06:05:51):
+Um, but, uh, and I just clicked the wrong comment to display.
+
+(06:05:54):
+Okay, bro.
+
+(06:05:55):
+Sure.
+
+(06:05:55):
+Yeah.
+
+(06:05:56):
+There's so many things we could talk about.
+
+(06:05:58):
+Well,
+
+(06:05:59):
+one of the things I'm really interested in is this idea that you're responsible for
+
+(06:06:04):
+gathering all of the feedback and then figuring out like,
+
+(06:06:06):
+how does that translate into the product that you build?
+
+(06:06:08):
+How are you guys doing that in like a cloud native, AI native way?
+
+(06:06:13):
+yeah so i mean i'm not the only person responsible for that i think like uh one of
+
+(06:06:16):
+the things we sort of like you know at cloud code there's no one there's no qa team
+
+(06:06:22):
+there's not there's a support team but like really the engineers are the support
+
+(06:06:26):
+team like the engineers read the getup tickets you know things like that and so i
+
+(06:06:30):
+think like this is part of sort of the evolution of
+
+(06:06:34):
+you know, like agentic coding and or like how you think about engineering as your job.
+
+(06:06:37):
+Like,
+
+(06:06:38):
+I think it used to be that there would be like dedicated people who are like,
+
+(06:06:41):
+hey,
+
+(06:06:41):
+this is the feedback from users like coming down from the mountain and being like,
+
+(06:06:45):
+hey,
+
+(06:06:46):
+now implement it,
+
+(06:06:47):
+right?
+
+(06:06:47):
+And I think instead it's like,
+
+(06:06:50):
+I think becoming so that everyone's roles are sort of like morphing kind of so that
+
+(06:06:55):
+every engineer is in some way responsible for understanding.
+
+(06:06:58):
+If you ship something you need to know,
+
+(06:07:00):
+like what people think of it.
+
+(06:07:02):
+You have to like address the GitHub issues.
+
+(06:07:05):
+We have a lot of internal feedback as well and things like that.
+
+(06:07:07):
+So I think like I think that's a really important part of what we do.
+
+(06:07:12):
+And just like the culture reset is just like no one is just sort of like coding all day.
+
+(06:07:17):
+And of course, Claude helps with that a lot because
+
+(06:07:21):
+You know, you can like cloud is doing so much of the coding now.
+
+(06:07:24):
+So you have more ability to context switch and things like that.
+
+(06:07:28):
+But in a cloud native way, I think that there is like, there's something I go back and forth on.
+
+(06:07:33):
+We have a bunch of like issues on like,
+
+(06:07:35):
+like bots on GitHub that we like sort of,
+
+(06:07:37):
+you know,
+
+(06:07:37):
+scrape and things like that.
+
+(06:07:40):
+And I think that like we do that, we,
+
+(06:07:43):
+don't have this for Twitter exactly.
+
+(06:07:45):
+And maybe I will build it.
+
+(06:07:47):
+I think there's like,
+
+(06:07:48):
+it's like kind of a to-do list item,
+
+(06:07:50):
+but I think there's also this like level of like feel kind of just like,
+
+(06:07:55):
+you know,
+
+(06:07:55):
+like what,
+
+(06:07:56):
+what is the feel of what people are saying?
+
+(06:07:58):
+And if you get too abstracted from it,
+
+(06:08:00):
+like even if Claude is doing too much work from you,
+
+(06:08:02):
+I think like that can also be like hard to like understand what's like the,
+
+(06:08:08):
+the meta pattern.
+
+(06:08:09):
+Right.
+
+(06:08:09):
+And, and so, um,
+
+(06:08:12):
+Yeah, I think like when you see an issue, it's like, is this like a standalone issue?
+
+(06:08:16):
+Is this like, does this pattern match against other things that you've seen?
+
+(06:08:20):
+And is this like a higher root cause?
+
+(06:08:22):
+You know what I mean?
+
+(06:08:23):
+It's like some of the tricky stuff with feedback.
+
+(06:08:26):
+But I do think that like, specifically on like,
+
+(06:08:30):
+channels where there's less structured information like github github is really
+
+(06:08:33):
+structured uh other channels are less structured we could like there's more to do
+
+(06:08:37):
+there so basically what i hear you saying is there is some part of it but then
+
+(06:08:42):
+there's this other part of it that you called feel but maybe we could call vibes
+
+(06:08:45):
+that is like staying directly connected to the actual ground truth of what people
+
+(06:08:50):
+are saying that's really that's really important
+
+(06:08:53):
+um and and then synthesizing that into some like meta insight for yourself about
+
+(06:08:57):
+okay what are the problems where are people going what's the root cause like all
+
+(06:09:00):
+that kind of stuff is that a fair summary yeah i think so i think there's like i
+
+(06:09:04):
+mean this is a founder lesson you learn as well like there's no replacement for
+
+(06:09:08):
+talking directly to a user you know i mean like you could hire a pm and the pm's
+
+(06:09:12):
+job is talk to a user and like claude could do that job for you too like it could
+
+(06:09:16):
+be like oh like claude's job is to talk to the user now but like there's definitely
+
+(06:09:20):
+like
+
+(06:09:21):
+Um,
+
+(06:09:21):
+something about like hearing directly that motivates you to do it and helps you
+
+(06:09:24):
+like figure out the,
+
+(06:09:25):
+like the common pattern.
+
+(06:09:26):
+Like what is the,
+
+(06:09:27):
+especially for something like cloud code where we think of a lot in composable
+
+(06:09:31):
+building blocks,
+
+(06:09:32):
+you know,
+
+(06:09:32):
+like what is the composing building block that can unify a few of these different
+
+(06:09:37):
+requests.
+
+(06:09:38):
+Right.
+
+(06:09:39):
+And,
+
+(06:09:39):
+um,
+
+(06:09:40):
+yeah,
+
+(06:09:40):
+for that reason,
+
+(06:09:41):
+like,
+
+(06:09:42):
+uh,
+
+(06:09:42):
+you have to sort of like be very close to the feel like,
+
+(06:09:45):
+or the vibe,
+
+(06:09:45):
+like you said.
+
+(06:09:46):
+Um, but yeah, I think.
+
+(06:09:49):
+Claude is getting better and better, and so excited to see how we can use it more and more.
+
+(06:09:53):
+I want to pass this to Kieran in a sec, because I'm sure he has a question to you.
+
+(06:09:57):
+But one question on my mind is...
+
+(06:10:00):
+Why do you think CloudCode is having a moment right now?
+
+(06:10:03):
+And why do you think it captured the zeitgeist in a way?
+
+(06:10:05):
+It's not the first AI coding tool, right?
+
+(06:10:08):
+And I think I have my own opinion.
+
+(06:10:09):
+I'm sure Kieran does too.
+
+(06:10:10):
+But I'm sort of curious for you,
+
+(06:10:12):
+why do you think it's sort of like hit and is owning this moment?
+
+(06:10:17):
+And what does that feel like to be riding that wave?
+
+(06:10:21):
+Yeah,
+
+(06:10:21):
+I mean,
+
+(06:10:21):
+I think like it's a little bit like asking of like fish what water feels like a
+
+(06:10:27):
+little bit,
+
+(06:10:28):
+you know what I mean?
+
+(06:10:28):
+Because we're like, my life is just always cloud code all the time.
+
+(06:10:31):
+And so like, you know, some people are like, oh, like there's more cloud code now.
+
+(06:10:34):
+I'm like, oh, I haven't noticed.
+
+(06:10:36):
+You're like, welcome to my world.
+
+(06:10:37):
+Yeah, yeah, yeah.
+
+(06:10:39):
+So I think there's a little bit of that.
+
+(06:10:41):
+I think.
+
+(06:10:42):
+uh it's always hard to attribute this this stuff like that's kind of the difficulty
+
+(06:10:46):
+of like the vibe right i would say like what is truly unique about cloud code is
+
+(06:10:51):
+that everyone talks about startup within a startup you know like oh like this is
+
+(06:10:55):
+like you know the classic pitch that felt like a big company gives founders to come
+
+(06:10:59):
+like work for them but cloud code is like truly that you know i mean like and i
+
+(06:11:04):
+think that means like we clearly clearly care about this product in a way that like
+
+(06:11:09):
+Like, that's the moat, you know what I mean?
+
+(06:11:10):
+Like,
+
+(06:11:11):
+like,
+
+(06:11:11):
+like Boris is like an incredible,
+
+(06:11:14):
+true founder within Anthropic,
+
+(06:11:15):
+kind of like,
+
+(06:11:16):
+you know,
+
+(06:11:16):
+I mean,
+
+(06:11:16):
+like a founder of cloud code within Anthropic.
+
+(06:11:18):
+And he,
+
+(06:11:18):
+and,
+
+(06:11:19):
+you know,
+
+(06:11:19):
+he really gets the ability to run with that and like,
+
+(06:11:22):
+make it like an incredible product.
+
+(06:11:24):
+And he recruits other people who are like,
+
+(06:11:27):
+yeah,
+
+(06:11:28):
+ex-founders,
+
+(06:11:28):
+high agency,
+
+(06:11:29):
+just like we have an incredible engineering team.
+
+(06:11:33):
+of the incredible product team.
+
+(06:11:35):
+And we really are very bottoms up.
+
+(06:11:38):
+And I think that everyone just cares a lot.
+
+(06:11:44):
+And just in every part of the product, you feel that.
+
+(06:11:50):
+And I think also in how
+
+(06:11:52):
+we think about like improving it you know i mean like i think we try and always be
+
+(06:11:56):
+the first one to like come up with something new you know i mean and if like people
+
+(06:12:00):
+are like following up on us that's great that's like you know i think in anthropic
+
+(06:12:04):
+we call it the race to the top right like we want to make sure that we're like sort
+
+(06:12:06):
+of setting the standard of what is like an amazing product an amazing developer
+
+(06:12:10):
+experience right um and so yeah that's just like i
+
+(06:12:15):
+Like,
+
+(06:12:16):
+you know,
+
+(06:12:16):
+to me,
+
+(06:12:16):
+it's sort of like this the exceptional thing is just like that this exists,
+
+(06:12:22):
+you know,
+
+(06:12:22):
+and that we're like grinding at it.
+
+(06:12:24):
+And then, of course, Opus is also like incredible.
+
+(06:12:27):
+Right.
+
+(06:12:27):
+And like these like two things like we have such an excellent research org and we
+
+(06:12:32):
+have such an excellent product org that
+
+(06:12:35):
+That's the combination I think would make it inevitable.
+
+(06:12:38):
+Is there some sort of collaboration between the two that you think makes it like,
+
+(06:12:43):
+is it actually that important for them to be in the same company?
+
+(06:12:45):
+And is there like a good overlap there?
+
+(06:12:48):
+Like, how do you guys do that?
+
+(06:12:49):
+Yeah,
+
+(06:12:50):
+I mean,
+
+(06:12:50):
+like,
+
+(06:12:52):
+we generally don't talk too much about,
+
+(06:12:54):
+like,
+
+(06:12:54):
+you know,
+
+(06:12:54):
+how we,
+
+(06:12:57):
+like,
+
+(06:12:57):
+you know,
+
+(06:12:58):
+like...
+
+(06:12:58):
+It's just us friends,
+
+(06:12:59):
+though,
+
+(06:13:00):
+you know?
+
+(06:13:00):
+Yeah, exactly.
+
+(06:13:01):
+Us and, like, a thousand of our friends.
+
+(06:13:03):
+16,000, yeah.
+
+(06:13:03):
+Yeah, yeah, exactly, exactly.
+
+(06:13:05):
+Yeah, I think that, like...
+
+(06:13:10):
+like you know obviously anyone can look at the cloud code like sdk or like you know
+
+(06:13:15):
+you can like reverse the build and you're like oh this is just calling the api and
+
+(06:13:19):
+like i could call the api so why don't i call the api better than you call it you
+
+(06:13:22):
+know i mean like um
+
+(06:13:26):
+Yeah, maybe in an alternate world, Cloud Code is built somewhere else.
+
+(06:13:29):
+I do think one thing we do at Anthropic that you see very consistently is just we
+
+(06:13:34):
+hire people who really believe that the models are going to get better.
+
+(06:13:37):
+And I think what that actually means is a little bit scary, you know what I mean?
+
+(06:13:44):
+like they've already gotten so good and they'll keep getting better and so we look
+
+(06:13:47):
+at a feature sometimes like skills and we're like oh this is like kind of good now
+
+(06:13:51):
+but what if it was great you know i mean and like i think we're always like that
+
+(06:13:55):
+question of like unhobbling the model you to unhobble the model you have to believe
+
+(06:13:59):
+that the model will get better and better and like um if you don't believe that
+
+(06:14:03):
+then you're like oh like let me think of like this more complicated orchestrated
+
+(06:14:07):
+solution or something you know and uh i think anthropic just like hires those
+
+(06:14:11):
+people and
+
+(06:14:12):
+gives us the ability to do it.
+
+(06:14:15):
+Amazing.
+
+(06:14:15):
+Kieran, what's on your mind?
+
+(06:14:17):
+Yeah,
+
+(06:14:18):
+so basically you're saying my plugin,
+
+(06:14:21):
+the Compound Engineering plugin,
+
+(06:14:23):
+is just too much,
+
+(06:14:25):
+and the model will get better,
+
+(06:14:26):
+and then we don't need it.
+
+(06:14:27):
+No, I'm very curious.
+
+(06:14:29):
+So I have a Compound Engineering plugin that I use on top of Cloud,
+
+(06:14:34):
+which is how I build software,
+
+(06:14:36):
+because
+
+(06:14:38):
+whenever I started using closed codes on 3.7, it was wild.
+
+(06:14:44):
+And it went anywhere.
+
+(06:14:45):
+And it needed something.
+
+(06:14:48):
+And over the time, you've been
+
+(06:14:53):
+like re-releasing versions, better models of that.
+
+(06:14:56):
+And I've been deleting parts of this.
+
+(06:14:58):
+Like I don't need always to go in my planning mode.
+
+(06:15:01):
+You can just also use your planning mode for smaller things where I don't need.
+
+(06:15:06):
+And that's great.
+
+(06:15:07):
+So I'm curious,
+
+(06:15:08):
+like from all the moving parts,
+
+(06:15:11):
+like I have planning mode,
+
+(06:15:12):
+I have work,
+
+(06:15:12):
+I have like testing,
+
+(06:15:14):
+like some brainstorming.
+
+(06:15:18):
+I'm sure you're thinking about bringing things
+
+(06:15:21):
+these things into Cloud Code as well.
+
+(06:15:25):
+And what are these building blocks?
+
+(06:15:29):
+For example, Skills, I love Skills.
+
+(06:15:31):
+I now get it.
+
+(06:15:32):
+Whenever Skills launched first,
+
+(06:15:33):
+I was like,
+
+(06:15:33):
+yeah,
+
+(06:15:34):
+Just-In-Time is cool and all that,
+
+(06:15:36):
+but what does it mean?
+
+(06:15:38):
+And now it really clicks because that's the composability layer that we kind of
+
+(06:15:44):
+need,
+
+(06:15:45):
+especially in bringing your own version of something.
+
+(06:15:50):
+So what are these things that you're,
+
+(06:15:52):
+like,
+
+(06:15:52):
+hearing from people that you're trying to capture in,
+
+(06:15:55):
+like,
+
+(06:15:55):
+a nice form?
+
+(06:15:57):
+Like, can you share some of these things?
+
+(06:16:00):
+Yeah, I mean, I think there is maybe, like, a meta question here that I can sort of talk about.
+
+(06:16:06):
+Like,
+
+(06:16:07):
+you know,
+
+(06:16:07):
+you're talking about,
+
+(06:16:07):
+like,
+
+(06:16:07):
+combat engineering and the,
+
+(06:16:08):
+like,
+
+(06:16:09):
+concepts you're building and,
+
+(06:16:10):
+like,
+
+(06:16:11):
+yeah,
+
+(06:16:11):
+like,
+
+(06:16:12):
+how do we think about,
+
+(06:16:12):
+like,
+
+(06:16:13):
+sort of adding these concepts or,
+
+(06:16:15):
+like,
+
+(06:16:15):
+you know,
+
+(06:16:15):
+will the models get better?
+
+(06:16:16):
+And I think that, like...
+
+(06:16:18):
+It's a very delicate balance.
+
+(06:16:20):
+You know, this is like oftentimes like it's an art, not a science to me.
+
+(06:16:24):
+You know what I mean?
+
+(06:16:24):
+Of like, what does building an agent loop feel like?
+
+(06:16:27):
+You know, it's like you need to really just be very like tightly intertwined with it.
+
+(06:16:33):
+There's also the UX questions of like, okay, like it slash command plan mode.
+
+(06:16:36):
+Like, you know, like how does the user know how to like interact with the model?
+
+(06:16:40):
+and how does the model help that?
+
+(06:16:42):
+Like we rolled out prompt suggestions recently,
+
+(06:16:44):
+it was like a first stab at trying to help the model help you,
+
+(06:16:47):
+you know?
+
+(06:16:48):
+But there's so much more that can be done there, you know?
+
+(06:16:52):
+I do think that like, this is true of all AI products.
+
+(06:16:55):
+It's like the AI capabilities are like here,
+
+(06:17:00):
+but with some engineering work,
+
+(06:17:01):
+you can make it like go up to here and then the next model comes out and it's here
+
+(06:17:05):
+and you have to like delete the code.
+
+(06:17:07):
+You have to delete the code and then you have to restart again.
+
+(06:17:10):
+And most people get stuck at deleting the code.
+
+(06:17:12):
+You know what I mean?
+
+(06:17:13):
+And they're like, oh, no.
+
+(06:17:15):
+i don't want to you know like like i don't believe the model is this good yet or
+
+(06:17:19):
+not right um and i think that like uh that's you know um where like i guess i can
+
+(06:17:27):
+preview it on stream we're like uh we're replacing to do's with tasks right now
+
+(06:17:32):
+right we're like to do's are like a you know sort of like an outdated system and
+
+(06:17:36):
+we're like you know upgrading it to be work better for long context and multi-agent
+
+(06:17:40):
+flows um and that's like an example of us like
+
+(06:17:44):
+trying to keep with the model and unhovel it.
+
+(06:17:49):
+But yeah, I think the stuff you do right now is still great.
+
+(06:17:55):
+Anything that you can find to make yourself more productive right now is amazing.
+
+(06:17:58):
+You just have to reevaluate.
+
+(06:17:59):
+Is this still serving me as the models get better?
+
+(06:18:02):
+Or do I delete the code?
+
+(06:18:03):
+Do I delete the thing?
+
+(06:18:04):
+Can I turn this into something simpler?
+
+(06:18:05):
+Can I turn it into a skill?
+
+(06:18:07):
+Can I turn it into something that the model can use a little bit more natively?
+
+(06:18:13):
+um like for me for example like uh something that i really started liking for opus
+
+(06:18:17):
+4.5 was asking opus to like interview me um and like that i had tried with that
+
+(06:18:23):
+with sonnet 4.5 you know and like it just wasn't as good and then opus 4.5 was like
+
+(06:18:28):
+oh like it was incredible um and like i think you just have to like really that's
+
+(06:18:34):
+the hard part about ai engineering is like you have to like retry these things
+
+(06:18:38):
+delete code like see what's working what's not and um
+
+(06:18:43):
+Yeah, like, you just have to, like, it's kind of an art there, I think.
+
+(06:18:47):
+There's a couple things in there that I thought were amazing that I really want to dig into.
+
+(06:18:51):
+The first one is the obvious one.
+
+(06:18:53):
+Like, you said you're thinking about replacing to-dos with tasks.
+
+(06:18:56):
+Can you explain, like, what a task would be and how that differs?
+
+(06:19:00):
+Yeah, so, you know, I literally have, like, an article that we'll be going up in a bit.
+
+(06:19:06):
+But a task... You heard it here first, folks.
+
+(06:19:09):
+Tasks coming to... Exclusive!
+
+(06:19:10):
+Exclusive!
+
+(06:19:13):
+um yeah please don't tweet this yet like i will uh you know um i'll post it uh but
+
+(06:19:18):
+yeah and you were inspired by beads and uh steve's work there um and i think we're
+
+(06:19:23):
+just like uh you know adding dependencies between graphs and also making it so that
+
+(06:19:28):
+these can persist across multiple sessions across multiple agents you know so so a
+
+(06:19:33):
+task is like rather than being something that's ephemeral that only one claude
+
+(06:19:37):
+knows about it's something that
+
+(06:19:39):
+is meant to be passed between different clauses and can persist between different sessions.
+
+(06:19:44):
+Yeah, and then also it's more project-based.
+
+(06:19:47):
+A to-do list tends to be kind of flat,
+
+(06:19:50):
+and we just basically see Claude sort of limit itself when it just has a flat list.
+
+(06:19:54):
+Yeah, like in AMP, they have threads, I think, something like that.
+
+(06:19:59):
+And the current task is now just a sub-agent.
+
+(06:20:05):
+Will that be replaced as well by this?
+
+(06:20:08):
+Oh, yeah, I see.
+
+(06:20:09):
+Yeah, this is kind of... I believe...
+
+(06:20:12):
+We've renamed like... Sup agents?
+
+(06:20:16):
+We've renamed task, I think.
+
+(06:20:18):
+I don't think that's the actual name.
+
+(06:20:19):
+I think it's agent.
+
+(06:20:21):
+Okay, maybe that's now a skill.
+
+(06:20:22):
+I don't know.
+
+(06:20:22):
+Yeah.
+
+(06:20:23):
+Yeah, yeah, yeah.
+
+(06:20:24):
+I need to double check on this.
+
+(06:20:26):
+But yeah, like tasks are definitely like to-dos like V2.
+
+(06:20:29):
+Yeah.
+
+(06:20:30):
+Yeah.
+
+(06:20:31):
+And so as you're building this,
+
+(06:20:33):
+I know you guys do a lot of dogfooding,
+
+(06:20:36):
+or I think you call it antfooding internally.
+
+(06:20:38):
+Can you tell us about that as this sort of product development loop for yourself
+
+(06:20:43):
+and how that has worked in this case,
+
+(06:20:45):
+for example?
+
+(06:20:46):
+yeah i mean i think it's like the classic sort of like it's not too different from
+
+(06:20:51):
+like i think what any other company can do in the sense of like you know you ship
+
+(06:20:55):
+product to your company that they use and they give you feedback um and i think one
+
+(06:21:01):
+thing special about cloud code is obviously we use it ourselves and so like you
+
+(06:21:04):
+know at any one point i usually have like some sort of like vibe coded experiment
+
+(06:21:08):
+that i'm
+
+(06:21:09):
+running on my cloud code to do other things and see if,
+
+(06:21:12):
+like,
+
+(06:21:12):
+oh,
+
+(06:21:12):
+does this make it better or not?
+
+(06:21:14):
+And, like, 90% of the time, it doesn't make it better.
+
+(06:21:16):
+And it's kind of, like, worse, right?
+
+(06:21:19):
+But so the first filter is, like, your own judgment.
+
+(06:21:22):
+And then, yeah, like, obviously, like, you know, like, it just comes down to caring again.
+
+(06:21:28):
+You know, like, we really, really care about every piece of feedback.
+
+(06:21:31):
+We really, like, if someone on Anthropic is, like, hey, this is great, like, you know, we, like,
+
+(06:21:37):
+we'll just respond and you know i mean i think like that's uh it's not anything
+
+(06:21:41):
+special there you know it's just like caring about the feedback the special thing
+
+(06:21:45):
+that i i heard you say that is not necessarily ant fooding but like the another
+
+(06:21:49):
+special thing that you just said that i really it's like it's something that i'm
+
+(06:21:52):
+trying to figure out how do we do this inside of every and so you sort of like blew
+
+(06:21:56):
+my mind because it's like you gave me a way to think about it is yeah okay one is
+
+(06:22:00):
+the idea of a race to the top
+
+(06:22:02):
+Um,
+
+(06:22:03):
+we're trying to make the best quality product,
+
+(06:22:05):
+uh,
+
+(06:22:05):
+we possibly can with the most powerful AI that we possibly can.
+
+(06:22:08):
+How do we do that?
+
+(06:22:08):
+And it seems like there's this cycle,
+
+(06:22:11):
+uh,
+
+(06:22:12):
+that every AI company runs into,
+
+(06:22:14):
+which is like,
+
+(06:22:15):
+okay,
+
+(06:22:15):
+you're building something.
+
+(06:22:16):
+You want the model to do it.
+
+(06:22:17):
+So you write a bunch of code to like help the model do it.
+
+(06:22:20):
+And then in three months, the model is better.
+
+(06:22:22):
+And you're like, fuck, like, what do I do with all this code that I just wrote?
+
+(06:22:25):
+And I think a lot of people,
+
+(06:22:27):
+like you,
+
+(06:22:27):
+like you said,
+
+(06:22:28):
+a lot of people,
+
+(06:22:29):
+you kind of almost want to ignore it because you're like,
+
+(06:22:32):
+i don't want to throw out this product but um we're in this like weird place where
+
+(06:22:37):
+we're all racing to the top and at some point probably like
+
+(06:22:42):
+Uh, this will, this, I would, I imagine this will settle down a bit.
+
+(06:22:45):
+It won't be like every three months we will have to like redo all of our products,
+
+(06:22:48):
+but at least for now,
+
+(06:22:49):
+it's like a,
+
+(06:22:50):
+um,
+
+(06:22:51):
+we accept that every three months where it's,
+
+(06:22:53):
+it's a practice that we go through our product and like delete a bunch of stuff and
+
+(06:22:57):
+like re architect it.
+
+(06:22:58):
+And, and that's actually okay.
+
+(06:23:00):
+And it's not just delete a bunch of stuff and you have the same functionality.
+
+(06:23:03):
+It's you delete a bunch of stuff.
+
+(06:23:04):
+The model takes care of a lot of the things you used to use code for,
+
+(06:23:07):
+and then you use code to figure out,
+
+(06:23:08):
+okay,
+
+(06:23:08):
+what's the next thing that we can do that that's the sort of next.
+
+(06:23:11):
+reach to the top is that kind of the the framework you guys have um yeah i think
+
+(06:23:17):
+that like roughly like you know if cloud is writing 10 times as much code you can
+
+(06:23:22):
+also delete 10 times as much code you know like there's also that i didn't even
+
+(06:23:25):
+include that in my analysis yeah yeah so i think like the the big thing here is
+
+(06:23:29):
+like javon's paradox kind of right like you can write more and more software
+
+(06:23:32):
+everyone can write more and more software right and so uh you need to like uh like
+
+(06:23:37):
+the
+
+(06:23:38):
+bar of quality is very very high right like you have to really deliver like just an
+
+(06:23:42):
+excellent excellent product and um yeah like if not like someone will vibe code
+
+(06:23:46):
+like a clone of your product like right away you know what i mean uh like and and
+
+(06:23:50):
+so that's the other thing is like i think when you think about you know like
+
+(06:23:55):
+moats and like how you're building things like obviously anyone can look at a
+
+(06:23:59):
+single point you have and be like oh like at that point i'm going to copy that
+
+(06:24:02):
+point but they can't copy the vector right like they can't copy like the directions
+
+(06:24:05):
+that you're going in right um and then there's also a lot of learnings and what was
+
+(06:24:09):
+thrown out you know i mean like i think with the ask user question tool for example
+
+(06:24:12):
+i've seen a lot of different clones across different like um like coding agents and
+
+(06:24:17):
+it's curious to me like what they don't
+
+(06:24:20):
+what I threw out that they didn't.
+
+(06:24:22):
+You know what I mean?
+
+(06:24:24):
+Also, you're the creator of that tool.
+
+(06:24:26):
+You're the inventor, creator.
+
+(06:24:28):
+Thank you so much.
+
+(06:24:29):
+It's a great tool.
+
+(06:24:30):
+Yeah, yeah.
+
+(06:24:31):
+I mean, I was surprised at how good it was or how much people liked it as well.
+
+(06:24:37):
+Yeah, that's just also, like, the most concrete example I have of this.
+
+(06:24:41):
+And, like, I think, yeah, like, that's, like, the decisions you make.
+
+(06:24:46):
+Like, now I have all this context about, like, what is it like to create better elicitation?
+
+(06:24:51):
+Like, what do I want the next models to be able to do to make this tool better?
+
+(06:24:55):
+You know, like, or when do I delete this tool?
+
+(06:24:56):
+You know what I mean?
+
+(06:24:57):
+Like, is, like, and I have all this context.
+
+(06:24:59):
+And, like, that's, like, a really hard thing to clone or copy, right?
+
+(06:25:03):
+And, again, like, a moat of, like,
+
+(06:25:07):
+how you think about building software companies these days.
+
+(06:25:10):
+I feel like Cloud Code created this movement back towards the terminals and away from like IDEs.
+
+(06:25:17):
+But on this stream,
+
+(06:25:18):
+a few people,
+
+(06:25:19):
+including me,
+
+(06:25:20):
+I've had a little bit of this sense,
+
+(06:25:21):
+but there's a couple of people who are more strong,
+
+(06:25:23):
+more strongly have this sense that we've kind of speed run the terminal era and
+
+(06:25:29):
+we're going back to GUIs now.
+
+(06:25:30):
+Like people, for example, are using Conductor would be a good public example.
+
+(06:25:34):
+What do you think?
+
+(06:25:34):
+Does the terminal have legs?
+
+(06:25:36):
+Is it going to last?
+
+(06:25:37):
+Or are we moving back to GUIs?
+
+(06:25:40):
+Yeah, what's your thought?
+
+(06:25:44):
+Yeah, no idea.
+
+(06:25:44):
+I think, like, we will, you know, like, let's race to the top and find out.
+
+(06:25:49):
+You know,
+
+(06:25:49):
+like,
+
+(06:25:50):
+I think,
+
+(06:25:50):
+like,
+
+(06:25:51):
+we are obviously doing,
+
+(06:25:52):
+you know,
+
+(06:25:53):
+a bunch of different UI things with Cloud Code Remote and Cloud Code or Cloud Code
+
+(06:25:56):
+Web and Cloud Code Desktop and obviously Co-Work and,
+
+(06:26:01):
+like,
+
+(06:26:01):
+all of these things.
+
+(06:26:02):
+And so there's lots of different UIs.
+
+(06:26:04):
+I think there is something about, like, the...
+
+(06:26:06):
+keyboard first interface of terminal and like just like the simplicity and like uh
+
+(06:26:11):
+the responsiveness of it that is like a high watermark to beat you know um but yeah
+
+(06:26:19):
+i don't like um i think we just have to like yeah care a lot iterate a lot and see
+
+(06:26:24):
+what see what happens yeah sweet karen any questions
+
+(06:26:29):
+Do you run a Mac Mini?
+
+(06:26:31):
+Because we heard a lot of people say that they run a Mac Mini.
+
+(06:26:34):
+Oh, for dangerously skipped permissions?
+
+(06:26:36):
+No, just like full-time running Claude doing stuff for them.
+
+(06:26:41):
+Yeah, you know, okay, um...
+
+(06:26:45):
+I feel like maybe people will be disappointed at how much,
+
+(06:26:48):
+like,
+
+(06:26:48):
+you know,
+
+(06:26:50):
+like,
+
+(06:26:50):
+we're not doing that,
+
+(06:26:52):
+I think.
+
+(06:26:52):
+Some people end up off the car, I think.
+
+(06:26:54):
+That's fine.
+
+(06:26:55):
+Like, I'm just curious, like, if you guys do that.
+
+(06:26:58):
+You said you were at the edge.
+
+(06:27:00):
+You said you were going to the top.
+
+(06:27:01):
+Like, you gotta have a back game.
+
+(06:27:05):
+I think that it's like long running task.
+
+(06:27:07):
+I think it's still, to me, the question is like, is it producing economically viable output?
+
+(06:27:14):
+You know what I mean?
+
+(06:27:14):
+Like, are you creating something that is truly useful?
+
+(06:27:18):
+How much in the loop do you need to be, you know?
+
+(06:27:20):
+And like, how much ambiguity do you need to reduce?
+
+(06:27:24):
+And so like,
+
+(06:27:25):
+for example,
+
+(06:27:25):
+like the spec mode stuff,
+
+(06:27:27):
+I actually felt helped me reduce the ambiguity of a feature quite a lot so that
+
+(06:27:32):
+then I could have Opus run for long periods of time.
+
+(06:27:34):
+but it took a lot more work out of me like you know like i would now like i'm
+
+(06:27:38):
+writing like specs for like 30 minutes you know and then like then that cloud code
+
+(06:27:42):
+is working right and but it's like um i'm still like putting in a lot of work i'm
+
+(06:27:47):
+not just sort of like telling cloud to go do something so
+
+(06:27:50):
+And yet,
+
+(06:27:51):
+Opus 4 or 5 is very,
+
+(06:27:53):
+very good at doing these longer thinking,
+
+(06:27:57):
+bigger things,
+
+(06:27:58):
+not making mistakes and self-correcting,
+
+(06:28:00):
+yeah.
+
+(06:28:01):
+That's right.
+
+(06:28:02):
+Yeah, that line will keep going.
+
+(06:28:07):
+Are you also struggling with Cloud Code addiction like the rest of us?
+
+(06:28:11):
+um what's your recommended uh strategy for that he's like at home i don't do
+
+(06:28:16):
+anything it stays at work no i mean that's what i was supposed to talk about right
+
+(06:28:21):
+like was like stuff i do at home when i was cloud code um i think uh i i i use
+
+(06:28:28):
+cloud code a lot for sure yeah yeah um i think um
+
+(06:28:33):
+Yeah,
+
+(06:28:34):
+I definitely,
+
+(06:28:36):
+yeah,
+
+(06:28:36):
+like there's this mix of like,
+
+(06:28:38):
+what am I doing for work that's sort of like fun versus like,
+
+(06:28:42):
+like,
+
+(06:28:43):
+you know,
+
+(06:28:43):
+for fun,
+
+(06:28:44):
+fun.
+
+(06:28:44):
+But yeah, I'm struggling just like you.
+
+(06:28:47):
+We can start doing an anonymous group or something.
+
+(06:28:50):
+Sweet.
+
+(06:28:51):
+Dark, it was really great to have you on.
+
+(06:28:54):
+Thank you so much for joining and for taking the time.
+
+(06:28:55):
+If people want to reach you, where can they find you?
+
+(06:28:59):
+Yeah, I'm on Twitter, at TRQ212.
+
+(06:29:02):
+Yeah, post a lot there.
+
+(06:29:05):
+Yeah, definitely tag me with, like, feedback and stuff.
+
+(06:29:07):
+And,
+
+(06:29:09):
+yeah,
+
+(06:29:09):
+just wanted to say thank you to you guys,
+
+(06:29:10):
+too,
+
+(06:29:10):
+for,
+
+(06:29:11):
+like,
+
+(06:29:11):
+you know,
+
+(06:29:11):
+I think AI coding and AI overall is,
+
+(06:29:15):
+like,
+
+(06:29:15):
+actually a really kind of scary subject to a lot of people.
+
+(06:29:18):
+And I think a lot of people have a lot of anxiety around it,
+
+(06:29:20):
+you know,
+
+(06:29:20):
+and understandably,
+
+(06:29:22):
+you know,
+
+(06:29:22):
+like,
+
+(06:29:22):
+I think Dario said a lot about,
+
+(06:29:24):
+like,
+
+(06:29:24):
+how...
+
+(06:29:25):
+we would like this to go a little bit slower if we can, you know?
+
+(06:29:29):
+But, you know, we're, we are where we are and we just want to race to the top.
+
+(06:29:33):
+We want to like show people, everyone, everything that like can be done.
+
+(06:29:37):
+We want to like bring people along for the ride.
+
+(06:29:40):
+And I think you guys are doing like really important work for like,
+
+(06:29:42):
+you know,
+
+(06:29:43):
+making AI more accessible to people.
+
+(06:29:44):
+So.
+
+(06:29:45):
+Thank you.
+
+(06:29:46):
+I really, really appreciate that.
+
+(06:29:47):
+Thank you for joining.
+
+(06:29:48):
+Well, let's, let's talk soon.
+
+(06:29:50):
+That's good.
+
+(06:29:50):
+Thank you.
+
+(06:29:52):
+All right, folks, you heard it here from Tharik.
+
+(06:29:55):
+If you want to stay at the edge of AI, every is the place to do it.
+
+(06:30:03):
+I actually really truly actually means a lot.
+
+(06:30:05):
+We spend a lot of time thinking about how anxious people tend to feel and how fast
+
+(06:30:13):
+things are moving and how to create a place inside of every where you have
+
+(06:30:17):
+everything that you need to not only stay on top of things,
+
+(06:30:21):
+but actually build a really great life and really great business.
+
+(06:30:24):
+Everything from all the ideas that we publish to all the apps that we build to the
+
+(06:30:27):
+trainings that we do.
+
+(06:30:28):
+It's with that in mind so that you can understand what's happening and then use it
+
+(06:30:34):
+to build a better life.
+
+(06:30:36):
+With that, I'm welcoming back our COO, Brandon.
+
+(06:30:40):
+Brandon, how are you doing?
+
+(06:30:40):
+Yeah.
+
+(06:30:41):
+i'm good man how are you i'm doing well um and naveen who is the uh gm gm of
+
+
+
