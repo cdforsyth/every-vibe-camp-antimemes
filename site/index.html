@@ -1,100 +1,179 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Vibe Camp Antimemes - Insights Most Viewers Miss</title>
-  <meta name="description" content="@every's Vibe Code Camp: 17 experts building live for 8 hours. Viewed through the antimeme lens.">
+  <title>Antimemes — Every's Vibe Code Camp</title>
+  <meta name="description" content="Antimemetic insights from Every's 8-hour Vibe Code Camp. 17 experts building live with AI, viewed through the antimeme lens.">
 
   <!-- Open Graph / Social sharing -->
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://vibecodecamp.antimeme.co">
+  <meta property="og:url" content="https://every.antimeme.co">
   <meta property="og:title" content="Every's Vibe Code Camp - Through the Antimeme Lens">
-  <meta property="og:description" content="17 experts building live for 8 hours. The workflow choices so automatic they don't get explained. The offhand remarks that contradict the advice you'd get if you asked directly.">
+  <meta property="og:description" content="17 experts building live for 8 hours. The workflow choices so automatic they don't get explained.">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@antimemetic_">
   <meta name="twitter:title" content="Every's Vibe Code Camp - Through the Antimeme Lens">
-  <meta name="twitter:description" content="17 experts building live for 8 hours. The workflow choices so automatic they don't get explained. The offhand remarks that contradict the advice you'd get if you asked directly.">
+  <meta name="twitter:description" content="17 experts building live for 8 hours. The workflow choices so automatic they don't get explained.">
 
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Instrument+Serif&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Hero Section -->
-  <header class="hero">
-    <div class="hero-content">
-      <h1>An antimeme is an idea that resists spreading - despite being important.</h1>
-      <p class="hero-subtitle">Not because it's wrong, but because it's uncomfortable to sit with.</p>
-      <p class="hero-body"><a href="https://www.youtube.com/watch?v=5YBjll9XJlw" target="_blank">Every's Vibe Code Camp</a>: 17 experts building live for 8 hours. Viewed through the antimeme lens.</p>
-      <p class="hero-byline">by <a href="https://x.com/antimemetic_" target="_blank">@antimemetic_</a></p>
-      <div class="hero-stats" style="display: none;">
-        <span class="stat"><strong id="speaker-count">0</strong> Speakers</span>
-        <span class="stat"><strong id="insight-count">0</strong> Antimemes</span>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <div class="logo">
+        <span class="logo-text">antimemes</span>
+        <span class="logo-dot">•</span>
       </div>
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+        <svg class="icon icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="5"/>
+          <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
+        </svg>
+      </button>
     </div>
   </header>
 
-  <!-- Quote Carousel -->
-  <section class="quote-carousel">
-    <div class="quote-icon">"</div>
-    <blockquote id="featured-quote" class="featured-quote"></blockquote>
-    <p id="featured-guest" class="featured-guest"></p>
-    <div class="quote-meta">
-      <span id="featured-type" class="quote-type"></span>
-      <span id="featured-context" class="quote-context"></span>
+  <!-- Hero - Full Height -->
+  <section class="hero">
+    <div class="hero-content">
+      <p class="hero-eyebrow">Every's Vibe Code Camp</p>
+      <h1>
+        17 experts. 8 hours. <span>Zero filter.</span>
+      </h1>
+      <p class="hero-subtitle">
+        An antimeme is an idea that resists spreading — despite being important. Not because it's wrong, but because it's uncomfortable to sit with.
+      </p>
+      <p class="hero-body">
+        <a href="https://www.youtube.com/watch?v=5YBjll9XJlw" target="_blank" rel="noopener">Watch the full livestream</a> — or browse the insights these builders revealed when they thought nobody was taking notes.
+      </p>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-number">17</span>
+          <span class="stat-label">Speakers</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number">51</span>
+          <span class="stat-label">Antimemes</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number">8</span>
+          <span class="stat-label">Hours</span>
+        </div>
+      </div>
+      <a href="#speakers" class="scroll-cta">
+        Explore insights
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M6 9l6 6 6-6"/>
+        </svg>
+      </a>
     </div>
-    <button id="shuffle-quote" class="shuffle-btn">Shuffle Quote</button>
-    <p class="follow-cta">Follow <a href="https://x.com/antimemetic_" target="_blank">@antimemetic_</a> for more</p>
   </section>
 
-  <!-- Filters -->
-  <nav class="filters">
-    <div class="filter-group">
-      <button class="filter-btn active" data-filter="all">All</button>
-      <button class="filter-btn" data-filter="cognitive">Cognitive</button>
-      <button class="filter-btn" data-filter="social">Social</button>
-      <button class="filter-btn" data-filter="implementation">Implementation</button>
-      <button class="filter-btn" data-filter="system">System</button>
-    </div>
-    <div class="speaker-filter">
-      <select id="speaker-select">
-        <option value="all">All Speakers</option>
-      </select>
-    </div>
-  </nav>
-
-  <!-- Main Content -->
-  <main class="container">
-    <!-- Speaker Grid View -->
-    <section id="speaker-grid" class="speaker-grid">
-      <!-- Speakers will be rendered here -->
-    </section>
-
-    <!-- Single Speaker View (hidden by default) -->
-    <section id="speaker-view" class="speaker-view hidden">
-      <button class="back-btn" id="back-to-grid">&larr; All Speakers</button>
-      <div class="speaker-header">
-        <h2 id="speaker-name"></h2>
-        <p id="speaker-topic" class="speaker-topic"></p>
-        <a id="speaker-youtube" class="youtube-link" href="#" target="_blank">Watch on YouTube &rarr;</a>
+  <!-- Quote Carousel -->
+  <section class="quote-section">
+    <div class="container">
+      <div class="quote-wrapper">
+        <span class="quote-mark">"</span>
+        <div class="quote-container" id="quote-container">
+          <!-- Quotes populated by JS -->
+        </div>
+        <div class="quote-controls">
+          <button class="quote-nav" id="quote-prev" aria-label="Previous quote">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M15 18l-6-6 6-6"/>
+            </svg>
+          </button>
+          <div class="quote-dots" id="quote-dots">
+            <!-- Dots populated by JS -->
+          </div>
+          <button class="quote-nav" id="quote-next" aria-label="Next quote">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 18l6-6-6-6"/>
+            </svg>
+          </button>
+        </div>
       </div>
-      <div id="insight-cards" class="insight-cards">
-        <!-- Insight cards will be rendered here -->
+    </div>
+  </section>
+
+  <!-- Filter Bar -->
+  <section class="filter-bar" id="speakers">
+    <div class="container">
+      <div class="filter-pills" id="filter-pills">
+        <button class="filter-pill active" data-filter="all">All</button>
+        <button class="filter-pill" data-filter="cognitive">Cognitive</button>
+        <button class="filter-pill" data-filter="social">Social</button>
+        <button class="filter-pill" data-filter="implementation">Implementation</button>
+        <button class="filter-pill" data-filter="system">System</button>
       </div>
-    </section>
-  </main>
+      <div class="speaker-dropdown">
+        <select id="speaker-select" class="speaker-select">
+          <option value="all">All Speakers</option>
+        </select>
+      </div>
+    </div>
+  </section>
+
+  <!-- Speaker Grid -->
+  <section class="speakers-section">
+    <div class="container">
+      <div class="speaker-grid" id="speaker-grid">
+        <!-- Speakers populated by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Speaker Detail View (hidden by default) -->
+  <section class="speaker-detail hidden" id="speaker-detail">
+    <div class="container">
+      <button class="back-btn" id="back-btn">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M15 18l-6-6 6-6"/>
+        </svg>
+        All Speakers
+      </button>
+      <div class="speaker-header" id="speaker-header">
+        <!-- Speaker header populated by JS -->
+      </div>
+      <div class="insight-list" id="insight-list">
+        <!-- Insights populated by JS -->
+      </div>
+    </div>
+  </section>
 
   <!-- Footer -->
-  <footer class="footer">
-    <p>
-      Built on <a href="https://www.youtube.com/watch?v=5YBjll9XJlw" target="_blank">Every's Vibe Code Camp</a>
-      &middot;
-      <a href="https://github.com/EveryInc/vibe-code-camp" target="_blank">Transcripts</a>
-      &middot;
-      <a href="https://x.com/antimemetic_" target="_blank">@antimemetic_</a>
-    </p>
-    <p class="footer-note">Antimemes: ideas that resist spreading because they're cognitively uncomfortable, socially inconvenient, or undermine conventional wisdom.</p>
+  <footer>
+    <div class="container">
+      <div class="footer-brand">
+        <span class="footer-brand-name">antimemes</span>
+        <span class="footer-brand-tagline">Counterintuitive insights from Every's Vibe Code Camp</span>
+      </div>
+      <div class="footer-links">
+        <nav class="footer-nav">
+          <a href="https://www.youtube.com/watch?v=5YBjll9XJlw" target="_blank" rel="noopener">
+            Watch on YouTube
+            <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/>
+            </svg>
+          </a>
+          <span class="footer-sep">•</span>
+          <a href="https://every.to" target="_blank" rel="noopener">
+            Every
+            <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/>
+            </svg>
+          </a>
+        </nav>
+        <p class="footer-credit">
+          Made by <a href="https://twitter.com/antimemetic_" target="_blank" rel="noopener">@antimemetic_</a>
+        </p>
+      </div>
+    </div>
   </footer>
 
   <script src="app.js"></script>
